@@ -11,11 +11,14 @@
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
   <meta http-equiv="Cache-Control" content="no-transform">
   <meta http-equiv="Cache-Control" content="no-siteapp">
+  <meta name="google-site-verification" content="CUyjOzK0-wnLL7ZFEmWFgjIRyU76yUAYfTiP_qmHN4o">
 
 <link rel="stylesheet" href="/css/main.css">
 
 
 <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-minimal.css">
+  <script src="//cdn.jsdelivr.net/npm/pace-js@1/pace.min.js"></script>
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
@@ -31,8 +34,9 @@
 <meta property="og:locale" content="zh_TW">
 <meta property="og:image" content="https://gavinh0731.github.io/posts/3259796151/trading_process.png">
 <meta property="og:image" content="https://gavinh0731.github.io/posts/3259796151/FORM2.jpg">
+<meta property="og:image" content="https://gavinh0731.github.io/posts/3259796151/time_sharing_chart.png">
 <meta property="article:published_time" content="2020-06-23T15:27:44.000Z">
-<meta property="article:modified_time" content="2020-06-23T17:07:53.992Z">
+<meta property="article:modified_time" content="2020-06-24T15:51:22.186Z">
 <meta property="article:author" content="Gavin">
 <meta property="article:tag" content="筆記">
 <meta property="article:tag" content="股票">
@@ -233,7 +237,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2020-06-24 01:07:53" itemprop="dateModified" datetime="2020-06-24T01:07:53+08:00">2020-06-24</time>
+                <time title="修改時間：2020-06-24 23:51:22" itemprop="dateModified" datetime="2020-06-24T23:51:22+08:00">2020-06-24</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -262,14 +266,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">文章字數：</span>
-              <span>514</span>
+              <span>1.5k</span>
             </span>
             <span class="post-meta-item" title="所需閱讀時間">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">所需閱讀時間 &asymp;</span>
-              <span>1 分鐘</span>
+              <span>3 分鐘</span>
             </span>
 
         </div>
@@ -297,7 +301,7 @@
 </li>
 </ul>
 <p>流程如下：</p>
-<img src="/posts/3259796151/trading_process.png" class title="trading_process">
+<img src="/posts/3259796151/trading_process.png" class title="股票交易流程">
 <a id="more"></a>
 <h2 id="1-委託："><a href="#1-委託：" class="headerlink" title="1. 委託："></a>1. 委託：</h2><p>我們決定好一檔<code>股票</code>和他的<code>價位</code>後，就可以透過手機的APP，委託券商幫我們買進，</p>
 <h2 id="2-撮合："><a href="#2-撮合：" class="headerlink" title="2. 撮合："></a>2. 撮合：</h2><p>但是這樣並不代表我們買到了股票，因為股票成交是<code>一買一賣</code>的結果，這就叫做<code>撮合</code>，買賣雙方配對之後<code>完成交易</code>，接著證券帳戶的庫存就可以看到該股票的交易結果。</p>
@@ -305,7 +309,28 @@
 <center>（圖：翻攝自證交所官網）</center>
 
 <h2 id="3-交割："><a href="#3-交割：" class="headerlink" title="3. 交割："></a>3. 交割：</h2><p>但是這個交易還沒完成，在下單之後最晚必須在<code>交易日</code>的第二天10點前(<code>交割日</code>)，確保交割銀行帳戶有足夠的金額，不然會造成違約交割，常聽到的T+2就是這個意思(Trading Day + 2)。</p>
-<p><span class="exturl" data-url="aHR0cHM6Ly9hczIyMzQwMC5waXhuZXQubmV0L2Jsb2cvcG9zdC8yMjgwOTc1NzEtJUU3JUFDJUFDJUU0JUI4JTgwJUU2JUFDJUExJUU4JUIyJUI3JUU4JTgyJUExJUU3JUE1JUE4JUU1JUIwJUIxJUU0JUI4JThBJUU2JTg5JThCLSVFOCU4MiVBMSVFNyVBNSVBOCVFOSU5NiU4QiVFNiU4OCVCNiVFOCVBNiU4MSVFNiVCQSU5NiVFNSU4MiU5OSVFNCVCQiU4MCVFOSVCQSVCQyUzRiVFOCVCMiVCNw==">開戶買股教學<i class="fa fa-external-link-alt"></i></span></p>
+<h1 id="交易時間"><a href="#交易時間" class="headerlink" title="交易時間"></a>交易時間</h1><p>市場交易時間為星期一至星期五，撮合成交時間為9:00至13:30，委託時間8:30至13:30。</p>
+<blockquote>
+<p>台股在8:30的時候，就開始有<code>模擬試撮合</code>，如果要了解市場心態，看多看空的趨勢，完全展露在試撮合的30分鐘期間，直至9:00開始正式交易。</p>
+</blockquote>
+<h2 id="看盤-今日走勢圖"><a href="#看盤-今日走勢圖" class="headerlink" title="看盤(今日走勢圖)"></a>看盤(今日走勢圖)</h2><p>走勢圖也叫做<code>分時走勢圖</code>、<code>即時走勢圖</code>，它是股市現場交易的即時資料，<br>坐標的<code>橫軸</code>是開市的<code>時間</code>，<code>縱軸</code>的上半部分是<code>股價</code>或<code>指數</code>，下半部分顯示的是<code>成交量</code>。<br>正常交易時間：由早上9點到下午1點半(共4.5小時)</p>
+<img src="/posts/3259796151/time_sharing_chart.png" class title="看盤(今日走勢圖)">
+<center>（圖：節錄於109/06/24 yahoo股市）</center>
+
+<h2 id="名詞解釋："><a href="#名詞解釋：" class="headerlink" title="名詞解釋："></a>名詞解釋：</h2><p><code>開盤</code>：09：00開始交易<br><code>早盤</code>：09：00～09：30（一開始的半小時）<br><code>午盤</code>：11：30～12：30<br><code>尾盤</code>：13：00～13：30（最後半小時）<br><code>盤中</code>：撮合成交時間為9:00至13:30<br><code>收盤</code>：13：30停止交易</p>
+<h1 id="交易單位"><a href="#交易單位" class="headerlink" title="交易單位"></a>交易單位</h1><p>根據台灣證券交易所的解釋：交易單位為買賣申報之數量，應為1交易單位或其整倍數。<br>啥意思？簡單的說就是以<code>張</code>為當位，<code>1張</code>股票＝<code>1,000股</code>，<br>而不滿一張的股票（1～999股）就稱之為<code>零股</code></p>
+<h1 id="交易價格"><a href="#交易價格" class="headerlink" title="交易價格"></a>交易價格</h1><p>交易價格即分時走勢圖上面所看到的<code>股價</code>，代表的是1股的金額，<br><left><br>$<br>一張台積電的股票市價<br>= 股價 \times 1,000股 \<br>= 317.5 \times 1000 \<br>= 317,500 \<br>= 31.75萬<br>$<br></left></p>
+<h1 id="一買一賣是賺了多少錢？"><a href="#一買一賣是賺了多少錢？" class="headerlink" title="一買一賣是賺了多少錢？"></a>一買一賣是賺了多少錢？</h1><p>除了股價的價差以外，我們還需要繳交<code>手續費</code>和<code>證券交易稅</code>(<code>證交稅</code>)，</p>
+<h2 id="手續費"><a href="#手續費" class="headerlink" title="手續費"></a>手續費</h2><p>只要是<code>買</code>或是<code>賣</code>股票都要繳交<code>手續費</code>（所謂的<code>抽水</code>）<br>$<br>手續費＝成交金額 \times 0.1425%<br>$</p>
+<blockquote>
+<p>大多的證券行透過電子交易都可以打折(6折)，<br>手續費最低20元(未滿20元仍須上繳20元)</p>
+</blockquote>
+<h2 id="證交稅"><a href="#證交稅" class="headerlink" title="證交稅"></a>證交稅</h2><p>$<br>手續費＝成交金額 \times 0.3%<br>$</p>
+<h2 id="算給你看"><a href="#算給你看" class="headerlink" title="算給你看"></a>算給你看</h2><h3 id="若買了一張100元的股票"><a href="#若買了一張100元的股票" class="headerlink" title="若買了一張100元的股票"></a>若買了一張100元的股票</h3><p><code>成交金額</code>:<code>10萬</code>，<br>外加<code>手續費</code>＝<code>142元</code>($100,000 \times 0.1425%$)，<br>所以這次的<code>交割金額</code>就是<code>10萬零142元</code></p>
+<p>過一陣子這張股票漲到120元</p>
+<h3 id="賣掉一張120元的股票"><a href="#賣掉一張120元的股票" class="headerlink" title="賣掉一張120元的股票"></a>賣掉一張120元的股票</h3><p><code>成交金額</code>:<code>12萬</code>，<br>扣除<code>手續費</code>＝<code>171元</code>($120,000 \times 0.1425%$)，<br>再扣除<code>證交稅</code>＝<code>360元</code>($120,000 \times 0.3%$)，<br>所以這次的<code>交割金額</code>就是<code>12萬-171-360</code>元，<br>實際上只拿到<code>11萬9469元</code></p>
+<h3 id="一買一賣，賺多少"><a href="#一買一賣，賺多少" class="headerlink" title="一買一賣，賺多少"></a>一買一賣，賺多少</h3><p><code>11萬9469元</code> - <code>10萬零142元</code> ＝ 賺了<code>19,327元</code></p>
+<p>參考資料：<br><span class="exturl" data-url="aHR0cHM6Ly9hczIyMzQwMC5waXhuZXQubmV0L2Jsb2cvcG9zdC8yMjgwOTc1NzEtJUU3JUFDJUFDJUU0JUI4JTgwJUU2JUFDJUExJUU4JUIyJUI3JUU4JTgyJUExJUU3JUE1JUE4JUU1JUIwJUIxJUU0JUI4JThBJUU2JTg5JThCLSVFOCU4MiVBMSVFNyVBNSVBOCVFOSU5NiU4QiVFNiU4OCVCNiVFOCVBNiU4MSVFNiVCQSU5NiVFNSU4MiU5OSVFNCVCQiU4MCVFOSVCQSVCQyUzRiVFOCVCMiVCNw==">開戶買股教學<i class="fa fa-external-link-alt"></i></span></p>
 
     </div>
 
@@ -319,6 +344,25 @@
       <div class="popular-posts-title"><a href="/posts/3701503514/" rel="bookmark">股票研究所總綱</a></div>
     </li>
   </ul>
+
+        
+
+  <div class="followme">
+    <p>歡迎關注我的其它發布渠道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+        </div>
+    </div>
+  </div>
 
 
       <footer class="post-footer">
@@ -395,7 +439,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#如何開戶："><span class="nav-number">1.</span> <span class="nav-text">如何開戶：</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#帶什麼？"><span class="nav-number">1.1.</span> <span class="nav-text">帶什麼？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#去哪裡？"><span class="nav-number">1.2.</span> <span class="nav-text">去哪裡？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#做什麼？"><span class="nav-number">1.3.</span> <span class="nav-text">做什麼？</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#股票交易流程"><span class="nav-number">2.</span> <span class="nav-text">股票交易流程:</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-委託："><span class="nav-number">2.1.</span> <span class="nav-text">1. 委託：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-撮合："><span class="nav-number">2.2.</span> <span class="nav-text">2. 撮合：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-交割："><span class="nav-number">2.3.</span> <span class="nav-text">3. 交割：</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#如何開戶："><span class="nav-number">1.</span> <span class="nav-text">如何開戶：</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#帶什麼？"><span class="nav-number">1.1.</span> <span class="nav-text">帶什麼？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#去哪裡？"><span class="nav-number">1.2.</span> <span class="nav-text">去哪裡？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#做什麼？"><span class="nav-number">1.3.</span> <span class="nav-text">做什麼？</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#股票交易流程"><span class="nav-number">2.</span> <span class="nav-text">股票交易流程:</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-委託："><span class="nav-number">2.1.</span> <span class="nav-text">1. 委託：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-撮合："><span class="nav-number">2.2.</span> <span class="nav-text">2. 撮合：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-交割："><span class="nav-number">2.3.</span> <span class="nav-text">3. 交割：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#交易時間"><span class="nav-number">3.</span> <span class="nav-text">交易時間</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#看盤-今日走勢圖"><span class="nav-number">3.1.</span> <span class="nav-text">看盤(今日走勢圖)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#名詞解釋："><span class="nav-number">3.2.</span> <span class="nav-text">名詞解釋：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#交易單位"><span class="nav-number">4.</span> <span class="nav-text">交易單位</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#交易價格"><span class="nav-number">5.</span> <span class="nav-text">交易價格</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#一買一賣是賺了多少錢？"><span class="nav-number">6.</span> <span class="nav-text">一買一賣是賺了多少錢？</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#手續費"><span class="nav-number">6.1.</span> <span class="nav-text">手續費</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#證交稅"><span class="nav-number">6.2.</span> <span class="nav-text">證交稅</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#算給你看"><span class="nav-number">6.3.</span> <span class="nav-text">算給你看</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#若買了一張100元的股票"><span class="nav-number">6.3.1.</span> <span class="nav-text">若買了一張100元的股票</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#賣掉一張120元的股票"><span class="nav-number">6.3.2.</span> <span class="nav-text">賣掉一張120元的股票</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#一買一賣，賺多少"><span class="nav-number">6.3.3.</span> <span class="nav-text">一買一賣，賺多少</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -435,6 +479,9 @@
       <span class="links-of-author-item">
         <span class="exturl" data-url="bWFpbHRvOmdhdmluaDA3MzFAaG90bWFpbC5jb20=" title="E-Mail → mailto:gavinh0731@hotmail.com"><i class="fa fa-envelope fa-fw"></i>E-Mail</span>
       </span>
+      <span class="links-of-author-item">
+        <a href="/atom.xml" title="RSS → &#x2F;atom.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
+      </span>
   </div>
 
 
@@ -471,15 +518,30 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="總字數">21k</span>
+    <span title="總字數">22k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="所需總閱讀時間">38 分鐘</span>
+    <span title="所需總閱讀時間">40 分鐘</span>
 </div>
   <div class="powered-by">由 <span class="exturl theme-link" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <span class="exturl theme-link" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZw==">NexT.Gemini</span> 強力驅動
   </div>
+
+<div class="translate-style">
+繁/簡：<a id="translateLink" href="javascript:translatePage();">繁體
+</a>
+</div>
+<script type="text/javascript" src="/js/tw_cn.js"></script>
+<script type="text/javascript">
+var defaultEncoding = 2; //網站編寫字體是否繁體，1-繁體，2-簡體
+var translateDelay = 0; //延遲時間,若不在前, 要設定延遲翻譯時間, 如100表示100ms,默認為0
+var cookieDomain = "https://tding.top/"; //Cookie地址, 一定要設定, 通常為你的網址
+var msgToTraditionalChinese = "繁體"; //此處可以更改為你想要顯示的文字
+var msgToSimplifiedChinese = "簡體"; //同上，但兩處均不建議更改
+var translateButtonId = "translateLink"; //默認互換id
+translateInitilization();
+</script>
 
         
 <div class="busuanzi-count">
@@ -611,6 +673,61 @@ document.addEventListener('pjax:success', () => {
 
     <div id="pjax">
   
+
+  
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
 
   
 

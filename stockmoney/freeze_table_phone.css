@@ -1,4 +1,4 @@
-@media screen and (min-width: 850px) {
+@media screen and (max-width: 849px) {
 	table {
 		width: min-content;
 		min-width: 2000px;
@@ -14,16 +14,16 @@
 	table tbody tr {
 		width: min-content;
 	}
-
+	
 	/*所有儲存格*/
 	td.text-center {
 		vertical-align: middle;
-		padding-top: 5px;
-		padding-bottom: 5px;
+		padding-top: 0px;
+		padding-bottom: 0px;
 		white-space: nowrap;  		/*禁止td換行*/
 		text-overflow: ellipsis;	/*將顯示不完的以...顯示*/
 	}
-
+	
 	/*====== 滾動 =============================*/
 	table thead td:first-child,
 	table tbody td:first-child,
