@@ -33,7 +33,7 @@
 <meta property="og:description" content="優化URLHexo 默認文章鏈接生成規則是按照年、月、日、標題來生成的。  一旦文章標題或者發佈時間被修改，URL 就會發生變化，之前文章地址也會變成 404，而且 URL 層級很深，不利於分享和搜索引擎收錄。 如果文章標題中有中文，URL 被轉碼後會很長，中文強制被轉碼成十六進制編碼，又臭又長。  接下來介紹一個插件 hexo-abbrlink，該插件會為每篇生成一個唯一字符串，並不受文章標題和">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:published_time" content="2020-05-31T22:06:06.000Z">
-<meta property="article:modified_time" content="2020-06-23T14:35:40.587Z">
+<meta property="article:modified_time" content="2020-06-26T03:18:29.330Z">
 <meta property="article:author" content="Gavin">
 <meta property="article:tag" content="教學">
 <meta property="article:tag" content="NexT">
@@ -130,17 +130,17 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤<span class="badge">7</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤<span class="badge">9</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類<span class="badge">6</span></a>
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類<span class="badge">7</span></a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>時間軸<span class="badge">11</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>時間軸<span class="badge">13</span></a>
 
   </li>
         <li class="menu-item menu-item-sitemap">
@@ -234,7 +234,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2020-06-23 22:35:40" itemprop="dateModified" datetime="2020-06-23T22:35:40+08:00">2020-06-23</time>
+                <time title="修改時間：2020-06-26 11:18:29" itemprop="dateModified" datetime="2020-06-26T11:18:29+08:00">2020-06-26</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -267,14 +267,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">文章字數：</span>
-              <span>3k</span>
+              <span>3.2k</span>
             </span>
             <span class="post-meta-item" title="所需閱讀時間">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">所需閱讀時間 &asymp;</span>
-              <span>5 分鐘</span>
+              <span>6 分鐘</span>
             </span>
 
         </div>
@@ -363,6 +363,14 @@
 <blockquote>
 <p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">rss：</span> <span class="string">/atom.xml</span></span><br></pre></td></tr></table></figure></p>
 </blockquote>
+<h2 id="處理RSS異常"><a href="#處理RSS異常" class="headerlink" title="處理RSS異常"></a>處理RSS異常</h2><p>最開始的時候生成 RSS 會拋出一些異常：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">error on line 455 at column 40: PCDATA invalid Char value 8</span><br></pre></td></tr></table></figure>
+
+<p>一般來說，出現這些問題是因為 Markdown 文件中存在一些特殊字符，例如 ^H、^E 等字符，解決辦法：</p>
+<ul>
+<li>在 markdown 源文件中把特殊字符刪除</li>
+</ul>
+<h2 id="在vscode中顯示空格和tab符號"><a href="#在vscode中顯示空格和tab符號" class="headerlink" title="在vscode中顯示空格和tab符號"></a>在vscode中顯示空格和tab符號</h2><p>打開setting,在搜索框中輸入renderControlCharacters,選中勾選框,即可顯示特殊符號.</p>
 
     </div>
 
@@ -376,16 +384,16 @@
       <div class="popular-posts-title"><a href="/posts/3614064843/" rel="bookmark">[教學]Hexo使用-NexT整合設定</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/posts/1015261791/" rel="bookmark">[教學]-NexT使用-入門</a></div>
-    </li>
-    <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="/posts/3030220437/" rel="bookmark">[教學]-NexT使用-主題設定-帖子</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/posts/1612943303/" rel="bookmark">[教學]-NexT使用-第三方服務</a></div>
+      <div class="popular-posts-title"><a href="/posts/665987006/" rel="bookmark">[教學]-NexT使用-主題設定</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/posts/665987006/" rel="bookmark">[教學]-NexT使用-主題設定</a></div>
+      <div class="popular-posts-title"><a href="/posts/1015261791/" rel="bookmark">[教學]-NexT使用-入門</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/posts/1612943303/" rel="bookmark">[教學]-NexT使用-第三方服務</a></div>
     </li>
   </ul>
 
@@ -484,7 +492,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#優化URL"><span class="nav-number">1.</span> <span class="nav-text">優化URL</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝hexo-abbrlink插件"><span class="nav-number">1.1.</span> <span class="nav-text">安裝hexo-abbrlink插件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置"><span class="nav-number">1.2.</span> <span class="nav-text">配置</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#優化分類-Category"><span class="nav-number">2.</span> <span class="nav-text">優化分類(Category)</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#優化標籤"><span class="nav-number">3.</span> <span class="nav-text">優化標籤</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#SEO設置"><span class="nav-number">4.</span> <span class="nav-text">SEO設置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#禁用百度轉換"><span class="nav-number">4.1.</span> <span class="nav-text">禁用百度轉換</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#將站點字幕添加到索引頁面"><span class="nav-number">4.2.</span> <span class="nav-text">將站點字幕添加到索引頁面</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#開啟-Exturl"><span class="nav-number">4.3.</span> <span class="nav-text">開啟 Exturl</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#網站地圖-sitemap"><span class="nav-number">5.</span> <span class="nav-text">網站地圖(sitemap)</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝-Google-和百度網站地圖生成插件："><span class="nav-number">5.1.</span> <span class="nav-text">安裝 Google 和百度網站地圖生成插件：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改主題配置文件-config-yml，內容如下："><span class="nav-number">5.2.</span> <span class="nav-text">修改主題配置文件_config.yml，內容如下：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#提交網站地圖"><span class="nav-number">5.3.</span> <span class="nav-text">提交網站地圖</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#robots-txt"><span class="nav-number">6.</span> <span class="nav-text">robots.txt</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo-autonofollow"><span class="nav-number">7.</span> <span class="nav-text">hexo-autonofollow</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#安裝RSS插件"><span class="nav-number">8.</span> <span class="nav-text">安裝RSS插件</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#優化URL"><span class="nav-number">1.</span> <span class="nav-text">優化URL</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝hexo-abbrlink插件"><span class="nav-number">1.1.</span> <span class="nav-text">安裝hexo-abbrlink插件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置"><span class="nav-number">1.2.</span> <span class="nav-text">配置</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#優化分類-Category"><span class="nav-number">2.</span> <span class="nav-text">優化分類(Category)</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#優化標籤"><span class="nav-number">3.</span> <span class="nav-text">優化標籤</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#SEO設置"><span class="nav-number">4.</span> <span class="nav-text">SEO設置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#禁用百度轉換"><span class="nav-number">4.1.</span> <span class="nav-text">禁用百度轉換</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#將站點字幕添加到索引頁面"><span class="nav-number">4.2.</span> <span class="nav-text">將站點字幕添加到索引頁面</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#開啟-Exturl"><span class="nav-number">4.3.</span> <span class="nav-text">開啟 Exturl</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#網站地圖-sitemap"><span class="nav-number">5.</span> <span class="nav-text">網站地圖(sitemap)</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝-Google-和百度網站地圖生成插件："><span class="nav-number">5.1.</span> <span class="nav-text">安裝 Google 和百度網站地圖生成插件：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改主題配置文件-config-yml，內容如下："><span class="nav-number">5.2.</span> <span class="nav-text">修改主題配置文件_config.yml，內容如下：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#提交網站地圖"><span class="nav-number">5.3.</span> <span class="nav-text">提交網站地圖</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#robots-txt"><span class="nav-number">6.</span> <span class="nav-text">robots.txt</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo-autonofollow"><span class="nav-number">7.</span> <span class="nav-text">hexo-autonofollow</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#安裝RSS插件"><span class="nav-number">8.</span> <span class="nav-text">安裝RSS插件</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#處理RSS異常"><span class="nav-number">8.1.</span> <span class="nav-text">處理RSS異常</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#在vscode中顯示空格和tab符號"><span class="nav-number">8.2.</span> <span class="nav-text">在vscode中顯示空格和tab符號</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -499,20 +507,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">11</span>
+          <span class="site-state-item-count">13</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">7</span>
         <span class="site-state-item-name">分類</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">標籤</span></a>
       </div>
   </nav>
@@ -563,12 +571,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="總字數">22k</span>
+    <span title="總字數">24k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="所需總閱讀時間">40 分鐘</span>
+    <span title="所需總閱讀時間">43 分鐘</span>
 </div>
   <div class="powered-by">由 <span class="exturl theme-link" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <span class="exturl theme-link" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZw==">NexT.Gemini</span> 強力驅動
   </div>
@@ -579,9 +587,9 @@
 </div>
 <script type="text/javascript" src="/js/tw_cn.js"></script>
 <script type="text/javascript">
-var defaultEncoding = 2; //網站編寫字體是否繁體，1-繁體，2-簡體
+var defaultEncoding = 1; //網站編寫字體是否繁體，1-繁體，2-簡體
 var translateDelay = 0; //延遲時間,若不在前, 要設定延遲翻譯時間, 如100表示100ms,默認為0
-var cookieDomain = "https://tding.top/"; //Cookie地址, 一定要設定, 通常為你的網址
+var cookieDomain = "https://gavinh0731.github.io/"; //Cookie地址, 一定要設定, 通常為你的網址
 var msgToTraditionalChinese = "繁體"; //此處可以更改為你想要顯示的文字
 var msgToSimplifiedChinese = "簡體"; //同上，但兩處均不建議更改
 var translateButtonId = "translateLink"; //默認互換id

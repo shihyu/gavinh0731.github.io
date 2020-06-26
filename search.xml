@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/posts/1243066710/</url>
+    <content><![CDATA[<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation<i class="fa fa-external-link-alt"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting<i class="fa fa-external-link-alt"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>.</p>
+<p><img src="/uploads/custom-logo.png" alt="logo"></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+  </entry>
+  <entry>
     <title>[教學]Hexo使用-NexT整合設定</title>
     <url>/posts/3614064843/</url>
     <content><![CDATA[<h1 id="Next-客製功能及樣板編輯筆記"><a href="#Next-客製功能及樣板編輯筆記" class="headerlink" title="Next 客製功能及樣板編輯筆記"></a>Next 客製功能及樣板編輯筆記</h1><h2 id="pjax-安裝"><a href="#pjax-安裝" class="headerlink" title="pjax 安裝"></a>pjax 安裝</h2><p>究竟什麼是 pjax 呢？簡單來說，pjax 實現了 URL 改變但不重新整理整個頁面，也就是只有局部的頁面會更新，不會讓整個頁面重新閃動（重新整理）。那這個功能有什麼特色呢？最重要的就是原本左下角的音樂播放器遇到切換頁面，就會停掉然後重新載入；但使用 pjax 後就能解決這個問題。</p>
@@ -42,25 +61,6 @@
         <tag>Hexo</tag>
         <tag>NexT</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/posts/1243066710/</url>
-    <content><![CDATA[<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation<i class="fa fa-external-link-alt"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting<i class="fa fa-external-link-alt"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>.</p>
-<p><img src="/uploads/custom-logo.png" alt="logo"></p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
   </entry>
   <entry>
     <title>[教學]Hexo使用-寫作說明</title>
@@ -183,6 +183,14 @@
 <blockquote>
 <p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">rss：</span> <span class="string">/atom.xml</span></span><br></pre></td></tr></table></figure></p>
 </blockquote>
+<h2 id="處理RSS異常"><a href="#處理RSS異常" class="headerlink" title="處理RSS異常"></a>處理RSS異常</h2><p>最開始的時候生成 RSS 會拋出一些異常：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">error on line 455 at column 40: PCDATA invalid Char value 8</span><br></pre></td></tr></table></figure>
+
+<p>一般來說，出現這些問題是因為 Markdown 文件中存在一些特殊字符，例如 ^H、^E 等字符，解決辦法：</p>
+<ul>
+<li>在 markdown 源文件中把特殊字符刪除</li>
+</ul>
+<h2 id="在vscode中顯示空格和tab符號"><a href="#在vscode中顯示空格和tab符號" class="headerlink" title="在vscode中顯示空格和tab符號"></a>在vscode中顯示空格和tab符號</h2><p>打開setting,在搜索框中輸入renderControlCharacters,選中勾選框,即可顯示特殊符號.</p>
 ]]></content>
       <categories>
         <category>教學</category>
@@ -193,151 +201,6 @@
         <tag>教學</tag>
         <tag>NexT</tag>
         <tag>SEO</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>[教學]-NexT使用-入門</title>
-    <url>/posts/1015261791/</url>
-    <content><![CDATA[<p><span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>是一個快速而強大的靜態博客生成框架，它基於<span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3JnLw==">Node.js<i class="fa fa-external-link-alt"></i></span>。 通過使用Hexo，您可以使用Markdown輕鬆編寫文章，除了Markdown的語法外，您還可以使用Hexo提供的<span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdGFnLXBsdWdpbnM=">標籤插件<i class="fa fa-external-link-alt"></i></span>來簡單插入特殊格式的內容。 在此頁面中，我們假設您已經安裝了Hexo並使用它創建了一個站點。</p>
-<blockquote>
-<p>您可以訪問<span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">Hexo Docs<i class="fa fa-external-link-alt"></i></span>以了解如何安裝Hexo。 確保環境中的Node.js和Hexo版本高於NexT主題的<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0I3JlYWRtZQ==">最低要求<i class="fa fa-external-link-alt"></i></span>，然後繼續以下步驟。</p>
-</blockquote>
-<h1 id="檔案變數"><a href="#檔案變數" class="headerlink" title="檔案變數"></a>檔案變數</h1><h2 id="config-yml"><a href="#config-yml" class="headerlink" title="_config.yml"></a><code>_config.yml</code></h2><p>Hexo使用了兩個主要的配置文件，它們都稱為<code>_config.yml</code>：</p>
-<ul>
-<li><code>站點配置文件</code>位於<code>站點根目錄</code>下，其中包含Hexo的配置。</li>
-<li><code>主題配置文件</code>位於<code>主題根目錄</code>下，該目錄由NexT提供，並包含主題的配置。</li>
-</ul>
-<h2 id="可用的設置"><a href="#可用的設置" class="headerlink" title="可用的設置"></a>可用的設置</h2><p>所有可用的設置都將在代碼塊內部（帶有單個反引號或<code>&lt;code&gt;</code>標記）。</p>
-<h2 id="默認設置"><a href="#默認設置" class="headerlink" title="默認設置"></a>默認設置</h2><p>並且所有默認設置在代碼塊內都將以粗體顯示（帶有單個反引號或<code>&lt;code&gt;</code>和<code>**</code>或<code>&lt;strong&gt;</code>標記）。</p>
-<h1 id="NexT安裝"><a href="#NexT安裝" class="headerlink" title="NexT安裝"></a>NexT安裝</h1><p>安裝Hexo主題很容易：您可以下載NexT主題，將主題文件夾複製到站點根目錄下的themes目錄中，然後在站點配置文件中指定主題根目錄。 具體步驟如下：</p>
-<h1 id="下載NexT"><a href="#下載NexT" class="headerlink" title="下載NexT"></a>下載NexT</h1><p>如果您了解Git，則可以克隆整個存儲庫並隨時使用git pull命令對其進行更新，而無需手動下載存檔。<br>打開終端，切換到Hexo網站根目錄，並克隆NexT主題的最新主分支：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> hexo</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/next-theme/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
-<a id="more"></a>
-
-<h1 id="啟用NexT"><a href="#啟用NexT" class="headerlink" title="啟用NexT"></a>啟用NexT</h1><p>像所有Hexo主題一樣，下載後，打開站點配置文件，找到主題部分，並將其值更改為next（或另一個主題目錄名稱）。</p>
-<blockquote>
-<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure><br>現在您已經安裝了NexT主題，接下來我們將驗證它是否已正確啟用。 在更改主題和驗證主題之間，我們最好使用<code>hexo clean</code>清理Hexo的緩存。</p>
-</blockquote>
-<h1 id="檢查NexT"><a href="#檢查NexT" class="headerlink" title="檢查NexT"></a>檢查NexT</h1><p>首先啟動Hexo本地服務器，並啟用調試參數（通過添加<code>--debug</code>），整個命令為<code>hexo s --debug</code>。 您可以在運行時看到輸出，如果發現問題，則可以使用輸出來幫助其他人更好地定位錯誤。 打印時：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure>
-<p>現在，您可以在瀏覽器中打開<code>http：// localhost：4000</code>，並檢查該站點是否正常運行。</p>
-<blockquote>
-<p>如果發現您的站點看起來像這張圖片，則說明您已正確安裝它。 這是默認的NexT方案– Muse。</p>
-<img src="/posts/1015261791/NexT.png" class title="Next">
-</blockquote>
-<p>現在，您已經安裝並啟用了NexT。 在接下來的步驟中，我們將更改一些設置，包括個性化和第三方服務集成。</p>
-<h1 id="添加插件"><a href="#添加插件" class="headerlink" title="添加插件"></a>添加插件</h1><p>有2種變體可以連接NexT插件：</p>
-<ul>
-<li>本地安裝（將從您的站點加載插件腳本）。</li>
-<li>CDN鏈接（將從遠程CDN主機加載插件腳本）。<blockquote>
-<p>如果您的站點已部署到任何免費的託管服務（Github，Gitlab等），則建議使用CDN鏈接。 CDN通常具有更快的速度，並且沒有流量限制。</p>
-</blockquote>
-</li>
-</ul>
-<h2 id="本地安裝"><a href="#本地安裝" class="headerlink" title="本地安裝"></a>本地安裝</h2><p>現在，在NexT config中，您可以找到每個模塊的依賴關係，這些依賴關係已移至外部存儲庫，可以通過<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWU=">主要組織鏈接<i class="fa fa-external-link-alt"></i></span>找到該模塊。 例如，您要在站點中使用pjax。 轉到<code>主題配置文件</code>，然後查看：</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Easily enable fast Ajax navigation on your website.</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/next-theme/pjax</span></span><br><span class="line"><span class="attr">pjax:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<p>然後把<code>pjax</code>設為<code>true</code>並轉到帶有該模塊安裝說明的“ Dependencies”鏈接</p>
-<h2 id="CDN鏈接"><a href="#CDN鏈接" class="headerlink" title="CDN鏈接"></a>CDN鏈接</h2><p>如果將CDN用於任何插件，則需要替換CDN鏈接。<br>例如，您要使用mediumzoom並配置了CDN鏈接。<br>轉到<code>主題配置文件</code>，然後查看：</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">vendors:</span></span><br><span class="line">  <span class="comment"># ...</span></span><br><span class="line">  <span class="comment"># Some contents...</span></span><br><span class="line">  <span class="comment"># ...</span></span><br><span class="line">  <span class="attr">mediumzoom:</span> <span class="comment"># Set or update mediumzoom CDN URL.</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<p>推薦使用jsDelivr CDN來交付我們的第三方插件，因為它隨處可見並且具有中國政府頒發的有效ICP許可證。<br>它不僅從npm包中爬行js文件，而且從GitHub版本中爬行！<br>就像其他CDN一樣，我們可以使用以下鏈接引用js文件。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;user&#x2F;repo@version&#x2F;file</span><br></pre></td></tr></table></figure>
-<p>即使沒有縮小版本，它也可以自動縮小JS和CSS文件。<br>只需使用<code>filename.min.js</code>或<code>filename.min.css</code>替換上面的文件即可。</p>
-<p>我們還提供其他可選的CDN，包括著名的<span class="exturl" data-url="aHR0cHM6Ly9jZG5qcy5jb20v">CDNJS<i class="fa fa-external-link-alt"></i></span>。</p>
-<h1 id="NexT配置"><a href="#NexT配置" class="headerlink" title="NexT配置"></a>NexT配置</h1><h2 id="選擇方案-Scheme"><a href="#選擇方案-Scheme" class="headerlink" title="選擇方案(Scheme)"></a>選擇方案(Scheme)</h2><p>Scheme是NexT支持的功能，通過使用Scheme，NexT可以得到不同的視圖。<br>這些方案幾乎可以使用所有配置。 到目前為止，NexT支持4種方案，它們是：</p>
-<ul>
-<li>Muse繆斯→默認方案，這是NexT的初始版本。 使用黑白色調，主要看起來乾淨。</li>
-<li>Mist霧→帶有整齊的單列視圖的Muse的更緊密版本。</li>
-<li>Pisces雙魚座→雙柱計劃，像鄰居的女兒一樣新鮮。</li>
-<li>Gemini雙子座→看起來像雙魚座，但具有明顯的帶陰影的圓柱塊，看起來對視圖更敏感。</li>
-</ul>
-<p>您可以通過編輯<code>主題配置文件</code>，搜索方案關鍵字來更改方案。<br>您將看到4行方案設置，並且可以通過刪除它的<code>＃</code>號並將其添加到上一行來啟用其中之一。</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment">#scheme: Muse</span></span><br><span class="line"><span class="comment">#scheme: Mist</span></span><br><span class="line"><span class="comment">#scheme: Pisces</span></span><br><span class="line"><span class="attr">scheme:</span> <span class="string">Gemini</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h1 id="黑暗模式"><a href="#黑暗模式" class="headerlink" title="黑暗模式"></a>黑暗模式</h1><p>您可以通過在<code>主題配置文件</code>中將<code>darkmode</code>設置為<code>true</code>來啟用Dark Mode。<br>首選顏色方案CSS媒體功能用於將暗模式帶入上述所有4種方案，請確保您的瀏覽器支持暗模式。</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">darkmode:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<p><code>prefers-color-scheme</code>CSS媒體功能用於將暗模式帶入上述所有4種方案，請確保您的瀏覽器支持暗模式。</p>
-<img src="/posts/1015261791/darkmode.png" class title="darkmode">
-
-<p>如果操作系統偏好的主題是深色，主題NexT會自動顯示黑暗模式。 macOS Mojave，iOS 13和Android 10或更高版本均支持此功能。 相關文檔：<br><span class="exturl" data-url="aHR0cHM6Ly9zdXBwb3J0LmFwcGxlLmNvbS9lbi11cy9IVDIwODk3Ng==">如何在Mac上使用暗模式<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly9zdXBwb3J0LmFwcGxlLmNvbS9lbi11cy9IVDIxMDMzMg==">在iPhone，iPad或iPod touch上使用暗模式<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly9kZXZlbG9wZXIuYW5kcm9pZC5jb20vZ3VpZGUvdG9waWNzL3VpL2xvb2stYW5kLWZlZWwvZGFya3RoZW1l">黑暗主題| Android開發人員<i class="fa fa-external-link-alt"></i></span></p>
-<h1 id="配置菜單項Menu"><a href="#配置菜單項Menu" class="headerlink" title="配置菜單項Menu"></a>配置菜單項<code>Menu</code></h1><p>菜單設置項的格式為<code>&lt;鍵&gt;：/&lt;link&gt;/ || &lt;圖標&gt;</code>，其中包含3個值：</p>
-<ol>
-<li><code>&lt;鍵值&gt;</code>→是菜單項的名稱（<code>home</code>，<code>archives</code>等）。<br>如果將以語言找到此菜單的翻譯，則將加載此翻譯； 否則，將使用<code>&lt;鍵值&gt;</code>名稱。<blockquote>
-<p><code>&lt;鍵值&gt;</code>區分大小寫（例如<code>home</code>與<code>Home</code>不相同）。</p>
-</blockquote>
-</li>
-<li><code>&lt;link&gt;</code><br>||之前的值 delimeter（<code>/&lt;link&gt;/</code>）→是指向您網站內相對網址的目標鏈接。</li>
-<li><code>&lt;圖標&gt;</code><br><code>||</code>之後的值<code>&lt;圖標&gt;</code>→是“FontAwesome”圖標的名稱。<br>可以在<span class="exturl" data-url="aHR0cHM6Ly9mb250YXdlc29tZS5jb20v">Font Awesome網站<i class="fa fa-external-link-alt"></i></span>上找到該圖標的名稱。</li>
-</ol>
-<p>默認情況下，所有菜單項都被註釋掉，以確保您可以在next.yml配置文件中覆蓋它們。<br>要自定義菜單項，請在<code>主題配置文件</code>中編輯以下內容：</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="attr">home:</span> <span class="string">/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-home</span></span><br><span class="line">  <span class="comment">#about: /about/ || fa fa-user</span></span><br><span class="line">  <span class="comment">#tags: /tags/ || fa fa-tags</span></span><br><span class="line">  <span class="comment">#categories: /categories/ || fa fa-th</span></span><br><span class="line">  <span class="attr">archives:</span> <span class="string">/archives/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-archive</span></span><br><span class="line">  <span class="comment">#schedule: /schedule/ || fa fa-calendar</span></span><br><span class="line">  <span class="comment">#sitemap: /sitemap.xml || fa fa-sitemap</span></span><br><span class="line">  <span class="comment">#commonweal: /404/ || fa fa-heartbeat</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<blockquote>
-<p>除<code>home</code>和<code>archives</code>外，<code>menu</code>下的所有自定義頁面都需要手動創建。 請參閱<span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoZW1lLXNldHRpbmdzLyNDdXN0b20tUGFnZS1TdXBwb3J0">«自定義頁面支持»<i class="fa fa-external-link-alt"></i></span></p>
-</blockquote>
-<p>還支持層次結構內的動態子菜單。 在<code>主題配置文件</code>的<code>menu</code>部分中添加子菜單項，如下所示：</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="attr">home:</span> <span class="string">/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-home</span></span><br><span class="line">  <span class="attr">archives:</span> <span class="string">/archives/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-archive</span></span><br><span class="line">  <span class="attr">Docs:</span></span><br><span class="line">    <span class="attr">default:</span> <span class="string">/docs/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-book</span></span><br><span class="line">    <span class="attr">Third Party Services:</span></span><br><span class="line">      <span class="attr">default:</span> <span class="string">/third-party-services/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-plug</span></span><br><span class="line">      <span class="attr">Algolia Search:</span> <span class="string">/algolia-search/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-search-plus</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<blockquote>
-<p>如果您的網站在子目錄中運行，請從鏈接中刪除前綴<code>/</code>。</p>
-</blockquote>
-<p>默認情況下，NexT顯示不帶徽章(badges)的菜單項圖標(icons)。</p>
-<p>圖標(icons)<br>  您可以通過設置<code>主題配置文件</code>中的<code>menu_settings.icons</code>值來配置它。</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">menu_settings:</span></span><br><span class="line">  <span class="attr">icons:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<p>徽章(badges)<br>  將值<code>badge</code>設置為<code>true</code>可以在<code>主題配置文件</code>的menu_settings部分的菜單項中顯示<code>帖子</code>/<code>類別</code>/<code>標籤</code>的計數，如下所示：</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">menu_settings:</span></span><br><span class="line">  <span class="attr">badges:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h1 id="配置圖標-Favicon"><a href="#配置圖標-Favicon" class="headerlink" title="配置圖標(Favicon)"></a>配置圖標(Favicon)</h1><p>默認情況下，Hexo站點在<code>hexo-site/themes/next/source/images/</code>目錄中使用NexT圖標，以用於不同設備。 您可以用自己的收藏夾替換它們。</p>
-<p>例如，您可以將收藏夾圖標放在<code>hexo-site/source/images/</code>目錄中。<br>然後，您需要重命名它們並更改<code>主題配置文件</code>中<code>favicon</code>部分中的設置，否則來自Next的圖標將在Hexo中重寫您的自定義圖標。</p>
-<p>您也可以將自定義圖標放入<code>hexo-site/source/</code>目錄。 這樣，您必須從路徑中刪除<code>/images</code>前綴。</p>
-<p>要生成<code>自定義圖標</code>，您可以訪問<span class="exturl" data-url="aHR0cHM6Ly9yZWFsZmF2aWNvbmdlbmVyYXRvci5uZXQv">Favicon Generator<i class="fa fa-external-link-alt"></i></span>。</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">favicon:</span></span><br><span class="line">  <span class="attr">small:</span> <span class="string">/images/favicon-16x16-next.png</span></span><br><span class="line">  <span class="attr">medium:</span> <span class="string">/images/favicon-32x32-next.png</span></span><br><span class="line">  <span class="attr">apple_touch_icon:</span> <span class="string">/images/apple-touch-icon-next.png</span></span><br><span class="line">  <span class="attr">safari_pinned_tab:</span> <span class="string">/images/logo.svg</span></span><br><span class="line">  <span class="attr">android_manifest:</span> <span class="string">/images/manifest.json</span></span><br><span class="line">  <span class="attr">ms_browserconfig:</span> <span class="string">/images/browserconfig.xml</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h2 id="Favicon設置但不起作用（需要重新記錄文檔）"><a href="#Favicon設置但不起作用（需要重新記錄文檔）" class="headerlink" title="Favicon設置但不起作用（需要重新記錄文檔）"></a>Favicon設置但不起作用（需要重新記錄文檔）</h2><p>將您的網站圖標<code>favicon</code>放在網站的源目錄下。<br>如果您發現<code>favicon</code>不起作用，請先清理瀏覽器的緩存，<br>然後直接訪問Favicon的URL，該URL應該為<code>http(s)://your-domain.com/favicon.ico</code>.</p>
-<blockquote>
-<p>如果您的站點位於子目錄中，請將其設置為<code>favicon: favicon.ico</code></p>
-</blockquote>
-<h1 id="配置頭像"><a href="#配置頭像" class="headerlink" title="配置頭像"></a>配置頭像</h1><p>默認情況下，NexT在側邊欄中不顯示頭像。<br>您可以通過在<code>主題配置文件</code>中的<code>avatar</code>設置下編輯值來配置它。</p>
-<h2 id="url"><a href="#url" class="headerlink" title="url:"></a>url:</h2><p>  對於首次測試，您可以取消註釋<code>avatar.url</code>設置附近的<code>/images/avatar.gif</code>值，以查看默認頭像：</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">avatar:</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">/images/avatar.gif</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<p>  然後，您需要指定自己的頭像。 可以通過以下方式之一完成：</p>
-<h3 id="Hexo目錄"><a href="#Hexo目錄" class="headerlink" title="Hexo目錄"></a>Hexo目錄</h3><p>  將您的頭像放置在站點目錄<code>source/uploads/</code>下（如果不存在，則創建目錄）。<br>  然後將選項更改為頭像：<code>/uploads/avatar.png</code>。</p>
-<h3 id="NexT目錄"><a href="#NexT目錄" class="headerlink" title="NexT目錄"></a>NexT目錄</h3><p>  將您的頭像放置在主題目錄<code>source/images/</code>下。<br>  然後將選項更改為頭像：<code>/images/avatar.png</code>。</p>
-<blockquote>
-<p>當前站點使用以下配置從位於<code>next/source/images/apple-touch-icon-next.png</code>中的文件使用<code>主題目錄</code>下的頭像：<br>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme_config:</span></span><br><span class="line">  <span class="attr">avatar:</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">/images/apple-touch-icon-next.png</span></span><br><span class="line">    <span class="attr">rounded:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">rotated:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h3 id="來自Internet的絕對URL"><a href="#來自Internet的絕對URL" class="headerlink" title="來自Internet的絕對URL"></a>來自Internet的絕對URL</h3><p>  您還可以指定帶有圖像絕對路徑的任何外部URL：<code>http(s)://example.com/avatar.png</code></p>
-<h1 id="配置作者"><a href="#配置作者" class="headerlink" title="配置作者"></a>配置作者</h1><p>編輯站點配置文件，並將author的值設置為您的暱稱。</p>
-<blockquote>
-<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Site</span></span><br><span class="line"><span class="attr">author:</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h1 id="配置說明"><a href="#配置說明" class="headerlink" title="配置說明"></a>配置說明</h1><p>編輯<code>站點配置文件</code>，並將<code>description</code>的值設置為您的描述，它可以是您喜歡的句子。</p>
-<blockquote>
-<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Site</span></span><br><span class="line"><span class="attr">description:</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<p>之後，我們可以<span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL2dldHRpbmctc3RhcnRlZC9kZXBsb3ltZW50Lmh0bWw=">配置部署<i class="fa fa-external-link-alt"></i></span>。</p>
-]]></content>
-      <categories>
-        <category>教學</category>
-        <category>NexT</category>
-      </categories>
-      <tags>
-        <tag>教學</tag>
-        <tag>NexT</tag>
       </tags>
   </entry>
   <entry>
@@ -405,72 +268,6 @@
         <tag>教學</tag>
         <tag>NexT</tag>
         <tag>帖子</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>[教學]-NexT使用-第三方服務</title>
-    <url>/posts/1612943303/</url>
-    <content><![CDATA[<p>靜態網站的某些功能受到限制，因此我們需要第三方服務來擴展我們的網站。<br>在任何時候，您都可以使用NexT支持的第三方服務來擴展所需的功能。</p>
-<h1 id="數學方程式"><a href="#數學方程式" class="headerlink" title="數學方程式"></a>數學方程式</h1><ul>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL21hdGgtZXF1YXRpb25zLmh0bWw=">數學方程式<i class="fa fa-external-link-alt"></i></span></li>
-</ul>
-<h1 id="評論系統"><a href="#評論系統" class="headerlink" title="評論系統"></a>評論系統</h1><ul>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjRGlzcXVz">Disqus<i class="fa fa-external-link-alt"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjRGlzcXVzSlM=">DisqusJS<i class="fa fa-external-link-alt"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjTGl2ZVJl">LiveRe<i class="fa fa-external-link-alt"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjR2l0YWxr">Gitalk<i class="fa fa-external-link-alt"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjVmFsaW5l">Valine (China)<i class="fa fa-external-link-alt"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjQ2hhbmd5YW4=">Changyan (China)<i class="fa fa-external-link-alt"></i></span></li>
-</ul>
-<a id="more"></a>
-
-<h1 id="如何在頁面上禁用評論"><a href="#如何在頁面上禁用評論" class="headerlink" title="如何在頁面上禁用評論"></a>如何在頁面上禁用評論</h1><p>當您啟用類似Disqus的評論服務時，所有新頁面將自動具有評論服務。<br>如果要在一頁中禁用它，只需將<code>comments</code>鍵添加到Front-matter並將其值設置為<code>false</code>。 如下所示：</p>
-<blockquote>
-<p>your-post.md<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">All</span> <span class="string">tags</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">"tags"</span></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h1 id="統計與分析"><a href="#統計與分析" class="headerlink" title="統計與分析"></a>統計與分析</h1><h2 id="分析工具"><a href="#分析工具" class="headerlink" title="分析工具"></a>分析工具</h2><ul>
-<li>Google Analytics</li>
-<li>Baidu Analytics (China)</li>
-<li>Growingio Analytics</li>
-<li>CNZZ Analytics (China)</li>
-</ul>
-<h2 id="統計"><a href="#統計" class="headerlink" title="統計"></a>統計</h2><ul>
-<li>LeanCloud (China)</li>
-<li>Firebase</li>
-<li>Busuanzi Counting</li>
-</ul>
-<h2 id="貼文小工具"><a href="#貼文小工具" class="headerlink" title="貼文小工具"></a>貼文小工具</h2><ul>
-<li>Widgetpack Rating</li>
-<li>AddThis</li>
-</ul>
-<h2 id="搜索服務"><a href="#搜索服務" class="headerlink" title="搜索服務"></a>搜索服務</h2><ul>
-<li>Algolia Search</li>
-<li>Local Search</li>
-<li>Swiftype</li>
-</ul>
-<h2 id="聊天服務"><a href="#聊天服務" class="headerlink" title="聊天服務"></a>聊天服務</h2><ul>
-<li>Chatra</li>
-<li>Tidio</li>
-</ul>
-<h2 id="外部庫"><a href="#外部庫" class="headerlink" title="外部庫"></a>外部庫</h2><ul>
-<li><a href="/2020/06/18/教學-Hexo使用-NexT整合設定/#pjax-安裝">PJAX</a><br>頁面跳轉的時候人眼需要對整個頁面作重新識別， 刷新部分頁面的時候， 只需要重新識別其中一塊區域</li>
-<li>Fancybox<br>jQuery線上相簿展示器</li>
-<li>MediumZoom</li>
-<li>Lazyload<br>當網站圖片較多時，會造成網站開啟速度變慢，這時候前端工程師就會使用一種優化技術－延遲加載</li>
-<li>Pangu Autospace<br>中文、英文、數字、符號之間插入空格以提升文章質量</li>
-<li>Quicklink</li>
-<li>Motion</li>
-<li>Progress bar</li>
-<li>Backgroud JS</li>
-</ul>
-]]></content>
-      <categories>
-        <category>教學</category>
-        <category>NexT</category>
-      </categories>
-      <tags>
-        <tag>教學</tag>
-        <tag>NexT</tag>
       </tags>
   </entry>
   <entry>
@@ -623,29 +420,224 @@
       </tags>
   </entry>
   <entry>
-    <title>股票研究所總綱</title>
-    <url>/posts/3701503514/</url>
-    <content><![CDATA[<ol>
-<li><a href="posts/3259796151/">股票怎麼買</a></li>
-</ol>
+    <title>[教學]-NexT使用-入門</title>
+    <url>/posts/1015261791/</url>
+    <content><![CDATA[<p><span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>是一個快速而強大的靜態博客生成框架，它基於<span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3JnLw==">Node.js<i class="fa fa-external-link-alt"></i></span>。 通過使用Hexo，您可以使用Markdown輕鬆編寫文章，除了Markdown的語法外，您還可以使用Hexo提供的<span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdGFnLXBsdWdpbnM=">標籤插件<i class="fa fa-external-link-alt"></i></span>來簡單插入特殊格式的內容。 在此頁面中，我們假設您已經安裝了Hexo並使用它創建了一個站點。</p>
+<blockquote>
+<p>您可以訪問<span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">Hexo Docs<i class="fa fa-external-link-alt"></i></span>以了解如何安裝Hexo。 確保環境中的Node.js和Hexo版本高於NexT主題的<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0I3JlYWRtZQ==">最低要求<i class="fa fa-external-link-alt"></i></span>，然後繼續以下步驟。</p>
+</blockquote>
+<h1 id="檔案變數"><a href="#檔案變數" class="headerlink" title="檔案變數"></a>檔案變數</h1><h2 id="config-yml"><a href="#config-yml" class="headerlink" title="_config.yml"></a><code>_config.yml</code></h2><p>Hexo使用了兩個主要的配置文件，它們都稱為<code>_config.yml</code>：</p>
+<ul>
+<li><code>站點配置文件</code>位於<code>站點根目錄</code>下，其中包含Hexo的配置。</li>
+<li><code>主題配置文件</code>位於<code>主題根目錄</code>下，該目錄由NexT提供，並包含主題的配置。</li>
+</ul>
+<h2 id="可用的設置"><a href="#可用的設置" class="headerlink" title="可用的設置"></a>可用的設置</h2><p>所有可用的設置都將在代碼塊內部（帶有單個反引號或<code>&lt;code&gt;</code>標記）。</p>
+<h2 id="默認設置"><a href="#默認設置" class="headerlink" title="默認設置"></a>默認設置</h2><p>並且所有默認設置在代碼塊內都將以粗體顯示（帶有單個反引號或<code>&lt;code&gt;</code>和<code>**</code>或<code>&lt;strong&gt;</code>標記）。</p>
+<h1 id="NexT安裝"><a href="#NexT安裝" class="headerlink" title="NexT安裝"></a>NexT安裝</h1><p>安裝Hexo主題很容易：您可以下載NexT主題，將主題文件夾複製到站點根目錄下的themes目錄中，然後在站點配置文件中指定主題根目錄。 具體步驟如下：</p>
+<h1 id="下載NexT"><a href="#下載NexT" class="headerlink" title="下載NexT"></a>下載NexT</h1><p>如果您了解Git，則可以克隆整個存儲庫並隨時使用git pull命令對其進行更新，而無需手動下載存檔。<br>打開終端，切換到Hexo網站根目錄，並克隆NexT主題的最新主分支：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> hexo</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/next-theme/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
 
-<center>免責聲明：投資有風險，學習無止境</center>]]></content>
+<h1 id="啟用NexT"><a href="#啟用NexT" class="headerlink" title="啟用NexT"></a>啟用NexT</h1><p>像所有Hexo主題一樣，下載後，打開站點配置文件，找到主題部分，並將其值更改為next（或另一個主題目錄名稱）。</p>
+<blockquote>
+<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure><br>現在您已經安裝了NexT主題，接下來我們將驗證它是否已正確啟用。 在更改主題和驗證主題之間，我們最好使用<code>hexo clean</code>清理Hexo的緩存。</p>
+</blockquote>
+<h1 id="檢查NexT"><a href="#檢查NexT" class="headerlink" title="檢查NexT"></a>檢查NexT</h1><p>首先啟動Hexo本地服務器，並啟用調試參數（通過添加<code>--debug</code>），整個命令為<code>hexo s --debug</code>。 您可以在運行時看到輸出，如果發現問題，則可以使用輸出來幫助其他人更好地定位錯誤。 打印時：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure>
+<p>現在，您可以在瀏覽器中打開<code>http：// localhost：4000</code>，並檢查該站點是否正常運行。</p>
+<blockquote>
+<p>如果發現您的站點看起來像這張圖片，則說明您已正確安裝它。 這是默認的NexT方案– Muse。</p>
+<img src="/posts/1015261791/NexT.png" class title="Next">
+</blockquote>
+<p>現在，您已經安裝並啟用了NexT。 在接下來的步驟中，我們將更改一些設置，包括個性化和第三方服務集成。</p>
+<h1 id="添加插件"><a href="#添加插件" class="headerlink" title="添加插件"></a>添加插件</h1><p>有2種變體可以連接NexT插件：</p>
+<ul>
+<li>本地安裝（將從您的站點加載插件腳本）。</li>
+<li>CDN鏈接（將從遠程CDN主機加載插件腳本）。<blockquote>
+<p>如果您的站點已部署到任何免費的託管服務（Github，Gitlab等），則建議使用CDN鏈接。 CDN通常具有更快的速度，並且沒有流量限制。</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="本地安裝"><a href="#本地安裝" class="headerlink" title="本地安裝"></a>本地安裝</h2><p>現在，在NexT config中，您可以找到每個模塊的依賴關係，這些依賴關係已移至外部存儲庫，可以通過<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWU=">主要組織鏈接<i class="fa fa-external-link-alt"></i></span>找到該模塊。 例如，您要在站點中使用pjax。 轉到<code>主題配置文件</code>，然後查看：</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Easily enable fast Ajax navigation on your website.</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/next-theme/pjax</span></span><br><span class="line"><span class="attr">pjax:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<p>然後把<code>pjax</code>設為<code>true</code>並轉到帶有該模塊安裝說明的“ Dependencies”鏈接</p>
+<h2 id="CDN鏈接"><a href="#CDN鏈接" class="headerlink" title="CDN鏈接"></a>CDN鏈接</h2><p>如果將CDN用於任何插件，則需要替換CDN鏈接。<br>例如，您要使用mediumzoom並配置了CDN鏈接。<br>轉到<code>主題配置文件</code>，然後查看：</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">vendors:</span></span><br><span class="line">  <span class="comment"># ...</span></span><br><span class="line">  <span class="comment"># Some contents...</span></span><br><span class="line">  <span class="comment"># ...</span></span><br><span class="line">  <span class="attr">mediumzoom:</span> <span class="comment"># Set or update mediumzoom CDN URL.</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<p>推薦使用jsDelivr CDN來交付我們的第三方插件，因為它隨處可見並且具有中國政府頒發的有效ICP許可證。<br>它不僅從npm包中爬行js文件，而且從GitHub版本中爬行！<br>就像其他CDN一樣，我們可以使用以下鏈接引用js文件。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;user&#x2F;repo@version&#x2F;file</span><br></pre></td></tr></table></figure>
+<p>即使沒有縮小版本，它也可以自動縮小JS和CSS文件。<br>只需使用<code>filename.min.js</code>或<code>filename.min.css</code>替換上面的文件即可。</p>
+<p>我們還提供其他可選的CDN，包括著名的<span class="exturl" data-url="aHR0cHM6Ly9jZG5qcy5jb20v">CDNJS<i class="fa fa-external-link-alt"></i></span>。</p>
+<h1 id="NexT配置"><a href="#NexT配置" class="headerlink" title="NexT配置"></a>NexT配置</h1><h2 id="選擇方案-Scheme"><a href="#選擇方案-Scheme" class="headerlink" title="選擇方案(Scheme)"></a>選擇方案(Scheme)</h2><p>Scheme是NexT支持的功能，通過使用Scheme，NexT可以得到不同的視圖。<br>這些方案幾乎可以使用所有配置。 到目前為止，NexT支持4種方案，它們是：</p>
+<ul>
+<li>Muse繆斯→默認方案，這是NexT的初始版本。 使用黑白色調，主要看起來乾淨。</li>
+<li>Mist霧→帶有整齊的單列視圖的Muse的更緊密版本。</li>
+<li>Pisces雙魚座→雙柱計劃，像鄰居的女兒一樣新鮮。</li>
+<li>Gemini雙子座→看起來像雙魚座，但具有明顯的帶陰影的圓柱塊，看起來對視圖更敏感。</li>
+</ul>
+<p>您可以通過編輯<code>主題配置文件</code>，搜索方案關鍵字來更改方案。<br>您將看到4行方案設置，並且可以通過刪除它的<code>＃</code>號並將其添加到上一行來啟用其中之一。</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment">#scheme: Muse</span></span><br><span class="line"><span class="comment">#scheme: Mist</span></span><br><span class="line"><span class="comment">#scheme: Pisces</span></span><br><span class="line"><span class="attr">scheme:</span> <span class="string">Gemini</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h1 id="黑暗模式"><a href="#黑暗模式" class="headerlink" title="黑暗模式"></a>黑暗模式</h1><p>您可以通過在<code>主題配置文件</code>中將<code>darkmode</code>設置為<code>true</code>來啟用Dark Mode。<br>首選顏色方案CSS媒體功能用於將暗模式帶入上述所有4種方案，請確保您的瀏覽器支持暗模式。</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">darkmode:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<p><code>prefers-color-scheme</code>CSS媒體功能用於將暗模式帶入上述所有4種方案，請確保您的瀏覽器支持暗模式。</p>
+<img src="/posts/1015261791/darkmode.png" class title="darkmode">
+
+<p>如果操作系統偏好的主題是深色，主題NexT會自動顯示黑暗模式。 macOS Mojave，iOS 13和Android 10或更高版本均支持此功能。 相關文檔：<br><span class="exturl" data-url="aHR0cHM6Ly9zdXBwb3J0LmFwcGxlLmNvbS9lbi11cy9IVDIwODk3Ng==">如何在Mac上使用暗模式<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly9zdXBwb3J0LmFwcGxlLmNvbS9lbi11cy9IVDIxMDMzMg==">在iPhone，iPad或iPod touch上使用暗模式<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly9kZXZlbG9wZXIuYW5kcm9pZC5jb20vZ3VpZGUvdG9waWNzL3VpL2xvb2stYW5kLWZlZWwvZGFya3RoZW1l">黑暗主題| Android開發人員<i class="fa fa-external-link-alt"></i></span></p>
+<h1 id="配置菜單項Menu"><a href="#配置菜單項Menu" class="headerlink" title="配置菜單項Menu"></a>配置菜單項<code>Menu</code></h1><p>菜單設置項的格式為<code>&lt;鍵&gt;：/&lt;link&gt;/ || &lt;圖標&gt;</code>，其中包含3個值：</p>
+<ol>
+<li><code>&lt;鍵值&gt;</code>→是菜單項的名稱（<code>home</code>，<code>archives</code>等）。<br>如果將以語言找到此菜單的翻譯，則將加載此翻譯； 否則，將使用<code>&lt;鍵值&gt;</code>名稱。<blockquote>
+<p><code>&lt;鍵值&gt;</code>區分大小寫（例如<code>home</code>與<code>Home</code>不相同）。</p>
+</blockquote>
+</li>
+<li><code>&lt;link&gt;</code><br>||之前的值 delimeter（<code>/&lt;link&gt;/</code>）→是指向您網站內相對網址的目標鏈接。</li>
+<li><code>&lt;圖標&gt;</code><br><code>||</code>之後的值<code>&lt;圖標&gt;</code>→是“FontAwesome”圖標的名稱。<br>可以在<span class="exturl" data-url="aHR0cHM6Ly9mb250YXdlc29tZS5jb20v">Font Awesome網站<i class="fa fa-external-link-alt"></i></span>上找到該圖標的名稱。</li>
+</ol>
+<p>默認情況下，所有菜單項都被註釋掉，以確保您可以在next.yml配置文件中覆蓋它們。<br>要自定義菜單項，請在<code>主題配置文件</code>中編輯以下內容：</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="attr">home:</span> <span class="string">/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-home</span></span><br><span class="line">  <span class="comment">#about: /about/ || fa fa-user</span></span><br><span class="line">  <span class="comment">#tags: /tags/ || fa fa-tags</span></span><br><span class="line">  <span class="comment">#categories: /categories/ || fa fa-th</span></span><br><span class="line">  <span class="attr">archives:</span> <span class="string">/archives/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-archive</span></span><br><span class="line">  <span class="comment">#schedule: /schedule/ || fa fa-calendar</span></span><br><span class="line">  <span class="comment">#sitemap: /sitemap.xml || fa fa-sitemap</span></span><br><span class="line">  <span class="comment">#commonweal: /404/ || fa fa-heartbeat</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<blockquote>
+<p>除<code>home</code>和<code>archives</code>外，<code>menu</code>下的所有自定義頁面都需要手動創建。 請參閱<span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoZW1lLXNldHRpbmdzLyNDdXN0b20tUGFnZS1TdXBwb3J0">«自定義頁面支持»<i class="fa fa-external-link-alt"></i></span></p>
+</blockquote>
+<p>還支持層次結構內的動態子菜單。 在<code>主題配置文件</code>的<code>menu</code>部分中添加子菜單項，如下所示：</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="attr">home:</span> <span class="string">/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-home</span></span><br><span class="line">  <span class="attr">archives:</span> <span class="string">/archives/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-archive</span></span><br><span class="line">  <span class="attr">Docs:</span></span><br><span class="line">    <span class="attr">default:</span> <span class="string">/docs/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-book</span></span><br><span class="line">    <span class="attr">Third Party Services:</span></span><br><span class="line">      <span class="attr">default:</span> <span class="string">/third-party-services/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-plug</span></span><br><span class="line">      <span class="attr">Algolia Search:</span> <span class="string">/algolia-search/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-search-plus</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<blockquote>
+<p>如果您的網站在子目錄中運行，請從鏈接中刪除前綴<code>/</code>。</p>
+</blockquote>
+<p>默認情況下，NexT顯示不帶徽章(badges)的菜單項圖標(icons)。</p>
+<p>圖標(icons)<br>  您可以通過設置<code>主題配置文件</code>中的<code>menu_settings.icons</code>值來配置它。</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">menu_settings:</span></span><br><span class="line">  <span class="attr">icons:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<p>徽章(badges)<br>  將值<code>badge</code>設置為<code>true</code>可以在<code>主題配置文件</code>的menu_settings部分的菜單項中顯示<code>帖子</code>/<code>類別</code>/<code>標籤</code>的計數，如下所示：</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">menu_settings:</span></span><br><span class="line">  <span class="attr">badges:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h1 id="配置圖標-Favicon"><a href="#配置圖標-Favicon" class="headerlink" title="配置圖標(Favicon)"></a>配置圖標(Favicon)</h1><p>默認情況下，Hexo站點在<code>hexo-site/themes/next/source/images/</code>目錄中使用NexT圖標，以用於不同設備。 您可以用自己的收藏夾替換它們。</p>
+<p>例如，您可以將收藏夾圖標放在<code>hexo-site/source/images/</code>目錄中。<br>然後，您需要重命名它們並更改<code>主題配置文件</code>中<code>favicon</code>部分中的設置，否則來自Next的圖標將在Hexo中重寫您的自定義圖標。</p>
+<p>您也可以將自定義圖標放入<code>hexo-site/source/</code>目錄。 這樣，您必須從路徑中刪除<code>/images</code>前綴。</p>
+<p>要生成<code>自定義圖標</code>，您可以訪問<span class="exturl" data-url="aHR0cHM6Ly9yZWFsZmF2aWNvbmdlbmVyYXRvci5uZXQv">Favicon Generator<i class="fa fa-external-link-alt"></i></span>。</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">favicon:</span></span><br><span class="line">  <span class="attr">small:</span> <span class="string">/images/favicon-16x16-next.png</span></span><br><span class="line">  <span class="attr">medium:</span> <span class="string">/images/favicon-32x32-next.png</span></span><br><span class="line">  <span class="attr">apple_touch_icon:</span> <span class="string">/images/apple-touch-icon-next.png</span></span><br><span class="line">  <span class="attr">safari_pinned_tab:</span> <span class="string">/images/logo.svg</span></span><br><span class="line">  <span class="attr">android_manifest:</span> <span class="string">/images/manifest.json</span></span><br><span class="line">  <span class="attr">ms_browserconfig:</span> <span class="string">/images/browserconfig.xml</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h2 id="Favicon設置但不起作用（需要重新記錄文檔）"><a href="#Favicon設置但不起作用（需要重新記錄文檔）" class="headerlink" title="Favicon設置但不起作用（需要重新記錄文檔）"></a>Favicon設置但不起作用（需要重新記錄文檔）</h2><p>將您的網站圖標<code>favicon</code>放在網站的源目錄下。<br>如果您發現<code>favicon</code>不起作用，請先清理瀏覽器的緩存，<br>然後直接訪問Favicon的URL，該URL應該為<code>http(s)://your-domain.com/favicon.ico</code>.</p>
+<blockquote>
+<p>如果您的站點位於子目錄中，請將其設置為<code>favicon: favicon.ico</code></p>
+</blockquote>
+<h1 id="配置頭像"><a href="#配置頭像" class="headerlink" title="配置頭像"></a>配置頭像</h1><p>默認情況下，NexT在側邊欄中不顯示頭像。<br>您可以通過在<code>主題配置文件</code>中的<code>avatar</code>設置下編輯值來配置它。</p>
+<h2 id="url"><a href="#url" class="headerlink" title="url:"></a>url:</h2><p>  對於首次測試，您可以取消註釋<code>avatar.url</code>設置附近的<code>/images/avatar.gif</code>值，以查看默認頭像：</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">avatar:</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">/images/avatar.gif</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<p>  然後，您需要指定自己的頭像。 可以通過以下方式之一完成：</p>
+<h3 id="Hexo目錄"><a href="#Hexo目錄" class="headerlink" title="Hexo目錄"></a>Hexo目錄</h3><p>  將您的頭像放置在站點目錄<code>source/uploads/</code>下（如果不存在，則創建目錄）。<br>  然後將選項更改為頭像：<code>/uploads/avatar.png</code>。</p>
+<h3 id="NexT目錄"><a href="#NexT目錄" class="headerlink" title="NexT目錄"></a>NexT目錄</h3><p>  將您的頭像放置在主題目錄<code>source/images/</code>下。<br>  然後將選項更改為頭像：<code>/images/avatar.png</code>。</p>
+<blockquote>
+<p>當前站點使用以下配置從位於<code>next/source/images/apple-touch-icon-next.png</code>中的文件使用<code>主題目錄</code>下的頭像：<br>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme_config:</span></span><br><span class="line">  <span class="attr">avatar:</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">/images/apple-touch-icon-next.png</span></span><br><span class="line">    <span class="attr">rounded:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">rotated:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h3 id="來自Internet的絕對URL"><a href="#來自Internet的絕對URL" class="headerlink" title="來自Internet的絕對URL"></a>來自Internet的絕對URL</h3><p>  您還可以指定帶有圖像絕對路徑的任何外部URL：<code>http(s)://example.com/avatar.png</code></p>
+<h1 id="配置作者"><a href="#配置作者" class="headerlink" title="配置作者"></a>配置作者</h1><p>編輯站點配置文件，並將author的值設置為您的暱稱。</p>
+<blockquote>
+<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Site</span></span><br><span class="line"><span class="attr">author:</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h1 id="配置說明"><a href="#配置說明" class="headerlink" title="配置說明"></a>配置說明</h1><p>編輯<code>站點配置文件</code>，並將<code>description</code>的值設置為您的描述，它可以是您喜歡的句子。</p>
+<blockquote>
+<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Site</span></span><br><span class="line"><span class="attr">description:</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<p>之後，我們可以<span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL2dldHRpbmctc3RhcnRlZC9kZXBsb3ltZW50Lmh0bWw=">配置部署<i class="fa fa-external-link-alt"></i></span>。</p>
+]]></content>
       <categories>
-        <category>筆記</category>
-        <category>股票</category>
+        <category>教學</category>
+        <category>NexT</category>
       </categories>
       <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
+        <tag>教學</tag>
+        <tag>NexT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>[教學]-NexT使用-第三方服務</title>
+    <url>/posts/1612943303/</url>
+    <content><![CDATA[<p>靜態網站的某些功能受到限制，因此我們需要第三方服務來擴展我們的網站。<br>在任何時候，您都可以使用NexT支持的第三方服務來擴展所需的功能。</p>
+<h1 id="數學方程式"><a href="#數學方程式" class="headerlink" title="數學方程式"></a>數學方程式</h1><ul>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL21hdGgtZXF1YXRpb25zLmh0bWw=">數學方程式<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+<h1 id="評論系統"><a href="#評論系統" class="headerlink" title="評論系統"></a>評論系統</h1><ul>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjRGlzcXVz">Disqus<i class="fa fa-external-link-alt"></i></span></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjRGlzcXVzSlM=">DisqusJS<i class="fa fa-external-link-alt"></i></span></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjTGl2ZVJl">LiveRe<i class="fa fa-external-link-alt"></i></span></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjR2l0YWxr">Gitalk<i class="fa fa-external-link-alt"></i></span></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjVmFsaW5l">Valine (China)<i class="fa fa-external-link-alt"></i></span></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjQ2hhbmd5YW4=">Changyan (China)<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+<a id="more"></a>
+
+<h1 id="如何在頁面上禁用評論"><a href="#如何在頁面上禁用評論" class="headerlink" title="如何在頁面上禁用評論"></a>如何在頁面上禁用評論</h1><p>當您啟用類似Disqus的評論服務時，所有新頁面將自動具有評論服務。<br>如果要在一頁中禁用它，只需將<code>comments</code>鍵添加到Front-matter並將其值設置為<code>false</code>。 如下所示：</p>
+<blockquote>
+<p>your-post.md<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">All</span> <span class="string">tags</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">"tags"</span></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h1 id="統計與分析"><a href="#統計與分析" class="headerlink" title="統計與分析"></a>統計與分析</h1><h2 id="分析工具"><a href="#分析工具" class="headerlink" title="分析工具"></a>分析工具</h2><ul>
+<li>Google Analytics</li>
+<li>Baidu Analytics (China)</li>
+<li>Growingio Analytics</li>
+<li>CNZZ Analytics (China)</li>
+</ul>
+<h2 id="統計"><a href="#統計" class="headerlink" title="統計"></a>統計</h2><ul>
+<li>LeanCloud (China)</li>
+<li>Firebase</li>
+<li>Busuanzi Counting</li>
+</ul>
+<h2 id="貼文小工具"><a href="#貼文小工具" class="headerlink" title="貼文小工具"></a>貼文小工具</h2><ul>
+<li>Widgetpack Rating</li>
+<li>AddThis</li>
+</ul>
+<h2 id="搜索服務"><a href="#搜索服務" class="headerlink" title="搜索服務"></a>搜索服務</h2><ul>
+<li>Algolia Search</li>
+<li>Local Search</li>
+<li>Swiftype</li>
+</ul>
+<h2 id="聊天服務"><a href="#聊天服務" class="headerlink" title="聊天服務"></a>聊天服務</h2><ul>
+<li>Chatra</li>
+<li>Tidio</li>
+</ul>
+<h2 id="外部庫"><a href="#外部庫" class="headerlink" title="外部庫"></a>外部庫</h2><ul>
+<li><a href="/2020/06/18/教學-Hexo使用-NexT整合設定/#pjax-安裝">PJAX</a><br>頁面跳轉的時候人眼需要對整個頁面作重新識別， 刷新部分頁面的時候， 只需要重新識別其中一塊區域</li>
+<li>Fancybox<br>jQuery線上相簿展示器</li>
+<li>MediumZoom</li>
+<li>Lazyload<br>當網站圖片較多時，會造成網站開啟速度變慢，這時候前端工程師就會使用一種優化技術－延遲加載</li>
+<li>Pangu Autospace<br>中文、英文、數字、符號之間插入空格以提升文章質量</li>
+<li>Quicklink</li>
+<li>Motion</li>
+<li>Progress bar</li>
+<li>Backgroud JS</li>
+</ul>
+]]></content>
+      <categories>
+        <category>教學</category>
+        <category>NexT</category>
+      </categories>
+      <tags>
+        <tag>教學</tag>
+        <tag>NexT</tag>
       </tags>
   </entry>
   <entry>
     <title>[教學]-NexT使用-繁簡自動切換</title>
     <url>/posts/2480083141/</url>
     <content><![CDATA[<h1 id="下載對應表"><a href="#下載對應表" class="headerlink" title="下載對應表"></a>下載對應表</h1><p>首先，我們可以在<span class="exturl" data-url="aHR0cHM6Ly90ZGluZy50b3AvanMvdHdfY24uanM=">這裏<i class="fa fa-external-link-alt"></i></span>右鍵另存下載簡繁字體切換所需的 <code>tw_cn.js</code> 文件，我們把這個文件放到 <code>~/themes/next/source/js</code> 文件夾下。</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 修改以下內容</span></span><br><span class="line"><span class="keyword">var</span> defaultEncoding = <span class="number">1</span>; <span class="comment">//網站編寫字體是否繁體，1-繁體，2-簡體</span></span><br></pre></td></tr></table></figure>
+
 <h1 id="修改模板"><a href="#修改模板" class="headerlink" title="修改模板"></a>修改模板</h1><p>在我們想要顯示簡繁轉換按鈕的地方添加如下代碼。<br>例如，我在 NexT 主題的布局文件 <code>~/themes/next/layout/_partials/footer.swig</code> 裏添加了如下代碼：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"translate-style"</span>&gt;</span><br><span class="line">繁/簡：&lt;a id=<span class="string">"translateLink"</span> href=<span class="string">"javascript:translatePage();"</span>&gt;繁體</span><br><span class="line">&lt;<span class="regexp">/a&gt;</span></span><br><span class="line"><span class="regexp">&lt;/</span>div&gt;</span><br><span class="line">&lt;script type=<span class="string">"text/javascript"</span> src=<span class="string">"/js/tw_cn.js"</span>&gt;&lt;<span class="regexp">/script&gt;</span></span><br><span class="line"><span class="regexp">&lt;script type="text/</span>javascript<span class="string">"&gt;</span></span><br><span class="line"><span class="string">var defaultEncoding = 2; //網站編寫字體是否繁體，1-繁體，2-簡體</span></span><br><span class="line"><span class="string">var translateDelay = 0; //延遲時間,若不在前, 要設定延遲翻譯時間, 如100表示100ms,默認為0</span></span><br><span class="line"><span class="string">var cookieDomain = "</span>https:<span class="comment">//tding.top/"; //Cookie地址, 一定要設定, 通常為你的網址</span></span><br><span class="line"><span class="keyword">var</span> msgToTraditionalChinese = <span class="string">"繁體"</span>; <span class="comment">//此處可以更改為你想要顯示的文字</span></span><br><span class="line"><span class="keyword">var</span> msgToSimplifiedChinese = <span class="string">"簡體"</span>; <span class="comment">//同上，但兩處均不建議更改</span></span><br><span class="line"><span class="keyword">var</span> translateButtonId = <span class="string">"translateLink"</span>; <span class="comment">//默認互換id</span></span><br><span class="line">translateInitilization();</span><br><span class="line">&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"translate-style"</span>&gt;</span><br><span class="line">繁/簡：&lt;a id=<span class="string">"translateLink"</span> href=<span class="string">"javascript:translatePage();"</span>&gt;繁體</span><br><span class="line">&lt;<span class="regexp">/a&gt;</span></span><br><span class="line"><span class="regexp">&lt;/</span>div&gt;</span><br><span class="line">&lt;script type=<span class="string">"text/javascript"</span> src=<span class="string">"/js/tw_cn.js"</span>&gt;&lt;<span class="regexp">/script&gt;</span></span><br><span class="line"><span class="regexp">&lt;script type="text/</span>javascript<span class="string">"&gt;</span></span><br><span class="line"><span class="string">var defaultEncoding = 1; //網站編寫字體是否繁體，1-繁體，2-簡體</span></span><br><span class="line"><span class="string">var translateDelay = 0; //延遲時間,若不在前, 要設定延遲翻譯時間, 如100表示100ms,默認為0</span></span><br><span class="line"><span class="string">var cookieDomain = "</span>https:<span class="comment">//tding.top/"; //Cookie地址, 一定要設定, 通常為你的網址</span></span><br><span class="line"><span class="keyword">var</span> msgToTraditionalChinese = <span class="string">"繁體"</span>; <span class="comment">//此處可以更改為你想要顯示的文字</span></span><br><span class="line"><span class="keyword">var</span> msgToSimplifiedChinese = <span class="string">"簡體"</span>; <span class="comment">//同上，但兩處均不建議更改</span></span><br><span class="line"><span class="keyword">var</span> translateButtonId = <span class="string">"translateLink"</span>; <span class="comment">//默認互換id</span></span><br><span class="line">translateInitilization();</span><br><span class="line">&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure>
 <a id="more"></a>
 ]]></content>
       <categories>
@@ -658,9 +650,120 @@
       </tags>
   </entry>
   <entry>
+    <title>股票-股票的故事一</title>
+    <url>/posts/2278927718/</url>
+    <content><![CDATA[<blockquote>
+<p>聽完以下的故事之後可以了解：<br>到底，「股票」是什麼呢？<br>為什麼「股票」會漲漲跌跌呢？</p>
+</blockquote>
+<h1 id="故事開始嚕"><a href="#故事開始嚕" class="headerlink" title="故事開始嚕"></a>故事開始嚕</h1><p>從前從前，有一座森林</p>
+<p>森林裡有一家很棒的餐廳</p>
+<p>這隻松鼠是老闆，他擁有這間餐廳</p>
+<p>每個月餐廳不管是賺錢還是賠錢</p>
+<p>老闆都需要發薪水給員工</p>
+<p>有一天老闆突然覺得這樣<code>風險太高</code>了</p>
+<p>想把餐應賣掉一部分，換一些現金回來</p>
+<p>於是，他把餐廳的<code>「所有權」</code>分成六等份</p>
+<p>擁有了一份，就等於擁有了六分之一家的餐廳</p>
+<blockquote>
+<p>這個<code>「所有權的憑證」</code>，就是<code>「股票」</code>。</p>
+</blockquote>
+<p>然後，他把其中五份，拿到大街上，公開拍賣</p>
+<p>於是，街上的大家開始衡量</p>
+<p>這家餐廳，值多少錢呢</p>
+<p>每個人認定的價格，都不太一樣</p>
+<p>最後，由出價最高的人，買到這五張股票</p>
+<p>因此，這五個人，就都成了公司的老闆，或者說，<code>「股東」</code></p>
+<p>他們，將會一起分享到餐廳經營後的利潤</p>
+<h2 id="上漲"><a href="#上漲" class="headerlink" title="上漲"></a>上漲</h2><pre><code>這間餐廳，如果錢越賺越多
+
+大家就會覺得這家餐廳很棒，因此值更多錢
+
+這間餐廳的股票，價格就會「上漲」</code></pre><h2 id="下跌"><a href="#下跌" class="headerlink" title="下跌"></a>下跌</h2><pre><code>反之，這間餐廳，如果越做越差，開始賠錢
+
+大家就會覺得這間餐廳很遜，是賠錢貨
+
+因此，他的股票價格就會「下跌」</code></pre><p>這就是股票最基礎的概念</p>
+<p>我們把餐廳，換成A公司</p>
+<p>持有A公司的股票，代表你擁有一小部分的A公司</p>
+<p>A公司如果做得好，他的股票就會漲</p>
+<p>相反的他如果做得差，他的股票就會跌</p>
+<p>這，就是股票的<code>「基本面」</code></p>
+<blockquote>
+<p>不過，你有沒有想過<br>為什麼有些公司明明做得很差，股票還是會上漲呢<br>這是因為，股票的價格，還牽涉到大家的「預期心理」<br><a href="/posts/3159720911/">這部分，就讓我們下次再來說清楚吧</a></p>
+</blockquote>
+<a id="more"></a>
+<p>以上內容轉錄於以下<span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1YZWVHYTVCLUhuRQ==">影片<i class="fa fa-external-link-alt"></i></span>，圖文並茂更清楚唷，歡迎有興趣朋友移駕觀看</p>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/XeeGa5B-HnE" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
+
+<center>免責聲明：投資有風險，學習無止境</center>]]></content>
+      <categories>
+        <category>筆記</category>
+        <category>股票</category>
+        <category>基礎</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>名詞解釋</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>股票-股票的故事二</title>
+    <url>/posts/3159720911/</url>
+    <content><![CDATA[<blockquote>
+<p>聽完以下的故事之後可以了解：<br>到底，「股票」是什麼呢？<br>為什麼「股票」會漲漲跌跌呢？</p>
+</blockquote>
+<h1 id="故事開始嚕"><a href="#故事開始嚕" class="headerlink" title="故事開始嚕"></a>故事開始嚕</h1><p><code>「股票」</code>就是公司所有權的憑證</p>
+<p>但是，為何有時公司做得很差，股票就還會「漲」呢？</p>
+<p>就是因為，股票的價格，還牽涉到大家的<code>「預期心理」</code>，</p>
+<p>現在就讓我們來看看，大家對餐廳股價的預期，是怎麼來的吧</p>
+<h2 id="「基本面分析」"><a href="#「基本面分析」" class="headerlink" title="「基本面分析」"></a>「基本面分析」</h2><p>小雞認為：</p>
+<p>餐廳現在做的差，股票自然沒價值，不如就看看每季的<code>營利</code>跟<code>市場表現</code>如何，</p>
+<p>如果做得越來越好，那股價自然會上升，</p>
+<blockquote>
+<p>小雞，是根據公司的<code>「營運狀況」</code>來調整<code>「預期」</code>，這就是上一集所說的<code>「基本面分析」</code></p>
+</blockquote>
+<h2 id="「消息面分析」"><a href="#「消息面分析」" class="headerlink" title="「消息面分析」"></a>「消息面分析」</h2><p>孔雀則覺得，雖然現在餐廳很難吃，</p>
+<p>他們已經宣布，要換成森林裡最會做菜的<code>黑熊</code>來當主廚，</p>
+<p>因此，生意應該會越來越好，所以股價會上升，</p>
+<blockquote>
+<p>孔雀，是根據公司的<code>「最新消息」</code>來調整<code>「預期」</code>，這叫做<code>「消息面分析」</code></p>
+</blockquote>
+<h2 id="「籌碼面分析」"><a href="#「籌碼面分析」" class="headerlink" title="「籌碼面分析」"></a>「籌碼面分析」</h2><p>狐狸則想著，雖然餐廳現在很差，</p>
+<p>但是那些有錢的人，比如銀行或基金等，</p>
+<p>應該有比我們「更精準」的眼光</p>
+<p>如果他們持有很多張餐廳的股票，或許未來股價就會上升，</p>
+<p>狐狸，是觀察那些<code>「擁有大量資金的人怎麼做」</code>，來調整<code>「預期」</code>，這就是<code>「籌碼面分析」</code></p>
+<h2 id="「技術面分析」"><a href="#「技術面分析」" class="headerlink" title="「技術面分析」"></a>「技術面分析」</h2><p>最後來看看兔子吧，他覺得，股票的價格本來就跟經驗面不完全相關，</p>
+<p>只要購買的人比賣出的人多，價格就會上升，因此我們可以觀察股票市場的價格線圖</p>
+<p>當有一個明顯的<code>「時機」</code>，會讓<code>「買股票的人變多」</code>時，股票就會上漲，</p>
+<p>兔子，是觀<code>「察線圖上的信號」</code>來調整<code>「預期」</code>，這就是<code>「技術面分析」</code></p>
+<p>不同的分析角度，會導致每個人對「股價的預期」不同，</p>
+<p>於是覺得股價會跌的人，就會想要賣出股票，</p>
+<p>如果都沒人願意買，那股東只好慢慢降價，直到有人願意買為止，</p>
+<p>而這個交易的價格，就會是現在的「市場價格」，</p>
+<p>因此，市場價格會隨著「時間」以及「新的成交價格」，不斷的變動，</p>
+<p>這也就是所謂的「上漲」和「下跌」，</p>
+<a id="more"></a>
+<p>以上內容轉錄於以下<span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj04NUo4U05PNTFlSQ==">影片<i class="fa fa-external-link-alt"></i></span>，圖文並茂更清楚唷，歡迎有興趣朋友移駕觀看</p>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/85J8SNO51eI" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
+<center>免責聲明：投資有風險，學習無止境</center>]]></content>
+      <categories>
+        <category>筆記</category>
+        <category>股票</category>
+        <category>基礎</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>名詞解釋</tag>
+        <tag>基本面分析</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>股票-股票怎麼買、下單</title>
     <url>/posts/3259796151/</url>
-    <content><![CDATA[<p>俗話說的好：「欲買股票、必先開戶」</p>
+    <content><![CDATA[<p>俗話說的好：「欲買股票、必先開戶」</p>
 <h1 id="如何開戶："><a href="#如何開戶：" class="headerlink" title="如何開戶："></a>如何開戶：</h1><h2 id="帶什麼？"><a href="#帶什麼？" class="headerlink" title="帶什麼？"></a>帶什麼？</h2><p>開戶要帶的東西，比較重要的是：<br>    1. 雙證件<br>    2. 印章</p>
 <h2 id="去哪裡？"><a href="#去哪裡？" class="headerlink" title="去哪裡？"></a>去哪裡？</h2><p>接著要選擇離家近或是手續費合理的<code>券商</code>，例如元大證券、日盛證券…，</p>
 <blockquote>
@@ -678,7 +781,7 @@
 <p>流程如下：</p>
 <img src="/posts/3259796151/trading_process.png" class title="股票交易流程">
 <a id="more"></a>
-<h2 id="1-委託："><a href="#1-委託：" class="headerlink" title="1. 委託："></a>1. 委託：</h2><p>我們決定好一檔<code>股票</code>和他的<code>價位</code>後，就可以透過手機的APP，委託券商幫我們買進，</p>
+<h2 id="1-委託："><a href="#1-委託：" class="headerlink" title="1. 委託："></a>1. 委託：</h2><p>我們決定好一檔<code>股票</code>和他的<code>價位</code>後，就可以透過手機的APP，委託券商幫我們買進，</p>
 <h2 id="2-撮合："><a href="#2-撮合：" class="headerlink" title="2. 撮合："></a>2. 撮合：</h2><p>但是這樣並不代表我們買到了股票，因為股票成交是<code>一買一賣</code>的結果，這就叫做<code>撮合</code>，買賣雙方配對之後<code>完成交易</code>，接著證券帳戶的庫存就可以看到該股票的交易結果。</p>
 <img src="/posts/3259796151/FORM2.jpg" class title="逐筆交易">
 <center>（圖：翻攝自證交所官網）</center>
@@ -707,6 +810,24 @@
 <h3 id="一買一賣，賺多少"><a href="#一買一賣，賺多少" class="headerlink" title="一買一賣，賺多少"></a>一買一賣，賺多少</h3><p><code>11萬9469元</code> - <code>10萬零142元</code> ＝ 賺了<code>19,327元</code></p>
 <p>參考資料：<br><span class="exturl" data-url="aHR0cHM6Ly9hczIyMzQwMC5waXhuZXQubmV0L2Jsb2cvcG9zdC8yMjgwOTc1NzEtJUU3JUFDJUFDJUU0JUI4JTgwJUU2JUFDJUExJUU4JUIyJUI3JUU4JTgyJUExJUU3JUE1JUE4JUU1JUIwJUIxJUU0JUI4JThBJUU2JTg5JThCLSVFOCU4MiVBMSVFNyVBNSVBOCVFOSU5NiU4QiVFNiU4OCVCNiVFOCVBNiU4MSVFNiVCQSU5NiVFNSU4MiU5OSVFNCVCQiU4MCVFOSVCQSVCQyUzRiVFOCVCMiVCNw==">開戶買股教學<i class="fa fa-external-link-alt"></i></span></p>
 ]]></content>
+      <categories>
+        <category>筆記</category>
+        <category>股票</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>股票研究所總綱</title>
+    <url>/posts/3701503514/</url>
+    <content><![CDATA[<ol>
+<li><a href="posts/3259796151/">股票怎麼買</a></li>
+</ol>
+<a id="more"></a>
+
+<center>免責聲明：投資有風險，學習無止境</center>]]></content>
       <categories>
         <category>筆記</category>
         <category>股票</category>
