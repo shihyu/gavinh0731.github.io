@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f155a6b99efbce4500f8",
-    "url": "/stockmoney/css/app.12aa7d8f.css"
+    "revision": "94c0daf1de36d1c2169f",
+    "url": "/stockmoney/css/app.e9c919bf.css"
   },
   {
-    "revision": "0b8e82822584bef68209",
+    "revision": "eb6dc5765dff83e8eba9",
     "url": "/stockmoney/css/chunk-vendors.eae4093c.css"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/img/logo.ecb3bfc0.png"
   },
   {
-    "revision": "48bb3925c948e2002c612e6640a082b2",
+    "revision": "be9e6c33de455ecd5d3f18ed47ce08c7",
     "url": "/stockmoney/index.html"
   },
   {
@@ -20,12 +20,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/js/about.090d026e.js"
   },
   {
-    "revision": "f155a6b99efbce4500f8",
-    "url": "/stockmoney/js/app.b1cd13f6.js"
+    "revision": "94c0daf1de36d1c2169f",
+    "url": "/stockmoney/js/app.f838c32d.js"
   },
   {
-    "revision": "0b8e82822584bef68209",
-    "url": "/stockmoney/js/chunk-vendors.2481b6d7.js"
+    "revision": "eb6dc5765dff83e8eba9",
+    "url": "/stockmoney/js/chunk-vendors.bf5d26a5.js"
   },
   {
     "revision": "f9146ef33c395fe538c81fa89e999501",
@@ -40,7 +40,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/json/basic_info.json"
   },
   {
-    "revision": "5f551d56a8e3153418ba3fa645c298ef",
+    "revision": "ab80dd672efc3bae5090a529cf6df6a4",
     "url": "/stockmoney/json/basic_info_cols.json"
   },
   {
