@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/posts/1243066710/</url>
+    <content><![CDATA[<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation<i class="fa fa-external-link-alt"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting<i class="fa fa-external-link-alt"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>.</p>
+<p><img src="/uploads/custom-logo.png" alt="logo"></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+  </entry>
+  <entry>
     <title>[教學]Hexo使用-NexT整合設定</title>
     <url>/posts/3614064843/</url>
     <content><![CDATA[<h1 id="Next-客製功能及樣板編輯筆記"><a href="#Next-客製功能及樣板編輯筆記" class="headerlink" title="Next 客製功能及樣板編輯筆記"></a>Next 客製功能及樣板編輯筆記</h1><h2 id="pjax-安裝"><a href="#pjax-安裝" class="headerlink" title="pjax 安裝"></a>pjax 安裝</h2><p>究竟什麼是 pjax 呢？簡單來說，pjax 實現了 URL 改變但不重新整理整個頁面，也就是只有局部的頁面會更新，不會讓整個頁面重新閃動（重新整理）。那這個功能有什麼特色呢？最重要的就是原本左下角的音樂播放器遇到切換頁面，就會停掉然後重新載入；但使用 pjax 後就能解決這個問題。</p>
@@ -406,25 +425,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/posts/1243066710/</url>
-    <content><![CDATA[<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation<i class="fa fa-external-link-alt"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting<i class="fa fa-external-link-alt"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>.</p>
-<p><img src="/uploads/custom-logo.png" alt="logo"></p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-  </entry>
-  <entry>
     <title>[教學]-NexT使用-入門</title>
     <url>/posts/1015261791/</url>
     <content><![CDATA[<p><span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>是一個快速而強大的靜態博客生成框架，它基於<span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3JnLw==">Node.js<i class="fa fa-external-link-alt"></i></span>。 通過使用Hexo，您可以使用Markdown輕鬆編寫文章，除了Markdown的語法外，您還可以使用Hexo提供的<span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdGFnLXBsdWdpbnM=">標籤插件<i class="fa fa-external-link-alt"></i></span>來簡單插入特殊格式的內容。 在此頁面中，我們假設您已經安裝了Hexo並使用它創建了一個站點。</p>
@@ -774,63 +774,6 @@
       </tags>
   </entry>
   <entry>
-    <title>股票-股票的故事二</title>
-    <url>/posts/3159720911/</url>
-    <content><![CDATA[<blockquote>
-<p>聽完以下的故事之後可以了解：<br>股票的價格，牽涉到大家的<code>「預期心理」</code>，<br>不同<code>面向</code>將導致不同的<code>買賣決策</code></p>
-</blockquote>
-<h1 id="故事開始嚕"><a href="#故事開始嚕" class="headerlink" title="故事開始嚕"></a>故事開始嚕</h1><p><code>「股票」</code>就是公司所有權的憑證</p>
-<p>但是，為何有時公司做得很差，股票就還會「漲」呢？</p>
-<p>就是因為，股票的價格，還牽涉到大家的<code>「預期心理」</code>，</p>
-<p>現在就讓我們來看看，大家對餐廳股價的預期，是怎麼來的吧</p>
-<h2 id="基本面分析"><a href="#基本面分析" class="headerlink" title="基本面分析"></a>基本面分析</h2><p>小雞認為：</p>
-<p>餐廳現在做的差，股票自然沒價值，不如就看看每季的<code>營利</code>跟<code>市場表現</code>如何，</p>
-<p>如果做得越來越好，那股價自然會上升，</p>
-<blockquote>
-<p>小雞，是根據公司的<code>「營運狀況」</code>來調整<code>「預期」</code>，這就是上一集所說的<code>「基本面分析」</code></p>
-</blockquote>
-<a id="more"></a>
-
-<h2 id="消息面分析"><a href="#消息面分析" class="headerlink" title="消息面分析"></a>消息面分析</h2><p>孔雀則覺得，雖然現在餐廳很難吃，</p>
-<p>他們已經宣布，要換成森林裡最會做菜的<code>黑熊</code>來當主廚，</p>
-<p>因此，生意應該會越來越好，所以股價會上升，</p>
-<blockquote>
-<p>孔雀，是根據公司的<code>「最新消息」</code>來調整<code>「預期」</code>，這叫做<code>「消息面分析」</code></p>
-</blockquote>
-<h2 id="籌碼面分析"><a href="#籌碼面分析" class="headerlink" title="籌碼面分析"></a>籌碼面分析</h2><p>狐狸則想著，雖然餐廳現在很差，</p>
-<p>但是那些有錢的人，比如銀行或基金等，</p>
-<p>應該有比我們「更精準」的眼光</p>
-<p>如果他們持有很多張餐廳的股票，或許未來股價就會上升，</p>
-<p>狐狸，是觀察那些<code>「擁有大量資金的人怎麼做」</code>，來調整<code>「預期」</code>，這就是<code>「籌碼面分析」</code></p>
-<h2 id="技術面分析"><a href="#技術面分析" class="headerlink" title="技術面分析"></a>技術面分析</h2><p>最後來看看兔子吧，他覺得，股票的價格本來就跟經驗面不完全相關，</p>
-<p>只要購買的人比賣出的人多，價格就會上升，因此我們可以觀察股票市場的價格線圖</p>
-<p>當有一個明顯的<code>「時機」</code>，會讓<code>「買股票的人變多」</code>時，股票就會上漲，</p>
-<p>兔子，是觀察<code>「線圖上的信號」</code>來調整<code>「預期」</code>，這就是<code>「技術面分析」</code></p>
-<p>不同的分析角度，會導致每個人對「股價的預期」不同，</p>
-<p>於是覺得股價會跌的人，就會想要賣出股票，</p>
-<p>如果都沒人願意買，那股東只好慢慢降價，直到有人願意買為止，</p>
-<p>而這個交易的價格，就會是現在的「市場價格」，</p>
-<p>因此，市場價格會隨著「時間」以及「新的成交價格」，不斷的變動，</p>
-<p>這也就是所謂的「上漲」和「下跌」，</p>
-<p>以上內容轉錄於以下<span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj04NUo4U05PNTFlSQ==">影片<i class="fa fa-external-link-alt"></i></span>，圖文並茂更清楚唷，歡迎有興趣朋友移駕觀看</p>
-<div class="video-container"><iframe src="https://www.youtube.com/embed/85J8SNO51eI" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
-]]></content>
-      <categories>
-        <category>筆記</category>
-        <category>股票</category>
-        <category>新手村</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>基本面分析</tag>
-        <tag>名詞解釋</tag>
-        <tag>消息面分析</tag>
-        <tag>籌碼面分析</tag>
-        <tag>技術面分析</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>股票-股票的故事一</title>
     <url>/posts/2278927718/</url>
     <content><![CDATA[<blockquote>
@@ -886,6 +829,63 @@
         <tag>筆記</tag>
         <tag>股票</tag>
         <tag>名詞解釋</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>股票-股票的故事二</title>
+    <url>/posts/3159720911/</url>
+    <content><![CDATA[<blockquote>
+<p>聽完以下的故事之後可以了解：<br>股票的價格，牽涉到大家的<code>「預期心理」</code>，<br>不同<code>面向</code>將導致不同的<code>買賣決策</code></p>
+</blockquote>
+<h1 id="故事開始嚕"><a href="#故事開始嚕" class="headerlink" title="故事開始嚕"></a>故事開始嚕</h1><p><code>「股票」</code>就是公司所有權的憑證</p>
+<p>但是，為何有時公司做得很差，股票就還會「漲」呢？</p>
+<p>就是因為，股票的價格，還牽涉到大家的<code>「預期心理」</code>，</p>
+<p>現在就讓我們來看看，大家對餐廳股價的預期，是怎麼來的吧</p>
+<h2 id="基本面分析"><a href="#基本面分析" class="headerlink" title="基本面分析"></a>基本面分析</h2><p>小雞認為：</p>
+<p>餐廳現在做的差，股票自然沒價值，不如就看看每季的<code>營利</code>跟<code>市場表現</code>如何，</p>
+<p>如果做得越來越好，那股價自然會上升，</p>
+<blockquote>
+<p>小雞，是根據公司的<code>「營運狀況」</code>來調整<code>「預期」</code>，這就是上一集所說的<code>「基本面分析」</code></p>
+</blockquote>
+<a id="more"></a>
+
+<h2 id="消息面分析"><a href="#消息面分析" class="headerlink" title="消息面分析"></a>消息面分析</h2><p>孔雀則覺得，雖然現在餐廳很難吃，</p>
+<p>他們已經宣布，要換成森林裡最會做菜的<code>黑熊</code>來當主廚，</p>
+<p>因此，生意應該會越來越好，所以股價會上升，</p>
+<blockquote>
+<p>孔雀，是根據公司的<code>「最新消息」</code>來調整<code>「預期」</code>，這叫做<code>「消息面分析」</code></p>
+</blockquote>
+<h2 id="籌碼面分析"><a href="#籌碼面分析" class="headerlink" title="籌碼面分析"></a>籌碼面分析</h2><p>狐狸則想著，雖然餐廳現在很差，</p>
+<p>但是那些有錢的人，比如銀行或基金等，</p>
+<p>應該有比我們「更精準」的眼光</p>
+<p>如果他們持有很多張餐廳的股票，或許未來股價就會上升，</p>
+<p>狐狸，是觀察那些<code>「擁有大量資金的人怎麼做」</code>，來調整<code>「預期」</code>，這就是<code>「籌碼面分析」</code></p>
+<h2 id="技術面分析"><a href="#技術面分析" class="headerlink" title="技術面分析"></a>技術面分析</h2><p>最後來看看兔子吧，他覺得，股票的價格本來就跟經驗面不完全相關，</p>
+<p>只要購買的人比賣出的人多，價格就會上升，因此我們可以觀察股票市場的價格線圖</p>
+<p>當有一個明顯的<code>「時機」</code>，會讓<code>「買股票的人變多」</code>時，股票就會上漲，</p>
+<p>兔子，是觀察<code>「線圖上的信號」</code>來調整<code>「預期」</code>，這就是<code>「技術面分析」</code></p>
+<p>不同的分析角度，會導致每個人對「股價的預期」不同，</p>
+<p>於是覺得股價會跌的人，就會想要賣出股票，</p>
+<p>如果都沒人願意買，那股東只好慢慢降價，直到有人願意買為止，</p>
+<p>而這個交易的價格，就會是現在的「市場價格」，</p>
+<p>因此，市場價格會隨著「時間」以及「新的成交價格」，不斷的變動，</p>
+<p>這也就是所謂的「上漲」和「下跌」，</p>
+<p>以上內容轉錄於以下<span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj04NUo4U05PNTFlSQ==">影片<i class="fa fa-external-link-alt"></i></span>，圖文並茂更清楚唷，歡迎有興趣朋友移駕觀看</p>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/85J8SNO51eI" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
+]]></content>
+      <categories>
+        <category>筆記</category>
+        <category>股票</category>
+        <category>新手村</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>基本面分析</tag>
+        <tag>名詞解釋</tag>
+        <tag>消息面分析</tag>
+        <tag>籌碼面分析</tag>
+        <tag>技術面分析</tag>
       </tags>
   </entry>
   <entry>
