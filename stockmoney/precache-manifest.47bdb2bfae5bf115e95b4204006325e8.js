@@ -1,31 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa06daac42640d61ad0d",
-    "url": "/stockmoney/css/app.d8d33375.css"
-  },
-  {
-    "revision": "b389a15864a8c6ac668b",
-    "url": "/stockmoney/css/chunk-vendors.eae4093c.css"
-  },
-  {
-    "revision": "ecb3bfc03db10b6f9d6e23e710d5c953",
-    "url": "/stockmoney/img/logo.ecb3bfc0.png"
-  },
-  {
-    "revision": "42e24f03fb1b3088d521a48c02cc4fd8",
+    "revision": "38d920ea3f1abd700ee39ca7102c5ea8",
     "url": "/stockmoney/index.html"
-  },
-  {
-    "revision": "1bbe8c8dcb65a610c70b",
-    "url": "/stockmoney/js/about.090d026e.js"
-  },
-  {
-    "revision": "fa06daac42640d61ad0d",
-    "url": "/stockmoney/js/app.c61c7538.js"
-  },
-  {
-    "revision": "b389a15864a8c6ac668b",
-    "url": "/stockmoney/js/chunk-vendors.b8dfbd2e.js"
   },
   {
     "revision": "d41d8cd98f00b204e9800998ecf8427e",
@@ -40,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/json/basic_eps_cols.json"
   },
   {
-    "revision": "d6833b5ccc3cbd370f8780c0508be774",
+    "revision": "5d1fe011ccef866d9771ce5aedb46230",
     "url": "/stockmoney/json/basic_info.json"
   },
   {
@@ -64,11 +40,35 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/json/basic_roe_cols.json"
   },
   {
-    "revision": "30be69480a330a156e2cde1e41d4af2d",
+    "revision": "6820fa861cac6aa4f1f951c9a0a4fd9c",
     "url": "/stockmoney/manifest.json"
   },
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "/stockmoney/robots.txt"
+  },
+  {
+    "revision": "bdee5eae7a65411f1b24",
+    "url": "/stockmoney/static/css/app.b74b835c.css"
+  },
+  {
+    "revision": "f4fa3c0d80c9ea8e2340",
+    "url": "/stockmoney/static/css/chunk-vendors.eae4093c.css"
+  },
+  {
+    "revision": "ecb3bfc03db10b6f9d6e23e710d5c953",
+    "url": "/stockmoney/static/img/logo.ecb3bfc0.png"
+  },
+  {
+    "revision": "85ce6e4334a2eeb8390e",
+    "url": "/stockmoney/static/js/about.3644c617.js"
+  },
+  {
+    "revision": "bdee5eae7a65411f1b24",
+    "url": "/stockmoney/static/js/app.e2a4fe31.js"
+  },
+  {
+    "revision": "f4fa3c0d80c9ea8e2340",
+    "url": "/stockmoney/static/js/chunk-vendors.143ca889.js"
   }
 ]);
