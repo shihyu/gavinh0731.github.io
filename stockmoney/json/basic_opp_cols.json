@@ -35,68 +35,68 @@
       "sort": true
     },
     {
-      "label": "平均營益(%)",
-      "name": "b_opm.opm",
+      "label": "平均營益(億)",
+      "name": "b_opp.opp",
       "sort": true
     },
     {
-      "label": "17Q2營益(%)",
-      "name": "b_opm.opm1",
+      "label": "17Q2營益(億)",
+      "name": "b_opp.opp1",
       "sort": true
     },
     {
-      "label": "17Q3營益(%)",
-      "name": "b_opm.opm2",
+      "label": "17Q3營益(億)",
+      "name": "b_opp.opp2",
       "sort": true
     },
     {
-      "label": "17Q4營益(%)",
-      "name": "b_opm.opm3",
+      "label": "17Q4營益(億)",
+      "name": "b_opp.opp3",
       "sort": true
     },
     {
-      "label": "18Q1營益(%)",
-      "name": "b_opm.opm4",
+      "label": "18Q1營益(億)",
+      "name": "b_opp.opp4",
       "sort": true
     },
     {
-      "label": "18Q2營益(%)",
-      "name": "b_opm.opm5",
+      "label": "18Q2營益(億)",
+      "name": "b_opp.opp5",
       "sort": true
     },
     {
-      "label": "18Q3營益(%)",
-      "name": "b_opm.opm6",
+      "label": "18Q3營益(億)",
+      "name": "b_opp.opp6",
       "sort": true
     },
     {
-      "label": "18Q4營益(%)",
-      "name": "b_opm.opm7",
+      "label": "18Q4營益(億)",
+      "name": "b_opp.opp7",
       "sort": true
     },
     {
-      "label": "19Q1營益(%)",
-      "name": "b_opm.opm8",
+      "label": "19Q1營益(億)",
+      "name": "b_opp.opp8",
       "sort": true
     },
     {
-      "label": "19Q2營益(%)",
-      "name": "b_opm.opm9",
+      "label": "19Q2營益(億)",
+      "name": "b_opp.opp9",
       "sort": true
     },
     {
-      "label": "19Q3營益(%)",
-      "name": "b_opm.opm10",
+      "label": "19Q3營益(億)",
+      "name": "b_opp.opp10",
       "sort": true
     },
     {
-      "label": "19Q4營益(%)",
-      "name": "b_opm.opm11",
+      "label": "19Q4營益(億)",
+      "name": "b_opp.opp11",
       "sort": true
     },
     {
-      "label": "20Q1營益(%)",
-      "name": "b_opm.opm12",
+      "label": "20Q1營益(億)",
+      "name": "b_opp.opp12",
       "sort": true
     }
   ]

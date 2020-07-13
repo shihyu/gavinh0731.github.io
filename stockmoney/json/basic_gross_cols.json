@@ -35,68 +35,68 @@
       "sort": true
     },
     {
-      "label": "平均營益(%)",
-      "name": "b_opm.opm",
+      "label": "平均毛利(%)",
+      "name": "b_gross.gross",
       "sort": true
     },
     {
-      "label": "17Q2營益(%)",
-      "name": "b_opm.opm1",
+      "label": "17Q2毛利(%)",
+      "name": "b_gross.gross1",
       "sort": true
     },
     {
-      "label": "17Q3營益(%)",
-      "name": "b_opm.opm2",
+      "label": "17Q3毛利(%)",
+      "name": "b_gross.gross2",
       "sort": true
     },
     {
-      "label": "17Q4營益(%)",
-      "name": "b_opm.opm3",
+      "label": "17Q4毛利(%)",
+      "name": "b_gross.gross3",
       "sort": true
     },
     {
-      "label": "18Q1營益(%)",
-      "name": "b_opm.opm4",
+      "label": "18Q1毛利(%)",
+      "name": "b_gross.gross4",
       "sort": true
     },
     {
-      "label": "18Q2營益(%)",
-      "name": "b_opm.opm5",
+      "label": "18Q2毛利(%)",
+      "name": "b_gross.gross5",
       "sort": true
     },
     {
-      "label": "18Q3營益(%)",
-      "name": "b_opm.opm6",
+      "label": "18Q3毛利(%)",
+      "name": "b_gross.gross6",
       "sort": true
     },
     {
-      "label": "18Q4營益(%)",
-      "name": "b_opm.opm7",
+      "label": "18Q4毛利(%)",
+      "name": "b_gross.gross7",
       "sort": true
     },
     {
-      "label": "19Q1營益(%)",
-      "name": "b_opm.opm8",
+      "label": "19Q1毛利(%)",
+      "name": "b_gross.gross8",
       "sort": true
     },
     {
-      "label": "19Q2營益(%)",
-      "name": "b_opm.opm9",
+      "label": "19Q2毛利(%)",
+      "name": "b_gross.gross9",
       "sort": true
     },
     {
-      "label": "19Q3營益(%)",
-      "name": "b_opm.opm10",
+      "label": "19Q3毛利(%)",
+      "name": "b_gross.gross10",
       "sort": true
     },
     {
-      "label": "19Q4營益(%)",
-      "name": "b_opm.opm11",
+      "label": "19Q4毛利(%)",
+      "name": "b_gross.gross11",
       "sort": true
     },
     {
-      "label": "20Q1營益(%)",
-      "name": "b_opm.opm12",
+      "label": "20Q1毛利(%)",
+      "name": "b_gross.gross12",
       "sort": true
     }
   ]

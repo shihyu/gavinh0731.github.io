@@ -1,1 +1,102 @@
-[{"label": "\u4ee3\u865f", "name": "b_eps.code", "filter": {"type": "select", "mode": "multi", "closeDropdownOnSelection": true, "placeholder": "\u8f38\u5165", "options": [], "init": {"value": []}}, "sort": true}, {"label": "\u540d\u7a31", "name": "b_eps.name", "sort": true}, {"label": "\u6210\u4ea4", "name": "b_eps.price", "sort": true}, {"label": "\u6f32\u8dcc\u50f9", "name": "b_eps.change", "sort": true}, {"label": "\u6f32\u8dcc\u5e45", "name": "b_eps.percentage", "sort": true}, {"label": "\u7d71\u8a08\u5e74\u6578", "name": "b_eps.years", "sort": true}, {"label": "\u5e73\u5747\u71df\u6536(\u5104)", "name": "b_eps.revenue", "sort": true}, {"label": "\u71df\u6536\u6210\u9577(%)", "name": "b_eps.revenue_g", "sort": true}, {"label": "\u5e73\u5747\u6bdb\u5229(\u5104)", "name": "b_eps.gross", "sort": true}, {"label": "\u6bdb\u5229\u6210\u9577(%)", "name": "b_eps.gross_f", "sort": true}, {"label": "\u5e73\u5747\u6de8\u5229(\u5104)", "name": "b_eps.net", "sort": true}, {"label": "\u6de8\u5229\u6210\u9577(%)", "name": "b_eps.net_g", "sort": true}, {"label": "\u5e73\u5747\u6bdb\u5229(%)", "name": "b_eps.gross_a", "sort": true}, {"label": "\u5e73\u5747\u6de8\u5229(%)", "name": "b_eps.net_a", "sort": true}, {"label": "\u5e73\u5747ROA(%)", "name": "b_eps.roa", "sort": true}, {"label": "\u5e73\u5747ROA\u589e\u6e1b", "name": "b_eps.roa_c", "sort": true}, {"label": "\u5e73\u5747ROE(%)", "name": "b_eps.roe", "sort": true}, {"label": "\u5e73\u5747ROE\u589e\u6e1b", "name": "b_eps.roe_c", "sort": true}, {"label": "\u5e73\u5747EPS(\u5143)", "name": "b_eps.eps", "sort": true}, {"label": "\u5e73\u5747EPS\u589e\u6e1b", "name": "b_eps.eps_c", "sort": true}, {"label": "\u5e73\u5747\u8ca1\u5831\u8a55\u5206", "name": "b_eps.ratings", "sort": true}]
+[
+    {
+      "label": "代號",
+      "name": "b_info.code",
+      "filter": {
+        "type": "select",
+        "mode": "multi",
+        "closeDropdownOnSelection": false,
+        "placeholder": "輸入",
+        "options": [],
+        "init": {
+          "value": []
+        }
+      },
+      "sort": true
+    },
+    {
+      "label": "名稱",
+      "name": "b_info.name",
+      "sort": true
+    },
+    {
+      "label": "成交",
+      "name": "b_info.price",
+      "sort": true
+    },
+    {
+      "label": "漲跌價",
+      "name": "b_info.change",
+      "sort": true
+    },
+    {
+      "label": "漲跌幅",
+      "name": "b_info.percentage",
+      "sort": true
+    },
+    {
+      "label": "平均EPS(元)",
+      "name": "b_eps.eps",
+      "sort": true
+    },
+    {
+      "label": "17Q2EPS(元)",
+      "name": "b_eps.eps1",
+      "sort": true
+    },
+    {
+      "label": "17Q3EPS(元)",
+      "name": "b_eps.eps2",
+      "sort": true
+    },
+    {
+      "label": "17Q4EPS(元)",
+      "name": "b_eps.eps3",
+      "sort": true
+    },
+    {
+      "label": "18Q1EPS(元)",
+      "name": "b_eps.eps4",
+      "sort": true
+    },
+    {
+      "label": "18Q2EPS(元)",
+      "name": "b_eps.eps5",
+      "sort": true
+    },
+    {
+      "label": "18Q3EPS(元)",
+      "name": "b_eps.eps6",
+      "sort": true
+    },
+    {
+      "label": "18Q4EPS(元)",
+      "name": "b_eps.eps7",
+      "sort": true
+    },
+    {
+      "label": "19Q1EPS(元)",
+      "name": "b_eps.eps8",
+      "sort": true
+    },
+    {
+      "label": "19Q2EPS(元)",
+      "name": "b_eps.eps9",
+      "sort": true
+    },
+    {
+      "label": "19Q3EPS(元)",
+      "name": "b_eps.eps10",
+      "sort": true
+    },
+    {
+      "label": "19Q4EPS(元)",
+      "name": "b_eps.eps11",
+      "sort": true
+    },
+    {
+      "label": "20Q1EPS(元)",
+      "name": "b_eps.eps12",
+      "sort": true
+    }
+  ]

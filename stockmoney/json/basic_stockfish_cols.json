@@ -1,0 +1,88 @@
+[
+  {
+    "label": "代號",
+    "name": "b_info.code",
+    "filter": {
+      "type": "select",
+      "mode": "multi",
+      "closeDropdownOnSelection": false,
+      "placeholder": "輸入",
+      "options": [],
+      "init": {
+        "value": []
+      }
+    },
+    "sort": true
+  },
+  {
+    "label": "名稱",
+    "name": "b_info.name",
+    "sort": true
+  },
+  {
+    "label": "成交",
+    "name": "b_info.price",
+    "sort": true
+  },
+  {
+    "label": "漲跌價",
+    "name": "b_info.change",
+    "sort": true
+  },
+  {
+    "label": "漲跌幅",
+    "name": "b_info.percentage",
+    "sort": true
+  },
+  {"label":"成交張數","name":"b_info.volume","sort":true},
+  {
+    "label": "平均ROE(>15%)",
+    "name": "b_fish.roe",
+    "sort": true
+  },
+  {
+    "label": "本業收入率(>80%)",
+    "name": "b_fish.iir",
+    "sort": true
+  },
+  {
+    "label": "平均負債總額(<60%)",
+    "name": "b_fish.debt",
+    "sort": true
+  },
+  {
+    "label": "營運現金流量(>0億)",
+    "name": "b_fish.cash",
+    "sort": true
+  },
+  {
+    "label": "營益率(>0%)",
+    "name": "b_fish.opm",
+    "sort": true
+  },
+  {
+    "label": "平均EPS(元)",
+    "name": "b_fish.eps",
+    "sort": true
+  },
+  {
+    "label": "本益比",
+    "name": "b_fish.per",
+    "sort": true
+  },
+  {
+    "label": "平均毛利(%)",
+    "name": "b_fish.gross",
+    "sort": true
+  },
+  {
+    "label": "平均營益(億)",
+    "name": "b_fish.opp",
+    "sort": true
+  },
+  {
+    "label": "平均業外損益(億)",
+    "name": "b_fish.noi",
+    "sort": true
+  }
+]

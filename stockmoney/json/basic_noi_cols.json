@@ -35,68 +35,68 @@
       "sort": true
     },
     {
-      "label": "平均營益(%)",
-      "name": "b_opm.opm",
+      "label": "平均業外損益(億)",
+      "name": "b_noi.noi",
       "sort": true
     },
     {
-      "label": "17Q2營益(%)",
-      "name": "b_opm.opm1",
+      "label": "17Q2業外損益(億)",
+      "name": "b_noi.noi1",
       "sort": true
     },
     {
-      "label": "17Q3營益(%)",
-      "name": "b_opm.opm2",
+      "label": "17Q3業外損益(億)",
+      "name": "b_noi.noi2",
       "sort": true
     },
     {
-      "label": "17Q4營益(%)",
-      "name": "b_opm.opm3",
+      "label": "17Q4業外損益(億)",
+      "name": "b_noi.noi3",
       "sort": true
     },
     {
-      "label": "18Q1營益(%)",
-      "name": "b_opm.opm4",
+      "label": "18Q1業外損益(億)",
+      "name": "b_noi.noi4",
       "sort": true
     },
     {
-      "label": "18Q2營益(%)",
-      "name": "b_opm.opm5",
+      "label": "18Q2業外損益(億)",
+      "name": "b_noi.noi5",
       "sort": true
     },
     {
-      "label": "18Q3營益(%)",
-      "name": "b_opm.opm6",
+      "label": "18Q3業外損益(億)",
+      "name": "b_noi.noi6",
       "sort": true
     },
     {
-      "label": "18Q4營益(%)",
-      "name": "b_opm.opm7",
+      "label": "18Q4業外損益(億)",
+      "name": "b_noi.noi7",
       "sort": true
     },
     {
-      "label": "19Q1營益(%)",
-      "name": "b_opm.opm8",
+      "label": "19Q1業外損益(億)",
+      "name": "b_noi.noi8",
       "sort": true
     },
     {
-      "label": "19Q2營益(%)",
-      "name": "b_opm.opm9",
+      "label": "19Q2業外損益(億)",
+      "name": "b_noi.noi9",
       "sort": true
     },
     {
-      "label": "19Q3營益(%)",
-      "name": "b_opm.opm10",
+      "label": "19Q3業外損益(億)",
+      "name": "b_noi.noi10",
       "sort": true
     },
     {
-      "label": "19Q4營益(%)",
-      "name": "b_opm.opm11",
+      "label": "19Q4業外損益(億)",
+      "name": "b_noi.noi11",
       "sort": true
     },
     {
-      "label": "20Q1營益(%)",
-      "name": "b_opm.opm12",
+      "label": "20Q1業外損益(億)",
+      "name": "b_noi.noi12",
       "sort": true
     }
   ]
