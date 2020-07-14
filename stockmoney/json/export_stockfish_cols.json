@@ -19,6 +19,9 @@
     "name": "b_info.name",
     "sort": true
   },
+  {"label":"EPS估價","name":"e_fish.epsp","sort":true},
+  {"label":"殖利率估價","name":"e_fish.yiep","sort":true},
+  {"label":"K值估價","name":"e_fish.kp","sort":true},
   {
     "label": "成交",
     "name": "b_info.price",
@@ -36,53 +39,58 @@
   },
   {"label":"成交張數","name":"b_info.volume","sort":true},
   {
-    "label": "平均ROE(>15%)",
-    "name": "b_fish.roe",
+    "label": "現金殖利率",
+    "name": "e_fish.cash_y",
+    "sort": true
+  },
+  {
+    "label": "平均ROE(>8%)",
+    "name": "e_fish.roe",
     "sort": true
   },
   {
     "label": "本業收入率(>80%)",
-    "name": "b_fish.iir",
+    "name": "e_fish.iir",
     "sort": true
   },
   {
     "label": "平均負債總額(<60%)",
-    "name": "b_fish.debt",
+    "name": "e_fish.debt",
     "sort": true
   },
   {
     "label": "營運現金流量(>0億)",
-    "name": "b_fish.cash",
+    "name": "e_fish.cash",
     "sort": true
   },
   {
     "label": "營益率(>0%)",
-    "name": "b_fish.opm",
+    "name": "e_fish.opm",
     "sort": true
   },
   {
     "label": "平均EPS(元)",
-    "name": "b_fish.eps",
+    "name": "e_fish.eps",
     "sort": true
   },
   {
     "label": "本益比",
-    "name": "b_fish.per",
+    "name": "e_fish.per",
     "sort": true
   },
   {
     "label": "平均毛利(%)",
-    "name": "b_fish.gross",
+    "name": "e_fish.gross",
     "sort": true
   },
   {
     "label": "平均營益(億)",
-    "name": "b_fish.opp",
+    "name": "e_fish.opp",
     "sort": true
   },
   {
     "label": "平均業外損益(億)",
-    "name": "b_fish.noi",
+    "name": "e_fish.noi",
     "sort": true
   }
 ]
