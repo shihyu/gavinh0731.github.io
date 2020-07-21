@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://gavinh0731.github.io/"/>
-  <updated>2020-07-20T15:44:53.486Z</updated>
+  <updated>2020-07-21T16:32:39.882Z</updated>
   <id>https://gavinh0731.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://gavinh0731.github.io/posts/2691061525/"/>
     <id>https://gavinh0731.github.io/posts/2691061525/</id>
     <published>2020-07-20T14:12:19.000Z</published>
-    <updated>2020-07-20T15:44:53.486Z</updated>
+    <updated>2020-07-21T16:32:39.882Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="布林通道的組成"><a href="#布林通道的組成" class="headerlink" title="布林通道的組成"></a>布林通道的組成</h1><h2 id="上線：壓力線（＋２個標準差）"><a href="#上線：壓力線（＋２個標準差）" class="headerlink" title="上線：壓力線（＋２個標準差）"></a>上線：壓力線（＋２個標準差）</h2><h2 id="中線：２０日移動平均線"><a href="#中線：２０日移動平均線" class="headerlink" title="中線：２０日移動平均線"></a>中線：２０日移動平均線</h2><h2 id="下線：支撐線（－２個標準差）"><a href="#下線：支撐線（－２個標準差）" class="headerlink" title="下線：支撐線（－２個標準差）"></a>下線：支撐線（－２個標準差）</h2><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E9%80%9A%E9%81%93%E7%9A%84%E7%B5%84%E6%88%90.png" class title="布林通道的組成"><h2 id="２個標準差：高達95-4-的機率"><a href="#２個標準差：高達95-4-的機率" class="headerlink" title="２個標準差：高達95.4%的機率"></a>２個標準差：高達95.4%的機率</h2><img src="/posts/2691061525/%E6%A8%99%E6%BA%96%E5%B7%AE%E6%A9%9F%E7%8E%87.png" class title="標準差機率"><h2 id="超出布林通道的機率只有4-6-的機率"><a href="#超出布林通道的機率只有4-6-的機率" class="headerlink" title="超出布林通道的機率只有4.6%的機率"></a>超出布林通道的機率只有4.6%的機率</h2><img src="/posts/2691061525/%E8%B6%85%E5%87%BA%E5%B8%83%E6%9E%97%E9%80%9A%E9%81%93.png" class title="超出布林通道"><h1 id="如何運用布林通道"><a href="#如何運用布林通道" class="headerlink" title="如何運用布林通道"></a>如何運用布林通道</h1><a id="more"></a><h2 id="買進訊號"><a href="#買進訊號" class="headerlink" title="買進訊號"></a>買進訊號</h2><ol><li>價格在<code>中軌與上軌</code>線間波動為<code>多方</code>行情<br>=&gt; <code>拉回中線</code>附近為買進訊號</li><li>價格<code>由下向上穿越中線</code>表示<br>=&gt; 多方動能轉強為買進訊號<img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E6%94%AF%E6%92%90%E7%B7%9A%E8%B2%B7%E9%80%B2.png" class title="穿越支撐線買進"><img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E5%A3%93%E5%8A%9B%E7%B7%9A.png" class title="穿越壓力線"><img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E4%B8%AD%E7%B7%9A%E5%8A%A0%E7%A2%BC.png" class title="穿越中線加碼"></li></ol><h2 id="賣出訊號"><a href="#賣出訊號" class="headerlink" title="賣出訊號"></a>賣出訊號</h2><img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E4%B8%AD%E7%B7%9A%E9%80%80%E5%87%BA.png" class title="穿越中線退出"><h1 id="布林通道相關指標"><a href="#布林通道相關指標" class="headerlink" title="布林通道相關指標"></a>布林通道相關指標</h1><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E6%A5%B5%E9%99%90%E6%8C%87%E6%A8%99.png" class title="布林極限指標"><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E6%A5%B5%E9%99%90%E6%8C%87%E6%A8%992.png" class title="布林極限指標2"><h1 id="布林通道的形狀"><a href="#布林通道的形狀" class="headerlink" title="布林通道的形狀"></a>布林通道的形狀</h1><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E5%BD%A2%E7%8B%80.png" class title="布林形狀"><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E5%B8%B6%E5%AF%AC.png" class title="布林帶寬"><h1 id="大盤紅綠燈"><a href="#大盤紅綠燈" class="headerlink" title="大盤紅綠燈"></a>大盤紅綠燈</h1><h2 id="逢低買進"><a href="#逢低買進" class="headerlink" title="逢低買進"></a>逢低買進</h2><ol><li>大盤日線20MA上揚</li><li>即使碰到下通道，也會立即脫離下通道</li></ol><h2 id="黃燈"><a href="#黃燈" class="headerlink" title="黃燈"></a>黃燈</h2><p>短線過多，衝到上通道，不要進去買</p><h2 id="紅燈（跌破月線）"><a href="#紅燈（跌破月線）" class="headerlink" title="紅燈（跌破月線）"></a>紅燈（跌破月線）</h2><p>大盤走入空頭型態（中長期）</p><h2 id="買在飆股起漲點"><a href="#買在飆股起漲點" class="headerlink" title="買在飆股起漲點"></a>買在飆股起漲點</h2><ol><li>壓縮：股價壓縮至少10個交易日</li><li>帶量：成交量出現過去5日均量的2～10倍</li><li>突破：當日收盤價突破通道頂且收紅K棒</li></ol><h2 id="跌破月線出場"><a href="#跌破月線出場" class="headerlink" title="跌破月線出場"></a>跌破月線出場</h2><p>參考資料：<br><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1ObTQweDRjOVR0aw==">股市阿水的布林通道<i class="fa fa-external-link-alt"></i></span></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="布林通道的組成"><a href="#布林通道的組成" class="headerlink" title="布林通道的組成"></a>布林通道的組成</h1><h2 id="上線：壓力線（＋２個標準差）"><a href="#上線：壓力線（＋２個標準差）" class="headerlink" title="上線：壓力線（＋２個標準差）"></a>上線：壓力線（＋２個標準差）</h2><h2 id="中線：２０日移動平均線"><a href="#中線：２０日移動平均線" class="headerlink" title="中線：２０日移動平均線"></a>中線：２０日移動平均線</h2><h2 id="下線：支撐線（－２個標準差）"><a href="#下線：支撐線（－２個標準差）" class="headerlink" title="下線：支撐線（－２個標準差）"></a>下線：支撐線（－２個標準差）</h2><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E9%80%9A%E9%81%93%E7%9A%84%E7%B5%84%E6%88%90.png" class title="布林通道的組成"><h2 id="２個標準差：高達95-4-的機率"><a href="#２個標準差：高達95-4-的機率" class="headerlink" title="２個標準差：高達95.4%的機率"></a>２個標準差：高達95.4%的機率</h2><img src="/posts/2691061525/%E6%A8%99%E6%BA%96%E5%B7%AE%E6%A9%9F%E7%8E%87.png" class title="標準差機率"><h2 id="超出布林通道的機率只有4-6-的機率"><a href="#超出布林通道的機率只有4-6-的機率" class="headerlink" title="超出布林通道的機率只有4.6%的機率"></a>超出布林通道的機率只有4.6%的機率</h2><img src="/posts/2691061525/%E8%B6%85%E5%87%BA%E5%B8%83%E6%9E%97%E9%80%9A%E9%81%93.png" class title="超出布林通道"><h1 id="如何運用布林通道"><a href="#如何運用布林通道" class="headerlink" title="如何運用布林通道"></a>如何運用布林通道</h1><a id="more"></a><h2 id="買進訊號"><a href="#買進訊號" class="headerlink" title="買進訊號"></a>買進訊號</h2><ol><li>價格在<code>中軌與上軌</code>線間波動為<code>多方</code>行情<br>=&gt; <code>拉回中線</code>附近為買進訊號</li><li>價格<code>由下向上穿越中線</code>表示<br>=&gt; 多方動能轉強為買進訊號<img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E6%94%AF%E6%92%90%E7%B7%9A%E8%B2%B7%E9%80%B2.png" class title="穿越支撐線買進"><img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E5%A3%93%E5%8A%9B%E7%B7%9A.png" class title="穿越壓力線"><img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E4%B8%AD%E7%B7%9A%E5%8A%A0%E7%A2%BC.png" class title="穿越中線加碼"></li></ol><h2 id="賣出訊號"><a href="#賣出訊號" class="headerlink" title="賣出訊號"></a>賣出訊號</h2><img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E4%B8%AD%E7%B7%9A%E9%80%80%E5%87%BA.png" class title="穿越中線退出"><h1 id="布林通道相關指標"><a href="#布林通道相關指標" class="headerlink" title="布林通道相關指標"></a>布林通道相關指標</h1><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E6%A5%B5%E9%99%90%E6%8C%87%E6%A8%99.png" class title="布林極限指標"><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E6%A5%B5%E9%99%90%E6%8C%87%E6%A8%992.png" class title="布林極限指標2"><h1 id="布林通道的形狀"><a href="#布林通道的形狀" class="headerlink" title="布林通道的形狀"></a>布林通道的形狀</h1><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E5%BD%A2%E7%8B%80.png" class title="布林形狀"><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E5%B8%B6%E5%AF%AC.png" class title="布林帶寬"><p>%b指標<br>%b 指標（Percent b，PB），以數字形式呈現收盤價在布林帶中的位置，做為交易決策時的關鍵指標。例如：當%b值為0.5（或以百分比表示50%），代表收盤價處於布林帶的中間位置。</p><p>%b值 = (收盤價−布林帶下軌值) ÷ (布林帶上軌值−布林帶下軌值)<br>由於收盤價會在上、下軌道震盪遊走，幅度甚至大於軌道範圍（0~1），因此%b值沒有上下限。當走勢向上突破，收盤價落於上軌上方時，%b值&gt; 1；而走趨向下突破，收盤價落在下軌下方時，%b值&lt; 0。<br>藉由觀察分析「%b指標」可以提供投資時的參考，依據指標的強弱走勢，作出買賣決策。</p><h1 id="大盤紅綠燈"><a href="#大盤紅綠燈" class="headerlink" title="大盤紅綠燈"></a>大盤紅綠燈</h1><h2 id="逢低買進"><a href="#逢低買進" class="headerlink" title="逢低買進"></a>逢低買進</h2><ol><li>大盤日線20MA上揚</li><li>即使碰到下通道，也會立即脫離下通道</li></ol><h2 id="黃燈"><a href="#黃燈" class="headerlink" title="黃燈"></a>黃燈</h2><p>短線過多，衝到上通道，不要進去買</p><h2 id="紅燈（跌破月線）"><a href="#紅燈（跌破月線）" class="headerlink" title="紅燈（跌破月線）"></a>紅燈（跌破月線）</h2><p>大盤走入空頭型態（中長期）</p><h2 id="買在飆股起漲點"><a href="#買在飆股起漲點" class="headerlink" title="買在飆股起漲點"></a>買在飆股起漲點</h2><ol><li>壓縮：股價壓縮至少10個交易日</li><li>帶量：成交量出現過去5日均量的2～10倍</li><li>突破：當日收盤價突破通道頂且收紅K棒</li></ol><h2 id="跌破月線出場"><a href="#跌破月線出場" class="headerlink" title="跌破月線出場"></a>跌破月線出場</h2><p>參考資料：<br><span class="exturl" data-url="aHR0cHM6Ly9oaXN0b2NrLnR3L2Jsb2cvaGlzdG9jazE2ODgvMjQ1">五分鐘搞懂布林通道（工具應用篇）<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1ObTQweDRjOVR0aw==">股市阿水的布林通道<i class="fa fa-external-link-alt"></i></span></p>]]></content>
     
     <summary type="html">
     
@@ -98,11 +98,11 @@
     
       <category term="股票" scheme="https://gavinh0731.github.io/tags/%E8%82%A1%E7%A5%A8/"/>
     
+      <category term="飆股" scheme="https://gavinh0731.github.io/tags/%E9%A3%86%E8%82%A1/"/>
+    
       <category term="下班經濟學" scheme="https://gavinh0731.github.io/tags/%E4%B8%8B%E7%8F%AD%E7%B6%93%E6%BF%9F%E5%AD%B8/"/>
     
       <category term="不看盤投資術" scheme="https://gavinh0731.github.io/tags/%E4%B8%8D%E7%9C%8B%E7%9B%A4%E6%8A%95%E8%B3%87%E8%A1%93/"/>
-    
-      <category term="飆股" scheme="https://gavinh0731.github.io/tags/%E9%A3%86%E8%82%A1/"/>
     
   </entry>
   
@@ -304,9 +304,9 @@
     
       <category term="名詞解釋" scheme="https://gavinh0731.github.io/tags/%E5%90%8D%E8%A9%9E%E8%A7%A3%E9%87%8B/"/>
     
-      <category term="選股策略" scheme="https://gavinh0731.github.io/tags/%E9%81%B8%E8%82%A1%E7%AD%96%E7%95%A5/"/>
-    
       <category term="查詢" scheme="https://gavinh0731.github.io/tags/%E6%9F%A5%E8%A9%A2/"/>
+    
+      <category term="選股策略" scheme="https://gavinh0731.github.io/tags/%E9%81%B8%E8%82%A1%E7%AD%96%E7%95%A5/"/>
     
   </entry>
   
