@@ -14,11 +14,8 @@
     },
     "sort": true
   },
-  {
-    "label": "名稱",
-    "name": "b_info.name",
-    "sort": true
-  },
+  {"label": "名稱","name": "b_info.name","sort": true},
+  {"label":"產業別","name":"b_info.verticals","sort": true},
   {"label":"EPS估價","name":"e_fish.epsp","sort":true},
   {"label":"殖利率估價","name":"e_fish.yiep","sort":true},
   {"label":"K值估價","name":"e_fish.kp","sort":true},
@@ -38,6 +35,7 @@
     "sort": true
   },
   {"label":"成交張數","name":"b_info.volume","sort":true},
+  {"label":"成交金額(萬)","name":"e_fish.amount","sort":true},
   {
     "label": "現金殖利率",
     "name": "e_fish.cash_y",

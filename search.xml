@@ -204,6 +204,72 @@
       </tags>
   </entry>
   <entry>
+    <title>[教學]-NexT使用-第三方服務</title>
+    <url>/posts/1612943303/</url>
+    <content><![CDATA[<p>靜態網站的某些功能受到限制，因此我們需要第三方服務來擴展我們的網站。<br>在任何時候，您都可以使用NexT支持的第三方服務來擴展所需的功能。</p>
+<h1 id="數學方程式"><a href="#數學方程式" class="headerlink" title="數學方程式"></a>數學方程式</h1><ul>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL21hdGgtZXF1YXRpb25zLmh0bWw=">數學方程式<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+<h1 id="評論系統"><a href="#評論系統" class="headerlink" title="評論系統"></a>評論系統</h1><ul>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjRGlzcXVz">Disqus<i class="fa fa-external-link-alt"></i></span></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjRGlzcXVzSlM=">DisqusJS<i class="fa fa-external-link-alt"></i></span></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjTGl2ZVJl">LiveRe<i class="fa fa-external-link-alt"></i></span></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjR2l0YWxr">Gitalk<i class="fa fa-external-link-alt"></i></span></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjVmFsaW5l">Valine (China)<i class="fa fa-external-link-alt"></i></span></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjQ2hhbmd5YW4=">Changyan (China)<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+<a id="more"></a>
+
+<h1 id="如何在頁面上禁用評論"><a href="#如何在頁面上禁用評論" class="headerlink" title="如何在頁面上禁用評論"></a>如何在頁面上禁用評論</h1><p>當您啟用類似Disqus的評論服務時，所有新頁面將自動具有評論服務。<br>如果要在一頁中禁用它，只需將<code>comments</code>鍵添加到Front-matter並將其值設置為<code>false</code>。 如下所示：</p>
+<blockquote>
+<p>your-post.md<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">All</span> <span class="string">tags</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">"tags"</span></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h1 id="統計與分析"><a href="#統計與分析" class="headerlink" title="統計與分析"></a>統計與分析</h1><h2 id="分析工具"><a href="#分析工具" class="headerlink" title="分析工具"></a>分析工具</h2><ul>
+<li>Google Analytics</li>
+<li>Baidu Analytics (China)</li>
+<li>Growingio Analytics</li>
+<li>CNZZ Analytics (China)</li>
+</ul>
+<h2 id="統計"><a href="#統計" class="headerlink" title="統計"></a>統計</h2><ul>
+<li>LeanCloud (China)</li>
+<li>Firebase</li>
+<li>Busuanzi Counting</li>
+</ul>
+<h2 id="貼文小工具"><a href="#貼文小工具" class="headerlink" title="貼文小工具"></a>貼文小工具</h2><ul>
+<li>Widgetpack Rating</li>
+<li>AddThis</li>
+</ul>
+<h2 id="搜索服務"><a href="#搜索服務" class="headerlink" title="搜索服務"></a>搜索服務</h2><ul>
+<li>Algolia Search</li>
+<li>Local Search</li>
+<li>Swiftype</li>
+</ul>
+<h2 id="聊天服務"><a href="#聊天服務" class="headerlink" title="聊天服務"></a>聊天服務</h2><ul>
+<li>Chatra</li>
+<li>Tidio</li>
+</ul>
+<h2 id="外部庫"><a href="#外部庫" class="headerlink" title="外部庫"></a>外部庫</h2><ul>
+<li><a href="/2020/06/18/教學-Hexo使用-NexT整合設定/#pjax-安裝">PJAX</a><br>頁面跳轉的時候人眼需要對整個頁面作重新識別， 刷新部分頁面的時候， 只需要重新識別其中一塊區域</li>
+<li>Fancybox<br>jQuery線上相簿展示器</li>
+<li>MediumZoom</li>
+<li>Lazyload<br>當網站圖片較多時，會造成網站開啟速度變慢，這時候前端工程師就會使用一種優化技術－延遲加載</li>
+<li>Pangu Autospace<br>中文、英文、數字、符號之間插入空格以提升文章質量</li>
+<li>Quicklink</li>
+<li>Motion</li>
+<li>Progress bar</li>
+<li>Backgroud JS</li>
+</ul>
+]]></content>
+      <categories>
+        <category>教學</category>
+        <category>NexT</category>
+      </categories>
+      <tags>
+        <tag>教學</tag>
+        <tag>NexT</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>[教學]-NexT使用-入門</title>
     <url>/posts/1015261791/</url>
     <content><![CDATA[<p><span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>是一個快速而強大的靜態博客生成框架，它基於<span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3JnLw==">Node.js<i class="fa fa-external-link-alt"></i></span>。 通過使用Hexo，您可以使用Markdown輕鬆編寫文章，除了Markdown的語法外，您還可以使用Hexo提供的<span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdGFnLXBsdWdpbnM=">標籤插件<i class="fa fa-external-link-alt"></i></span>來簡單插入特殊格式的內容。 在此頁面中，我們假設您已經安裝了Hexo並使用它創建了一個站點。</p>
@@ -349,139 +415,6 @@
       </tags>
   </entry>
   <entry>
-    <title>[教學]-NexT使用-主題設定-帖子</title>
-    <url>/posts/3030220437/</url>
-    <content><![CDATA[<h1 id="帖子設置"><a href="#帖子設置" class="headerlink" title="帖子設置"></a>帖子設置</h1><h2 id="序言文字"><a href="#序言文字" class="headerlink" title="序言文字"></a>序言文字</h2><p>通常需要在主頁上顯示文章的某些部分，然後提供指向完整文章的鏈接。<br>NexT提供了兩種方法來控製文章在首頁中的顯示方式。<br>換句話說，您可以使用以下方式來顯示文章摘要和<code>閱讀全文</code>按鈕。</p>
-<ol>
-<li><p>閱讀全文<br>Hexo建議在文章中使用<code>&lt;!-- more --&gt;</code>手動中斷文章。</p>
-</li>
-<li><p>摘錄說明<br>如果您已在<code>Front-matter</code>中添加了說明並將其值設置為文章摘要，則默認情況下，NexT會將說明摘錄為首頁中的前導文本。 如果沒有描述，則全部內容將為首頁中的前導文本。<br>您可以通過在<code>主題配置文件</code>中將<code>excerpt_description</code>的值設置為false來禁用它。</p>
-<blockquote>
-<p>next/_config.yml</p>
-</blockquote>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">excerpt_description:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-<a id="more"></a>
-
-</li>
-</ol>
-<h2 id="發布元顯示"><a href="#發布元顯示" class="headerlink" title="發布元顯示"></a>發布元顯示</h2><p>NexT支持帖子創建時間,修改時間,分類顯示。</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post_meta:</span></span><br><span class="line">  <span class="attr">item_text:</span> <span class="literal">false</span>  <span class="comment"># 設為true 可以一行顯示 文章的所有屬性</span></span><br><span class="line">  <span class="attr">created_at:</span> <span class="literal">true</span>  <span class="comment">#顯示創建時間</span></span><br><span class="line">  <span class="attr">updated_at:</span></span><br><span class="line">    <span class="attr">enabled:</span> <span class="literal">true</span>   <span class="comment">#顯示修改的時間</span></span><br><span class="line">    <span class="attr">another_day:</span> <span class="literal">true</span> <span class="comment">#設true時 如果創建時間和修改時間一樣則顯示一個時間</span></span><br><span class="line">  <span class="attr">categories:</span> <span class="literal">true</span>  <span class="comment">#顯示分類信息</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h2 id="hexo中的next增加頁面閱讀統計-字數統計-閱讀時長"><a href="#hexo中的next增加頁面閱讀統計-字數統計-閱讀時長" class="headerlink" title="hexo中的next增加頁面閱讀統計,字數統計,閱讀時長"></a>hexo中的next增加頁面閱讀統計,字數統計,閱讀時長</h2><blockquote>
-<p>下方會顯示 總閱讀人數 閱讀總次數<br>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">busuanzi_count:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span>  <span class="comment">#設true 開啟</span></span><br><span class="line">  <span class="attr">total_visitors:</span> <span class="literal">true</span>  <span class="comment">#總閱讀人數 uv數</span></span><br><span class="line">  <span class="attr">total_visitors_icon:</span> <span class="string">user</span>  <span class="comment">#閱讀總人數的圖標</span></span><br><span class="line">  <span class="attr">total_views:</span> <span class="literal">true</span>  <span class="comment">#總閱讀次數 pv數</span></span><br><span class="line">  <span class="attr">total_views_icon:</span> <span class="string">eye</span>  <span class="comment">#閱讀總次數的圖標</span></span><br><span class="line">  <span class="attr">post_views:</span> <span class="literal">true</span> <span class="comment">#開啟內容閱讀次數</span></span><br><span class="line">  <span class="attr">post_views_icon:</span> <span class="string">eye</span> <span class="comment">#內容頁閱讀數的圖標</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<p>新增字數統計,閱讀時長,先安裝插件</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-word-counter --save</span><br></pre></td></tr></table></figure>
-
-<p><code>主題配置</code>信息如下:</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 字數統計及閱讀時長</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">separated_meta:</span> <span class="literal">true</span>  <span class="comment"># 是否"換行顯示"字數統計及閱讀時長</span></span><br><span class="line">  <span class="attr">item_text_post:</span> <span class="literal">true</span>  <span class="comment"># 字數統計和閱讀時長是要使用小圖示(true)還是文字表示(false)</span></span><br><span class="line">  <span class="attr">item_text_total:</span> <span class="literal">false</span>  <span class="comment"># 文章底部的字數統計和閱讀時長是要使用小圖示(true)還是文字表示(false)</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<p><code>站點配置文件</code>:</p>
-<blockquote>
-<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 字數統計及閱讀時長</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">symbols:</span> <span class="literal">true</span> <span class="comment"># 文章是否顯示字數統計</span></span><br><span class="line">  <span class="attr">time:</span> <span class="literal">true</span> <span class="comment"># 文章是否顯示閱讀時間</span></span><br><span class="line">  <span class="attr">total_symbols:</span> <span class="literal">true</span> <span class="comment"># 網頁底部是否顯示字數統計</span></span><br><span class="line">  <span class="attr">total_time:</span> <span class="literal">true</span> <span class="comment"># 網頁底部是否顯示閱讀時間</span></span><br><span class="line">  <span class="attr">exclude_codeblock:</span> <span class="literal">false</span> <span class="comment"># 排除程式碼字數統計</span></span><br><span class="line">  <span class="attr">awl:</span> <span class="number">2</span>  <span class="comment">#平均文字長度，中文為 2, 英文為 5, 預設為 4</span></span><br><span class="line">  <span class="attr">wpm:</span> <span class="number">275</span>  <span class="comment">#一分鐘閱讀字數，預設為 275</span></span><br><span class="line">  <span class="attr">suffix:</span> <span class="string">"分鐘"</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h2 id="標籤圖標"><a href="#標籤圖標" class="headerlink" title="標籤圖標"></a>標籤圖標</h2><p>默認情況下，帖子底部的標籤在左側的左側帶有符號＃。<br>如果您更喜歡圖標而不是符號，請按如下所示編輯主題配置文件：</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">tag_icon:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h2 id="增加打賞功能"><a href="#增加打賞功能" class="headerlink" title="增加打賞功能"></a>增加打賞功能</h2><p>這個也是next具備了。先把需要的收款碼放到<code>/themes/next/source/images</code>裡面。</p>
-<p>搜索reward_settings修改：</p>
-<blockquote>
-<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">reward_settings:</span></span><br><span class="line">  <span class="comment"># If true, reward will be displayed in every article by default.</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">animation:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#comment: Donate comment here.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">reward:</span></span><br><span class="line">  <span class="attr">wechatpay:</span> <span class="string">/images/wechatpay.png</span></span><br><span class="line">  <span class="attr">alipay:</span> <span class="string">/images/alipay.png</span></span><br><span class="line">  <span class="comment">#bitcoin: /images/bitcoin.png</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h2 id="Follow-me"><a href="#Follow-me" class="headerlink" title="Follow me"></a>Follow me</h2><blockquote>
-<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Subscribe through Telegram Channel, Twitter, etc.</span></span><br><span class="line"><span class="comment"># Usage: `Key: permalink || icon` (Font Awesome)</span></span><br><span class="line"><span class="attr">follow_me:</span></span><br><span class="line">  <span class="comment">#Twitter: https://twitter.com/username || fab fa-twitter</span></span><br><span class="line">  <span class="comment">#Telegram: https://t.me/channel_name || fab fa-telegram</span></span><br><span class="line">  <span class="comment">#WeChat: /images/wechat_channel.jpg || fab fa-weixin</span></span><br><span class="line">  <span class="comment">#RSS: /atom.xml || fa fa-rss</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h2 id="相關文章推薦"><a href="#相關文章推薦" class="headerlink" title="相關文章推薦"></a>相關文章推薦</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
-<p>主題配置信息如下:</p>
-<blockquote>
-<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">title:</span> <span class="string">相關文章推薦</span> <span class="comment"># 屬性的命名</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">false</span> <span class="comment">#false代表首頁不顯示</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span> <span class="comment">#最多5條</span></span><br><span class="line">    <span class="comment">#PPMixingRate: 0.0 #可以看github上 這個相關度介紹</span></span><br><span class="line">    <span class="comment">#isDate: true #是否顯示 日期</span></span><br><span class="line">    <span class="comment">#isImage: false #是否顯示配圖</span></span><br><span class="line">    <span class="attr">isExcerpt:</span> <span class="literal">false</span> <span class="comment">#是否顯示摘要</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h1 id="帖子導航"><a href="#帖子導航" class="headerlink" title="帖子導航"></a>帖子導航</h1><p>如果存在，則在頁腳中顯示上一個帖子和下一個帖子。</p>
-<blockquote>
-<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post_navigation:</span> <span class="string">left</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h1 id="404頁面"><a href="#404頁面" class="headerlink" title="404頁面"></a>404頁面</h1><p>於<code>themes/next/source</code>放置<code>404.html</code>檔案</p>
-]]></content>
-      <categories>
-        <category>教學</category>
-        <category>NexT</category>
-      </categories>
-      <tags>
-        <tag>教學</tag>
-        <tag>NexT</tag>
-        <tag>帖子</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>[教學]-NexT使用-第三方服務</title>
-    <url>/posts/1612943303/</url>
-    <content><![CDATA[<p>靜態網站的某些功能受到限制，因此我們需要第三方服務來擴展我們的網站。<br>在任何時候，您都可以使用NexT支持的第三方服務來擴展所需的功能。</p>
-<h1 id="數學方程式"><a href="#數學方程式" class="headerlink" title="數學方程式"></a>數學方程式</h1><ul>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL21hdGgtZXF1YXRpb25zLmh0bWw=">數學方程式<i class="fa fa-external-link-alt"></i></span></li>
-</ul>
-<h1 id="評論系統"><a href="#評論系統" class="headerlink" title="評論系統"></a>評論系統</h1><ul>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjRGlzcXVz">Disqus<i class="fa fa-external-link-alt"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjRGlzcXVzSlM=">DisqusJS<i class="fa fa-external-link-alt"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjTGl2ZVJl">LiveRe<i class="fa fa-external-link-alt"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjR2l0YWxr">Gitalk<i class="fa fa-external-link-alt"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjVmFsaW5l">Valine (China)<i class="fa fa-external-link-alt"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjQ2hhbmd5YW4=">Changyan (China)<i class="fa fa-external-link-alt"></i></span></li>
-</ul>
-<a id="more"></a>
-
-<h1 id="如何在頁面上禁用評論"><a href="#如何在頁面上禁用評論" class="headerlink" title="如何在頁面上禁用評論"></a>如何在頁面上禁用評論</h1><p>當您啟用類似Disqus的評論服務時，所有新頁面將自動具有評論服務。<br>如果要在一頁中禁用它，只需將<code>comments</code>鍵添加到Front-matter並將其值設置為<code>false</code>。 如下所示：</p>
-<blockquote>
-<p>your-post.md<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">All</span> <span class="string">tags</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">"tags"</span></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h1 id="統計與分析"><a href="#統計與分析" class="headerlink" title="統計與分析"></a>統計與分析</h1><h2 id="分析工具"><a href="#分析工具" class="headerlink" title="分析工具"></a>分析工具</h2><ul>
-<li>Google Analytics</li>
-<li>Baidu Analytics (China)</li>
-<li>Growingio Analytics</li>
-<li>CNZZ Analytics (China)</li>
-</ul>
-<h2 id="統計"><a href="#統計" class="headerlink" title="統計"></a>統計</h2><ul>
-<li>LeanCloud (China)</li>
-<li>Firebase</li>
-<li>Busuanzi Counting</li>
-</ul>
-<h2 id="貼文小工具"><a href="#貼文小工具" class="headerlink" title="貼文小工具"></a>貼文小工具</h2><ul>
-<li>Widgetpack Rating</li>
-<li>AddThis</li>
-</ul>
-<h2 id="搜索服務"><a href="#搜索服務" class="headerlink" title="搜索服務"></a>搜索服務</h2><ul>
-<li>Algolia Search</li>
-<li>Local Search</li>
-<li>Swiftype</li>
-</ul>
-<h2 id="聊天服務"><a href="#聊天服務" class="headerlink" title="聊天服務"></a>聊天服務</h2><ul>
-<li>Chatra</li>
-<li>Tidio</li>
-</ul>
-<h2 id="外部庫"><a href="#外部庫" class="headerlink" title="外部庫"></a>外部庫</h2><ul>
-<li><a href="/2020/06/18/教學-Hexo使用-NexT整合設定/#pjax-安裝">PJAX</a><br>頁面跳轉的時候人眼需要對整個頁面作重新識別， 刷新部分頁面的時候， 只需要重新識別其中一塊區域</li>
-<li>Fancybox<br>jQuery線上相簿展示器</li>
-<li>MediumZoom</li>
-<li>Lazyload<br>當網站圖片較多時，會造成網站開啟速度變慢，這時候前端工程師就會使用一種優化技術－延遲加載</li>
-<li>Pangu Autospace<br>中文、英文、數字、符號之間插入空格以提升文章質量</li>
-<li>Quicklink</li>
-<li>Motion</li>
-<li>Progress bar</li>
-<li>Backgroud JS</li>
-</ul>
-]]></content>
-      <categories>
-        <category>教學</category>
-        <category>NexT</category>
-      </categories>
-      <tags>
-        <tag>教學</tag>
-        <tag>NexT</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>[教學]-NexT使用-繁簡自動切換</title>
     <url>/posts/2480083141/</url>
     <content><![CDATA[<h1 id="下載對應表"><a href="#下載對應表" class="headerlink" title="下載對應表"></a>下載對應表</h1><p>首先，我們可以在<span class="exturl" data-url="aHR0cHM6Ly90ZGluZy50b3AvanMvdHdfY24uanM=">這裏<i class="fa fa-external-link-alt"></i></span>右鍵另存下載簡繁字體切換所需的 <code>tw_cn.js</code> 文件，我們把這個文件放到 <code>~/themes/next/source/js</code> 文件夾下。</p>
@@ -498,6 +431,145 @@
       <tags>
         <tag>教學</tag>
         <tag>NexT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>三招挖飆股勝率超過六成 別再傻傻存牛皮股！ft.孫慶龍(股票-下班經濟學#41)</title>
+    <url>/posts/3613151692/</url>
+    <content><![CDATA[<p>如果不清楚什麼是KD值可以參考 <a href="/posts/3701503514/#KD%E5%80%BC">名詞解釋：KD值</a></p>
+<img src="/posts/3613151692/%E6%9C%88KD%E9%80%B2%E5%87%BA%E7%AD%96%E7%95%A5.png" class title="月KD進出策略">
+<h1 id="月KD進出策略"><a href="#月KD進出策略" class="headerlink" title="月KD進出策略"></a>月KD進出策略</h1><p>透過此策略可以幫你<code>趨吉避凶</code></p>
+<h2 id="買進時機"><a href="#買進時機" class="headerlink" title="買進時機"></a>買進時機</h2><ul>
+<li>月KD&lt;20<br>通常代表一檔股票已經跌很久了</li>
+<li>月K&gt;月D（黃金交叉）<br>跌的過程中，已經開始企圖想要翻轉</li>
+<li>月底看一次盤，必須搭配產業面判斷是否能進場</li>
+</ul>
+<img src="/posts/3613151692/3704%E8%B5%B0%E5%8B%A2%E5%9C%96.png" class title="3704走勢圖">
+<h2 id="賣出時機"><a href="#賣出時機" class="headerlink" title="賣出時機"></a>賣出時機</h2><ul>
+<li>月KD&gt;80</li>
+<li>月K&lt;月D（死亡交叉）<img src="/posts/3613151692/2317%E6%AD%BB%E4%BA%A1%E4%BA%A4%E5%8F%89.png" class title="2317死亡交叉">
+
+</li>
+</ul>
+<h1 id="設立停損點"><a href="#設立停損點" class="headerlink" title="設立停損點"></a>設立停損點</h1><p>因為黃金交叉並非100%上漲，當<code>跌破20週均線</code>需要止損。</p>
+<a id="more"></a>
+]]></content>
+      <categories>
+        <category>筆記</category>
+        <category>股票</category>
+        <category>股票</category>
+        <category>飆股</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>飆股</tag>
+        <tag>下班經濟學</tag>
+        <tag>不看盤投資術</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>站務-發文</title>
+    <url>/posts/2778056449/</url>
+    <content><![CDATA[<h1 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h1><p>不要加上「」，會導致類似縮排效果</p>
+<h1 id="「是不是有縮排效果」"><a href="#「是不是有縮排效果」" class="headerlink" title="「是不是有縮排效果」"></a>「是不是有縮排效果」</h1><p>是否有對齊這裡</p>
+<h1 id="改變文字屬性"><a href="#改變文字屬性" class="headerlink" title="改變文字屬性"></a>改變文字屬性</h1><p><span style="color:orange;">文字顏色為橘色</span><br><span style="background-color:orange;margin-right:5px;">文字底色為橘色</span></p>
+<h1 id="插入連結"><a href="#插入連結" class="headerlink" title="插入連結"></a>插入連結</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[說明文字](欲連結的URL)</span><br></pre></td></tr></table></figure>
+
+<h1 id="插入圖片"><a href="#插入圖片" class="headerlink" title="插入圖片"></a>插入圖片</h1><ol>
+<li>將圖片放入相對應的<code>資料夾</code>，例如在編輯「source/_posts/站務-發文.md」時，必須把圖片放入「source/_posts/站務-發文」資料夾。</li>
+<li>接著輸入以下指令，可以確保圖片能夠同時出現在<code>貼文</code>與<code>首頁</code><figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// &#123;% asset_img &lt;圖片名稱&gt; &lt;圖片說明&gt; %&#125;</span></span><br><span class="line">&#123;% asset_img ex_dividends.jpg <span class="number">0050</span>填息圖 %&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="插入youtube影片"><a href="#插入youtube影片" class="headerlink" title="插入youtube影片"></a>插入youtube影片</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% youtube HLJ9jJy7CMg %&#125;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<h1 id="插入數學公式"><a href="#插入數學公式" class="headerlink" title="插入數學公式"></a>插入數學公式</h1><p>有行內公式與獨立公式兩種</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ 行內公式 $</span><br><span class="line">$$ 獨立公式 $$</span><br></pre></td></tr></table></figure>
+<p><span class="exturl" data-url="aHR0cDovL2Jsb2cubWF4a2l0LmNvbS50dy8yMDIwLzAyL21hcmtkb3duLmh0bWw=">詳細數學公式教學<i class="fa fa-external-link-alt"></i></span></p>
+<h1 id="置頂"><a href="#置頂" class="headerlink" title="置頂"></a>置頂</h1><p>編輯需要置頂的文章，加入 <code>top</code>: &lt;數字&gt; 屬性，數字越大，優先級越高，例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &lt;文章名稱&gt;</span><br><span class="line">date: 2019-07-23 19:44:29</span><br><span class="line">categories: </span><br><span class="line">- &lt;分類名稱&gt;</span><br><span class="line">tags:</span><br><span class="line">top: 1</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+
+]]></content>
+      <categories>
+        <category>站務</category>
+      </categories>
+      <tags>
+        <tag>站務</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>40歲靠存股提早退休 5招心法教你不看盤投資術 ft.股魚(股票-下班經濟學#45)</title>
+    <url>/posts/3492910549/</url>
+    <content><![CDATA[<p>以下的內容，選股方式：</p>
+<ol>
+<li>透過<a href="/stockmoney">選股神器</a></li>
+<li>點選<code>選股心法</code> ==&gt; <code>基本面_股魚心法</code><img src="/posts/3492910549/%E8%B2%A1%E7%A9%80%E8%B3%87%E8%A8%8A%E9%81%B8%E8%82%A1%E7%B6%B2.png" class title="財穀資訊選股網">
+
+</li>
+</ol>
+<p>有許多朋友認為，把錢存在銀行裡面，是最保險的方法，不過今天銀行定存的利率，實在是低的嚇人，因此有許多朋友，把<code>存股</code>當作是目前最重要的<code>理財手段</code>，但是要怎麼樣在茫茫股海裡面找到好的存股標的呢？</p>
+<h1 id="五大心法超快速選出優良股基本盤"><a href="#五大心法超快速選出優良股基本盤" class="headerlink" title="五大心法超快速選出優良股基本盤"></a>五大心法超快速選出優良股基本盤</h1><img src="/posts/3492910549/%E4%BA%94%E5%A4%A7%E5%BF%83%E6%B3%95.png" class title="五大心法">
+<p>基本門檻：透過五大心法篩選過後，上市公司只會剩下270檔，篩過去80%就被淘汰了，<code>良率</code>就有8成以上。</p>
+<p>想審視<code>公司賺錢</code>的能力，只要看<code>ROE</code>與<code>營益率</code></p>
+<a id="more"></a>
+
+<h2 id="ROE-gt-8"><a href="#ROE-gt-8" class="headerlink" title="ROE &gt; 8%"></a>ROE &gt; 8%</h2><img src="/posts/3492910549/ROE.png" class title="ROE">
+<blockquote>
+<p>假設你是企業的經營者，我給你100元，再賺了10元進來，你的ROE就是10%，如果賺了50元，ROE就是50%。<br>所以ROE就是公司錢滾錢的能力</p>
+</blockquote>
+<h2 id="營業利益率"><a href="#營業利益率" class="headerlink" title="營業利益率"></a>營業利益率</h2><img src="/posts/3492910549/%E7%87%9F%E7%9B%8A%E7%8E%87.png" class title="營業利益率">
+<p>用途：營業利益率為反映一家公司本業獲利能力的指標。</p>
+<h2 id="本業收入率"><a href="#本業收入率" class="headerlink" title="本業收入率"></a>本業收入率</h2><img src="/posts/3492910549/%E6%9C%AC%E6%A5%AD%E6%94%B6%E5%85%A5%E7%8E%87.png" class title="本業收入率">
+<p>公司營運方針<code>本末倒置</code>！投資它就會有<code>高風險</code><br>用途：透過本業收入的比例，看公司有沒有專注本業。</p>
+<blockquote>
+<p>營業利益＝營業收入×營業利益率<br>淨利＝營業利益＋業外收益<br>本業收入率＝營業利益／（營業利益＋業外收入）</p>
+</blockquote>
+<h2 id="負債率"><a href="#負債率" class="headerlink" title="負債率"></a>負債率</h2><img src="/posts/3492910549/%E8%B2%A0%E5%82%B5%E7%8E%87.png" class title="負債率">
+
+<h2 id="營運現金流量"><a href="#營運現金流量" class="headerlink" title="營運現金流量"></a>營運現金流量</h2><img src="/posts/3492910549/%E7%87%9F%E9%81%8B%E7%8F%BE%E9%87%91%E6%B5%81%E9%87%8F.png" class title="營運現金流量">
+
+
+<h1 id="三招股票估價法-讓你不再傻傻當盤子"><a href="#三招股票估價法-讓你不再傻傻當盤子" class="headerlink" title="三招股票估價法 讓你不再傻傻當盤子"></a>三招股票估價法 讓你不再傻傻當盤子</h1><img src="/posts/3492910549/%E8%82%A1%E5%83%B9%E8%A9%95%E5%AE%9A.png" class title="股價評定">
+
+<h2 id="本益比法-EPS-14"><a href="#本益比法-EPS-14" class="headerlink" title="本益比法 = EPS * 14"></a>本益比法 = EPS * 14</h2><p>這個最常用。 </p>
+<h2 id="殖利率法-又稱零成長法"><a href="#殖利率法-又稱零成長法" class="headerlink" title="殖利率法(又稱零成長法)"></a>殖利率法(又稱零成長法)</h2><p>當一間公司已經停止成長，且股利多以現金股利為主時（衡量標準：70%以上）可以用該估價模型。 </p>
+<h2 id="K值法-又稱溢價法"><a href="#K值法-又稱溢價法" class="headerlink" title="K值法(又稱溢價法)"></a>K值法(又稱溢價法)</h2><p>若公司經營良好，特別在成長階段，投資人就要用溢價的方式買進該公司。</p>
+<blockquote>
+<p>價值 = 淨值 <em>(該年ROE/股東期待ROE）<br>舉例來講，若一間公司淨值50。該公司的年度 ROE為 20%。<br>若投資人預計一間公司至少應該有10%的表現。<br>則該公司在該投資人的心中合理價為 50</em>(20%/10%)=100<br>一般來說，K值會依產業而定：<br>傳產：6%<br>電子業：8%<br>半導體：10%</p>
+</blockquote>
+<p>youtube連結：</p>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/ShNI41_rFv4" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
+]]></content>
+      <categories>
+        <category>筆記</category>
+        <category>股票</category>
+        <category>股票</category>
+        <category>基本面分析</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>下班經濟學</tag>
+        <tag>不看盤投資術</tag>
+        <tag>股魚</tag>
+        <tag>存股</tag>
+        <tag>選股</tag>
+        <tag>基本面分析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>股票-殖利率</title>
+    <url>/posts/4199638572/</url>
+    <content><![CDATA[<a id="more"></a>
+]]></content>
+      <categories>
+        <category>筆記</category>
+        <category>股票</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
       </tags>
   </entry>
   <entry>
@@ -655,224 +727,70 @@
       </tags>
   </entry>
   <entry>
-    <title>站務-發文</title>
-    <url>/posts/2778056449/</url>
-    <content><![CDATA[<h1 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h1><p>不要加上「」，會導致類似縮排效果</p>
-<h1 id="「是不是有縮排效果」"><a href="#「是不是有縮排效果」" class="headerlink" title="「是不是有縮排效果」"></a>「是不是有縮排效果」</h1><p>是否有對齊這裡</p>
-<h1 id="改變文字屬性"><a href="#改變文字屬性" class="headerlink" title="改變文字屬性"></a>改變文字屬性</h1><p><span style="color:orange;">文字顏色為橘色</span><br><span style="background-color:orange;margin-right:5px;">文字底色為橘色</span></p>
-<h1 id="插入連結"><a href="#插入連結" class="headerlink" title="插入連結"></a>插入連結</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[說明文字](欲連結的URL)</span><br></pre></td></tr></table></figure>
-
-<h1 id="插入圖片"><a href="#插入圖片" class="headerlink" title="插入圖片"></a>插入圖片</h1><ol>
-<li>將圖片放入相對應的<code>資料夾</code>，例如在編輯「source/_posts/站務-發文.md」時，必須把圖片放入「source/_posts/站務-發文」資料夾。</li>
-<li>接著輸入以下指令，可以確保圖片能夠同時出現在<code>貼文</code>與<code>首頁</code><figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// &#123;% asset_img &lt;圖片名稱&gt; &lt;圖片說明&gt; %&#125;</span></span><br><span class="line">&#123;% asset_img ex_dividends.jpg <span class="number">0050</span>填息圖 %&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="插入youtube影片"><a href="#插入youtube影片" class="headerlink" title="插入youtube影片"></a>插入youtube影片</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% youtube HLJ9jJy7CMg %&#125;</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<h1 id="插入數學公式"><a href="#插入數學公式" class="headerlink" title="插入數學公式"></a>插入數學公式</h1><p>有行內公式與獨立公式兩種</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ 行內公式 $</span><br><span class="line">$$ 獨立公式 $$</span><br></pre></td></tr></table></figure>
-<p><span class="exturl" data-url="aHR0cDovL2Jsb2cubWF4a2l0LmNvbS50dy8yMDIwLzAyL21hcmtkb3duLmh0bWw=">詳細數學公式教學<i class="fa fa-external-link-alt"></i></span></p>
-<h1 id="置頂"><a href="#置頂" class="headerlink" title="置頂"></a>置頂</h1><p>編輯需要置頂的文章，加入 <code>top</code>: &lt;數字&gt; 屬性，數字越大，優先級越高，例如：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &lt;文章名稱&gt;</span><br><span class="line">date: 2019-07-23 19:44:29</span><br><span class="line">categories: </span><br><span class="line">- &lt;分類名稱&gt;</span><br><span class="line">tags:</span><br><span class="line">top: 1</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-<a id="more"></a>
-
-]]></content>
-      <categories>
-        <category>站務</category>
-      </categories>
-      <tags>
-        <tag>站務</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>三招挖飆股勝率超過六成 別再傻傻存牛皮股！ft.孫慶龍(股票-下班經濟學#41)</title>
-    <url>/posts/3613151692/</url>
-    <content><![CDATA[<p>如果不清楚什麼是KD值可以參考 <a href="/posts/3701503514/#KD%E5%80%BC">名詞解釋：KD值</a></p>
-<img src="/posts/3613151692/%E6%9C%88KD%E9%80%B2%E5%87%BA%E7%AD%96%E7%95%A5.png" class title="月KD進出策略">
-<h1 id="月KD進出策略"><a href="#月KD進出策略" class="headerlink" title="月KD進出策略"></a>月KD進出策略</h1><p>透過此策略可以幫你<code>趨吉避凶</code></p>
-<h2 id="買進時機"><a href="#買進時機" class="headerlink" title="買進時機"></a>買進時機</h2><ul>
-<li>月KD&lt;20<br>通常代表一檔股票已經跌很久了</li>
-<li>月K&gt;月D（黃金交叉）<br>跌的過程中，已經開始企圖想要翻轉</li>
-<li>月底看一次盤，必須搭配產業面判斷是否能進場</li>
-</ul>
-<img src="/posts/3613151692/3704%E8%B5%B0%E5%8B%A2%E5%9C%96.png" class title="3704走勢圖">
-<h2 id="賣出時機"><a href="#賣出時機" class="headerlink" title="賣出時機"></a>賣出時機</h2><ul>
-<li>月KD&gt;80</li>
-<li>月K&lt;月D（死亡交叉）<img src="/posts/3613151692/2317%E6%AD%BB%E4%BA%A1%E4%BA%A4%E5%8F%89.png" class title="2317死亡交叉">
-
-</li>
-</ul>
-<h1 id="設立停損點"><a href="#設立停損點" class="headerlink" title="設立停損點"></a>設立停損點</h1><p>因為黃金交叉並非100%上漲，當<code>跌破20週均線</code>需要止損。</p>
-<a id="more"></a>
-]]></content>
-      <categories>
-        <category>筆記</category>
-        <category>股票</category>
-        <category>股票</category>
-        <category>飆股</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>飆股</tag>
-        <tag>下班經濟學</tag>
-        <tag>不看盤投資術</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>40歲靠存股提早退休 5招心法教你不看盤投資術 ft.股魚(股票-下班經濟學#45)</title>
-    <url>/posts/3492910549/</url>
-    <content><![CDATA[<p>以下的內容，選股方式：</p>
+    <title>[教學]-NexT使用-主題設定-帖子</title>
+    <url>/posts/3030220437/</url>
+    <content><![CDATA[<h1 id="帖子設置"><a href="#帖子設置" class="headerlink" title="帖子設置"></a>帖子設置</h1><h2 id="序言文字"><a href="#序言文字" class="headerlink" title="序言文字"></a>序言文字</h2><p>通常需要在主頁上顯示文章的某些部分，然後提供指向完整文章的鏈接。<br>NexT提供了兩種方法來控製文章在首頁中的顯示方式。<br>換句話說，您可以使用以下方式來顯示文章摘要和<code>閱讀全文</code>按鈕。</p>
 <ol>
-<li>透過<a href="/stockmoney">選股神器</a></li>
-<li>點選<code>選股心法</code> ==&gt; <code>基本面_股魚心法</code><img src="/posts/3492910549/%E8%B2%A1%E7%A9%80%E8%B3%87%E8%A8%8A%E9%81%B8%E8%82%A1%E7%B6%B2.png" class title="財穀資訊選股網">
+<li><p>閱讀全文<br>Hexo建議在文章中使用<code>&lt;!-- more --&gt;</code>手動中斷文章。</p>
+</li>
+<li><p>摘錄說明<br>如果您已在<code>Front-matter</code>中添加了說明並將其值設置為文章摘要，則默認情況下，NexT會將說明摘錄為首頁中的前導文本。 如果沒有描述，則全部內容將為首頁中的前導文本。<br>您可以通過在<code>主題配置文件</code>中將<code>excerpt_description</code>的值設置為false來禁用它。</p>
+<blockquote>
+<p>next/_config.yml</p>
+</blockquote>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">excerpt_description:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<a id="more"></a>
 
 </li>
 </ol>
-<p>有許多朋友認為，把錢存在銀行裡面，是最保險的方法，不過今天銀行定存的利率，實在是低的嚇人，因此有許多朋友，把<code>存股</code>當作是目前最重要的<code>理財手段</code>，但是要怎麼樣在茫茫股海裡面找到好的存股標的呢？</p>
-<h1 id="五大心法超快速選出優良股基本盤"><a href="#五大心法超快速選出優良股基本盤" class="headerlink" title="五大心法超快速選出優良股基本盤"></a>五大心法超快速選出優良股基本盤</h1><img src="/posts/3492910549/%E4%BA%94%E5%A4%A7%E5%BF%83%E6%B3%95.png" class title="五大心法">
-<p>基本門檻：透過五大心法篩選過後，上市公司只會剩下270檔，篩過去80%就被淘汰了，<code>良率</code>就有8成以上。</p>
-<p>想審視<code>公司賺錢</code>的能力，只要看<code>ROE</code>與<code>營益率</code></p>
-<a id="more"></a>
-
-<h2 id="ROE-gt-8"><a href="#ROE-gt-8" class="headerlink" title="ROE &gt; 8%"></a>ROE &gt; 8%</h2><img src="/posts/3492910549/ROE.png" class title="ROE">
+<h2 id="發布元顯示"><a href="#發布元顯示" class="headerlink" title="發布元顯示"></a>發布元顯示</h2><p>NexT支持帖子創建時間,修改時間,分類顯示。</p>
 <blockquote>
-<p>假設你是企業的經營者，我給你100元，再賺了10元進來，你的ROE就是10%，如果賺了50元，ROE就是50%。<br>所以ROE就是公司錢滾錢的能力</p>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post_meta:</span></span><br><span class="line">  <span class="attr">item_text:</span> <span class="literal">false</span>  <span class="comment"># 設為true 可以一行顯示 文章的所有屬性</span></span><br><span class="line">  <span class="attr">created_at:</span> <span class="literal">true</span>  <span class="comment">#顯示創建時間</span></span><br><span class="line">  <span class="attr">updated_at:</span></span><br><span class="line">    <span class="attr">enabled:</span> <span class="literal">true</span>   <span class="comment">#顯示修改的時間</span></span><br><span class="line">    <span class="attr">another_day:</span> <span class="literal">true</span> <span class="comment">#設true時 如果創建時間和修改時間一樣則顯示一個時間</span></span><br><span class="line">  <span class="attr">categories:</span> <span class="literal">true</span>  <span class="comment">#顯示分類信息</span></span><br></pre></td></tr></table></figure></p>
 </blockquote>
-<h2 id="營業利益率"><a href="#營業利益率" class="headerlink" title="營業利益率"></a>營業利益率</h2><img src="/posts/3492910549/%E7%87%9F%E7%9B%8A%E7%8E%87.png" class title="營業利益率">
-<p>用途：營業利益率為反映一家公司本業獲利能力的指標。</p>
-<h2 id="本業收入率"><a href="#本業收入率" class="headerlink" title="本業收入率"></a>本業收入率</h2><img src="/posts/3492910549/%E6%9C%AC%E6%A5%AD%E6%94%B6%E5%85%A5%E7%8E%87.png" class title="本業收入率">
-<p>公司營運方針<code>本末倒置</code>！投資它就會有<code>高風險</code><br>用途：透過本業收入的比例，看公司有沒有專注本業。</p>
+<h2 id="hexo中的next增加頁面閱讀統計-字數統計-閱讀時長"><a href="#hexo中的next增加頁面閱讀統計-字數統計-閱讀時長" class="headerlink" title="hexo中的next增加頁面閱讀統計,字數統計,閱讀時長"></a>hexo中的next增加頁面閱讀統計,字數統計,閱讀時長</h2><blockquote>
+<p>下方會顯示 總閱讀人數 閱讀總次數<br>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">busuanzi_count:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span>  <span class="comment">#設true 開啟</span></span><br><span class="line">  <span class="attr">total_visitors:</span> <span class="literal">true</span>  <span class="comment">#總閱讀人數 uv數</span></span><br><span class="line">  <span class="attr">total_visitors_icon:</span> <span class="string">user</span>  <span class="comment">#閱讀總人數的圖標</span></span><br><span class="line">  <span class="attr">total_views:</span> <span class="literal">true</span>  <span class="comment">#總閱讀次數 pv數</span></span><br><span class="line">  <span class="attr">total_views_icon:</span> <span class="string">eye</span>  <span class="comment">#閱讀總次數的圖標</span></span><br><span class="line">  <span class="attr">post_views:</span> <span class="literal">true</span> <span class="comment">#開啟內容閱讀次數</span></span><br><span class="line">  <span class="attr">post_views_icon:</span> <span class="string">eye</span> <span class="comment">#內容頁閱讀數的圖標</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<p>新增字數統計,閱讀時長,先安裝插件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-word-counter --save</span><br></pre></td></tr></table></figure>
+
+<p><code>主題配置</code>信息如下:</p>
 <blockquote>
-<p>營業利益＝營業收入×營業利益率<br>淨利＝營業利益＋業外收益<br>本業收入率＝營業利益／（營業利益＋業外收入）</p>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 字數統計及閱讀時長</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">separated_meta:</span> <span class="literal">true</span>  <span class="comment"># 是否"換行顯示"字數統計及閱讀時長</span></span><br><span class="line">  <span class="attr">item_text_post:</span> <span class="literal">true</span>  <span class="comment"># 字數統計和閱讀時長是要使用小圖示(true)還是文字表示(false)</span></span><br><span class="line">  <span class="attr">item_text_total:</span> <span class="literal">false</span>  <span class="comment"># 文章底部的字數統計和閱讀時長是要使用小圖示(true)還是文字表示(false)</span></span><br></pre></td></tr></table></figure></p>
 </blockquote>
-<h2 id="負債率"><a href="#負債率" class="headerlink" title="負債率"></a>負債率</h2><img src="/posts/3492910549/%E8%B2%A0%E5%82%B5%E7%8E%87.png" class title="負債率">
-
-<h2 id="營運現金流量"><a href="#營運現金流量" class="headerlink" title="營運現金流量"></a>營運現金流量</h2><img src="/posts/3492910549/%E7%87%9F%E9%81%8B%E7%8F%BE%E9%87%91%E6%B5%81%E9%87%8F.png" class title="營運現金流量">
-
-
-<h1 id="三招股票估價法-讓你不再傻傻當盤子"><a href="#三招股票估價法-讓你不再傻傻當盤子" class="headerlink" title="三招股票估價法 讓你不再傻傻當盤子"></a>三招股票估價法 讓你不再傻傻當盤子</h1><img src="/posts/3492910549/%E8%82%A1%E5%83%B9%E8%A9%95%E5%AE%9A.png" class title="股價評定">
-
-<h2 id="本益比法-EPS-14"><a href="#本益比法-EPS-14" class="headerlink" title="本益比法 = EPS * 14"></a>本益比法 = EPS * 14</h2><p>這個最常用。 </p>
-<h2 id="殖利率法-又稱零成長法"><a href="#殖利率法-又稱零成長法" class="headerlink" title="殖利率法(又稱零成長法)"></a>殖利率法(又稱零成長法)</h2><p>當一間公司已經停止成長，且股利多以現金股利為主時（衡量標準：70%以上）可以用該估價模型。 </p>
-<h2 id="K值法-又稱溢價法"><a href="#K值法-又稱溢價法" class="headerlink" title="K值法(又稱溢價法)"></a>K值法(又稱溢價法)</h2><p>若公司經營良好，特別在成長階段，投資人就要用溢價的方式買進該公司。</p>
+<p><code>站點配置文件</code>:</p>
 <blockquote>
-<p>價值 = 淨值 <em>(該年ROE/股東期待ROE）<br>舉例來講，若一間公司淨值50。該公司的年度 ROE為 20%。<br>若投資人預計一間公司至少應該有10%的表現。<br>則該公司在該投資人的心中合理價為 50</em>(20%/10%)=100<br>一般來說，K值會依產業而定：<br>傳產：6%<br>電子業：8%<br>半導體：10%</p>
+<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 字數統計及閱讀時長</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">symbols:</span> <span class="literal">true</span> <span class="comment"># 文章是否顯示字數統計</span></span><br><span class="line">  <span class="attr">time:</span> <span class="literal">true</span> <span class="comment"># 文章是否顯示閱讀時間</span></span><br><span class="line">  <span class="attr">total_symbols:</span> <span class="literal">true</span> <span class="comment"># 網頁底部是否顯示字數統計</span></span><br><span class="line">  <span class="attr">total_time:</span> <span class="literal">true</span> <span class="comment"># 網頁底部是否顯示閱讀時間</span></span><br><span class="line">  <span class="attr">exclude_codeblock:</span> <span class="literal">false</span> <span class="comment"># 排除程式碼字數統計</span></span><br><span class="line">  <span class="attr">awl:</span> <span class="number">2</span>  <span class="comment">#平均文字長度，中文為 2, 英文為 5, 預設為 4</span></span><br><span class="line">  <span class="attr">wpm:</span> <span class="number">275</span>  <span class="comment">#一分鐘閱讀字數，預設為 275</span></span><br><span class="line">  <span class="attr">suffix:</span> <span class="string">"分鐘"</span></span><br></pre></td></tr></table></figure></p>
 </blockquote>
-<p>youtube連結：</p>
-<div class="video-container"><iframe src="https://www.youtube.com/embed/ShNI41_rFv4" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
+<h2 id="標籤圖標"><a href="#標籤圖標" class="headerlink" title="標籤圖標"></a>標籤圖標</h2><p>默認情況下，帖子底部的標籤在左側的左側帶有符號＃。<br>如果您更喜歡圖標而不是符號，請按如下所示編輯主題配置文件：</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">tag_icon:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h2 id="增加打賞功能"><a href="#增加打賞功能" class="headerlink" title="增加打賞功能"></a>增加打賞功能</h2><p>這個也是next具備了。先把需要的收款碼放到<code>/themes/next/source/images</code>裡面。</p>
+<p>搜索reward_settings修改：</p>
+<blockquote>
+<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">reward_settings:</span></span><br><span class="line">  <span class="comment"># If true, reward will be displayed in every article by default.</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">animation:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#comment: Donate comment here.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">reward:</span></span><br><span class="line">  <span class="attr">wechatpay:</span> <span class="string">/images/wechatpay.png</span></span><br><span class="line">  <span class="attr">alipay:</span> <span class="string">/images/alipay.png</span></span><br><span class="line">  <span class="comment">#bitcoin: /images/bitcoin.png</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h2 id="Follow-me"><a href="#Follow-me" class="headerlink" title="Follow me"></a>Follow me</h2><blockquote>
+<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Subscribe through Telegram Channel, Twitter, etc.</span></span><br><span class="line"><span class="comment"># Usage: `Key: permalink || icon` (Font Awesome)</span></span><br><span class="line"><span class="attr">follow_me:</span></span><br><span class="line">  <span class="comment">#Twitter: https://twitter.com/username || fab fa-twitter</span></span><br><span class="line">  <span class="comment">#Telegram: https://t.me/channel_name || fab fa-telegram</span></span><br><span class="line">  <span class="comment">#WeChat: /images/wechat_channel.jpg || fab fa-weixin</span></span><br><span class="line">  <span class="comment">#RSS: /atom.xml || fa fa-rss</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h2 id="相關文章推薦"><a href="#相關文章推薦" class="headerlink" title="相關文章推薦"></a>相關文章推薦</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
+<p>主題配置信息如下:</p>
+<blockquote>
+<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">title:</span> <span class="string">相關文章推薦</span> <span class="comment"># 屬性的命名</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">false</span> <span class="comment">#false代表首頁不顯示</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span> <span class="comment">#最多5條</span></span><br><span class="line">    <span class="comment">#PPMixingRate: 0.0 #可以看github上 這個相關度介紹</span></span><br><span class="line">    <span class="comment">#isDate: true #是否顯示 日期</span></span><br><span class="line">    <span class="comment">#isImage: false #是否顯示配圖</span></span><br><span class="line">    <span class="attr">isExcerpt:</span> <span class="literal">false</span> <span class="comment">#是否顯示摘要</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h1 id="帖子導航"><a href="#帖子導航" class="headerlink" title="帖子導航"></a>帖子導航</h1><p>如果存在，則在頁腳中顯示上一個帖子和下一個帖子。</p>
+<blockquote>
+<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post_navigation:</span> <span class="string">left</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h1 id="404頁面"><a href="#404頁面" class="headerlink" title="404頁面"></a>404頁面</h1><p>於<code>themes/next/source</code>放置<code>404.html</code>檔案</p>
 ]]></content>
       <categories>
-        <category>筆記</category>
-        <category>股票</category>
-        <category>股票</category>
-        <category>基本面分析</category>
+        <category>教學</category>
+        <category>NexT</category>
       </categories>
       <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>下班經濟學</tag>
-        <tag>不看盤投資術</tag>
-        <tag>股魚</tag>
-        <tag>存股</tag>
-        <tag>選股</tag>
-        <tag>基本面分析</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>股票-殖利率</title>
-    <url>/posts/4199638572/</url>
-    <content><![CDATA[<a id="more"></a>
-]]></content>
-      <categories>
-        <category>筆記</category>
-        <category>股票</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>股票-股利</title>
-    <url>/posts/3702625446/</url>
-    <content><![CDATA[<p>看完這篇將學到：</p>
-<blockquote>
-<p>什麼是<code>「現金股利」</code>、<code>「股票股利」</code>？<br>  是公司將賺的錢分配給股東的形式，簡稱為「分紅」，</p>
-</blockquote>
-<ul>
-<li><strong>「現金股利」：發放現金股利給股東。</strong></li>
-<li><strong>「股票股利」：發放股票股利(把錢用來增加公司的股本)，將股本的所有權轉移給股東。</strong></li>
-</ul>
-<p>當我們買進某公司的股票時，便成為該公司的股東。<br>若該公司有賺錢時，我們（股東）就能夠依據持有股票的比例，分配獲得所賺的利潤，這就是所謂的「股利」，<br>反之，若該公司不賺錢，當然也有可能領不到股利 😖</p>
-<h1 id="股利"><a href="#股利" class="headerlink" title="股利"></a>股利</h1><p>股利，是指股份公司從<code>留存收益</code>中派發給股東的那一部分。<br>就上市公司的情況中，股利只會派發給在<code>除息日之前一日持有股票</code>至除息日當日的人士，<br>在除息日當日或以後才買入股票的人則不能獲派股利。<br>與此同時，證券交易所會在除息日開市前自動把股票的前一交易日收盤價扣減股利後的價值，<br>定為該股票的開盤交易日的開盤價，因此股價會在除息日開盤時「自動下跌」。</p>
-<p>股利一般有兩種支付方式：<code>「現金股利」</code>（<code>股息</code>，英語：Cash Dividends）和<code>「股票股利」</code>（<code>股利</code>，英語：Stock Dividends）。 </p>
-<h2 id="現金股利"><a href="#現金股利" class="headerlink" title="現金股利"></a>現金股利</h2><p><code>「現金股利」</code>是指股份公司向股東<code>支付現金</code>，又稱<code>「股息」</code>或<code>「配息」</code>。<br><code>現金股利</code>給予股東即時的資本回報。</p>
-<h2 id="股票股利"><a href="#股票股利" class="headerlink" title="股票股利"></a>股票股利</h2><p><code>「股票股利」</code>或<code>「以股代息」</code>是指股份公司向股東以<code>贈送新的股份</code>方式代替支付現金股利，又稱<code>「股利」</code>或<code>「配股」</code>。</p>
-<p>對於優質股，股票股利給予股東長遠獲取更大回報的機會，股東期望股份價值上升及繼續以股代息，利用複息效應把錢愈滾愈大。</p>
-<p>但對於經營不佳的公司，股票股利只是「零成本」印股票派息，因為公司沒有「多餘的」現金可用作派息。 </p>
-<h2 id="配息配股的比較"><a href="#配息配股的比較" class="headerlink" title="配息配股的比較"></a>配息配股的比較</h2><p>整理中．．．</p>
-<a id="more"></a>
-]]></content>
-      <categories>
-        <category>筆記</category>
-        <category>股票</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>股票-布林通道 實戰必勝術</title>
-    <url>/posts/2691061525/</url>
-    <content><![CDATA[<h1 id="布林通道的組成"><a href="#布林通道的組成" class="headerlink" title="布林通道的組成"></a>布林通道的組成</h1><h2 id="上線：壓力線（＋２個標準差）"><a href="#上線：壓力線（＋２個標準差）" class="headerlink" title="上線：壓力線（＋２個標準差）"></a>上線：壓力線（＋２個標準差）</h2><h2 id="中線：２０日移動平均線"><a href="#中線：２０日移動平均線" class="headerlink" title="中線：２０日移動平均線"></a>中線：２０日移動平均線</h2><h2 id="下線：支撐線（－２個標準差）"><a href="#下線：支撐線（－２個標準差）" class="headerlink" title="下線：支撐線（－２個標準差）"></a>下線：支撐線（－２個標準差）</h2><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E9%80%9A%E9%81%93%E7%9A%84%E7%B5%84%E6%88%90.png" class title="布林通道的組成">
-<h2 id="２個標準差：高達95-4-的機率"><a href="#２個標準差：高達95-4-的機率" class="headerlink" title="２個標準差：高達95.4%的機率"></a>２個標準差：高達95.4%的機率</h2><img src="/posts/2691061525/%E6%A8%99%E6%BA%96%E5%B7%AE%E6%A9%9F%E7%8E%87.png" class title="標準差機率">
-<h2 id="超出布林通道的機率只有4-6-的機率"><a href="#超出布林通道的機率只有4-6-的機率" class="headerlink" title="超出布林通道的機率只有4.6%的機率"></a>超出布林通道的機率只有4.6%的機率</h2><img src="/posts/2691061525/%E8%B6%85%E5%87%BA%E5%B8%83%E6%9E%97%E9%80%9A%E9%81%93.png" class title="超出布林通道">
-<h1 id="如何運用布林通道"><a href="#如何運用布林通道" class="headerlink" title="如何運用布林通道"></a>如何運用布林通道</h1><a id="more"></a>
-
-<h2 id="買進訊號"><a href="#買進訊號" class="headerlink" title="買進訊號"></a>買進訊號</h2><ol>
-<li>價格在<code>中軌與上軌</code>線間波動為<code>多方</code>行情<br>=&gt; <code>拉回中線</code>附近為買進訊號</li>
-<li>價格<code>由下向上穿越中線</code>表示<br>=&gt; 多方動能轉強為買進訊號<img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E6%94%AF%E6%92%90%E7%B7%9A%E8%B2%B7%E9%80%B2.png" class title="穿越支撐線買進">
-<img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E5%A3%93%E5%8A%9B%E7%B7%9A.png" class title="穿越壓力線">
-<img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E4%B8%AD%E7%B7%9A%E5%8A%A0%E7%A2%BC.png" class title="穿越中線加碼">
-
-</li>
-</ol>
-<h2 id="賣出訊號"><a href="#賣出訊號" class="headerlink" title="賣出訊號"></a>賣出訊號</h2><img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E4%B8%AD%E7%B7%9A%E9%80%80%E5%87%BA.png" class title="穿越中線退出">
-
-<h1 id="布林通道相關指標"><a href="#布林通道相關指標" class="headerlink" title="布林通道相關指標"></a>布林通道相關指標</h1><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E6%A5%B5%E9%99%90%E6%8C%87%E6%A8%99.png" class title="布林極限指標">
-<img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E6%A5%B5%E9%99%90%E6%8C%87%E6%A8%992.png" class title="布林極限指標2">
-
-<h1 id="布林通道的形狀"><a href="#布林通道的形狀" class="headerlink" title="布林通道的形狀"></a>布林通道的形狀</h1><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E5%BD%A2%E7%8B%80.png" class title="布林形狀">
-<img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E5%B8%B6%E5%AF%AC.png" class title="布林帶寬">
-
-<p>%b指標<br>%b 指標（Percent b，PB），以數字形式呈現收盤價在布林帶中的位置，做為交易決策時的關鍵指標。例如：當%b值為0.5（或以百分比表示50%），代表收盤價處於布林帶的中間位置。</p>
-<p>%b值 = (收盤價−布林帶下軌值) ÷ (布林帶上軌值−布林帶下軌值)<br>由於收盤價會在上、下軌道震盪遊走，幅度甚至大於軌道範圍（0~1），因此%b值沒有上下限。當走勢向上突破，收盤價落於上軌上方時，%b值&gt; 1；而走趨向下突破，收盤價落在下軌下方時，%b值&lt; 0。<br>藉由觀察分析「%b指標」可以提供投資時的參考，依據指標的強弱走勢，作出買賣決策。</p>
-<h1 id="大盤紅綠燈"><a href="#大盤紅綠燈" class="headerlink" title="大盤紅綠燈"></a>大盤紅綠燈</h1><h2 id="逢低買進"><a href="#逢低買進" class="headerlink" title="逢低買進"></a>逢低買進</h2><ol>
-<li>大盤日線20MA上揚</li>
-<li>即使碰到下通道，也會立即脫離下通道</li>
-</ol>
-<h2 id="黃燈"><a href="#黃燈" class="headerlink" title="黃燈"></a>黃燈</h2><p>短線過多，衝到上通道，不要進去買</p>
-<h2 id="紅燈（跌破月線）"><a href="#紅燈（跌破月線）" class="headerlink" title="紅燈（跌破月線）"></a>紅燈（跌破月線）</h2><p>大盤走入空頭型態（中長期）</p>
-<h2 id="買在飆股起漲點"><a href="#買在飆股起漲點" class="headerlink" title="買在飆股起漲點"></a>買在飆股起漲點</h2><ol>
-<li>壓縮：股價壓縮至少10個交易日</li>
-<li>帶量：成交量出現過去5日均量的2～10倍</li>
-<li>突破：當日收盤價突破通道頂且收紅K棒</li>
-</ol>
-<h2 id="跌破月線出場"><a href="#跌破月線出場" class="headerlink" title="跌破月線出場"></a>跌破月線出場</h2><p>參考資料：<br><span class="exturl" data-url="aHR0cHM6Ly9oaXN0b2NrLnR3L2Jsb2cvaGlzdG9jazE2ODgvMjQ1">五分鐘搞懂布林通道（工具應用篇）<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1ObTQweDRjOVR0aw==">股市阿水的布林通道<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>筆記</category>
-        <category>股票</category>
-        <category>股票</category>
-        <category>技術面分析</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>布林通道</tag>
-        <tag>技術分析</tag>
+        <tag>教學</tag>
+        <tag>NexT</tag>
+        <tag>帖子</tag>
       </tags>
   </entry>
   <entry>
@@ -934,6 +852,58 @@
       </tags>
   </entry>
   <entry>
+    <title>股票-布林通道 實戰必勝術</title>
+    <url>/posts/2691061525/</url>
+    <content><![CDATA[<h1 id="布林通道的組成"><a href="#布林通道的組成" class="headerlink" title="布林通道的組成"></a>布林通道的組成</h1><h2 id="上線：壓力線（＋２個標準差）"><a href="#上線：壓力線（＋２個標準差）" class="headerlink" title="上線：壓力線（＋２個標準差）"></a>上線：壓力線（＋２個標準差）</h2><h2 id="中線：２０日移動平均線"><a href="#中線：２０日移動平均線" class="headerlink" title="中線：２０日移動平均線"></a>中線：２０日移動平均線</h2><h2 id="下線：支撐線（－２個標準差）"><a href="#下線：支撐線（－２個標準差）" class="headerlink" title="下線：支撐線（－２個標準差）"></a>下線：支撐線（－２個標準差）</h2><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E9%80%9A%E9%81%93%E7%9A%84%E7%B5%84%E6%88%90.png" class title="布林通道的組成">
+<h2 id="２個標準差：高達95-4-的機率"><a href="#２個標準差：高達95-4-的機率" class="headerlink" title="２個標準差：高達95.4%的機率"></a>２個標準差：高達95.4%的機率</h2><img src="/posts/2691061525/%E6%A8%99%E6%BA%96%E5%B7%AE%E6%A9%9F%E7%8E%87.png" class title="標準差機率">
+<h2 id="超出布林通道的機率只有4-6-的機率"><a href="#超出布林通道的機率只有4-6-的機率" class="headerlink" title="超出布林通道的機率只有4.6%的機率"></a>超出布林通道的機率只有4.6%的機率</h2><img src="/posts/2691061525/%E8%B6%85%E5%87%BA%E5%B8%83%E6%9E%97%E9%80%9A%E9%81%93.png" class title="超出布林通道">
+<h1 id="如何運用布林通道"><a href="#如何運用布林通道" class="headerlink" title="如何運用布林通道"></a>如何運用布林通道</h1><a id="more"></a>
+
+<h2 id="買進訊號"><a href="#買進訊號" class="headerlink" title="買進訊號"></a>買進訊號</h2><ol>
+<li>價格在<code>中軌與上軌</code>線間波動為<code>多方</code>行情<br>=&gt; <code>拉回中線</code>附近為買進訊號</li>
+<li>價格<code>由下向上穿越中線</code>表示<br>=&gt; 多方動能轉強為買進訊號<img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E6%94%AF%E6%92%90%E7%B7%9A%E8%B2%B7%E9%80%B2.png" class title="穿越支撐線買進">
+<img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E5%A3%93%E5%8A%9B%E7%B7%9A.png" class title="穿越壓力線">
+<img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E4%B8%AD%E7%B7%9A%E5%8A%A0%E7%A2%BC.png" class title="穿越中線加碼">
+
+</li>
+</ol>
+<h2 id="賣出訊號"><a href="#賣出訊號" class="headerlink" title="賣出訊號"></a>賣出訊號</h2><img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E4%B8%AD%E7%B7%9A%E9%80%80%E5%87%BA.png" class title="穿越中線退出">
+
+<h1 id="布林通道相關指標"><a href="#布林通道相關指標" class="headerlink" title="布林通道相關指標"></a>布林通道相關指標</h1><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E6%A5%B5%E9%99%90%E6%8C%87%E6%A8%99.png" class title="布林極限指標">
+<img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E6%A5%B5%E9%99%90%E6%8C%87%E6%A8%992.png" class title="布林極限指標2">
+
+<h1 id="布林通道的形狀"><a href="#布林通道的形狀" class="headerlink" title="布林通道的形狀"></a>布林通道的形狀</h1><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E5%BD%A2%E7%8B%80.png" class title="布林形狀">
+<img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E5%B8%B6%E5%AF%AC.png" class title="布林帶寬">
+
+<p>%b指標<br>%b 指標（Percent b，PB），以數字形式呈現收盤價在布林帶中的位置，做為交易決策時的關鍵指標。例如：當%b值為0.5（或以百分比表示50%），代表收盤價處於布林帶的中間位置。</p>
+<p>%b值 = (收盤價−布林帶下軌值) ÷ (布林帶上軌值−布林帶下軌值)<br>由於收盤價會在上、下軌道震盪遊走，幅度甚至大於軌道範圍（0~1），因此%b值沒有上下限。當走勢向上突破，收盤價落於上軌上方時，%b值&gt; 1；而走趨向下突破，收盤價落在下軌下方時，%b值&lt; 0。<br>藉由觀察分析「%b指標」可以提供投資時的參考，依據指標的強弱走勢，作出買賣決策。</p>
+<h1 id="大盤紅綠燈"><a href="#大盤紅綠燈" class="headerlink" title="大盤紅綠燈"></a>大盤紅綠燈</h1><h2 id="逢低買進"><a href="#逢低買進" class="headerlink" title="逢低買進"></a>逢低買進</h2><ol>
+<li>大盤日線20MA上揚</li>
+<li>即使碰到下通道，也會立即脫離下通道</li>
+</ol>
+<h2 id="黃燈"><a href="#黃燈" class="headerlink" title="黃燈"></a>黃燈</h2><p>短線過多，衝到上通道，不要進去買</p>
+<h2 id="紅燈（跌破月線）"><a href="#紅燈（跌破月線）" class="headerlink" title="紅燈（跌破月線）"></a>紅燈（跌破月線）</h2><p>大盤走入空頭型態（中長期）</p>
+<h2 id="買在飆股起漲點"><a href="#買在飆股起漲點" class="headerlink" title="買在飆股起漲點"></a>買在飆股起漲點</h2><ol>
+<li>壓縮：股價壓縮至少10個交易日</li>
+<li>帶量：成交量出現過去5日均量的2～10倍</li>
+<li>突破：當日收盤價突破通道頂且收紅K棒</li>
+</ol>
+<h2 id="跌破月線出場"><a href="#跌破月線出場" class="headerlink" title="跌破月線出場"></a>跌破月線出場</h2><p>參考資料：<br><span class="exturl" data-url="aHR0cHM6Ly9oaXN0b2NrLnR3L2Jsb2cvaGlzdG9jazE2ODgvMjQ1">五分鐘搞懂布林通道（工具應用篇）<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1ObTQweDRjOVR0aw==">股市阿水的布林通道<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>筆記</category>
+        <category>股票</category>
+        <category>股票</category>
+        <category>技術面分析</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>布林通道</tag>
+        <tag>技術分析</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>股票-股票的故事二</title>
     <url>/posts/3159720911/</url>
     <content><![CDATA[<blockquote>
@@ -988,6 +958,96 @@
         <tag>消息面分析</tag>
         <tag>籌碼面分析</tag>
         <tag>技術面分析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>股票-股票怎麼買、下單</title>
+    <url>/posts/3259796151/</url>
+    <content><![CDATA[<p>俗話說的好：「欲買股票、必先開戶」</p>
+<h1 id="如何開戶："><a href="#如何開戶：" class="headerlink" title="如何開戶："></a>如何開戶：</h1><h2 id="帶什麼？"><a href="#帶什麼？" class="headerlink" title="帶什麼？"></a>帶什麼？</h2><p>開戶要帶的東西，比較重要的是：<br>    1. 雙證件<br>    2. 印章</p>
+<h2 id="去哪裡？"><a href="#去哪裡？" class="headerlink" title="去哪裡？"></a>去哪裡？</h2><p>接著要選擇離家近或是手續費合理的<code>券商</code>，例如元大證券、日盛證券…，</p>
+<blockquote>
+<p>在台灣法令規定，投資人要買股票，一定要透過中間人(也就是券商)才能購買，他們負責保證買賣的利進行。</p>
+</blockquote>
+<h2 id="做什麼？"><a href="#做什麼？" class="headerlink" title="做什麼？"></a>做什麼？</h2><p>進行<code>開戶</code>，也就是看清楚規章與細節並且仔細的<code>填單</code>，同時需要設定一個交割的<code>銀行帳戶</code>。</p>
+<h1 id="股票交易流程"><a href="#股票交易流程" class="headerlink" title="股票交易流程:"></a>股票交易流程:</h1><p>開完戶之後，我們就可以開始買股票，投資人最常用的下單的方式：</p>
+<ul>
+<li>打電話給營業員（人工下單）</li>
+<li>用APP手機下單、看盤軟體下單（電子下單）<blockquote>
+<p>電子下單，不僅方便、快速，手續費還有打折！</p>
+</blockquote>
+</li>
+</ul>
+<p>流程如下：</p>
+<img src="/posts/3259796151/trading_process.png" class title="股票交易流程">
+<a id="more"></a>
+<h2 id="1-委託："><a href="#1-委託：" class="headerlink" title="1. 委託："></a>1. 委託：</h2><p>我們決定好一檔<code>股票</code>和他的<code>價位</code>後，就可以透過手機的APP，委託券商幫我們買進，</p>
+<h2 id="2-撮合："><a href="#2-撮合：" class="headerlink" title="2. 撮合："></a>2. 撮合：</h2><p>但是這樣並不代表我們買到了股票，因為股票成交是<code>一買一賣</code>的結果，這就叫做<code>撮合</code>，買賣雙方配對之後<code>完成交易</code>，接著證券帳戶的庫存就可以看到該股票的交易結果。</p>
+<img src="/posts/3259796151/FORM2.jpg" class title="逐筆交易">
+<center>（圖：翻攝自證交所官網）</center>
+
+<h2 id="3-交割："><a href="#3-交割：" class="headerlink" title="3. 交割："></a>3. 交割：</h2><p>但是這個交易還沒完成，在下單之後最晚必須在<code>交易日</code>的第二天10點前(<code>交割日</code>)，確保交割銀行帳戶有足夠的金額，不然會造成違約交割，常聽到的T+2就是這個意思(Trading Day + 2)。</p>
+<h1 id="交易時間"><a href="#交易時間" class="headerlink" title="交易時間"></a>交易時間</h1><p>市場交易時間為星期一至星期五，撮合成交時間為9:00至13:30，委託時間8:30至13:30。</p>
+<blockquote>
+<p>台股在8:30的時候，就開始有<code>模擬試撮合</code>，如果要了解市場心態，看多看空的趨勢，完全展露在試撮合的30分鐘期間，直至9:00開始正式交易。</p>
+</blockquote>
+<h2 id="看盤-今日走勢圖"><a href="#看盤-今日走勢圖" class="headerlink" title="看盤(今日走勢圖)"></a>看盤(今日走勢圖)</h2><p>走勢圖也叫做<code>分時走勢圖</code>、<code>即時走勢圖</code>，它是股市現場交易的即時資料，<br>坐標的<code>橫軸</code>是開市的<code>時間</code>，<code>縱軸</code>的上半部分是<code>股價</code>或<code>指數</code>，下半部分顯示的是<code>成交量</code>。<br>正常交易時間：由早上9點到下午1點半(共4.5小時)</p>
+<img src="/posts/3259796151/time_sharing_chart.png" class title="看盤(今日走勢圖)">
+<center>（圖：節錄於109/06/24 yahoo股市）</center>
+
+<h2 id="名詞解釋："><a href="#名詞解釋：" class="headerlink" title="名詞解釋："></a>名詞解釋：</h2><p><code>開盤</code>：09：00開始交易<br><code>早盤</code>：09：00～09：30（一開始的半小時）<br><code>午盤</code>：11：30～12：30<br><code>尾盤</code>：13：00～13：30（最後半小時）<br><code>盤中</code>：撮合成交時間為9:00至13:30<br><code>收盤</code>：13：30停止交易</p>
+<h1 id="交易單位"><a href="#交易單位" class="headerlink" title="交易單位"></a>交易單位</h1><p>根據台灣證券交易所的解釋：交易單位為買賣申報之數量，應為1交易單位或其整倍數。<br>啥意思？簡單的說就是以<code>張</code>為當位，<code>1張</code>股票＝<code>1,000股</code>，<br>而不滿一張的股票（1～999股）就稱之為<code>零股</code></p>
+<h1 id="交易價格"><a href="#交易價格" class="headerlink" title="交易價格"></a>交易價格</h1><p>交易價格即分時走勢圖上面所看到的<code>股價</code>，代表的是1股的金額，<br><left><br>$<br>一張台積電的股票市價<br>= 股價 \times 1,000股 \<br>= 317.5 \times 1000 \<br>= 317,500 \<br>= 31.75萬<br>$<br></left></p>
+<h1 id="一買一賣是賺了多少錢？"><a href="#一買一賣是賺了多少錢？" class="headerlink" title="一買一賣是賺了多少錢？"></a>一買一賣是賺了多少錢？</h1><p>除了股價的價差以外，我們還需要繳交<code>手續費</code>和<code>證券交易稅</code>(<code>證交稅</code>)，</p>
+<h2 id="手續費"><a href="#手續費" class="headerlink" title="手續費"></a>手續費</h2><p>只要是<code>買</code>或是<code>賣</code>股票都要繳交<code>手續費</code>（所謂的<code>抽水</code>）<br>$<br>手續費＝成交金額 \times 0.1425%<br>$</p>
+<blockquote>
+<p>大多的證券行透過電子交易都可以打折(6折)，<br>手續費最低20元(未滿20元仍須上繳20元)</p>
+</blockquote>
+<h2 id="證交稅"><a href="#證交稅" class="headerlink" title="證交稅"></a>證交稅</h2><p>$<br>手續費＝成交金額 \times 0.3%<br>$</p>
+<h2 id="算給你看"><a href="#算給你看" class="headerlink" title="算給你看"></a>算給你看</h2><h3 id="若買了一張100元的股票"><a href="#若買了一張100元的股票" class="headerlink" title="若買了一張100元的股票"></a>若買了一張100元的股票</h3><p><code>成交金額</code>:<code>10萬</code>，<br>外加<code>手續費</code>＝<code>142元</code>($100,000 \times 0.1425%$)，<br>所以這次的<code>交割金額</code>就是<code>10萬零142元</code></p>
+<p>過一陣子這張股票漲到120元</p>
+<h3 id="賣掉一張120元的股票"><a href="#賣掉一張120元的股票" class="headerlink" title="賣掉一張120元的股票"></a>賣掉一張120元的股票</h3><p><code>成交金額</code>:<code>12萬</code>，<br>扣除<code>手續費</code>＝<code>171元</code>($120,000 \times 0.1425%$)，<br>再扣除<code>證交稅</code>＝<code>360元</code>($120,000 \times 0.3%$)，<br>所以這次的<code>交割金額</code>就是<code>12萬-171-360</code>元，<br>實際上只拿到<code>11萬9469元</code></p>
+<h3 id="一買一賣，賺多少"><a href="#一買一賣，賺多少" class="headerlink" title="一買一賣，賺多少"></a>一買一賣，賺多少</h3><p><code>11萬9469元</code> - <code>10萬零142元</code> ＝ 賺了<code>19,327元</code></p>
+<p>參考資料：<br><span class="exturl" data-url="aHR0cHM6Ly9hczIyMzQwMC5waXhuZXQubmV0L2Jsb2cvcG9zdC8yMjgwOTc1NzEtJUU3JUFDJUFDJUU0JUI4JTgwJUU2JUFDJUExJUU4JUIyJUI3JUU4JTgyJUExJUU3JUE1JUE4JUU1JUIwJUIxJUU0JUI4JThBJUU2JTg5JThCLSVFOCU4MiVBMSVFNyVBNSVBOCVFOSU5NiU4QiVFNiU4OCVCNiVFOCVBNiU4MSVFNiVCQSU5NiVFNSU4MiU5OSVFNCVCQiU4MCVFOSVCQSVCQyUzRiVFOCVCMiVCNw==">開戶買股教學<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>筆記</category>
+        <category>股票</category>
+        <category>新手村</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>股票-股利</title>
+    <url>/posts/3702625446/</url>
+    <content><![CDATA[<p>看完這篇將學到：</p>
+<blockquote>
+<p>什麼是<code>「現金股利」</code>、<code>「股票股利」</code>？<br>  是公司將賺的錢分配給股東的形式，簡稱為「分紅」，</p>
+</blockquote>
+<ul>
+<li><strong>「現金股利」：發放現金股利給股東。</strong></li>
+<li><strong>「股票股利」：發放股票股利(把錢用來增加公司的股本)，將股本的所有權轉移給股東。</strong></li>
+</ul>
+<p>當我們買進某公司的股票時，便成為該公司的股東。<br>若該公司有賺錢時，我們（股東）就能夠依據持有股票的比例，分配獲得所賺的利潤，這就是所謂的「股利」，<br>反之，若該公司不賺錢，當然也有可能領不到股利 😖</p>
+<h1 id="股利"><a href="#股利" class="headerlink" title="股利"></a>股利</h1><p>股利，是指股份公司從<code>留存收益</code>中派發給股東的那一部分。<br>就上市公司的情況中，股利只會派發給在<code>除息日之前一日持有股票</code>至除息日當日的人士，<br>在除息日當日或以後才買入股票的人則不能獲派股利。<br>與此同時，證券交易所會在除息日開市前自動把股票的前一交易日收盤價扣減股利後的價值，<br>定為該股票的開盤交易日的開盤價，因此股價會在除息日開盤時「自動下跌」。</p>
+<p>股利一般有兩種支付方式：<code>「現金股利」</code>（<code>股息</code>，英語：Cash Dividends）和<code>「股票股利」</code>（<code>股利</code>，英語：Stock Dividends）。 </p>
+<h2 id="現金股利"><a href="#現金股利" class="headerlink" title="現金股利"></a>現金股利</h2><p><code>「現金股利」</code>是指股份公司向股東<code>支付現金</code>，又稱<code>「股息」</code>或<code>「配息」</code>。<br><code>現金股利</code>給予股東即時的資本回報。</p>
+<h2 id="股票股利"><a href="#股票股利" class="headerlink" title="股票股利"></a>股票股利</h2><p><code>「股票股利」</code>或<code>「以股代息」</code>是指股份公司向股東以<code>贈送新的股份</code>方式代替支付現金股利，又稱<code>「股利」</code>或<code>「配股」</code>。</p>
+<p>對於優質股，股票股利給予股東長遠獲取更大回報的機會，股東期望股份價值上升及繼續以股代息，利用複息效應把錢愈滾愈大。</p>
+<p>但對於經營不佳的公司，股票股利只是「零成本」印股票派息，因為公司沒有「多餘的」現金可用作派息。 </p>
+<h2 id="配息配股的比較"><a href="#配息配股的比較" class="headerlink" title="配息配股的比較"></a>配息配股的比較</h2><p>整理中．．．</p>
+<a id="more"></a>
+]]></content>
+      <categories>
+        <category>筆記</category>
+        <category>股票</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
       </tags>
   </entry>
   <entry>
@@ -1135,66 +1195,6 @@ $「除息後股價」=「除息前一日收盤價」-「現金股利」$
         <tag>名詞解釋</tag>
         <tag>查詢</tag>
         <tag>選股策略</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>股票-股票怎麼買、下單</title>
-    <url>/posts/3259796151/</url>
-    <content><![CDATA[<p>俗話說的好：「欲買股票、必先開戶」</p>
-<h1 id="如何開戶："><a href="#如何開戶：" class="headerlink" title="如何開戶："></a>如何開戶：</h1><h2 id="帶什麼？"><a href="#帶什麼？" class="headerlink" title="帶什麼？"></a>帶什麼？</h2><p>開戶要帶的東西，比較重要的是：<br>    1. 雙證件<br>    2. 印章</p>
-<h2 id="去哪裡？"><a href="#去哪裡？" class="headerlink" title="去哪裡？"></a>去哪裡？</h2><p>接著要選擇離家近或是手續費合理的<code>券商</code>，例如元大證券、日盛證券…，</p>
-<blockquote>
-<p>在台灣法令規定，投資人要買股票，一定要透過中間人(也就是券商)才能購買，他們負責保證買賣的利進行。</p>
-</blockquote>
-<h2 id="做什麼？"><a href="#做什麼？" class="headerlink" title="做什麼？"></a>做什麼？</h2><p>進行<code>開戶</code>，也就是看清楚規章與細節並且仔細的<code>填單</code>，同時需要設定一個交割的<code>銀行帳戶</code>。</p>
-<h1 id="股票交易流程"><a href="#股票交易流程" class="headerlink" title="股票交易流程:"></a>股票交易流程:</h1><p>開完戶之後，我們就可以開始買股票，投資人最常用的下單的方式：</p>
-<ul>
-<li>打電話給營業員（人工下單）</li>
-<li>用APP手機下單、看盤軟體下單（電子下單）<blockquote>
-<p>電子下單，不僅方便、快速，手續費還有打折！</p>
-</blockquote>
-</li>
-</ul>
-<p>流程如下：</p>
-<img src="/posts/3259796151/trading_process.png" class title="股票交易流程">
-<a id="more"></a>
-<h2 id="1-委託："><a href="#1-委託：" class="headerlink" title="1. 委託："></a>1. 委託：</h2><p>我們決定好一檔<code>股票</code>和他的<code>價位</code>後，就可以透過手機的APP，委託券商幫我們買進，</p>
-<h2 id="2-撮合："><a href="#2-撮合：" class="headerlink" title="2. 撮合："></a>2. 撮合：</h2><p>但是這樣並不代表我們買到了股票，因為股票成交是<code>一買一賣</code>的結果，這就叫做<code>撮合</code>，買賣雙方配對之後<code>完成交易</code>，接著證券帳戶的庫存就可以看到該股票的交易結果。</p>
-<img src="/posts/3259796151/FORM2.jpg" class title="逐筆交易">
-<center>（圖：翻攝自證交所官網）</center>
-
-<h2 id="3-交割："><a href="#3-交割：" class="headerlink" title="3. 交割："></a>3. 交割：</h2><p>但是這個交易還沒完成，在下單之後最晚必須在<code>交易日</code>的第二天10點前(<code>交割日</code>)，確保交割銀行帳戶有足夠的金額，不然會造成違約交割，常聽到的T+2就是這個意思(Trading Day + 2)。</p>
-<h1 id="交易時間"><a href="#交易時間" class="headerlink" title="交易時間"></a>交易時間</h1><p>市場交易時間為星期一至星期五，撮合成交時間為9:00至13:30，委託時間8:30至13:30。</p>
-<blockquote>
-<p>台股在8:30的時候，就開始有<code>模擬試撮合</code>，如果要了解市場心態，看多看空的趨勢，完全展露在試撮合的30分鐘期間，直至9:00開始正式交易。</p>
-</blockquote>
-<h2 id="看盤-今日走勢圖"><a href="#看盤-今日走勢圖" class="headerlink" title="看盤(今日走勢圖)"></a>看盤(今日走勢圖)</h2><p>走勢圖也叫做<code>分時走勢圖</code>、<code>即時走勢圖</code>，它是股市現場交易的即時資料，<br>坐標的<code>橫軸</code>是開市的<code>時間</code>，<code>縱軸</code>的上半部分是<code>股價</code>或<code>指數</code>，下半部分顯示的是<code>成交量</code>。<br>正常交易時間：由早上9點到下午1點半(共4.5小時)</p>
-<img src="/posts/3259796151/time_sharing_chart.png" class title="看盤(今日走勢圖)">
-<center>（圖：節錄於109/06/24 yahoo股市）</center>
-
-<h2 id="名詞解釋："><a href="#名詞解釋：" class="headerlink" title="名詞解釋："></a>名詞解釋：</h2><p><code>開盤</code>：09：00開始交易<br><code>早盤</code>：09：00～09：30（一開始的半小時）<br><code>午盤</code>：11：30～12：30<br><code>尾盤</code>：13：00～13：30（最後半小時）<br><code>盤中</code>：撮合成交時間為9:00至13:30<br><code>收盤</code>：13：30停止交易</p>
-<h1 id="交易單位"><a href="#交易單位" class="headerlink" title="交易單位"></a>交易單位</h1><p>根據台灣證券交易所的解釋：交易單位為買賣申報之數量，應為1交易單位或其整倍數。<br>啥意思？簡單的說就是以<code>張</code>為當位，<code>1張</code>股票＝<code>1,000股</code>，<br>而不滿一張的股票（1～999股）就稱之為<code>零股</code></p>
-<h1 id="交易價格"><a href="#交易價格" class="headerlink" title="交易價格"></a>交易價格</h1><p>交易價格即分時走勢圖上面所看到的<code>股價</code>，代表的是1股的金額，<br><left><br>$<br>一張台積電的股票市價<br>= 股價 \times 1,000股 \<br>= 317.5 \times 1000 \<br>= 317,500 \<br>= 31.75萬<br>$<br></left></p>
-<h1 id="一買一賣是賺了多少錢？"><a href="#一買一賣是賺了多少錢？" class="headerlink" title="一買一賣是賺了多少錢？"></a>一買一賣是賺了多少錢？</h1><p>除了股價的價差以外，我們還需要繳交<code>手續費</code>和<code>證券交易稅</code>(<code>證交稅</code>)，</p>
-<h2 id="手續費"><a href="#手續費" class="headerlink" title="手續費"></a>手續費</h2><p>只要是<code>買</code>或是<code>賣</code>股票都要繳交<code>手續費</code>（所謂的<code>抽水</code>）<br>$<br>手續費＝成交金額 \times 0.1425%<br>$</p>
-<blockquote>
-<p>大多的證券行透過電子交易都可以打折(6折)，<br>手續費最低20元(未滿20元仍須上繳20元)</p>
-</blockquote>
-<h2 id="證交稅"><a href="#證交稅" class="headerlink" title="證交稅"></a>證交稅</h2><p>$<br>手續費＝成交金額 \times 0.3%<br>$</p>
-<h2 id="算給你看"><a href="#算給你看" class="headerlink" title="算給你看"></a>算給你看</h2><h3 id="若買了一張100元的股票"><a href="#若買了一張100元的股票" class="headerlink" title="若買了一張100元的股票"></a>若買了一張100元的股票</h3><p><code>成交金額</code>:<code>10萬</code>，<br>外加<code>手續費</code>＝<code>142元</code>($100,000 \times 0.1425%$)，<br>所以這次的<code>交割金額</code>就是<code>10萬零142元</code></p>
-<p>過一陣子這張股票漲到120元</p>
-<h3 id="賣掉一張120元的股票"><a href="#賣掉一張120元的股票" class="headerlink" title="賣掉一張120元的股票"></a>賣掉一張120元的股票</h3><p><code>成交金額</code>:<code>12萬</code>，<br>扣除<code>手續費</code>＝<code>171元</code>($120,000 \times 0.1425%$)，<br>再扣除<code>證交稅</code>＝<code>360元</code>($120,000 \times 0.3%$)，<br>所以這次的<code>交割金額</code>就是<code>12萬-171-360</code>元，<br>實際上只拿到<code>11萬9469元</code></p>
-<h3 id="一買一賣，賺多少"><a href="#一買一賣，賺多少" class="headerlink" title="一買一賣，賺多少"></a>一買一賣，賺多少</h3><p><code>11萬9469元</code> - <code>10萬零142元</code> ＝ 賺了<code>19,327元</code></p>
-<p>參考資料：<br><span class="exturl" data-url="aHR0cHM6Ly9hczIyMzQwMC5waXhuZXQubmV0L2Jsb2cvcG9zdC8yMjgwOTc1NzEtJUU3JUFDJUFDJUU0JUI4JTgwJUU2JUFDJUExJUU4JUIyJUI3JUU4JTgyJUExJUU3JUE1JUE4JUU1JUIwJUIxJUU0JUI4JThBJUU2JTg5JThCLSVFOCU4MiVBMSVFNyVBNSVBOCVFOSU5NiU4QiVFNiU4OCVCNiVFOCVBNiU4MSVFNiVCQSU5NiVFNSU4MiU5OSVFNCVCQiU4MCVFOSVCQSVCQyUzRiVFOCVCMiVCNw==">開戶買股教學<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>筆記</category>
-        <category>股票</category>
-        <category>新手村</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
       </tags>
   </entry>
 </search>
