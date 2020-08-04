@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/posts/1243066710/</url>
-    <content><![CDATA[<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation<i class="fa fa-external-link-alt"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting<i class="fa fa-external-link-alt"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>.</p>
-<p><img src="/uploads/custom-logo.png" alt="logo"></p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-  </entry>
-  <entry>
     <title>[教學]Hexo使用-NexT整合設定</title>
     <url>/posts/3614064843/</url>
     <content><![CDATA[<h1 id="Next-客製功能及樣板編輯筆記"><a href="#Next-客製功能及樣板編輯筆記" class="headerlink" title="Next 客製功能及樣板編輯筆記"></a>Next 客製功能及樣板編輯筆記</h1><h2 id="pjax-安裝"><a href="#pjax-安裝" class="headerlink" title="pjax 安裝"></a>pjax 安裝</h2><p>究竟什麼是 pjax 呢？簡單來說，pjax 實現了 URL 改變但不重新整理整個頁面，也就是只有局部的頁面會更新，不會讓整個頁面重新閃動（重新整理）。那這個功能有什麼特色呢？最重要的就是原本左下角的音樂播放器遇到切換頁面，就會停掉然後重新載入；但使用 pjax 後就能解決這個問題。</p>
@@ -63,6 +44,25 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/posts/1243066710/</url>
+    <content><![CDATA[<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation<i class="fa fa-external-link-alt"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting<i class="fa fa-external-link-alt"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>.</p>
+<p><img src="/uploads/custom-logo.png" alt="logo"></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+  </entry>
+  <entry>
     <title>[教學]Hexo使用-寫作說明</title>
     <url>/posts/1389384140/</url>
     <content><![CDATA[<h1 id="寫作"><a href="#寫作" class="headerlink" title="寫作"></a>寫作</h1><p>我們要在網誌中建立第一篇新文章，您可以直接從現有的範例文章「Hello World」改寫，但我們更建議您學習 new 指令。</p>
@@ -101,6 +101,160 @@
         <tag>教學</tag>
         <tag>Hexo</tag>
         <tag>帖子</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>[教學]-NexT使用-主題設定</title>
+    <url>/posts/665987006/</url>
+    <content><![CDATA[<p>NexT堅持隱藏複雜的細節，並為您提供簡單但靈活的配置，因此您可以輕鬆使用它。</p>
+<h1 id="控制台提醒"><a href="#控制台提醒" class="headerlink" title="控制台提醒"></a>控制台提醒</h1><p>Next支持在控制台中自動檢查更新和警報。 在<code>主題配置文件</code>中將值<code>reminder</code>設置為<code>true</code>，如下所示：</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Console reminder if new version released.</span></span><br><span class="line"><span class="attr">reminder:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h1 id="緩存支持-Cache-Support"><a href="#緩存支持-Cache-Support" class="headerlink" title="緩存支持(Cache Support)"></a>緩存支持(Cache Support)</h1><p>NexT v6+ 允許緩存內容生成。<br>在<code>主題配置文件</code>的<code>cache</code>部分中，將值<code>enable</code>設置為<code>true</code>，如下所示：</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Allow to cache content generation. Introduced in NexT v6.0.0.</span></span><br><span class="line"><span class="attr">cache:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<a id="more"></a>
+
+<h1 id="減少支持-Minify-Support"><a href="#減少支持-Minify-Support" class="headerlink" title="減少支持(Minify Support)"></a>減少支持(Minify Support)</h1><blockquote>
+<p>目前，此功能有點簡單，我們將來會進一步改進它。</p>
+</blockquote>
+<p>NexT允許最小化Hexo生成。<br>在<code>主題配置文件</code>中將值minify設置為true，如下所示：</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Remove unnecessary files after hexo generate.</span></span><br><span class="line"><span class="attr">minify:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h1 id="創作共用-Creative-Commons"><a href="#創作共用-Creative-Commons" class="headerlink" title="創作共用(Creative Commons)"></a>創作共用(Creative Commons)</h1><p>NexT支持在邊欄中和帖子中顯示<span class="exturl" data-url="aHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcv">Creative Commons 4.0國際許可<i class="fa fa-external-link-alt"></i></span>，包括<code>by</code>、<code>by-nc</code>，<code>by-nc-nd</code>，<code>by-nc-sa</code>，<code>by-nd</code>，<code>by-sa</code>，<code>zero</code>。 這些許可證允許創作者傳達他們保留哪些權利，以及為了接收者或其他創作者的利益而放棄哪些權利。</p>
+<p>您可以通過編輯<code>主題配置文件</code>中<code>creative_commons</code>部分中的值來配置它，例如：</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">creative_commons:</span></span><br><span class="line">  <span class="attr">license:</span> <span class="string">by-nc-sa</span></span><br><span class="line">  <span class="attr">sidebar:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">post:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">language:</span> <span class="string">deed.zh</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h1 id="文字對齊-Text-Align"><a href="#文字對齊-Text-Align" class="headerlink" title="文字對齊(Text Align)"></a>文字對齊(Text Align)</h1><p>NexT允許自定義帖子/頁面中的文本對齊方式。<br><code>text-align</code>CSS屬性設置塊元素或表格單元格框的水平對齊方式。</p>
+<table>
+<thead>
+<tr>
+<th>值</th>
+<th align="left">效果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>start</code></td>
+<td align="left">如果方向是從左到右，則與<code>left</code>相同；如果方向是從右到左，則與<code>right</code>相同。</td>
+</tr>
+<tr>
+<td><code>end</code></td>
+<td align="left">方向從左到右與<code>right</code>相同，方向從右到左與<code>left</code>相同。</td>
+</tr>
+<tr>
+<td><code>left</code></td>
+<td align="left">內聯內容與行框的左邊緣對齊。</td>
+</tr>
+<tr>
+<td><code>right</code></td>
+<td align="left">內聯內容與行框的右邊緣對齊。</td>
+</tr>
+<tr>
+<td><code>center</code></td>
+<td align="left">內聯內容在行框中居中。</td>
+</tr>
+<tr>
+<td><code>justify</code></td>
+<td align="left">證明內聯內容是合理的。 文本應隔開一定距離，以使其左，右邊緣與行框的左，右邊緣對齊（最後一行除外）。</td>
+</tr>
+<tr>
+<td><code>justify-all</code></td>
+<td align="left">與justify相同，但也強制最後一行被對齊。</td>
+</tr>
+<tr>
+<td><code>match-parent</code></td>
+<td align="left">與<code>inherit</code>相似，但開始和結束的值是根據父級的方向計算的，並由適當的左或右值代替。</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Set the text alignment in the posts.</span></span><br><span class="line"><span class="attr">text_align:</span></span><br><span class="line">  <span class="comment"># Available values: start | end | left | right | center | justify | justify-all | match-parent</span></span><br><span class="line">  <span class="attr">desktop:</span> <span class="string">justify</span></span><br><span class="line">  <span class="attr">mobile:</span> <span class="string">justify</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h1 id="移動設備適應"><a href="#移動設備適應" class="headerlink" title="移動設備適應"></a>移動設備適應</h1><h2 id="mobile-layout-economy"><a href="#mobile-layout-economy" class="headerlink" title="mobile_layout_economy"></a>mobile_layout_economy</h2><p>如果要減少寬度較窄的設備上的填充/邊距縮進，可以通過在主題配置文件中將值mobile_layout_economy設置為true來啟用它。</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">mobile_layout_economy:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h2 id="android-chrome-color"><a href="#android-chrome-color" class="headerlink" title="android_chrome_color"></a>android_chrome_color</h2><p>默認情況下，NexT使用深黑（＃222）作為Android Chrome標題面板的顏色。<br>您可以通過在<code>主題配置文件</code>的<code>android_chrome_color</code>部分中以十六進制顏色編輯值來配置它。</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">android_chrome_color:</span> <span class="string">"#222"</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h1 id="自定義徽標支持"><a href="#自定義徽標支持" class="headerlink" title="自定義徽標支持"></a>自定義徽標支持</h1><p>NexT支持網站徽標個性化。<br>您可以通過將圖像的URL添加到<code>主題配置文件</code>中的<code>custom_logo</code>來啟用它。</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">custom_logo:</span> <span class="string">/uploads/custom-logo.png</span></span><br></pre></td></tr></table></figure><br>Scheme Mist不支持自定義徽標設置。</p>
+</blockquote>
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cuZGVzaWduZXZvLmNvbS90dy8=">Logo製作網站<i class="fa fa-external-link-alt"></i></span></p>
+<h1 id="代碼塊樣式"><a href="#代碼塊樣式" class="headerlink" title="代碼塊樣式"></a>代碼塊樣式</h1><h2 id="主題"><a href="#主題" class="headerlink" title="主題"></a>主題</h2><p>代碼突出顯示主題<br>NexT使用<span class="exturl" data-url="aHR0cHM6Ly9oaWdobGlnaHRqcy5vcmcv">Highlight.js<i class="fa fa-external-link-alt"></i></span>和<span class="exturl" data-url="aHR0cHM6Ly9wcmlzbWpzLmNvbS8=">Prism<i class="fa fa-external-link-alt"></i></span>包來支持代碼突出顯示。<br>默認樣式是<code>tomorrow</code>，有90多種樣式可供選擇。</p>
+<p>更改<code>theme</code>的值以選擇所需的突出顯示樣式，例如：</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">codeblock:</span></span><br><span class="line">  <span class="comment"># Code Highlight theme</span></span><br><span class="line">  <span class="comment"># See: https://github.com/highlightjs/highlight.js/tree/master/src/styles</span></span><br><span class="line">  <span class="attr">theme:</span></span><br><span class="line">    <span class="attr">light:</span> <span class="string">tomorrow</span></span><br><span class="line">    <span class="attr">dark:</span> <span class="string">tomorrow-night</span></span><br><span class="line">  <span class="comment"># See: https://github.com/PrismJS/prism/tree/master/themes</span></span><br><span class="line">  <span class="attr">prism:</span></span><br><span class="line">    <span class="attr">light:</span> <span class="string">prism</span></span><br><span class="line">    <span class="attr">dark:</span> <span class="string">prism-dark</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<p>如果啟用了暗模式，則暗代碼突出顯示主題將可用。</p>
+<h2 id="複製按鈕"><a href="#複製按鈕" class="headerlink" title="複製按鈕"></a>複製按鈕</h2><p>NexT支持代碼塊的複制和粘貼功能。</p>
+<h3 id="使能-Enable"><a href="#使能-Enable" class="headerlink" title="使能(Enable)"></a>使能(Enable)</h3><p>您可以通過在主題配置文件中將值<code>copy_button.enable</code>設置為<code>true</code>來啟用它。<br>默認情況下，NexT顯示copy-and-paste功能的複制結果。</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">codeblock:</span></span><br><span class="line">  <span class="attr">copy_button:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h3 id="樣式"><a href="#樣式" class="headerlink" title="樣式"></a>樣式</h3><p>使用樣式選項，您可以更改複製按鈕的樣式。<br>當前有三種樣式：<code>default</code>（只需將其保留為空），<code>flat</code>和<code>mac</code>。</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">codeblock:</span></span><br><span class="line">  <span class="attr">copy_button:</span></span><br><span class="line">    <span class="attr">style:</span> <span class="string">flat</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h1 id="閱讀進度"><a href="#閱讀進度" class="headerlink" title="閱讀進度"></a>閱讀進度</h1><p>NexT支持頁面滾動閱讀進度指示器。<br>您可以通過在<code>主題配置文件</code>中將<code>reading_progress.enable</code>設置為<code>true</code>來啟用它。</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Reading progress bar</span></span><br><span class="line"><span class="attr">reading_progress:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment"># 開啟進度條</span></span><br><span class="line">  <span class="comment"># Available values: top | bottom</span></span><br><span class="line">  <span class="attr">position:</span> <span class="string">bottom</span> <span class="comment"># 設置位置 可以為  top | bottom</span></span><br><span class="line">  <span class="attr">color:</span> <span class="string">"#0684BD"</span> <span class="comment"># 進度條顏色 16進制RGB</span></span><br><span class="line">  <span class="attr">height:</span> <span class="string">3px</span> <span class="comment"># 高度</span></span><br></pre></td></tr></table></figure><br>效果<br>  <img src="/posts/665987006/reading_progress.png" class title="reading_progress"></p>
+</blockquote>
+<h1 id="閱讀進度百分比"><a href="#閱讀進度百分比" class="headerlink" title="閱讀進度百分比"></a>閱讀進度百分比</h1><p>修改<code>主題配置文件</code>，修改<code>back2top</code>：</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">back2top:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment"># 開啟 back to top 按鈕</span></span><br><span class="line">  <span class="comment"># Back to top in sidebar.</span></span><br><span class="line">  <span class="attr">sidebar:</span> <span class="literal">true</span> <span class="comment"># true 表示在側邊欄顯示，false則在側下角</span></span><br><span class="line">  <span class="comment"># Scroll percent label in b2t button.</span></span><br><span class="line">  <span class="attr">scrollpercent:</span> <span class="literal">true</span> <span class="comment"># 開啟進度百分比</span></span><br></pre></td></tr></table></figure><br>效果<br>  <img src="/posts/665987006/back2top.png" class title="back2top"></p>
+</blockquote>
+<h1 id="書籤"><a href="#書籤" class="headerlink" title="書籤"></a>書籤</h1><p>書籤是一個允許用戶保存其閱讀進度的插件。 用戶只需單擊頁面左上方的書籤圖標（如🔖）即可保存滾動位置。 當他們下次訪問您的博客時，可以自動恢復每個頁面的最後滾動位置。</p>
+<p>您可以通過在主題配置文件中將<code>bookmark.enable</code>值設置為<code>true</code>來啟用它。</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">bookmark:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># Customize the color of the bookmark.</span></span><br><span class="line">  <span class="attr">color:</span> <span class="string">"#222"</span></span><br><span class="line">  <span class="comment"># If auto, save the reading progress when closing the page or clicking the bookmark-icon.</span></span><br><span class="line">  <span class="comment"># If manual, only save it by clicking the bookmark-icon.</span></span><br><span class="line">  <span class="attr">save:</span> <span class="string">auto</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h1 id="GitHub橫幅"><a href="#GitHub橫幅" class="headerlink" title="GitHub橫幅"></a>GitHub橫幅</h1><p>NexT在右上角的GitHub橫幅上提供Follow Me。</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Follow me on GitHub banner in right-top corner.</span></span><br><span class="line"><span class="attr">github_banner:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">permalink:</span> <span class="string">https://github.com/yourname</span></span><br><span class="line">  <span class="attr">title:</span> <span class="string">Follow</span> <span class="string">me</span> <span class="string">on</span> <span class="string">GitHub</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h1 id="字體定制"><a href="#字體定制" class="headerlink" title="字體定制"></a>字體定制</h1><p>NexT為您提供5種特定的字體設置，它們是：</p>
+<ul>
+<li>全局字體(Global Font)：整個網站中使用的字體。</li>
+<li>標題字體(Title Font)：網站標題使用的字體。</li>
+<li>標題字體(Headlines Font)：文章中標題使用的字體（h1，h2，h3，h4，h5，h6）。</li>
+<li>文章字體(Article Font)：文章使用的字體。</li>
+<li>代碼字體(Code Font)：文章中代碼塊使用的字體。</li>
+</ul>
+<p>每種字體將用作此類的第一種字體，如果無法使用，則NexT將回退到內部字體設置。</p>
+<ul>
+<li>非代碼字體：回退到<code>&quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif</code></li>
+<li>代碼字體：回退到<code>consolas, Menlo, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, monospace(等寬)</code></li>
+</ul>
+<p>加上每個部分都有一個外部屬性，該屬性控制是否使用字體庫CDN。<br>使用此功能可以幫助您使用系統中安裝的字體並減少不必要的請求。</p>
+<blockquote>
+<p>為解決某些國家/地區<span class="exturl" data-url="aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9mb250cw==">Google字體API<i class="fa fa-external-link-alt"></i></span>的不穩定問題，NexT通過設置<code>font.host</code>支持字體庫的自定義URL。<br>  此外，我們注意到，對於某些網站的請求，Google字體將返回403。<br>  這時，有必要使用<code>font.host</code>設置鏡像站點。<br>  相關問題：<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L2lzc3Vlcy82MTM=">＃613<i class="fa fa-external-link-alt"></i></span>，<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L2lzc3Vlcy8xMzMz">＃1333<i class="fa fa-external-link-alt"></i></span></p>
+</blockquote>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">font:</span></span><br><span class="line">  <span class="comment"># Use custom fonts families or not.</span></span><br><span class="line">  <span class="comment"># Depended options: `external` and `family`.</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Uri of fonts host, e.g. https://fonts.googleapis.com (Default).</span></span><br><span class="line">  <span class="attr">host:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font options:</span></span><br><span class="line">  <span class="comment"># `external: true` will load this font family from `host` above.</span></span><br><span class="line">  <span class="comment"># `family: Times New Roman`. Without any quotes.</span></span><br><span class="line">  <span class="comment"># `size: x.x`. Use `em` as unit. Default: 1 (16px)</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Global font settings used for all elements inside &lt;body&gt;.</span></span><br><span class="line">  <span class="attr">global:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">Monda</span></span><br><span class="line">    <span class="attr">size:</span> <span class="number">1.125</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for site title (.site-title).</span></span><br><span class="line">  <span class="attr">title:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">Lobster</span> <span class="string">Two</span></span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for headlines (&lt;h1&gt; to &lt;h6&gt;).</span></span><br><span class="line">  <span class="attr">headings:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">Amita</span></span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for posts (.post-body).</span></span><br><span class="line">  <span class="attr">posts:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">Roboto</span> <span class="string">Slab</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for &lt;code&gt; and code blocks.</span></span><br><span class="line">  <span class="attr">codes:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">PT</span> <span class="string">Mono</span></span><br></pre></td></tr></table></figure><br>如果仍然需要更多自定義，則以下更改將涵蓋“字體自定義”功能。<br>在Hexo根目錄中編輯<code>source/_data/variables.styl</code>並添加兩個變量：<br>hexo/source/_data/variables.styl<br>  <figure class="highlight"><table><tr><td class="code"><pre><span class="line">// Title Font, set it to font family you want.</span><br><span class="line">$font-family-headings = Georgia, sans</span><br><span class="line"></span><br><span class="line">// Set it to font family you want.</span><br><span class="line">$font-family-base = "Microsoft YaHei", Verdana, sans-serif</span><br><span class="line"></span><br><span class="line">// Code Font.</span><br><span class="line">$code-font-family = "Input Mono", "PT Mono", Consolas, Monaco, Menlo, monospace</span><br><span class="line"></span><br><span class="line">// Font size of articles.</span><br><span class="line">$font-size-base = 16px</span><br><span class="line"></span><br><span class="line">// Font size of table and code.</span><br><span class="line">$table-font-size = 13px</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<p>首先修改<code>主題配置文件</code>檔案，將<code>custom_file_path</code>部分下的 <code>style</code> 那行取消註解。</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Define custom file paths.</span></span><br><span class="line"><span class="comment"># Create your custom files in site directory `source/_data` and uncomment needed files below.</span></span><br><span class="line"><span class="attr">custom_file_path:</span></span><br><span class="line">  <span class="comment">#head: source/_data/head.swig</span></span><br><span class="line">  <span class="comment">#header: source/_data/header.swig</span></span><br><span class="line">  <span class="attr">sidebar:</span> <span class="string">source/_data/sidebar.swig</span></span><br><span class="line">  <span class="comment">#postMeta: source/_data/post-meta.swig</span></span><br><span class="line">  <span class="comment">#postBodyEnd: source/_data/post-body-end.swig</span></span><br><span class="line">  <span class="comment">#footer: source/_data/footer.swig</span></span><br><span class="line">  <span class="comment">#bodyEnd: source/_data/body-end.swig</span></span><br><span class="line">  <span class="comment">#variable: source/_data/variables.styl</span></span><br><span class="line">  <span class="comment">#mixin: source/_data/mixins.styl</span></span><br><span class="line">  <span class="attr">style:</span> <span class="string">source/_data/styles.styl</span>  <span class="comment">#這行取消註解</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h1 id="fancybox-實現圖片點擊預覽"><a href="#fancybox-實現圖片點擊預覽" class="headerlink" title="fancybox 實現圖片點擊預覽"></a>fancybox 實現圖片點擊預覽</h1><h2 id="下載插件"><a href="#下載插件" class="headerlink" title="下載插件"></a>下載插件</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/theme-next/theme-next-fancybox3 themes/next/<span class="built_in">source</span>/lib/fancybox</span><br></pre></td></tr></table></figure>
+<p>修改主題配置文件_config.xml</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>教學</category>
+        <category>NexT</category>
+      </categories>
+      <tags>
+        <tag>教學</tag>
+        <tag>NexT</tag>
       </tags>
   </entry>
   <entry>
@@ -271,149 +425,61 @@
       </tags>
   </entry>
   <entry>
-    <title>[教學]-NexT使用-主題設定</title>
-    <url>/posts/665987006/</url>
-    <content><![CDATA[<p>NexT堅持隱藏複雜的細節，並為您提供簡單但靈活的配置，因此您可以輕鬆使用它。</p>
-<h1 id="控制台提醒"><a href="#控制台提醒" class="headerlink" title="控制台提醒"></a>控制台提醒</h1><p>Next支持在控制台中自動檢查更新和警報。 在<code>主題配置文件</code>中將值<code>reminder</code>設置為<code>true</code>，如下所示：</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Console reminder if new version released.</span></span><br><span class="line"><span class="attr">reminder:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h1 id="緩存支持-Cache-Support"><a href="#緩存支持-Cache-Support" class="headerlink" title="緩存支持(Cache Support)"></a>緩存支持(Cache Support)</h1><p>NexT v6+ 允許緩存內容生成。<br>在<code>主題配置文件</code>的<code>cache</code>部分中，將值<code>enable</code>設置為<code>true</code>，如下所示：</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Allow to cache content generation. Introduced in NexT v6.0.0.</span></span><br><span class="line"><span class="attr">cache:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
+    <title>[教學]-NexT使用-第三方服務</title>
+    <url>/posts/1612943303/</url>
+    <content><![CDATA[<p>靜態網站的某些功能受到限制，因此我們需要第三方服務來擴展我們的網站。<br>在任何時候，您都可以使用NexT支持的第三方服務來擴展所需的功能。</p>
+<h1 id="數學方程式"><a href="#數學方程式" class="headerlink" title="數學方程式"></a>數學方程式</h1><ul>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL21hdGgtZXF1YXRpb25zLmh0bWw=">數學方程式<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+<h1 id="評論系統"><a href="#評論系統" class="headerlink" title="評論系統"></a>評論系統</h1><ul>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjRGlzcXVz">Disqus<i class="fa fa-external-link-alt"></i></span></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjRGlzcXVzSlM=">DisqusJS<i class="fa fa-external-link-alt"></i></span></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjTGl2ZVJl">LiveRe<i class="fa fa-external-link-alt"></i></span></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjR2l0YWxr">Gitalk<i class="fa fa-external-link-alt"></i></span></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjVmFsaW5l">Valine (China)<i class="fa fa-external-link-alt"></i></span></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjQ2hhbmd5YW4=">Changyan (China)<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
 <a id="more"></a>
 
-<h1 id="減少支持-Minify-Support"><a href="#減少支持-Minify-Support" class="headerlink" title="減少支持(Minify Support)"></a>減少支持(Minify Support)</h1><blockquote>
-<p>目前，此功能有點簡單，我們將來會進一步改進它。</p>
-</blockquote>
-<p>NexT允許最小化Hexo生成。<br>在<code>主題配置文件</code>中將值minify設置為true，如下所示：</p>
+<h1 id="如何在頁面上禁用評論"><a href="#如何在頁面上禁用評論" class="headerlink" title="如何在頁面上禁用評論"></a>如何在頁面上禁用評論</h1><p>當您啟用類似Disqus的評論服務時，所有新頁面將自動具有評論服務。<br>如果要在一頁中禁用它，只需將<code>comments</code>鍵添加到Front-matter並將其值設置為<code>false</code>。 如下所示：</p>
 <blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Remove unnecessary files after hexo generate.</span></span><br><span class="line"><span class="attr">minify:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
+<p>your-post.md<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">All</span> <span class="string">tags</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">"tags"</span></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure></p>
 </blockquote>
-<h1 id="創作共用-Creative-Commons"><a href="#創作共用-Creative-Commons" class="headerlink" title="創作共用(Creative Commons)"></a>創作共用(Creative Commons)</h1><p>NexT支持在邊欄中和帖子中顯示<span class="exturl" data-url="aHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcv">Creative Commons 4.0國際許可<i class="fa fa-external-link-alt"></i></span>，包括<code>by</code>、<code>by-nc</code>，<code>by-nc-nd</code>，<code>by-nc-sa</code>，<code>by-nd</code>，<code>by-sa</code>，<code>zero</code>。 這些許可證允許創作者傳達他們保留哪些權利，以及為了接收者或其他創作者的利益而放棄哪些權利。</p>
-<p>您可以通過編輯<code>主題配置文件</code>中<code>creative_commons</code>部分中的值來配置它，例如：</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">creative_commons:</span></span><br><span class="line">  <span class="attr">license:</span> <span class="string">by-nc-sa</span></span><br><span class="line">  <span class="attr">sidebar:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">post:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">language:</span> <span class="string">deed.zh</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h1 id="文字對齊-Text-Align"><a href="#文字對齊-Text-Align" class="headerlink" title="文字對齊(Text Align)"></a>文字對齊(Text Align)</h1><p>NexT允許自定義帖子/頁面中的文本對齊方式。<br><code>text-align</code>CSS屬性設置塊元素或表格單元格框的水平對齊方式。</p>
-<table>
-<thead>
-<tr>
-<th>值</th>
-<th align="left">效果</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><code>start</code></td>
-<td align="left">如果方向是從左到右，則與<code>left</code>相同；如果方向是從右到左，則與<code>right</code>相同。</td>
-</tr>
-<tr>
-<td><code>end</code></td>
-<td align="left">方向從左到右與<code>right</code>相同，方向從右到左與<code>left</code>相同。</td>
-</tr>
-<tr>
-<td><code>left</code></td>
-<td align="left">內聯內容與行框的左邊緣對齊。</td>
-</tr>
-<tr>
-<td><code>right</code></td>
-<td align="left">內聯內容與行框的右邊緣對齊。</td>
-</tr>
-<tr>
-<td><code>center</code></td>
-<td align="left">內聯內容在行框中居中。</td>
-</tr>
-<tr>
-<td><code>justify</code></td>
-<td align="left">證明內聯內容是合理的。 文本應隔開一定距離，以使其左，右邊緣與行框的左，右邊緣對齊（最後一行除外）。</td>
-</tr>
-<tr>
-<td><code>justify-all</code></td>
-<td align="left">與justify相同，但也強制最後一行被對齊。</td>
-</tr>
-<tr>
-<td><code>match-parent</code></td>
-<td align="left">與<code>inherit</code>相似，但開始和結束的值是根據父級的方向計算的，並由適當的左或右值代替。</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Set the text alignment in the posts.</span></span><br><span class="line"><span class="attr">text_align:</span></span><br><span class="line">  <span class="comment"># Available values: start | end | left | right | center | justify | justify-all | match-parent</span></span><br><span class="line">  <span class="attr">desktop:</span> <span class="string">justify</span></span><br><span class="line">  <span class="attr">mobile:</span> <span class="string">justify</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h1 id="移動設備適應"><a href="#移動設備適應" class="headerlink" title="移動設備適應"></a>移動設備適應</h1><h2 id="mobile-layout-economy"><a href="#mobile-layout-economy" class="headerlink" title="mobile_layout_economy"></a>mobile_layout_economy</h2><p>如果要減少寬度較窄的設備上的填充/邊距縮進，可以通過在主題配置文件中將值mobile_layout_economy設置為true來啟用它。</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">mobile_layout_economy:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h2 id="android-chrome-color"><a href="#android-chrome-color" class="headerlink" title="android_chrome_color"></a>android_chrome_color</h2><p>默認情況下，NexT使用深黑（＃222）作為Android Chrome標題面板的顏色。<br>您可以通過在<code>主題配置文件</code>的<code>android_chrome_color</code>部分中以十六進制顏色編輯值來配置它。</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">android_chrome_color:</span> <span class="string">"#222"</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h1 id="自定義徽標支持"><a href="#自定義徽標支持" class="headerlink" title="自定義徽標支持"></a>自定義徽標支持</h1><p>NexT支持網站徽標個性化。<br>您可以通過將圖像的URL添加到<code>主題配置文件</code>中的<code>custom_logo</code>來啟用它。</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">custom_logo:</span> <span class="string">/uploads/custom-logo.png</span></span><br></pre></td></tr></table></figure><br>Scheme Mist不支持自定義徽標設置。</p>
-</blockquote>
-<p><span class="exturl" data-url="aHR0cHM6Ly93d3cuZGVzaWduZXZvLmNvbS90dy8=">Logo製作網站<i class="fa fa-external-link-alt"></i></span></p>
-<h1 id="代碼塊樣式"><a href="#代碼塊樣式" class="headerlink" title="代碼塊樣式"></a>代碼塊樣式</h1><h2 id="主題"><a href="#主題" class="headerlink" title="主題"></a>主題</h2><p>代碼突出顯示主題<br>NexT使用<span class="exturl" data-url="aHR0cHM6Ly9oaWdobGlnaHRqcy5vcmcv">Highlight.js<i class="fa fa-external-link-alt"></i></span>和<span class="exturl" data-url="aHR0cHM6Ly9wcmlzbWpzLmNvbS8=">Prism<i class="fa fa-external-link-alt"></i></span>包來支持代碼突出顯示。<br>默認樣式是<code>tomorrow</code>，有90多種樣式可供選擇。</p>
-<p>更改<code>theme</code>的值以選擇所需的突出顯示樣式，例如：</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">codeblock:</span></span><br><span class="line">  <span class="comment"># Code Highlight theme</span></span><br><span class="line">  <span class="comment"># See: https://github.com/highlightjs/highlight.js/tree/master/src/styles</span></span><br><span class="line">  <span class="attr">theme:</span></span><br><span class="line">    <span class="attr">light:</span> <span class="string">tomorrow</span></span><br><span class="line">    <span class="attr">dark:</span> <span class="string">tomorrow-night</span></span><br><span class="line">  <span class="comment"># See: https://github.com/PrismJS/prism/tree/master/themes</span></span><br><span class="line">  <span class="attr">prism:</span></span><br><span class="line">    <span class="attr">light:</span> <span class="string">prism</span></span><br><span class="line">    <span class="attr">dark:</span> <span class="string">prism-dark</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<p>如果啟用了暗模式，則暗代碼突出顯示主題將可用。</p>
-<h2 id="複製按鈕"><a href="#複製按鈕" class="headerlink" title="複製按鈕"></a>複製按鈕</h2><p>NexT支持代碼塊的複制和粘貼功能。</p>
-<h3 id="使能-Enable"><a href="#使能-Enable" class="headerlink" title="使能(Enable)"></a>使能(Enable)</h3><p>您可以通過在主題配置文件中將值<code>copy_button.enable</code>設置為<code>true</code>來啟用它。<br>默認情況下，NexT顯示copy-and-paste功能的複制結果。</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">codeblock:</span></span><br><span class="line">  <span class="attr">copy_button:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h3 id="樣式"><a href="#樣式" class="headerlink" title="樣式"></a>樣式</h3><p>使用樣式選項，您可以更改複製按鈕的樣式。<br>當前有三種樣式：<code>default</code>（只需將其保留為空），<code>flat</code>和<code>mac</code>。</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">codeblock:</span></span><br><span class="line">  <span class="attr">copy_button:</span></span><br><span class="line">    <span class="attr">style:</span> <span class="string">flat</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h1 id="閱讀進度"><a href="#閱讀進度" class="headerlink" title="閱讀進度"></a>閱讀進度</h1><p>NexT支持頁面滾動閱讀進度指示器。<br>您可以通過在<code>主題配置文件</code>中將<code>reading_progress.enable</code>設置為<code>true</code>來啟用它。</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Reading progress bar</span></span><br><span class="line"><span class="attr">reading_progress:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment"># 開啟進度條</span></span><br><span class="line">  <span class="comment"># Available values: top | bottom</span></span><br><span class="line">  <span class="attr">position:</span> <span class="string">bottom</span> <span class="comment"># 設置位置 可以為  top | bottom</span></span><br><span class="line">  <span class="attr">color:</span> <span class="string">"#0684BD"</span> <span class="comment"># 進度條顏色 16進制RGB</span></span><br><span class="line">  <span class="attr">height:</span> <span class="string">3px</span> <span class="comment"># 高度</span></span><br></pre></td></tr></table></figure><br>效果<br>  <img src="/posts/665987006/reading_progress.png" class title="reading_progress"></p>
-</blockquote>
-<h1 id="閱讀進度百分比"><a href="#閱讀進度百分比" class="headerlink" title="閱讀進度百分比"></a>閱讀進度百分比</h1><p>修改<code>主題配置文件</code>，修改<code>back2top</code>：</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">back2top:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment"># 開啟 back to top 按鈕</span></span><br><span class="line">  <span class="comment"># Back to top in sidebar.</span></span><br><span class="line">  <span class="attr">sidebar:</span> <span class="literal">true</span> <span class="comment"># true 表示在側邊欄顯示，false則在側下角</span></span><br><span class="line">  <span class="comment"># Scroll percent label in b2t button.</span></span><br><span class="line">  <span class="attr">scrollpercent:</span> <span class="literal">true</span> <span class="comment"># 開啟進度百分比</span></span><br></pre></td></tr></table></figure><br>效果<br>  <img src="/posts/665987006/back2top.png" class title="back2top"></p>
-</blockquote>
-<h1 id="書籤"><a href="#書籤" class="headerlink" title="書籤"></a>書籤</h1><p>書籤是一個允許用戶保存其閱讀進度的插件。 用戶只需單擊頁面左上方的書籤圖標（如🔖）即可保存滾動位置。 當他們下次訪問您的博客時，可以自動恢復每個頁面的最後滾動位置。</p>
-<p>您可以通過在主題配置文件中將<code>bookmark.enable</code>值設置為<code>true</code>來啟用它。</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">bookmark:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># Customize the color of the bookmark.</span></span><br><span class="line">  <span class="attr">color:</span> <span class="string">"#222"</span></span><br><span class="line">  <span class="comment"># If auto, save the reading progress when closing the page or clicking the bookmark-icon.</span></span><br><span class="line">  <span class="comment"># If manual, only save it by clicking the bookmark-icon.</span></span><br><span class="line">  <span class="attr">save:</span> <span class="string">auto</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h1 id="GitHub橫幅"><a href="#GitHub橫幅" class="headerlink" title="GitHub橫幅"></a>GitHub橫幅</h1><p>NexT在右上角的GitHub橫幅上提供Follow Me。</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Follow me on GitHub banner in right-top corner.</span></span><br><span class="line"><span class="attr">github_banner:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">permalink:</span> <span class="string">https://github.com/yourname</span></span><br><span class="line">  <span class="attr">title:</span> <span class="string">Follow</span> <span class="string">me</span> <span class="string">on</span> <span class="string">GitHub</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h1 id="字體定制"><a href="#字體定制" class="headerlink" title="字體定制"></a>字體定制</h1><p>NexT為您提供5種特定的字體設置，它們是：</p>
-<ul>
-<li>全局字體(Global Font)：整個網站中使用的字體。</li>
-<li>標題字體(Title Font)：網站標題使用的字體。</li>
-<li>標題字體(Headlines Font)：文章中標題使用的字體（h1，h2，h3，h4，h5，h6）。</li>
-<li>文章字體(Article Font)：文章使用的字體。</li>
-<li>代碼字體(Code Font)：文章中代碼塊使用的字體。</li>
+<h1 id="統計與分析"><a href="#統計與分析" class="headerlink" title="統計與分析"></a>統計與分析</h1><h2 id="分析工具"><a href="#分析工具" class="headerlink" title="分析工具"></a>分析工具</h2><ul>
+<li>Google Analytics</li>
+<li>Baidu Analytics (China)</li>
+<li>Growingio Analytics</li>
+<li>CNZZ Analytics (China)</li>
 </ul>
-<p>每種字體將用作此類的第一種字體，如果無法使用，則NexT將回退到內部字體設置。</p>
-<ul>
-<li>非代碼字體：回退到<code>&quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif</code></li>
-<li>代碼字體：回退到<code>consolas, Menlo, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, monospace(等寬)</code></li>
+<h2 id="統計"><a href="#統計" class="headerlink" title="統計"></a>統計</h2><ul>
+<li>LeanCloud (China)</li>
+<li>Firebase</li>
+<li>Busuanzi Counting</li>
 </ul>
-<p>加上每個部分都有一個外部屬性，該屬性控制是否使用字體庫CDN。<br>使用此功能可以幫助您使用系統中安裝的字體並減少不必要的請求。</p>
-<blockquote>
-<p>為解決某些國家/地區<span class="exturl" data-url="aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9mb250cw==">Google字體API<i class="fa fa-external-link-alt"></i></span>的不穩定問題，NexT通過設置<code>font.host</code>支持字體庫的自定義URL。<br>  此外，我們注意到，對於某些網站的請求，Google字體將返回403。<br>  這時，有必要使用<code>font.host</code>設置鏡像站點。<br>  相關問題：<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L2lzc3Vlcy82MTM=">＃613<i class="fa fa-external-link-alt"></i></span>，<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L2lzc3Vlcy8xMzMz">＃1333<i class="fa fa-external-link-alt"></i></span></p>
-</blockquote>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">font:</span></span><br><span class="line">  <span class="comment"># Use custom fonts families or not.</span></span><br><span class="line">  <span class="comment"># Depended options: `external` and `family`.</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Uri of fonts host, e.g. https://fonts.googleapis.com (Default).</span></span><br><span class="line">  <span class="attr">host:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font options:</span></span><br><span class="line">  <span class="comment"># `external: true` will load this font family from `host` above.</span></span><br><span class="line">  <span class="comment"># `family: Times New Roman`. Without any quotes.</span></span><br><span class="line">  <span class="comment"># `size: x.x`. Use `em` as unit. Default: 1 (16px)</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Global font settings used for all elements inside &lt;body&gt;.</span></span><br><span class="line">  <span class="attr">global:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">Monda</span></span><br><span class="line">    <span class="attr">size:</span> <span class="number">1.125</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for site title (.site-title).</span></span><br><span class="line">  <span class="attr">title:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">Lobster</span> <span class="string">Two</span></span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for headlines (&lt;h1&gt; to &lt;h6&gt;).</span></span><br><span class="line">  <span class="attr">headings:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">Amita</span></span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for posts (.post-body).</span></span><br><span class="line">  <span class="attr">posts:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">Roboto</span> <span class="string">Slab</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for &lt;code&gt; and code blocks.</span></span><br><span class="line">  <span class="attr">codes:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">PT</span> <span class="string">Mono</span></span><br></pre></td></tr></table></figure><br>如果仍然需要更多自定義，則以下更改將涵蓋“字體自定義”功能。<br>在Hexo根目錄中編輯<code>source/_data/variables.styl</code>並添加兩個變量：<br>hexo/source/_data/variables.styl<br>  <figure class="highlight"><table><tr><td class="code"><pre><span class="line">// Title Font, set it to font family you want.</span><br><span class="line">$font-family-headings = Georgia, sans</span><br><span class="line"></span><br><span class="line">// Set it to font family you want.</span><br><span class="line">$font-family-base = "Microsoft YaHei", Verdana, sans-serif</span><br><span class="line"></span><br><span class="line">// Code Font.</span><br><span class="line">$code-font-family = "Input Mono", "PT Mono", Consolas, Monaco, Menlo, monospace</span><br><span class="line"></span><br><span class="line">// Font size of articles.</span><br><span class="line">$font-size-base = 16px</span><br><span class="line"></span><br><span class="line">// Font size of table and code.</span><br><span class="line">$table-font-size = 13px</span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<p>首先修改<code>主題配置文件</code>檔案，將<code>custom_file_path</code>部分下的 <code>style</code> 那行取消註解。</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Define custom file paths.</span></span><br><span class="line"><span class="comment"># Create your custom files in site directory `source/_data` and uncomment needed files below.</span></span><br><span class="line"><span class="attr">custom_file_path:</span></span><br><span class="line">  <span class="comment">#head: source/_data/head.swig</span></span><br><span class="line">  <span class="comment">#header: source/_data/header.swig</span></span><br><span class="line">  <span class="attr">sidebar:</span> <span class="string">source/_data/sidebar.swig</span></span><br><span class="line">  <span class="comment">#postMeta: source/_data/post-meta.swig</span></span><br><span class="line">  <span class="comment">#postBodyEnd: source/_data/post-body-end.swig</span></span><br><span class="line">  <span class="comment">#footer: source/_data/footer.swig</span></span><br><span class="line">  <span class="comment">#bodyEnd: source/_data/body-end.swig</span></span><br><span class="line">  <span class="comment">#variable: source/_data/variables.styl</span></span><br><span class="line">  <span class="comment">#mixin: source/_data/mixins.styl</span></span><br><span class="line">  <span class="attr">style:</span> <span class="string">source/_data/styles.styl</span>  <span class="comment">#這行取消註解</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h1 id="fancybox-實現圖片點擊預覽"><a href="#fancybox-實現圖片點擊預覽" class="headerlink" title="fancybox 實現圖片點擊預覽"></a>fancybox 實現圖片點擊預覽</h1><h2 id="下載插件"><a href="#下載插件" class="headerlink" title="下載插件"></a>下載插件</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/theme-next/theme-next-fancybox3 themes/next/<span class="built_in">source</span>/lib/fancybox</span><br></pre></td></tr></table></figure>
-<p>修改主題配置文件_config.xml</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
+<h2 id="貼文小工具"><a href="#貼文小工具" class="headerlink" title="貼文小工具"></a>貼文小工具</h2><ul>
+<li>Widgetpack Rating</li>
+<li>AddThis</li>
+</ul>
+<h2 id="搜索服務"><a href="#搜索服務" class="headerlink" title="搜索服務"></a>搜索服務</h2><ul>
+<li>Algolia Search</li>
+<li>Local Search</li>
+<li>Swiftype</li>
+</ul>
+<h2 id="聊天服務"><a href="#聊天服務" class="headerlink" title="聊天服務"></a>聊天服務</h2><ul>
+<li>Chatra</li>
+<li>Tidio</li>
+</ul>
+<h2 id="外部庫"><a href="#外部庫" class="headerlink" title="外部庫"></a>外部庫</h2><ul>
+<li><a href="/2020/06/18/教學-Hexo使用-NexT整合設定/#pjax-安裝">PJAX</a><br>頁面跳轉的時候人眼需要對整個頁面作重新識別， 刷新部分頁面的時候， 只需要重新識別其中一塊區域</li>
+<li>Fancybox<br>jQuery線上相簿展示器</li>
+<li>MediumZoom</li>
+<li>Lazyload<br>當網站圖片較多時，會造成網站開啟速度變慢，這時候前端工程師就會使用一種優化技術－延遲加載</li>
+<li>Pangu Autospace<br>中文、英文、數字、符號之間插入空格以提升文章質量</li>
+<li>Quicklink</li>
+<li>Motion</li>
+<li>Progress bar</li>
+<li>Backgroud JS</li>
+</ul>
 ]]></content>
       <categories>
         <category>教學</category>
@@ -570,72 +636,6 @@
       </tags>
   </entry>
   <entry>
-    <title>[教學]-NexT使用-第三方服務</title>
-    <url>/posts/1612943303/</url>
-    <content><![CDATA[<p>靜態網站的某些功能受到限制，因此我們需要第三方服務來擴展我們的網站。<br>在任何時候，您都可以使用NexT支持的第三方服務來擴展所需的功能。</p>
-<h1 id="數學方程式"><a href="#數學方程式" class="headerlink" title="數學方程式"></a>數學方程式</h1><ul>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL21hdGgtZXF1YXRpb25zLmh0bWw=">數學方程式<i class="fa fa-external-link-alt"></i></span></li>
-</ul>
-<h1 id="評論系統"><a href="#評論系統" class="headerlink" title="評論系統"></a>評論系統</h1><ul>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjRGlzcXVz">Disqus<i class="fa fa-external-link-alt"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjRGlzcXVzSlM=">DisqusJS<i class="fa fa-external-link-alt"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjTGl2ZVJl">LiveRe<i class="fa fa-external-link-alt"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjR2l0YWxr">Gitalk<i class="fa fa-external-link-alt"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjVmFsaW5l">Valine (China)<i class="fa fa-external-link-alt"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjQ2hhbmd5YW4=">Changyan (China)<i class="fa fa-external-link-alt"></i></span></li>
-</ul>
-<a id="more"></a>
-
-<h1 id="如何在頁面上禁用評論"><a href="#如何在頁面上禁用評論" class="headerlink" title="如何在頁面上禁用評論"></a>如何在頁面上禁用評論</h1><p>當您啟用類似Disqus的評論服務時，所有新頁面將自動具有評論服務。<br>如果要在一頁中禁用它，只需將<code>comments</code>鍵添加到Front-matter並將其值設置為<code>false</code>。 如下所示：</p>
-<blockquote>
-<p>your-post.md<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">All</span> <span class="string">tags</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">"tags"</span></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h1 id="統計與分析"><a href="#統計與分析" class="headerlink" title="統計與分析"></a>統計與分析</h1><h2 id="分析工具"><a href="#分析工具" class="headerlink" title="分析工具"></a>分析工具</h2><ul>
-<li>Google Analytics</li>
-<li>Baidu Analytics (China)</li>
-<li>Growingio Analytics</li>
-<li>CNZZ Analytics (China)</li>
-</ul>
-<h2 id="統計"><a href="#統計" class="headerlink" title="統計"></a>統計</h2><ul>
-<li>LeanCloud (China)</li>
-<li>Firebase</li>
-<li>Busuanzi Counting</li>
-</ul>
-<h2 id="貼文小工具"><a href="#貼文小工具" class="headerlink" title="貼文小工具"></a>貼文小工具</h2><ul>
-<li>Widgetpack Rating</li>
-<li>AddThis</li>
-</ul>
-<h2 id="搜索服務"><a href="#搜索服務" class="headerlink" title="搜索服務"></a>搜索服務</h2><ul>
-<li>Algolia Search</li>
-<li>Local Search</li>
-<li>Swiftype</li>
-</ul>
-<h2 id="聊天服務"><a href="#聊天服務" class="headerlink" title="聊天服務"></a>聊天服務</h2><ul>
-<li>Chatra</li>
-<li>Tidio</li>
-</ul>
-<h2 id="外部庫"><a href="#外部庫" class="headerlink" title="外部庫"></a>外部庫</h2><ul>
-<li><a href="/2020/06/18/教學-Hexo使用-NexT整合設定/#pjax-安裝">PJAX</a><br>頁面跳轉的時候人眼需要對整個頁面作重新識別， 刷新部分頁面的時候， 只需要重新識別其中一塊區域</li>
-<li>Fancybox<br>jQuery線上相簿展示器</li>
-<li>MediumZoom</li>
-<li>Lazyload<br>當網站圖片較多時，會造成網站開啟速度變慢，這時候前端工程師就會使用一種優化技術－延遲加載</li>
-<li>Pangu Autospace<br>中文、英文、數字、符號之間插入空格以提升文章質量</li>
-<li>Quicklink</li>
-<li>Motion</li>
-<li>Progress bar</li>
-<li>Backgroud JS</li>
-</ul>
-]]></content>
-      <categories>
-        <category>教學</category>
-        <category>NexT</category>
-      </categories>
-      <tags>
-        <tag>教學</tag>
-        <tag>NexT</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>三招挖飆股勝率超過六成 別再傻傻存牛皮股！ft.孫慶龍(股票-下班經濟學#41)</title>
     <url>/posts/3613151692/</url>
     <content><![CDATA[<p>如果不清楚什麼是KD值可以參考 <a href="/posts/3701503514/#KD%E5%80%BC">名詞解釋：KD值</a></p>
@@ -687,6 +687,88 @@
       <tags>
         <tag>教學</tag>
         <tag>NexT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>股票-布林通道 實戰必勝術</title>
+    <url>/posts/2691061525/</url>
+    <content><![CDATA[<h1 id="布林通道的組成"><a href="#布林通道的組成" class="headerlink" title="布林通道的組成"></a>布林通道的組成</h1><h2 id="上線：壓力線（＋２個標準差）"><a href="#上線：壓力線（＋２個標準差）" class="headerlink" title="上線：壓力線（＋２個標準差）"></a>上線：壓力線（＋２個標準差）</h2><h2 id="中線：２０日移動平均線"><a href="#中線：２０日移動平均線" class="headerlink" title="中線：２０日移動平均線"></a>中線：２０日移動平均線</h2><h2 id="下線：支撐線（－２個標準差）"><a href="#下線：支撐線（－２個標準差）" class="headerlink" title="下線：支撐線（－２個標準差）"></a>下線：支撐線（－２個標準差）</h2><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E9%80%9A%E9%81%93%E7%9A%84%E7%B5%84%E6%88%90.png" class title="布林通道的組成">
+<h2 id="２個標準差：高達95-4-的機率"><a href="#２個標準差：高達95-4-的機率" class="headerlink" title="２個標準差：高達95.4%的機率"></a>２個標準差：高達95.4%的機率</h2><img src="/posts/2691061525/%E6%A8%99%E6%BA%96%E5%B7%AE%E6%A9%9F%E7%8E%87.png" class title="標準差機率">
+<h2 id="超出布林通道的機率只有4-6-的機率"><a href="#超出布林通道的機率只有4-6-的機率" class="headerlink" title="超出布林通道的機率只有4.6%的機率"></a>超出布林通道的機率只有4.6%的機率</h2><img src="/posts/2691061525/%E8%B6%85%E5%87%BA%E5%B8%83%E6%9E%97%E9%80%9A%E9%81%93.png" class title="超出布林通道">
+<h1 id="如何運用布林通道"><a href="#如何運用布林通道" class="headerlink" title="如何運用布林通道"></a>如何運用布林通道</h1><a id="more"></a>
+
+<h2 id="買進訊號"><a href="#買進訊號" class="headerlink" title="買進訊號"></a>買進訊號</h2><ol>
+<li>價格在<code>中軌與上軌</code>線間波動為<code>多方</code>行情<br>=&gt; <code>拉回中線</code>附近為買進訊號</li>
+<li>價格<code>由下向上穿越中線</code>表示<br>=&gt; 多方動能轉強為買進訊號<img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E6%94%AF%E6%92%90%E7%B7%9A%E8%B2%B7%E9%80%B2.png" class title="穿越支撐線買進">
+<img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E5%A3%93%E5%8A%9B%E7%B7%9A.png" class title="穿越壓力線">
+<img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E4%B8%AD%E7%B7%9A%E5%8A%A0%E7%A2%BC.png" class title="穿越中線加碼">
+
+</li>
+</ol>
+<h2 id="賣出訊號"><a href="#賣出訊號" class="headerlink" title="賣出訊號"></a>賣出訊號</h2><img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E4%B8%AD%E7%B7%9A%E9%80%80%E5%87%BA.png" class title="穿越中線退出">
+
+<h1 id="布林通道相關指標"><a href="#布林通道相關指標" class="headerlink" title="布林通道相關指標"></a>布林通道相關指標</h1><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E6%A5%B5%E9%99%90%E6%8C%87%E6%A8%99.png" class title="布林極限指標">
+<img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E6%A5%B5%E9%99%90%E6%8C%87%E6%A8%992.png" class title="布林極限指標2">
+
+<h1 id="布林通道的形狀"><a href="#布林通道的形狀" class="headerlink" title="布林通道的形狀"></a>布林通道的形狀</h1><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E5%BD%A2%E7%8B%80.png" class title="布林形狀">
+<img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E5%B8%B6%E5%AF%AC.png" class title="布林帶寬">
+
+<p>%b指標<br>%b 指標（Percent b，PB），以數字形式呈現收盤價在布林帶中的位置，做為交易決策時的關鍵指標。例如：當%b值為0.5（或以百分比表示50%），代表收盤價處於布林帶的中間位置。</p>
+<p>%b值 = (收盤價−布林帶下軌值) ÷ (布林帶上軌值−布林帶下軌值)<br>由於收盤價會在上、下軌道震盪遊走，幅度甚至大於軌道範圍（0~1），因此%b值沒有上下限。當走勢向上突破，收盤價落於上軌上方時，%b值&gt; 1；而走趨向下突破，收盤價落在下軌下方時，%b值&lt; 0。<br>藉由觀察分析「%b指標」可以提供投資時的參考，依據指標的強弱走勢，作出買賣決策。</p>
+<h1 id="大盤紅綠燈"><a href="#大盤紅綠燈" class="headerlink" title="大盤紅綠燈"></a>大盤紅綠燈</h1><h2 id="逢低買進"><a href="#逢低買進" class="headerlink" title="逢低買進"></a>逢低買進</h2><ol>
+<li>大盤日線20MA上揚</li>
+<li>即使碰到下通道，也會立即脫離下通道</li>
+</ol>
+<h2 id="黃燈"><a href="#黃燈" class="headerlink" title="黃燈"></a>黃燈</h2><p>短線過多，衝到上通道，不要進去買</p>
+<h2 id="紅燈（跌破月線）"><a href="#紅燈（跌破月線）" class="headerlink" title="紅燈（跌破月線）"></a>紅燈（跌破月線）</h2><p>大盤走入空頭型態（中長期）</p>
+<h2 id="買在飆股起漲點"><a href="#買在飆股起漲點" class="headerlink" title="買在飆股起漲點"></a>買在飆股起漲點</h2><ol>
+<li>壓縮：股價壓縮至少10個交易日</li>
+<li>帶量：成交量出現過去5日均量的2～10倍</li>
+<li>突破：當日收盤價突破通道頂且收紅K棒</li>
+</ol>
+<h2 id="跌破月線出場"><a href="#跌破月線出場" class="headerlink" title="跌破月線出場"></a>跌破月線出場</h2><p>參考資料：<br><span class="exturl" data-url="aHR0cHM6Ly9oaXN0b2NrLnR3L2Jsb2cvaGlzdG9jazE2ODgvMjQ1">五分鐘搞懂布林通道（工具應用篇）<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1ObTQweDRjOVR0aw==">股市阿水的布林通道<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+        <category>1⃣ 股票</category>
+        <category>技術面分析</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>布林通道</tag>
+        <tag>技術分析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>站務-發文</title>
+    <url>/posts/2778056449/</url>
+    <content><![CDATA[<h1 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h1><p>不要加上「」，會導致類似縮排效果</p>
+<h1 id="「是不是有縮排效果」"><a href="#「是不是有縮排效果」" class="headerlink" title="「是不是有縮排效果」"></a>「是不是有縮排效果」</h1><p>是否有對齊這裡</p>
+<h1 id="改變文字屬性"><a href="#改變文字屬性" class="headerlink" title="改變文字屬性"></a>改變文字屬性</h1><p><span style="color:orange;">文字顏色為橘色</span><br><span style="background-color:orange;margin-right:5px;">文字底色為橘色</span></p>
+<h1 id="插入連結"><a href="#插入連結" class="headerlink" title="插入連結"></a>插入連結</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[說明文字](欲連結的URL)</span><br></pre></td></tr></table></figure>
+
+<h1 id="插入圖片"><a href="#插入圖片" class="headerlink" title="插入圖片"></a>插入圖片</h1><ol>
+<li>將圖片放入相對應的<code>資料夾</code>，例如在編輯「source/_posts/站務-發文.md」時，必須把圖片放入「source/_posts/站務-發文」資料夾。</li>
+<li>接著輸入以下指令，可以確保圖片能夠同時出現在<code>貼文</code>與<code>首頁</code><figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// &#123;% asset_img &lt;圖片名稱&gt; &lt;圖片說明&gt; %&#125;</span></span><br><span class="line">&#123;% asset_img ex_dividends.jpg <span class="number">0050</span>填息圖 %&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="插入youtube影片"><a href="#插入youtube影片" class="headerlink" title="插入youtube影片"></a>插入youtube影片</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% youtube HLJ9jJy7CMg %&#125;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<h1 id="插入數學公式"><a href="#插入數學公式" class="headerlink" title="插入數學公式"></a>插入數學公式</h1><p>有行內公式與獨立公式兩種</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ 行內公式 $</span><br><span class="line">$$ 獨立公式 $$</span><br></pre></td></tr></table></figure>
+<p><span class="exturl" data-url="aHR0cDovL2Jsb2cubWF4a2l0LmNvbS50dy8yMDIwLzAyL21hcmtkb3duLmh0bWw=">詳細數學公式教學<i class="fa fa-external-link-alt"></i></span></p>
+<h1 id="置頂"><a href="#置頂" class="headerlink" title="置頂"></a>置頂</h1><p>編輯需要置頂的文章，加入 <code>top</code>: &lt;數字&gt; 屬性，數字越大，優先級越高，例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &lt;文章名稱&gt;</span><br><span class="line">date: 2019-07-23 19:44:29</span><br><span class="line">categories: </span><br><span class="line">- &lt;分類名稱&gt;</span><br><span class="line">tags:</span><br><span class="line">top: 1</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+
+]]></content>
+      <categories>
+        <category>站務</category>
+      </categories>
+      <tags>
+        <tag>站務</tag>
       </tags>
   </entry>
   <entry>
@@ -750,121 +832,9 @@
       </tags>
   </entry>
   <entry>
-    <title>站務-發文</title>
-    <url>/posts/2778056449/</url>
-    <content><![CDATA[<h1 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h1><p>不要加上「」，會導致類似縮排效果</p>
-<h1 id="「是不是有縮排效果」"><a href="#「是不是有縮排效果」" class="headerlink" title="「是不是有縮排效果」"></a>「是不是有縮排效果」</h1><p>是否有對齊這裡</p>
-<h1 id="改變文字屬性"><a href="#改變文字屬性" class="headerlink" title="改變文字屬性"></a>改變文字屬性</h1><p><span style="color:orange;">文字顏色為橘色</span><br><span style="background-color:orange;margin-right:5px;">文字底色為橘色</span></p>
-<h1 id="插入連結"><a href="#插入連結" class="headerlink" title="插入連結"></a>插入連結</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[說明文字](欲連結的URL)</span><br></pre></td></tr></table></figure>
-
-<h1 id="插入圖片"><a href="#插入圖片" class="headerlink" title="插入圖片"></a>插入圖片</h1><ol>
-<li>將圖片放入相對應的<code>資料夾</code>，例如在編輯「source/_posts/站務-發文.md」時，必須把圖片放入「source/_posts/站務-發文」資料夾。</li>
-<li>接著輸入以下指令，可以確保圖片能夠同時出現在<code>貼文</code>與<code>首頁</code><figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// &#123;% asset_img &lt;圖片名稱&gt; &lt;圖片說明&gt; %&#125;</span></span><br><span class="line">&#123;% asset_img ex_dividends.jpg <span class="number">0050</span>填息圖 %&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="插入youtube影片"><a href="#插入youtube影片" class="headerlink" title="插入youtube影片"></a>插入youtube影片</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% youtube HLJ9jJy7CMg %&#125;</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<h1 id="插入數學公式"><a href="#插入數學公式" class="headerlink" title="插入數學公式"></a>插入數學公式</h1><p>有行內公式與獨立公式兩種</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ 行內公式 $</span><br><span class="line">$$ 獨立公式 $$</span><br></pre></td></tr></table></figure>
-<p><span class="exturl" data-url="aHR0cDovL2Jsb2cubWF4a2l0LmNvbS50dy8yMDIwLzAyL21hcmtkb3duLmh0bWw=">詳細數學公式教學<i class="fa fa-external-link-alt"></i></span></p>
-<h1 id="置頂"><a href="#置頂" class="headerlink" title="置頂"></a>置頂</h1><p>編輯需要置頂的文章，加入 <code>top</code>: &lt;數字&gt; 屬性，數字越大，優先級越高，例如：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &lt;文章名稱&gt;</span><br><span class="line">date: 2019-07-23 19:44:29</span><br><span class="line">categories: </span><br><span class="line">- &lt;分類名稱&gt;</span><br><span class="line">tags:</span><br><span class="line">top: 1</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-<a id="more"></a>
-
-]]></content>
-      <categories>
-        <category>站務</category>
-      </categories>
-      <tags>
-        <tag>站務</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>股票-殖利率</title>
     <url>/posts/4199638572/</url>
     <content><![CDATA[<a id="more"></a>
-]]></content>
-      <categories>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>股票-布林通道 實戰必勝術</title>
-    <url>/posts/2691061525/</url>
-    <content><![CDATA[<h1 id="布林通道的組成"><a href="#布林通道的組成" class="headerlink" title="布林通道的組成"></a>布林通道的組成</h1><h2 id="上線：壓力線（＋２個標準差）"><a href="#上線：壓力線（＋２個標準差）" class="headerlink" title="上線：壓力線（＋２個標準差）"></a>上線：壓力線（＋２個標準差）</h2><h2 id="中線：２０日移動平均線"><a href="#中線：２０日移動平均線" class="headerlink" title="中線：２０日移動平均線"></a>中線：２０日移動平均線</h2><h2 id="下線：支撐線（－２個標準差）"><a href="#下線：支撐線（－２個標準差）" class="headerlink" title="下線：支撐線（－２個標準差）"></a>下線：支撐線（－２個標準差）</h2><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E9%80%9A%E9%81%93%E7%9A%84%E7%B5%84%E6%88%90.png" class title="布林通道的組成">
-<h2 id="２個標準差：高達95-4-的機率"><a href="#２個標準差：高達95-4-的機率" class="headerlink" title="２個標準差：高達95.4%的機率"></a>２個標準差：高達95.4%的機率</h2><img src="/posts/2691061525/%E6%A8%99%E6%BA%96%E5%B7%AE%E6%A9%9F%E7%8E%87.png" class title="標準差機率">
-<h2 id="超出布林通道的機率只有4-6-的機率"><a href="#超出布林通道的機率只有4-6-的機率" class="headerlink" title="超出布林通道的機率只有4.6%的機率"></a>超出布林通道的機率只有4.6%的機率</h2><img src="/posts/2691061525/%E8%B6%85%E5%87%BA%E5%B8%83%E6%9E%97%E9%80%9A%E9%81%93.png" class title="超出布林通道">
-<h1 id="如何運用布林通道"><a href="#如何運用布林通道" class="headerlink" title="如何運用布林通道"></a>如何運用布林通道</h1><a id="more"></a>
-
-<h2 id="買進訊號"><a href="#買進訊號" class="headerlink" title="買進訊號"></a>買進訊號</h2><ol>
-<li>價格在<code>中軌與上軌</code>線間波動為<code>多方</code>行情<br>=&gt; <code>拉回中線</code>附近為買進訊號</li>
-<li>價格<code>由下向上穿越中線</code>表示<br>=&gt; 多方動能轉強為買進訊號<img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E6%94%AF%E6%92%90%E7%B7%9A%E8%B2%B7%E9%80%B2.png" class title="穿越支撐線買進">
-<img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E5%A3%93%E5%8A%9B%E7%B7%9A.png" class title="穿越壓力線">
-<img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E4%B8%AD%E7%B7%9A%E5%8A%A0%E7%A2%BC.png" class title="穿越中線加碼">
-
-</li>
-</ol>
-<h2 id="賣出訊號"><a href="#賣出訊號" class="headerlink" title="賣出訊號"></a>賣出訊號</h2><img src="/posts/2691061525/%E7%A9%BF%E8%B6%8A%E4%B8%AD%E7%B7%9A%E9%80%80%E5%87%BA.png" class title="穿越中線退出">
-
-<h1 id="布林通道相關指標"><a href="#布林通道相關指標" class="headerlink" title="布林通道相關指標"></a>布林通道相關指標</h1><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E6%A5%B5%E9%99%90%E6%8C%87%E6%A8%99.png" class title="布林極限指標">
-<img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E6%A5%B5%E9%99%90%E6%8C%87%E6%A8%992.png" class title="布林極限指標2">
-
-<h1 id="布林通道的形狀"><a href="#布林通道的形狀" class="headerlink" title="布林通道的形狀"></a>布林通道的形狀</h1><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E5%BD%A2%E7%8B%80.png" class title="布林形狀">
-<img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E5%B8%B6%E5%AF%AC.png" class title="布林帶寬">
-
-<p>%b指標<br>%b 指標（Percent b，PB），以數字形式呈現收盤價在布林帶中的位置，做為交易決策時的關鍵指標。例如：當%b值為0.5（或以百分比表示50%），代表收盤價處於布林帶的中間位置。</p>
-<p>%b值 = (收盤價−布林帶下軌值) ÷ (布林帶上軌值−布林帶下軌值)<br>由於收盤價會在上、下軌道震盪遊走，幅度甚至大於軌道範圍（0~1），因此%b值沒有上下限。當走勢向上突破，收盤價落於上軌上方時，%b值&gt; 1；而走趨向下突破，收盤價落在下軌下方時，%b值&lt; 0。<br>藉由觀察分析「%b指標」可以提供投資時的參考，依據指標的強弱走勢，作出買賣決策。</p>
-<h1 id="大盤紅綠燈"><a href="#大盤紅綠燈" class="headerlink" title="大盤紅綠燈"></a>大盤紅綠燈</h1><h2 id="逢低買進"><a href="#逢低買進" class="headerlink" title="逢低買進"></a>逢低買進</h2><ol>
-<li>大盤日線20MA上揚</li>
-<li>即使碰到下通道，也會立即脫離下通道</li>
-</ol>
-<h2 id="黃燈"><a href="#黃燈" class="headerlink" title="黃燈"></a>黃燈</h2><p>短線過多，衝到上通道，不要進去買</p>
-<h2 id="紅燈（跌破月線）"><a href="#紅燈（跌破月線）" class="headerlink" title="紅燈（跌破月線）"></a>紅燈（跌破月線）</h2><p>大盤走入空頭型態（中長期）</p>
-<h2 id="買在飆股起漲點"><a href="#買在飆股起漲點" class="headerlink" title="買在飆股起漲點"></a>買在飆股起漲點</h2><ol>
-<li>壓縮：股價壓縮至少10個交易日</li>
-<li>帶量：成交量出現過去5日均量的2～10倍</li>
-<li>突破：當日收盤價突破通道頂且收紅K棒</li>
-</ol>
-<h2 id="跌破月線出場"><a href="#跌破月線出場" class="headerlink" title="跌破月線出場"></a>跌破月線出場</h2><p>參考資料：<br><span class="exturl" data-url="aHR0cHM6Ly9oaXN0b2NrLnR3L2Jsb2cvaGlzdG9jazE2ODgvMjQ1">五分鐘搞懂布林通道（工具應用篇）<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1ObTQweDRjOVR0aw==">股市阿水的布林通道<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-        <category>1⃣ 股票</category>
-        <category>技術面分析</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>布林通道</tag>
-        <tag>技術分析</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>股票-股利</title>
-    <url>/posts/3702625446/</url>
-    <content><![CDATA[<p>看完這篇將學到：</p>
-<blockquote>
-<p>什麼是<code>「現金股利」</code>、<code>「股票股利」</code>？<br>  是公司將賺的錢分配給股東的形式，簡稱為「分紅」，</p>
-</blockquote>
-<ul>
-<li><strong>「現金股利」：發放現金股利給股東。</strong></li>
-<li><strong>「股票股利」：發放股票股利(把錢用來增加公司的股本)，將股本的所有權轉移給股東。</strong></li>
-</ul>
-<p>當我們買進某公司的股票時，便成為該公司的股東。<br>若該公司有賺錢時，我們（股東）就能夠依據持有股票的比例，分配獲得所賺的利潤，這就是所謂的「股利」，<br>反之，若該公司不賺錢，當然也有可能領不到股利 😖</p>
-<h1 id="股利"><a href="#股利" class="headerlink" title="股利"></a>股利</h1><p>股利，是指股份公司從<code>留存收益</code>中派發給股東的那一部分。<br>就上市公司的情況中，股利只會派發給在<code>除息日之前一日持有股票</code>至除息日當日的人士，<br>在除息日當日或以後才買入股票的人則不能獲派股利。<br>與此同時，證券交易所會在除息日開市前自動把股票的前一交易日收盤價扣減股利後的價值，<br>定為該股票的開盤交易日的開盤價，因此股價會在除息日開盤時「自動下跌」。</p>
-<p>股利一般有兩種支付方式：<code>「現金股利」</code>（<code>股息</code>，英語：Cash Dividends）和<code>「股票股利」</code>（<code>股利</code>，英語：Stock Dividends）。 </p>
-<h2 id="現金股利"><a href="#現金股利" class="headerlink" title="現金股利"></a>現金股利</h2><p><code>「現金股利」</code>是指股份公司向股東<code>支付現金</code>，又稱<code>「股息」</code>或<code>「配息」</code>。<br><code>現金股利</code>給予股東即時的資本回報。</p>
-<h2 id="股票股利"><a href="#股票股利" class="headerlink" title="股票股利"></a>股票股利</h2><p><code>「股票股利」</code>或<code>「以股代息」</code>是指股份公司向股東以<code>贈送新的股份</code>方式代替支付現金股利，又稱<code>「股利」</code>或<code>「配股」</code>。</p>
-<p>對於優質股，股票股利給予股東長遠獲取更大回報的機會，股東期望股份價值上升及繼續以股代息，利用複息效應把錢愈滾愈大。</p>
-<p>但對於經營不佳的公司，股票股利只是「零成本」印股票派息，因為公司沒有「多餘的」現金可用作派息。 </p>
-<h2 id="配息配股的比較"><a href="#配息配股的比較" class="headerlink" title="配息配股的比較"></a>配息配股的比較</h2><p>整理中．．．</p>
-<a id="more"></a>
 ]]></content>
       <categories>
         <category>2⃣ 筆記</category>
@@ -931,6 +901,36 @@
         <tag>筆記</tag>
         <tag>股票</tag>
         <tag>名詞解釋</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>股票-股利</title>
+    <url>/posts/3702625446/</url>
+    <content><![CDATA[<p>看完這篇將學到：</p>
+<blockquote>
+<p>什麼是<code>「現金股利」</code>、<code>「股票股利」</code>？<br>  是公司將賺的錢分配給股東的形式，簡稱為「分紅」，</p>
+</blockquote>
+<ul>
+<li><strong>「現金股利」：發放現金股利給股東。</strong></li>
+<li><strong>「股票股利」：發放股票股利(把錢用來增加公司的股本)，將股本的所有權轉移給股東。</strong></li>
+</ul>
+<p>當我們買進某公司的股票時，便成為該公司的股東。<br>若該公司有賺錢時，我們（股東）就能夠依據持有股票的比例，分配獲得所賺的利潤，這就是所謂的「股利」，<br>反之，若該公司不賺錢，當然也有可能領不到股利 😖</p>
+<h1 id="股利"><a href="#股利" class="headerlink" title="股利"></a>股利</h1><p>股利，是指股份公司從<code>留存收益</code>中派發給股東的那一部分。<br>就上市公司的情況中，股利只會派發給在<code>除息日之前一日持有股票</code>至除息日當日的人士，<br>在除息日當日或以後才買入股票的人則不能獲派股利。<br>與此同時，證券交易所會在除息日開市前自動把股票的前一交易日收盤價扣減股利後的價值，<br>定為該股票的開盤交易日的開盤價，因此股價會在除息日開盤時「自動下跌」。</p>
+<p>股利一般有兩種支付方式：<code>「現金股利」</code>（<code>股息</code>，英語：Cash Dividends）和<code>「股票股利」</code>（<code>股利</code>，英語：Stock Dividends）。 </p>
+<h2 id="現金股利"><a href="#現金股利" class="headerlink" title="現金股利"></a>現金股利</h2><p><code>「現金股利」</code>是指股份公司向股東<code>支付現金</code>，又稱<code>「股息」</code>或<code>「配息」</code>。<br><code>現金股利</code>給予股東即時的資本回報。</p>
+<h2 id="股票股利"><a href="#股票股利" class="headerlink" title="股票股利"></a>股票股利</h2><p><code>「股票股利」</code>或<code>「以股代息」</code>是指股份公司向股東以<code>贈送新的股份</code>方式代替支付現金股利，又稱<code>「股利」</code>或<code>「配股」</code>。</p>
+<p>對於優質股，股票股利給予股東長遠獲取更大回報的機會，股東期望股份價值上升及繼續以股代息，利用複息效應把錢愈滾愈大。</p>
+<p>但對於經營不佳的公司，股票股利只是「零成本」印股票派息，因為公司沒有「多餘的」現金可用作派息。 </p>
+<h2 id="配息配股的比較"><a href="#配息配股的比較" class="headerlink" title="配息配股的比較"></a>配息配股的比較</h2><p>整理中．．．</p>
+<a id="more"></a>
+]]></content>
+      <categories>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
       </tags>
   </entry>
   <entry>
@@ -1021,69 +1021,6 @@
         <tag>消息面分析</tag>
         <tag>籌碼面分析</tag>
         <tag>技術面分析</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>股票研究所總綱</title>
-    <url>/posts/3701503514/</url>
-    <content><![CDATA[<h1 id="財穀資訊選股網🔖"><a href="#財穀資訊選股網🔖" class="headerlink" title="財穀資訊選股網🔖"></a>財穀資訊選股網<a href="/stockmoney/">🔖</a></h1><p><a href="/stockmoney/">選股神器</a></p>
-<img src="/posts/3701503514/%E8%B2%A1%E7%A9%80%E8%B3%87%E8%A8%8A%E9%81%B8%E8%82%A1%E7%B6%B2.png" class title="財穀資訊選股網">
-
-<a id="more"></a>
-
-<h1 id="新手村"><a href="#新手村" class="headerlink" title="新手村"></a>新手村</h1><h2 id="股票的基本概念🔖"><a href="#股票的基本概念🔖" class="headerlink" title="股票的基本概念🔖"></a>股票的基本概念<a href="/posts/2278927718/">🔖</a></h2><p>   到底，「股票」是什麼呢？<br>   為什麼「股票」會漲漲跌跌呢？<br>   股票的價格，牽涉到大家的<code>「預期心理」</code>，<br>   不同<code>面向</code>將導致不同的<code>買賣決策</code></p>
-<h2 id="股票怎麼買🔖"><a href="#股票怎麼買🔖" class="headerlink" title="股票怎麼買🔖"></a>股票怎麼買<a href="/posts/3259796151/">🔖</a></h2><p>   帶你了解「如何開戶」、「股票交易流程」、「交易時間」、「交易單位」、「交易價格」</p>
-<h2 id="獲利方式"><a href="#獲利方式" class="headerlink" title="獲利方式"></a>獲利方式</h2><h3 id="價差"><a href="#價差" class="headerlink" title="價差:"></a>價差:</h3><p>  要獲利就是「買低賣高」。<br>  若不小心「買高賣低」了，就下次投資時，再謹慎選擇股票與進出場的時間點。<br>  <div style="font-size: 30px;background-color:#FFC019;">$價差 = 賣出價格 - 買進價格$</div></p>
-<h3 id="股利-amp-股息🔖"><a href="#股利-amp-股息🔖" class="headerlink" title="股利&amp;股息🔖"></a>股利&amp;股息<a href="/posts/3702625446/">🔖</a></h3><p>  公司分配盈餘的<code>股利</code>和<code>股息</code><br>  <code>「現金股利」</code>，也就是我們常稱的<code>「股息」</code>；<br>  <code>「股票股利」</code>，也就是我們常稱的<code>「股利」</code>。</p>
-<h1 id="下班經濟學教你股票心法"><a href="#下班經濟學教你股票心法" class="headerlink" title="下班經濟學教你股票心法"></a>下班經濟學教你股票心法</h1><ul>
-<li><a href="/posts/3492910549/">40歲靠存股提早退休 5招心法教你不看盤投資術 ft.股魚(股票-下班經濟學#45)</a></li>
-<li><a href="/posts/3613151692/">三招挖飆股勝率超過六成 別再傻傻存牛皮股！ft.孫慶龍(股票-下班經濟學#41)</a></li>
-</ul>
-<h1 id="5G"><a href="#5G" class="headerlink" title="5G"></a>5G</h1><p>台積電、聯發科</p>
-<h1 id="AI人工智慧"><a href="#AI人工智慧" class="headerlink" title="AI人工智慧"></a>AI人工智慧</h1><p>晶圓代工：台積電 2330<br>客製化AI設計：創意3443、智原3035<br>自有產品AI設計：聯發科2454<br>高速傳輸IC：譜瑞-KY 4966<br>電聲元件：美律2439</p>
-<h1 id="散熱概念"><a href="#散熱概念" class="headerlink" title="散熱概念"></a>散熱概念</h1><p>伺服器：建準2421<br>基地台＆石墨散熱：奇鋐3017<br>電動車IGBT散熱：健策3653<br>5G手機銅導管：超眾6230、泰碩3338</p>
-<h1 id="名詞解釋"><a href="#名詞解釋" class="headerlink" title="名詞解釋"></a>名詞解釋</h1><h2 id="股票🔖"><a href="#股票🔖" class="headerlink" title="股票🔖"></a>股票<a href="/posts/2278927718/">🔖</a></h2><p>我國公司法對股票的定義是：「<code>股票</code>是為了<code>籌集資本</code>所發行的<code>一定數量</code>和<code>一定面額</code>或<code>股份</code>的證書，交由出資人收執，作為對公司投資的憑證」。聽不懂嗎，<a href="/posts/2278927718/#「股票」">點此進一步了解🔖</a>。</p>
-<h1 id="名詞解釋-基本面分析🔖"><a href="#名詞解釋-基本面分析🔖" class="headerlink" title="名詞解釋_基本面分析🔖"></a>名詞解釋_基本面分析<a href="/posts/3159720911/#基本面分析">🔖</a></h1><p>根據公司的<code>「營運狀況」</code>來調整<code>「預期」</code>，就是<code>「基本面分析」</code></p>
-<h2 id="現金股利🔖"><a href="#現金股利🔖" class="headerlink" title="現金股利🔖"></a>現金股利<a href="/posts/3702625446/#現金股利">🔖</a></h2><p><code>「現金股利」</code>是指股份公司向股東<code>支付現金</code>，又稱<code>「股息」</code>或<code>「配息」</code>。<br><code>現金股利</code>給予股東即時的資本回報。</p>
-<h2 id="股票股利🔖"><a href="#股票股利🔖" class="headerlink" title="股票股利🔖"></a>股票股利<a href="/posts/3702625446/#股票股利">🔖</a></h2><p><code>「股票股利」</code>或<code>「以股代息」</code>是指股份公司向股東以<code>贈送新的股份</code>方式代替支付現金股利，又稱<code>「股利」</code>或<code>「配股」</code>。</p>
-<h2 id="除權🔖"><a href="#除權🔖" class="headerlink" title="除權🔖"></a>除權<a href="/posts/648110682/#除權">🔖</a></h2><p>「除權」就是配發「股票股利」，股價會隨之降低，總市值不變，<br>如果<strong>股本膨脹1倍，股價就減少1倍</strong></p>
-<h2 id="除息🔖"><a href="#除息🔖" class="headerlink" title="除息🔖"></a>除息<a href="/posts/648110682/#除息">🔖</a></h2><p>「除息」就是配發「現金股利」，股價市值會隨之扣除，<br>換句話說，<strong>配發1元的現金股利，股價就減少1元，</strong></p>
-<h2 id="除息後股價🔖"><a href="#除息後股價🔖" class="headerlink" title="除息後股價🔖"></a>除息後股價<a href="/posts/648110682/#除息後股價">🔖</a></h2><p>$「除息後股價」=「除息前一日收盤價」-「現金股利」$</p>
-<h2 id="填息🔖"><a href="#填息🔖" class="headerlink" title="填息🔖"></a>填息<a href="/posts/648110682/#填息">🔖</a></h2><p>除息後，<code>除息前一日的收盤價</code>與<code>除息後的價位</code>之間有個<code>除息價差</code>缺口，如果股價能<code>回升</code>並<code>超過</code>除息前一天的收盤價，稱之為<code>「填息」</code>。</p>
-<h2 id="貼息🔖"><a href="#貼息🔖" class="headerlink" title="貼息🔖"></a>貼息<a href="/posts/648110682/#貼息">🔖</a></h2><p>如果股價除息後，沒有回補除息差價缺口，<code>反而下跌</code>，使參與除息的投資人蒙受損失，則稱為<code>「貼息」</code>。</p>
-<h2 id="ROE"><a href="#ROE" class="headerlink" title="ROE"></a>ROE</h2><p>用途：<code>看公司錢滾錢的能力</code></p>
-<div style="font-size: 30px;background-color:#FFC019;">$ 股東權益報酬率ROE= \frac{稅後淨利}{股東權益} $ </div>
-<div style="font-size: 30px;background-color:#FFC019;">$ 股東權益(又稱淨資產)=資產總額-負債總額 $</div>
-
-<h2 id="營業利益率"><a href="#營業利益率" class="headerlink" title="營業利益率"></a>營業利益率</h2><p>營業利益率與毛利率的差別在於毛利率只考慮直接因為生產產品所需要的成本，而營業利益則是考慮了在取得收入的過程中所耗用的一切成本。<br>用途：營業利益率為反映一家公司本業獲利能力的指標。</p>
-<div style="font-size: 30px;background-color:#FFC019;">$ 營業利益率＝ \frac{營業收入－ 銷貨成本－ 營業費用}{營業收入} $ </div>
-
-<h1 id="名詞解釋-技術面分析🔖"><a href="#名詞解釋-技術面分析🔖" class="headerlink" title="名詞解釋_技術面分析🔖"></a>名詞解釋_技術面分析<a href="/posts/3159720911/#技術面分析">🔖</a></h1><p>觀察<code>「線圖上的信號」</code>來調整<code>「預期」</code>，這就是<code>「技術面分析」</code></p>
-<h2 id="KD值"><a href="#KD值" class="headerlink" title="KD值"></a>KD值</h2><h3 id="RSV指標"><a href="#RSV指標" class="headerlink" title="RSV指標"></a>RSV指標</h3><p>主要用來分析市場是處於<code>超買</code>還是<code>超賣</code>狀態：<br>RSV高於80%時候市場即為超買狀況，行情即將見頂，應當考慮出倉；<br>RSV低於20%時候，市場為超賣狀況，行情即將見底，此時可以考慮進倉。</p>
-<h3 id="KD值計算"><a href="#KD值計算" class="headerlink" title="KD值計算"></a>KD值計算</h3><blockquote>
-<p>RSV =(收盤價 – n日內最低價)/(n日內最高價 – n日內最低價)×100<br>  K = rsv 的 m 天移動平均值<br>  D = K的m1 天的移動平均值<br>  J = 3K - 2D</p>
-</blockquote>
-<h3 id="KD值的應用"><a href="#KD值的應用" class="headerlink" title="KD值的應用"></a>KD值的應用</h3><blockquote>
-<ol>
-<li>D%&gt;80，市場超買；D%&lt;20，市場超賣。</li>
-<li>J%&gt;100，市場超買；J%&lt;10，市場超賣。</li>
-<li>KD金叉：K%上穿D%，為買進信號。</li>
-<li>KD死叉：K%下破D%，為賣出信號。　</li>
-</ol>
-</blockquote>
-<h2 id="布林通道"><a href="#布林通道" class="headerlink" title="布林通道"></a>布林通道</h2><h1 id="名詞解釋-消息面分析🔖"><a href="#名詞解釋-消息面分析🔖" class="headerlink" title="名詞解釋_消息面分析🔖"></a>名詞解釋_消息面分析<a href="/posts/3159720911/#消息面分析">🔖</a></h1><p>根據公司的<code>「最新消息」</code>來調整<code>「預期」</code>，這叫做<code>「消息面分析」</code></p>
-<h1 id="名詞解釋-籌碼面分析🔖"><a href="#名詞解釋-籌碼面分析🔖" class="headerlink" title="名詞解釋_籌碼面分析🔖"></a>名詞解釋_籌碼面分析<a href="/posts/3159720911/#籌碼面分析">🔖</a></h1><p>觀察那些<code>「擁有大量資金的人怎麼做」</code>，來調整<code>「預期」</code>，這就是<code>「籌碼面分析」</code></p>
-<h1 id="查詢股票資訊"><a href="#查詢股票資訊" class="headerlink" title="查詢股票資訊"></a>查詢股票資訊</h1><h2 id="查詢除權除息日"><a href="#查詢除權除息日" class="headerlink" title="查詢除權除息日"></a>查詢除權除息日</h2><p>除權、除息日大多集中在6月～8月，少部分會延到9月才召開，可以透過以下網站查到即將除權息的股票：<br><span class="exturl" data-url="aHR0cHM6Ly9nb29kaW5mby50dy9TdG9ja0luZm8vU3RvY2tEaXZpZGVuZFNjaGVkdWxlTGlzdC5hc3A/TUFSS0VUX0NBVD0lRTUlODUlQTglRTklODMlQTgmWUVBUj0lRTUlOEQlQjMlRTUlQjAlODclRTklOTklQTQlRTYlQUMlOEElRTYlODElQUYmSU5EVVNUUllfQ0FUPSVFNSU4NSVBOCVFOSU4MyVBOA==">台灣股市資訊網 – 即將除權息股票日程<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>查詢</tag>
-        <tag>選股神器</tag>
       </tags>
   </entry>
   <entry>
@@ -1226,8 +1163,71 @@ $「除息後股價」=「除息前一日收盤價」-「現金股利」$
         <tag>筆記</tag>
         <tag>股票</tag>
         <tag>名詞解釋</tag>
-        <tag>查詢</tag>
         <tag>選股策略</tag>
+        <tag>查詢</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>股票研究所總綱</title>
+    <url>/posts/3701503514/</url>
+    <content><![CDATA[<h1 id="財穀資訊選股網🔖"><a href="#財穀資訊選股網🔖" class="headerlink" title="財穀資訊選股網🔖"></a>財穀資訊選股網<a href="/stockmoney/">🔖</a></h1><p><a href="/stockmoney/">選股神器</a></p>
+<img src="/posts/3701503514/%E8%B2%A1%E7%A9%80%E8%B3%87%E8%A8%8A%E9%81%B8%E8%82%A1%E7%B6%B2.png" class title="財穀資訊選股網">
+
+<a id="more"></a>
+
+<h1 id="新手村"><a href="#新手村" class="headerlink" title="新手村"></a>新手村</h1><h2 id="股票的基本概念🔖"><a href="#股票的基本概念🔖" class="headerlink" title="股票的基本概念🔖"></a>股票的基本概念<a href="/posts/2278927718/">🔖</a></h2><p>   到底，「股票」是什麼呢？<br>   為什麼「股票」會漲漲跌跌呢？<br>   股票的價格，牽涉到大家的<code>「預期心理」</code>，<br>   不同<code>面向</code>將導致不同的<code>買賣決策</code></p>
+<h2 id="股票怎麼買🔖"><a href="#股票怎麼買🔖" class="headerlink" title="股票怎麼買🔖"></a>股票怎麼買<a href="/posts/3259796151/">🔖</a></h2><p>   帶你了解「如何開戶」、「股票交易流程」、「交易時間」、「交易單位」、「交易價格」</p>
+<h2 id="獲利方式"><a href="#獲利方式" class="headerlink" title="獲利方式"></a>獲利方式</h2><h3 id="價差"><a href="#價差" class="headerlink" title="價差:"></a>價差:</h3><p>  要獲利就是「買低賣高」。<br>  若不小心「買高賣低」了，就下次投資時，再謹慎選擇股票與進出場的時間點。<br>  <div style="font-size: 30px;background-color:#FFC019;">$價差 = 賣出價格 - 買進價格$</div></p>
+<h3 id="股利-amp-股息🔖"><a href="#股利-amp-股息🔖" class="headerlink" title="股利&amp;股息🔖"></a>股利&amp;股息<a href="/posts/3702625446/">🔖</a></h3><p>  公司分配盈餘的<code>股利</code>和<code>股息</code><br>  <code>「現金股利」</code>，也就是我們常稱的<code>「股息」</code>；<br>  <code>「股票股利」</code>，也就是我們常稱的<code>「股利」</code>。</p>
+<h1 id="下班經濟學教你股票心法"><a href="#下班經濟學教你股票心法" class="headerlink" title="下班經濟學教你股票心法"></a>下班經濟學教你股票心法</h1><ul>
+<li><a href="/posts/3492910549/">40歲靠存股提早退休 5招心法教你不看盤投資術 ft.股魚(股票-下班經濟學#45)</a></li>
+<li><a href="/posts/3613151692/">三招挖飆股勝率超過六成 別再傻傻存牛皮股！ft.孫慶龍(股票-下班經濟學#41)</a></li>
+</ul>
+<h1 id="5G"><a href="#5G" class="headerlink" title="5G"></a>5G</h1><p>台積電、聯發科</p>
+<h1 id="AI人工智慧"><a href="#AI人工智慧" class="headerlink" title="AI人工智慧"></a>AI人工智慧</h1><p>晶圓代工：台積電 2330<br>客製化AI設計：創意3443、智原3035<br>自有產品AI設計：聯發科2454<br>高速傳輸IC：譜瑞-KY 4966<br>電聲元件：美律2439</p>
+<h1 id="散熱概念"><a href="#散熱概念" class="headerlink" title="散熱概念"></a>散熱概念</h1><p>伺服器：建準2421<br>基地台＆石墨散熱：奇鋐3017<br>電動車IGBT散熱：健策3653<br>5G手機銅導管：超眾6230、泰碩3338</p>
+<h1 id="名詞解釋"><a href="#名詞解釋" class="headerlink" title="名詞解釋"></a>名詞解釋</h1><h2 id="股票🔖"><a href="#股票🔖" class="headerlink" title="股票🔖"></a>股票<a href="/posts/2278927718/">🔖</a></h2><p>我國公司法對股票的定義是：「<code>股票</code>是為了<code>籌集資本</code>所發行的<code>一定數量</code>和<code>一定面額</code>或<code>股份</code>的證書，交由出資人收執，作為對公司投資的憑證」。聽不懂嗎，<a href="/posts/2278927718/#「股票」">點此進一步了解🔖</a>。</p>
+<h1 id="名詞解釋-基本面分析🔖"><a href="#名詞解釋-基本面分析🔖" class="headerlink" title="名詞解釋_基本面分析🔖"></a>名詞解釋_基本面分析<a href="/posts/3159720911/#基本面分析">🔖</a></h1><p>根據公司的<code>「營運狀況」</code>來調整<code>「預期」</code>，就是<code>「基本面分析」</code></p>
+<h2 id="現金股利🔖"><a href="#現金股利🔖" class="headerlink" title="現金股利🔖"></a>現金股利<a href="/posts/3702625446/#現金股利">🔖</a></h2><p><code>「現金股利」</code>是指股份公司向股東<code>支付現金</code>，又稱<code>「股息」</code>或<code>「配息」</code>。<br><code>現金股利</code>給予股東即時的資本回報。</p>
+<h2 id="股票股利🔖"><a href="#股票股利🔖" class="headerlink" title="股票股利🔖"></a>股票股利<a href="/posts/3702625446/#股票股利">🔖</a></h2><p><code>「股票股利」</code>或<code>「以股代息」</code>是指股份公司向股東以<code>贈送新的股份</code>方式代替支付現金股利，又稱<code>「股利」</code>或<code>「配股」</code>。</p>
+<h2 id="除權🔖"><a href="#除權🔖" class="headerlink" title="除權🔖"></a>除權<a href="/posts/648110682/#除權">🔖</a></h2><p>「除權」就是配發「股票股利」，股價會隨之降低，總市值不變，<br>如果<strong>股本膨脹1倍，股價就減少1倍</strong></p>
+<h2 id="除息🔖"><a href="#除息🔖" class="headerlink" title="除息🔖"></a>除息<a href="/posts/648110682/#除息">🔖</a></h2><p>「除息」就是配發「現金股利」，股價市值會隨之扣除，<br>換句話說，<strong>配發1元的現金股利，股價就減少1元，</strong></p>
+<h2 id="除息後股價🔖"><a href="#除息後股價🔖" class="headerlink" title="除息後股價🔖"></a>除息後股價<a href="/posts/648110682/#除息後股價">🔖</a></h2><p>$「除息後股價」=「除息前一日收盤價」-「現金股利」$</p>
+<h2 id="填息🔖"><a href="#填息🔖" class="headerlink" title="填息🔖"></a>填息<a href="/posts/648110682/#填息">🔖</a></h2><p>除息後，<code>除息前一日的收盤價</code>與<code>除息後的價位</code>之間有個<code>除息價差</code>缺口，如果股價能<code>回升</code>並<code>超過</code>除息前一天的收盤價，稱之為<code>「填息」</code>。</p>
+<h2 id="貼息🔖"><a href="#貼息🔖" class="headerlink" title="貼息🔖"></a>貼息<a href="/posts/648110682/#貼息">🔖</a></h2><p>如果股價除息後，沒有回補除息差價缺口，<code>反而下跌</code>，使參與除息的投資人蒙受損失，則稱為<code>「貼息」</code>。</p>
+<h2 id="ROE"><a href="#ROE" class="headerlink" title="ROE"></a>ROE</h2><p>用途：<code>看公司錢滾錢的能力</code></p>
+<div style="font-size: 30px;background-color:#FFC019;">$ 股東權益報酬率ROE= \frac{稅後淨利}{股東權益} $ </div>
+<div style="font-size: 30px;background-color:#FFC019;">$ 股東權益(又稱淨資產)=資產總額-負債總額 $</div>
+
+<h2 id="營業利益率"><a href="#營業利益率" class="headerlink" title="營業利益率"></a>營業利益率</h2><p>營業利益率與毛利率的差別在於毛利率只考慮直接因為生產產品所需要的成本，而營業利益則是考慮了在取得收入的過程中所耗用的一切成本。<br>用途：營業利益率為反映一家公司本業獲利能力的指標。</p>
+<div style="font-size: 30px;background-color:#FFC019;">$ 營業利益率＝ \frac{營業收入－ 銷貨成本－ 營業費用}{營業收入} $ </div>
+
+<h1 id="名詞解釋-技術面分析🔖"><a href="#名詞解釋-技術面分析🔖" class="headerlink" title="名詞解釋_技術面分析🔖"></a>名詞解釋_技術面分析<a href="/posts/3159720911/#技術面分析">🔖</a></h1><p>觀察<code>「線圖上的信號」</code>來調整<code>「預期」</code>，這就是<code>「技術面分析」</code></p>
+<h2 id="KD值"><a href="#KD值" class="headerlink" title="KD值"></a>KD值</h2><h3 id="RSV指標"><a href="#RSV指標" class="headerlink" title="RSV指標"></a>RSV指標</h3><p>主要用來分析市場是處於<code>超買</code>還是<code>超賣</code>狀態：<br>RSV高於80%時候市場即為超買狀況，行情即將見頂，應當考慮出倉；<br>RSV低於20%時候，市場為超賣狀況，行情即將見底，此時可以考慮進倉。</p>
+<h3 id="KD值計算"><a href="#KD值計算" class="headerlink" title="KD值計算"></a>KD值計算</h3><blockquote>
+<p>RSV =(收盤價 – n日內最低價)/(n日內最高價 – n日內最低價)×100<br>  K = rsv 的 m 天移動平均值<br>  D = K的m1 天的移動平均值<br>  J = 3K - 2D</p>
+</blockquote>
+<h3 id="KD值的應用"><a href="#KD值的應用" class="headerlink" title="KD值的應用"></a>KD值的應用</h3><blockquote>
+<ol>
+<li>D%&gt;80，市場超買；D%&lt;20，市場超賣。</li>
+<li>J%&gt;100，市場超買；J%&lt;10，市場超賣。</li>
+<li>KD金叉：K%上穿D%，為買進信號。</li>
+<li>KD死叉：K%下破D%，為賣出信號。　</li>
+</ol>
+</blockquote>
+<h2 id="布林通道"><a href="#布林通道" class="headerlink" title="布林通道"></a>布林通道</h2><h1 id="名詞解釋-消息面分析🔖"><a href="#名詞解釋-消息面分析🔖" class="headerlink" title="名詞解釋_消息面分析🔖"></a>名詞解釋_消息面分析<a href="/posts/3159720911/#消息面分析">🔖</a></h1><p>根據公司的<code>「最新消息」</code>來調整<code>「預期」</code>，這叫做<code>「消息面分析」</code></p>
+<h1 id="名詞解釋-籌碼面分析🔖"><a href="#名詞解釋-籌碼面分析🔖" class="headerlink" title="名詞解釋_籌碼面分析🔖"></a>名詞解釋_籌碼面分析<a href="/posts/3159720911/#籌碼面分析">🔖</a></h1><p>觀察那些<code>「擁有大量資金的人怎麼做」</code>，來調整<code>「預期」</code>，這就是<code>「籌碼面分析」</code></p>
+<h1 id="查詢股票資訊"><a href="#查詢股票資訊" class="headerlink" title="查詢股票資訊"></a>查詢股票資訊</h1><h2 id="查詢除權除息日"><a href="#查詢除權除息日" class="headerlink" title="查詢除權除息日"></a>查詢除權除息日</h2><p>除權、除息日大多集中在6月～8月，少部分會延到9月才召開，可以透過以下網站查到即將除權息的股票：<br><span class="exturl" data-url="aHR0cHM6Ly9nb29kaW5mby50dy9TdG9ja0luZm8vU3RvY2tEaXZpZGVuZFNjaGVkdWxlTGlzdC5hc3A/TUFSS0VUX0NBVD0lRTUlODUlQTglRTklODMlQTgmWUVBUj0lRTUlOEQlQjMlRTUlQjAlODclRTklOTklQTQlRTYlQUMlOEElRTYlODElQUYmSU5EVVNUUllfQ0FUPSVFNSU4NSVBOCVFOSU4MyVBOA==">台灣股市資訊網 – 即將除權息股票日程<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>查詢</tag>
+        <tag>選股神器</tag>
       </tags>
   </entry>
   <entry>
