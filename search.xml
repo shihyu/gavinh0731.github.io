@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>[教學]Hexo使用-寫作說明</title>
+    <url>/posts/1389384140/</url>
+    <content><![CDATA[<h1 id="寫作"><a href="#寫作" class="headerlink" title="寫作"></a>寫作</h1><p>我們要在網誌中建立第一篇新文章，您可以直接從現有的範例文章「Hello World」改寫，但我們更建議您學習 new 指令。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure>
+<p>您可以在指令中指定文章的<a href="#佈局layout">佈局（ulayot）</a>，</p>
+<p>[layout] 預設為 <code>post</code>，您可以透過修改 <code>_config.yml</code> 中的 <code>default_layout</code> 設定來指定預設佈局。</p>
+<h2 id="佈局（Layout）"><a href="#佈局（Layout）" class="headerlink" title="佈局（Layout）"></a>佈局（Layout）</h2><p>Hexo 有三種預設佈局：<code>post</code>、<code>page</code> 和 <code>draft</code>，它們分別對應不同的路徑，而您所自定的其他佈局和 <code>post</code> 相同，都儲存至 <code>source/_posts</code> 資料夾。</p>
+<table>
+<thead>
+<tr>
+<th>佈局</th>
+<th>生成後的儲存路徑</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>post</td>
+<td>source/_posts</td>
+</tr>
+<tr>
+<td>page</td>
+<td>source</td>
+</tr>
+<tr>
+<td>draft</td>
+<td>source/_drafts</td>
+</tr>
+</tbody></table>
+<a id="more"></a>
+
+<div class="video-container"><iframe src="https://www.youtube.com/embed/HLJ9jJy7CMg" frameborder="0" loading="lazy" allowfullscreen></iframe></div>]]></content>
+      <categories>
+        <category>教學</category>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>教學</tag>
+        <tag>Hexo</tag>
+        <tag>帖子</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/posts/1243066710/</url>
     <content><![CDATA[<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation<i class="fa fa-external-link-alt"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting<i class="fa fa-external-link-alt"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>.</p>
@@ -60,47 +101,6 @@
         <tag>教學</tag>
         <tag>Hexo</tag>
         <tag>NexT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>[教學]Hexo使用-寫作說明</title>
-    <url>/posts/1389384140/</url>
-    <content><![CDATA[<h1 id="寫作"><a href="#寫作" class="headerlink" title="寫作"></a>寫作</h1><p>我們要在網誌中建立第一篇新文章，您可以直接從現有的範例文章「Hello World」改寫，但我們更建議您學習 new 指令。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure>
-<p>您可以在指令中指定文章的<a href="#佈局layout">佈局（ulayot）</a>，</p>
-<p>[layout] 預設為 <code>post</code>，您可以透過修改 <code>_config.yml</code> 中的 <code>default_layout</code> 設定來指定預設佈局。</p>
-<h2 id="佈局（Layout）"><a href="#佈局（Layout）" class="headerlink" title="佈局（Layout）"></a>佈局（Layout）</h2><p>Hexo 有三種預設佈局：<code>post</code>、<code>page</code> 和 <code>draft</code>，它們分別對應不同的路徑，而您所自定的其他佈局和 <code>post</code> 相同，都儲存至 <code>source/_posts</code> 資料夾。</p>
-<table>
-<thead>
-<tr>
-<th>佈局</th>
-<th>生成後的儲存路徑</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>post</td>
-<td>source/_posts</td>
-</tr>
-<tr>
-<td>page</td>
-<td>source</td>
-</tr>
-<tr>
-<td>draft</td>
-<td>source/_drafts</td>
-</tr>
-</tbody></table>
-<a id="more"></a>
-
-<div class="video-container"><iframe src="https://www.youtube.com/embed/HLJ9jJy7CMg" frameborder="0" loading="lazy" allowfullscreen></iframe></div>]]></content>
-      <categories>
-        <category>教學</category>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>教學</tag>
-        <tag>Hexo</tag>
-        <tag>帖子</tag>
       </tags>
   </entry>
   <entry>
@@ -166,153 +166,8 @@
       </categories>
       <tags>
         <tag>教學</tag>
-        <tag>NexT</tag>
         <tag>帖子</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>[教學]-NexT使用-SEO優化</title>
-    <url>/posts/3723397533/</url>
-    <content><![CDATA[<h1 id="優化URL"><a href="#優化URL" class="headerlink" title="優化URL"></a>優化URL</h1><p>Hexo 默認文章鏈接生成規則是按照年、月、日、標題來生成的。</p>
-<ul>
-<li>一旦<code>文章標題</code>或者<code>發佈時間</code>被修改，URL 就會發生變化，之前文章地址也會變成 404，而且</li>
-<li>URL 層級很深，不利於分享和搜索引擎收錄。</li>
-<li>如果文章標題中有中文，URL 被轉碼後會很長，中文強制被轉碼成十六進制編碼，又臭又長。</li>
-</ul>
-<p>接下來介紹一個插件 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3JvemJvL2hleG8tYWJicmxpbms=">hexo-abbrlink<i class="fa fa-external-link-alt"></i></span>，該插件會為每篇生成一個唯一字符串，並不受文章標題和發佈時間的影響。</p>
-<p>優化步驟如下：</p>
-<h2 id="安裝hexo-abbrlink插件"><a href="#安裝hexo-abbrlink插件" class="headerlink" title="安裝hexo-abbrlink插件"></a>安裝hexo-abbrlink插件</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
-<a id="more"></a>
-
-<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>安裝完畢後，將<code>根目錄配置文件</code> 中 <code>_config.yml</code> 的 <code>permalink</code> 改成：</p>
-<blockquote>
-<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">posts/:abbrlink/</span></span><br></pre></td></tr></table></figure><br>  然後在最末端加入一段 abbrlink 設置<br>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># abbrlink config</span></span><br><span class="line"><span class="attr">abbrlink:</span></span><br><span class="line">  <span class="attr">alg:</span> <span class="string">crc32</span>  <span class="comment"># 演算法：crc16(default) and crc32 </span></span><br><span class="line">  <span class="attr">rep:</span> <span class="string">dec</span>    <span class="comment"># 進位制：dec(default) and hex</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h1 id="優化分類-Category"><a href="#優化分類-Category" class="headerlink" title="優化分類(Category)"></a>優化分類(Category)</h1><p>接下來要修正 Category 的名稱(中文轉換成英文)，<br>將<code>根目錄配置文件</code> 中 <code>_config.yml</code> 的 <code>category_map</code> 改成：</p>
-<blockquote>
-<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">category_map:</span></span><br><span class="line">  <span class="string">教學:</span> <span class="string">teach</span></span><br><span class="line">  <span class="attr">Hexo:</span> <span class="string">hexo</span></span><br><span class="line">  <span class="attr">NexT:</span> <span class="string">next</span></span><br><span class="line">  <span class="attr">SEO:</span> <span class="string">seo</span></span><br><span class="line">  <span class="string">帖子:</span> <span class="string">posts</span></span><br></pre></td></tr></table></figure><br>  註：中、英文皆不要有空格</p>
-</blockquote>
-<p>執行完 <code>hexo s</code> 之後會在每個貼文前端加上　<code>abbrlink: xxxxxxxxxx</code><br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">'[教學]-NexT使用-SEO優化'</span></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">categories:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="bullet">-</span> <span class="string">教學</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">NexT</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">SEO</span></span><br><span class="line"><span class="attr">tags:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">教學</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">NexT</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">SEO</span></span><br><span class="line"><span class="attr">abbrlink:</span> <span class="number">3723397533</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2020</span><span class="number">-06</span><span class="number">-21</span> <span class="number">11</span><span class="string">:40:25</span></span><br><span class="line"><span class="attr">layout:</span></span><br><span class="line"><span class="attr">permalink:</span></span><br></pre></td></tr></table></figure></p>
-<p>隨機產生的永久連結如下：<br>/posts/3723397533/</p>
-<h1 id="優化標籤"><a href="#優化標籤" class="headerlink" title="優化標籤"></a>優化標籤</h1><p>類似上方的優化分類(Category)</p>
-<h1 id="SEO設置"><a href="#SEO設置" class="headerlink" title="SEO設置"></a>SEO設置</h1><p>下一步提供了有用的選項，可以改善搜索引擎優化（SEO）。</p>
-<p>默認情況下，在<code>站點配置文件</code>中設置URL：<code>http：//yoursite.com</code> 後，會在Hexo中創建一個規範的鏈接標記。<br>可以在<span class="exturl" data-url="aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vd2VibWFzdGVycy9hbnN3ZXIvMTM5MDY2">整合重複的網址<i class="fa fa-external-link-alt"></i></span>中找到更多詳細信息。</p>
-<h2 id="禁用百度轉換"><a href="#禁用百度轉換" class="headerlink" title="禁用百度轉換"></a>禁用百度轉換</h2><p>默認情況下，中國的搜索引擎百度將緩存並重寫您的網站，以為移動用戶提供網頁快照。<br>您可以通過在<code>主題配置文件</code>中將值disable_baidu_transformation設置為true來禁用此功能。</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 在移動設備上禁用百度轉換</span></span><br><span class="line"><span class="string">disable_baidu_transformation：true</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h2 id="將站點字幕添加到索引頁面"><a href="#將站點字幕添加到索引頁面" class="headerlink" title="將站點字幕添加到索引頁面"></a>將站點字幕添加到索引頁面</h2><p>  首頁標題展示樣式如<code>標題</code> - <code>副標題</code><br>  將<code>index_with_subtitle</code>部分中的enable值設置為<code>true</code>，以將<code>主題配置文件</code>中的字幕信息添加到索引頁面。</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 是否將站點字幕添加到索引頁面</span></span><br><span class="line"><span class="attr">index_with_subtitle:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h2 id="開啟-Exturl"><a href="#開啟-Exturl" class="headerlink" title="開啟 Exturl"></a>開啟 Exturl</h2><p>此配置可以更好地優化 SEO，<span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoZW1lLXNldHRpbmdzL3Nlby5odG1sI0V4dFVSTA==">官方文件<i class="fa fa-external-link-alt"></i></span></p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 使用Base64加密和解密自動添加外部URL</span></span><br><span class="line"><span class="attr">exturl:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h1 id="網站地圖-sitemap"><a href="#網站地圖-sitemap" class="headerlink" title="網站地圖(sitemap)"></a>網站地圖(sitemap)</h1><h2 id="安裝-Google-和百度網站地圖生成插件："><a href="#安裝-Google-和百度網站地圖生成插件：" class="headerlink" title="安裝 Google 和百度網站地圖生成插件："></a>安裝 Google 和百度網站地圖生成插件：</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br><span class="line"><span class="comment"># 檢查安裝</span></span><br><span class="line">npm list --depth=0|grep hexo-generator-sitemap</span><br><span class="line">npm list --depth=0|grep hexo-generator-baidu-sitemap</span><br></pre></td></tr></table></figure>
-
-<h2 id="修改主題配置文件-config-yml，內容如下："><a href="#修改主題配置文件-config-yml，內容如下：" class="headerlink" title="修改主題配置文件_config.yml，內容如下："></a>修改主題配置文件_config.yml，內容如下：</h2><blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="string">......</span></span><br><span class="line">  <span class="attr">sitemap:</span> <span class="string">/sitemap.xml</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-sitemap</span></span><br><span class="line">  <span class="attr">baidusitemap:</span> <span class="string">/baidusitemap.xml</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-cloud</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<p>修改 <code>themes/next/languages/zh-CN.yml</code> 文件，新增 baidusitemap: 百度網站地圖，內容如下：</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="string">......</span></span><br><span class="line">  <span class="attr">sitemap:</span> <span class="string">網站地圖</span></span><br><span class="line">  <span class="attr">baidusitemap:</span> <span class="string">百度網站地圖</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<p>配置完成之後執行 <code>hexo g</code>，即會在站點的 <code>public</code> 目錄下生成 <code>sitemap.xml</code> 和 <code>baidusitemap.xml</code> 文件，其中 <code>sitemap.xml</code> 用來提交給 <code>Google</code>，而 <code>baidusitemap.xml</code> 用來提交給<code>百度</code>。</p>
-<h2 id="提交網站地圖"><a href="#提交網站地圖" class="headerlink" title="提交網站地圖"></a>提交網站地圖</h2><p>進入<span class="exturl" data-url="aHR0cHM6Ly9zZWFyY2guZ29vZ2xlLmNvbS9zZWFyY2gtY29uc29sZS9hYm91dA==">Google Search Console<i class="fa fa-external-link-alt"></i></span></p>
-<h1 id="robots-txt"><a href="#robots-txt" class="headerlink" title="robots.txt"></a>robots.txt</h1><p>創建 <code>hexo/source/robots.txt</code> 文件，編輯內容如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">User-agent: *</span><br><span class="line">Allow: &#x2F;</span><br><span class="line">Allow: &#x2F;archives&#x2F;</span><br><span class="line">Allow: &#x2F;categories&#x2F;</span><br><span class="line">Allow: &#x2F;tags&#x2F; </span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;fonts&#x2F;</span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;fancybox&#x2F;</span><br><span class="line">Sitemap: https:&#x2F;&#x2F;gavinh0731.github.io&#x2F;sitemap.xml</span><br><span class="line">Sitemap: https:&#x2F;&#x2F;gavinh0731.github.io&#x2F;baidusitemap.xml</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>Allow 代表允許</li>
-<li>Disallow 代表不允許</li>
-<li>Sitemap 就是網站地圖</li>
-</ul>
-<p><code>Allow</code> 字段的值即為允許搜索引擎爬取的內容，可以對應到主題配置文件中的 menu 配置，如果菜單欄還有其他選項都可以按照格式自行添加。</p>
-<h1 id="hexo-autonofollow"><a href="#hexo-autonofollow" class="headerlink" title="hexo-autonofollow"></a>hexo-autonofollow</h1><p>透過<code>Nofollow</code>，網站管理員可以指示搜尋引擎「不要繼續前往此連結上的網頁」或是「不要前往此超連結」。 </p>
-<p>安裝：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-autonofollow --save</span><br></pre></td></tr></table></figure>
-
-<p>設定：接下來在系統的主要 _config.yml 最後加入設定(<code>系統根目錄</code> hexo/source，非theme)。</p>
-<blockquote>
-<p>hexo/_config.yml</p>
-</blockquote>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">nofollow:</span></span><br><span class="line">	<span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">	<span class="attr">exclude:</span>  <span class="comment"># 不加上 nofollow 的友情連結可以放在這邊。</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">exclude1.com</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">exclude2.com</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="安裝RSS插件"><a href="#安裝RSS插件" class="headerlink" title="安裝RSS插件"></a>安裝RSS插件</h1><p>進入本地hexo目錄，輸入以下命令:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-feed</span><br></pre></td></tr></table></figure>
-
-<p>在<code>系統根目錄</code>的_config.yml中添加如下代碼:</p>
-<blockquote>
-<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment">#RSS訂閱</span></span><br><span class="line"><span class="attr">feed:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">atom</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">atom.xml</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">20</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<p>在<code>主題配置文件</code>裡面，在 <code>social:</code> 下添加以上代码：</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">rss：</span> <span class="string">/atom.xml</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h2 id="處理RSS異常"><a href="#處理RSS異常" class="headerlink" title="處理RSS異常"></a>處理RSS異常</h2><p>最開始的時候生成 RSS 會拋出一些異常：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">error on line 455 at column 40: PCDATA invalid Char value 8</span><br></pre></td></tr></table></figure>
-
-<p>一般來說，出現這些問題是因為 Markdown 文件中存在一些特殊字符，例如 ^H、^E 等字符，解決辦法：</p>
-<ul>
-<li>在 markdown 源文件中把特殊字符刪除</li>
-</ul>
-<h2 id="在vscode中顯示空格和tab符號"><a href="#在vscode中顯示空格和tab符號" class="headerlink" title="在vscode中顯示空格和tab符號"></a>在vscode中顯示空格和tab符號</h2><p>打開setting,在搜索框中輸入renderControlCharacters,選中勾選框,即可顯示特殊符號.</p>
-]]></content>
-      <categories>
-        <category>教學</category>
-        <category>NexT</category>
-        <category>SEO</category>
-      </categories>
-      <tags>
-        <tag>教學</tag>
         <tag>NexT</tag>
-        <tag>SEO</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>理財達人秀-型態神一波(1)</title>
-    <url>/posts/452443508/</url>
-    <content><![CDATA[<h1 id="什麼是型態學"><a href="#什麼是型態學" class="headerlink" title="什麼是型態學"></a>什麼是型態學</h1><h2 id="技術面分析重量價配合"><a href="#技術面分析重量價配合" class="headerlink" title="技術面分析重量價配合"></a>技術面分析重量價配合</h2><p><code>技術面</code>重視<code>量價配合</code>，股價圖長相鑑往知來</p>
-<h2 id="主力走過必留下痕跡，量價反應技術面型態"><a href="#主力走過必留下痕跡，量價反應技術面型態" class="headerlink" title="主力走過必留下痕跡，量價反應技術面型態"></a>主力走過必留下痕跡，量價反應技術面型態</h2><p>股票交易經過一個月兩個月之後就慢慢成為一個型，接著畫出<code>趨勢線</code>，找到<code>支撐線</code>與<code>壓力線</code>，</p>
-<blockquote>
-<p>多頭：底部突破壓力<br>空頭：頭部跌破支撐 </p>
-</blockquote>
-<img src="/posts/452443508/%E4%BB%80%E9%BA%BC%E6%98%AF%E5%9E%8B%E6%85%8B%E5%AD%B8.png" class title="什麼是型態學">
-
-<h1 id="三步驟畫頸線"><a href="#三步驟畫頸線" class="headerlink" title="三步驟畫頸線"></a>三步驟畫頸線</h1><h2 id="時間區間約半個月以上"><a href="#時間區間約半個月以上" class="headerlink" title="時間區間約半個月以上"></a>時間區間約半個月以上</h2><h2 id="２個以上的點連成一條線"><a href="#２個以上的點連成一條線" class="headerlink" title="２個以上的點連成一條線"></a>２個以上的點連成一條線</h2><p>越多點連線參考越準，上下影線高低點取捨</p>
-<h2 id="以頸線作為壓力或支撐價位"><a href="#以頸線作為壓力或支撐價位" class="headerlink" title="以頸線作為壓力或支撐價位"></a>以頸線作為壓力或支撐價位</h2><img src="/posts/452443508/%E9%A0%B8%E7%B7%9A.png" class title="頸線">
-
-<h1 id="哪種型態最好用"><a href="#哪種型態最好用" class="headerlink" title="哪種型態最好用"></a>哪種型態最好用</h1><img src="/posts/452443508/%E5%93%AA%E7%A8%AE%E5%9E%8B%E6%85%8B%E6%9C%80%E5%A5%BD%E7%94%A8.png" class title="哪種型態最好用">
-<a id="more"></a>
-<h1 id="破底翻洩漏主力計謀"><a href="#破底翻洩漏主力計謀" class="headerlink" title="破底翻洩漏主力計謀"></a>破底翻洩漏主力計謀</h1><p>例如主力20塊去接，20拉到22就放手，因為要慢慢吸貨，<br>所以跌到20就買，當籌碼收了一段時間之後價格就會彈升，<br>當漲到22主力就會放手（因為主力不想買太貴），<br>可能目前買了２０００張，等買到２萬張的時候，發動攻勢，<br>這是需要時間去買，所以股價會在此區間來回震盪，</p>
-<p>有一天大盤跌，外加新冠肺炎等等不利因素，導致股價破底，<br>如果沒有利空，主力便要用自己的籌碼去把股價灌破，<br>接著主力可能在盤中大量賣出（５００張），讓投資人恐慌，<br><code>股價破底</code>之後就可以把<code>股東洗掉</code>，</p>
-<p>當跌到18或19元之後，主力又會逢低買進，把股票再買回來，<br>用５００張殺，再補回３０００張，要多了一些籌碼，</p>
-<p>當破了２０元便立刻漲回來（尤其是比<code>大盤</code>還要快漲回來），<br>表示這個股票有人在做，</p>
-<h2 id="空手時要怎麼挑選股票"><a href="#空手時要怎麼挑選股票" class="headerlink" title="空手時要怎麼挑選股票"></a>空手時要怎麼挑選股票</h2><p>那就是等破底的時候翻上來，<br>破底之後不會再次破底，若是<code>再次破底</code>表示判斷錯誤（沒主力支撐）</p>
-<img src="/posts/452443508/%E7%A0%B4%E5%BA%95%E7%BF%BB.png" class title="破底翻">
-<blockquote>
-<p>老師是在<code>加碼點</code>買進，設定７％停損</p>
-</blockquote>
-<img src="/posts/452443508/%E7%A0%B4%E5%BA%95%E8%A6%81%E5%A4%9A%E4%B9%85%E7%AB%99%E5%9B%9E%E4%BE%86.png" class title="破底要多久站回來">
-<img src="/posts/452443508/%E6%87%B6%E9%A9%A2%E6%89%93%E6%BB%BE%E7%9A%84%E5%A8%81%E5%8A%9B.png" class title="懶驢打滾的威力">
-<img src="/posts/452443508/%E6%87%B6%E9%A9%A2%E6%89%93%E6%BB%BE%E7%9A%84%E5%A8%81%E5%8A%9B2.png" class title="懶驢打滾的威力2">
-
-<p>參考網頁：<br><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1NZ0xjOTVuQmVORSZsaXN0PVBMVnUwcEl4UTdGLXp3UHpWODVnTkdvZGlRNWF5S1lPdzcmaW5kZXg9MQ==">理財達人秀-型態神一波(1)<i class="fa fa-external-link-alt"></i></span></p>
-<div class="video-container"><iframe src="https://www.youtube.com/embed/MgLc95nBeNE" frameborder="0" loading="lazy" allowfullscreen></iframe></div>]]></content>
-      <categories>
-        <category>1⃣ 股票</category>
-        <category>2⃣ 筆記</category>
-        <category>技術面分析</category>
-        <category>股票</category>
-        <category>理財達人秀</category>
-        <category>型態神一波</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>型態學</tag>
-        <tag>技術面分析</tag>
       </tags>
   </entry>
   <entry>
@@ -461,88 +316,103 @@
       </tags>
   </entry>
   <entry>
-    <title>[教學]-NexT使用-繁簡自動切換</title>
-    <url>/posts/2480083141/</url>
-    <content><![CDATA[<h1 id="下載對應表"><a href="#下載對應表" class="headerlink" title="下載對應表"></a>下載對應表</h1><p>首先，我們可以在<span class="exturl" data-url="aHR0cHM6Ly90ZGluZy50b3AvanMvdHdfY24uanM=">這裏<i class="fa fa-external-link-alt"></i></span>右鍵另存下載簡繁字體切換所需的 <code>tw_cn.js</code> 文件，我們把這個文件放到 <code>~/themes/next/source/js</code> 文件夾下。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 修改以下內容</span></span><br><span class="line"><span class="keyword">var</span> defaultEncoding = <span class="number">1</span>; <span class="comment">//網站編寫字體是否繁體，1-繁體，2-簡體</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="修改模板"><a href="#修改模板" class="headerlink" title="修改模板"></a>修改模板</h1><p>在我們想要顯示簡繁轉換按鈕的地方添加如下代碼。<br>例如，我在 NexT 主題的布局文件 <code>~/themes/next/layout/_partials/footer.swig</code> 裏添加了如下代碼：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"translate-style"</span>&gt;</span><br><span class="line">繁/簡：&lt;a id=<span class="string">"translateLink"</span> href=<span class="string">"javascript:translatePage();"</span>&gt;繁體</span><br><span class="line">&lt;<span class="regexp">/a&gt;</span></span><br><span class="line"><span class="regexp">&lt;/</span>div&gt;</span><br><span class="line">&lt;script type=<span class="string">"text/javascript"</span> src=<span class="string">"/js/tw_cn.js"</span>&gt;&lt;<span class="regexp">/script&gt;</span></span><br><span class="line"><span class="regexp">&lt;script type="text/</span>javascript<span class="string">"&gt;</span></span><br><span class="line"><span class="string">var defaultEncoding = 1; //網站編寫字體是否繁體，1-繁體，2-簡體</span></span><br><span class="line"><span class="string">var translateDelay = 0; //延遲時間,若不在前, 要設定延遲翻譯時間, 如100表示100ms,默認為0</span></span><br><span class="line"><span class="string">var cookieDomain = "</span>https:<span class="comment">//tding.top/"; //Cookie地址, 一定要設定, 通常為你的網址</span></span><br><span class="line"><span class="keyword">var</span> msgToTraditionalChinese = <span class="string">"繁體"</span>; <span class="comment">//此處可以更改為你想要顯示的文字</span></span><br><span class="line"><span class="keyword">var</span> msgToSimplifiedChinese = <span class="string">"簡體"</span>; <span class="comment">//同上，但兩處均不建議更改</span></span><br><span class="line"><span class="keyword">var</span> translateButtonId = <span class="string">"translateLink"</span>; <span class="comment">//默認互換id</span></span><br><span class="line">translateInitilization();</span><br><span class="line">&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure>
-<a id="more"></a>
-]]></content>
-      <categories>
-        <category>教學</category>
-        <category>NexT</category>
-      </categories>
-      <tags>
-        <tag>教學</tag>
-        <tag>NexT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>[教學]-NexT使用-第三方服務</title>
-    <url>/posts/1612943303/</url>
-    <content><![CDATA[<p>靜態網站的某些功能受到限制，因此我們需要第三方服務來擴展我們的網站。<br>在任何時候，您都可以使用NexT支持的第三方服務來擴展所需的功能。</p>
-<h1 id="數學方程式"><a href="#數學方程式" class="headerlink" title="數學方程式"></a>數學方程式</h1><ul>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL21hdGgtZXF1YXRpb25zLmh0bWw=">數學方程式<i class="fa fa-external-link-alt"></i></span></li>
+    <title>[教學]-NexT使用-SEO優化</title>
+    <url>/posts/3723397533/</url>
+    <content><![CDATA[<h1 id="優化URL"><a href="#優化URL" class="headerlink" title="優化URL"></a>優化URL</h1><p>Hexo 默認文章鏈接生成規則是按照年、月、日、標題來生成的。</p>
+<ul>
+<li>一旦<code>文章標題</code>或者<code>發佈時間</code>被修改，URL 就會發生變化，之前文章地址也會變成 404，而且</li>
+<li>URL 層級很深，不利於分享和搜索引擎收錄。</li>
+<li>如果文章標題中有中文，URL 被轉碼後會很長，中文強制被轉碼成十六進制編碼，又臭又長。</li>
 </ul>
-<h1 id="評論系統"><a href="#評論系統" class="headerlink" title="評論系統"></a>評論系統</h1><ul>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjRGlzcXVz">Disqus<i class="fa fa-external-link-alt"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjRGlzcXVzSlM=">DisqusJS<i class="fa fa-external-link-alt"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjTGl2ZVJl">LiveRe<i class="fa fa-external-link-alt"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjR2l0YWxr">Gitalk<i class="fa fa-external-link-alt"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjVmFsaW5l">Valine (China)<i class="fa fa-external-link-alt"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjQ2hhbmd5YW4=">Changyan (China)<i class="fa fa-external-link-alt"></i></span></li>
-</ul>
+<p>接下來介紹一個插件 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3JvemJvL2hleG8tYWJicmxpbms=">hexo-abbrlink<i class="fa fa-external-link-alt"></i></span>，該插件會為每篇生成一個唯一字符串，並不受文章標題和發佈時間的影響。</p>
+<p>優化步驟如下：</p>
+<h2 id="安裝hexo-abbrlink插件"><a href="#安裝hexo-abbrlink插件" class="headerlink" title="安裝hexo-abbrlink插件"></a>安裝hexo-abbrlink插件</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
 
-<h1 id="如何在頁面上禁用評論"><a href="#如何在頁面上禁用評論" class="headerlink" title="如何在頁面上禁用評論"></a>如何在頁面上禁用評論</h1><p>當您啟用類似Disqus的評論服務時，所有新頁面將自動具有評論服務。<br>如果要在一頁中禁用它，只需將<code>comments</code>鍵添加到Front-matter並將其值設置為<code>false</code>。 如下所示：</p>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>安裝完畢後，將<code>根目錄配置文件</code> 中 <code>_config.yml</code> 的 <code>permalink</code> 改成：</p>
 <blockquote>
-<p>your-post.md<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">All</span> <span class="string">tags</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">"tags"</span></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure></p>
+<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">posts/:abbrlink/</span></span><br></pre></td></tr></table></figure><br>  然後在最末端加入一段 abbrlink 設置<br>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># abbrlink config</span></span><br><span class="line"><span class="attr">abbrlink:</span></span><br><span class="line">  <span class="attr">alg:</span> <span class="string">crc32</span>  <span class="comment"># 演算法：crc16(default) and crc32 </span></span><br><span class="line">  <span class="attr">rep:</span> <span class="string">dec</span>    <span class="comment"># 進位制：dec(default) and hex</span></span><br></pre></td></tr></table></figure></p>
 </blockquote>
-<h1 id="統計與分析"><a href="#統計與分析" class="headerlink" title="統計與分析"></a>統計與分析</h1><h2 id="分析工具"><a href="#分析工具" class="headerlink" title="分析工具"></a>分析工具</h2><ul>
-<li>Google Analytics</li>
-<li>Baidu Analytics (China)</li>
-<li>Growingio Analytics</li>
-<li>CNZZ Analytics (China)</li>
+<h1 id="優化分類-Category"><a href="#優化分類-Category" class="headerlink" title="優化分類(Category)"></a>優化分類(Category)</h1><p>接下來要修正 Category 的名稱(中文轉換成英文)，<br>將<code>根目錄配置文件</code> 中 <code>_config.yml</code> 的 <code>category_map</code> 改成：</p>
+<blockquote>
+<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">category_map:</span></span><br><span class="line">  <span class="string">教學:</span> <span class="string">teach</span></span><br><span class="line">  <span class="attr">Hexo:</span> <span class="string">hexo</span></span><br><span class="line">  <span class="attr">NexT:</span> <span class="string">next</span></span><br><span class="line">  <span class="attr">SEO:</span> <span class="string">seo</span></span><br><span class="line">  <span class="string">帖子:</span> <span class="string">posts</span></span><br></pre></td></tr></table></figure><br>  註：中、英文皆不要有空格</p>
+</blockquote>
+<p>執行完 <code>hexo s</code> 之後會在每個貼文前端加上　<code>abbrlink: xxxxxxxxxx</code><br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">'[教學]-NexT使用-SEO優化'</span></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">categories:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="bullet">-</span> <span class="string">教學</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">NexT</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">SEO</span></span><br><span class="line"><span class="attr">tags:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">教學</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">NexT</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">SEO</span></span><br><span class="line"><span class="attr">abbrlink:</span> <span class="number">3723397533</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2020</span><span class="number">-06</span><span class="number">-21</span> <span class="number">11</span><span class="string">:40:25</span></span><br><span class="line"><span class="attr">layout:</span></span><br><span class="line"><span class="attr">permalink:</span></span><br></pre></td></tr></table></figure></p>
+<p>隨機產生的永久連結如下：<br>/posts/3723397533/</p>
+<h1 id="優化標籤"><a href="#優化標籤" class="headerlink" title="優化標籤"></a>優化標籤</h1><p>類似上方的優化分類(Category)</p>
+<h1 id="SEO設置"><a href="#SEO設置" class="headerlink" title="SEO設置"></a>SEO設置</h1><p>下一步提供了有用的選項，可以改善搜索引擎優化（SEO）。</p>
+<p>默認情況下，在<code>站點配置文件</code>中設置URL：<code>http：//yoursite.com</code> 後，會在Hexo中創建一個規範的鏈接標記。<br>可以在<span class="exturl" data-url="aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vd2VibWFzdGVycy9hbnN3ZXIvMTM5MDY2">整合重複的網址<i class="fa fa-external-link-alt"></i></span>中找到更多詳細信息。</p>
+<h2 id="禁用百度轉換"><a href="#禁用百度轉換" class="headerlink" title="禁用百度轉換"></a>禁用百度轉換</h2><p>默認情況下，中國的搜索引擎百度將緩存並重寫您的網站，以為移動用戶提供網頁快照。<br>您可以通過在<code>主題配置文件</code>中將值disable_baidu_transformation設置為true來禁用此功能。</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 在移動設備上禁用百度轉換</span></span><br><span class="line"><span class="string">disable_baidu_transformation：true</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h2 id="將站點字幕添加到索引頁面"><a href="#將站點字幕添加到索引頁面" class="headerlink" title="將站點字幕添加到索引頁面"></a>將站點字幕添加到索引頁面</h2><p>  首頁標題展示樣式如<code>標題</code> - <code>副標題</code><br>  將<code>index_with_subtitle</code>部分中的enable值設置為<code>true</code>，以將<code>主題配置文件</code>中的字幕信息添加到索引頁面。</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 是否將站點字幕添加到索引頁面</span></span><br><span class="line"><span class="attr">index_with_subtitle:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h2 id="開啟-Exturl"><a href="#開啟-Exturl" class="headerlink" title="開啟 Exturl"></a>開啟 Exturl</h2><p>此配置可以更好地優化 SEO，<span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoZW1lLXNldHRpbmdzL3Nlby5odG1sI0V4dFVSTA==">官方文件<i class="fa fa-external-link-alt"></i></span></p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 使用Base64加密和解密自動添加外部URL</span></span><br><span class="line"><span class="attr">exturl:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h1 id="網站地圖-sitemap"><a href="#網站地圖-sitemap" class="headerlink" title="網站地圖(sitemap)"></a>網站地圖(sitemap)</h1><h2 id="安裝-Google-和百度網站地圖生成插件："><a href="#安裝-Google-和百度網站地圖生成插件：" class="headerlink" title="安裝 Google 和百度網站地圖生成插件："></a>安裝 Google 和百度網站地圖生成插件：</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br><span class="line"><span class="comment"># 檢查安裝</span></span><br><span class="line">npm list --depth=0|grep hexo-generator-sitemap</span><br><span class="line">npm list --depth=0|grep hexo-generator-baidu-sitemap</span><br></pre></td></tr></table></figure>
+
+<h2 id="修改主題配置文件-config-yml，內容如下："><a href="#修改主題配置文件-config-yml，內容如下：" class="headerlink" title="修改主題配置文件_config.yml，內容如下："></a>修改主題配置文件_config.yml，內容如下：</h2><blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="string">......</span></span><br><span class="line">  <span class="attr">sitemap:</span> <span class="string">/sitemap.xml</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-sitemap</span></span><br><span class="line">  <span class="attr">baidusitemap:</span> <span class="string">/baidusitemap.xml</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-cloud</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<p>修改 <code>themes/next/languages/zh-CN.yml</code> 文件，新增 baidusitemap: 百度網站地圖，內容如下：</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="string">......</span></span><br><span class="line">  <span class="attr">sitemap:</span> <span class="string">網站地圖</span></span><br><span class="line">  <span class="attr">baidusitemap:</span> <span class="string">百度網站地圖</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<p>配置完成之後執行 <code>hexo g</code>，即會在站點的 <code>public</code> 目錄下生成 <code>sitemap.xml</code> 和 <code>baidusitemap.xml</code> 文件，其中 <code>sitemap.xml</code> 用來提交給 <code>Google</code>，而 <code>baidusitemap.xml</code> 用來提交給<code>百度</code>。</p>
+<h2 id="提交網站地圖"><a href="#提交網站地圖" class="headerlink" title="提交網站地圖"></a>提交網站地圖</h2><p>進入<span class="exturl" data-url="aHR0cHM6Ly9zZWFyY2guZ29vZ2xlLmNvbS9zZWFyY2gtY29uc29sZS9hYm91dA==">Google Search Console<i class="fa fa-external-link-alt"></i></span></p>
+<h1 id="robots-txt"><a href="#robots-txt" class="headerlink" title="robots.txt"></a>robots.txt</h1><p>創建 <code>hexo/source/robots.txt</code> 文件，編輯內容如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">User-agent: *</span><br><span class="line">Allow: &#x2F;</span><br><span class="line">Allow: &#x2F;archives&#x2F;</span><br><span class="line">Allow: &#x2F;categories&#x2F;</span><br><span class="line">Allow: &#x2F;tags&#x2F; </span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;fonts&#x2F;</span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;fancybox&#x2F;</span><br><span class="line">Sitemap: https:&#x2F;&#x2F;gavinh0731.github.io&#x2F;sitemap.xml</span><br><span class="line">Sitemap: https:&#x2F;&#x2F;gavinh0731.github.io&#x2F;baidusitemap.xml</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>Allow 代表允許</li>
+<li>Disallow 代表不允許</li>
+<li>Sitemap 就是網站地圖</li>
 </ul>
-<h2 id="統計"><a href="#統計" class="headerlink" title="統計"></a>統計</h2><ul>
-<li>LeanCloud (China)</li>
-<li>Firebase</li>
-<li>Busuanzi Counting</li>
+<p><code>Allow</code> 字段的值即為允許搜索引擎爬取的內容，可以對應到主題配置文件中的 menu 配置，如果菜單欄還有其他選項都可以按照格式自行添加。</p>
+<h1 id="hexo-autonofollow"><a href="#hexo-autonofollow" class="headerlink" title="hexo-autonofollow"></a>hexo-autonofollow</h1><p>透過<code>Nofollow</code>，網站管理員可以指示搜尋引擎「不要繼續前往此連結上的網頁」或是「不要前往此超連結」。 </p>
+<p>安裝：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-autonofollow --save</span><br></pre></td></tr></table></figure>
+
+<p>設定：接下來在系統的主要 _config.yml 最後加入設定(<code>系統根目錄</code> hexo/source，非theme)。</p>
+<blockquote>
+<p>hexo/_config.yml</p>
+</blockquote>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">nofollow:</span></span><br><span class="line">	<span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">	<span class="attr">exclude:</span>  <span class="comment"># 不加上 nofollow 的友情連結可以放在這邊。</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">exclude1.com</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">exclude2.com</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="安裝RSS插件"><a href="#安裝RSS插件" class="headerlink" title="安裝RSS插件"></a>安裝RSS插件</h1><p>進入本地hexo目錄，輸入以下命令:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-feed</span><br></pre></td></tr></table></figure>
+
+<p>在<code>系統根目錄</code>的_config.yml中添加如下代碼:</p>
+<blockquote>
+<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment">#RSS訂閱</span></span><br><span class="line"><span class="attr">feed:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">atom</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">atom.xml</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">20</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<p>在<code>主題配置文件</code>裡面，在 <code>social:</code> 下添加以上代码：</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">rss：</span> <span class="string">/atom.xml</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h2 id="處理RSS異常"><a href="#處理RSS異常" class="headerlink" title="處理RSS異常"></a>處理RSS異常</h2><p>最開始的時候生成 RSS 會拋出一些異常：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">error on line 455 at column 40: PCDATA invalid Char value 8</span><br></pre></td></tr></table></figure>
+
+<p>一般來說，出現這些問題是因為 Markdown 文件中存在一些特殊字符，例如 ^H、^E 等字符，解決辦法：</p>
+<ul>
+<li>在 markdown 源文件中把特殊字符刪除</li>
 </ul>
-<h2 id="貼文小工具"><a href="#貼文小工具" class="headerlink" title="貼文小工具"></a>貼文小工具</h2><ul>
-<li>Widgetpack Rating</li>
-<li>AddThis</li>
-</ul>
-<h2 id="搜索服務"><a href="#搜索服務" class="headerlink" title="搜索服務"></a>搜索服務</h2><ul>
-<li>Algolia Search</li>
-<li>Local Search</li>
-<li>Swiftype</li>
-</ul>
-<h2 id="聊天服務"><a href="#聊天服務" class="headerlink" title="聊天服務"></a>聊天服務</h2><ul>
-<li>Chatra</li>
-<li>Tidio</li>
-</ul>
-<h2 id="外部庫"><a href="#外部庫" class="headerlink" title="外部庫"></a>外部庫</h2><ul>
-<li><a href="/2020/06/18/教學-Hexo使用-NexT整合設定/#pjax-安裝">PJAX</a><br>頁面跳轉的時候人眼需要對整個頁面作重新識別， 刷新部分頁面的時候， 只需要重新識別其中一塊區域</li>
-<li>Fancybox<br>jQuery線上相簿展示器</li>
-<li>MediumZoom</li>
-<li>Lazyload<br>當網站圖片較多時，會造成網站開啟速度變慢，這時候前端工程師就會使用一種優化技術－延遲加載</li>
-<li>Pangu Autospace<br>中文、英文、數字、符號之間插入空格以提升文章質量</li>
-<li>Quicklink</li>
-<li>Motion</li>
-<li>Progress bar</li>
-<li>Backgroud JS</li>
-</ul>
+<h2 id="在vscode中顯示空格和tab符號"><a href="#在vscode中顯示空格和tab符號" class="headerlink" title="在vscode中顯示空格和tab符號"></a>在vscode中顯示空格和tab符號</h2><p>打開setting,在搜索框中輸入renderControlCharacters,選中勾選框,即可顯示特殊符號.</p>
 ]]></content>
       <categories>
         <category>教學</category>
         <category>NexT</category>
+        <category>SEO</category>
       </categories>
       <tags>
         <tag>教學</tag>
         <tag>NexT</tag>
+        <tag>SEO</tag>
       </tags>
   </entry>
   <entry>
@@ -700,38 +570,134 @@
       </tags>
   </entry>
   <entry>
-    <title>三招挖飆股勝率超過六成 別再傻傻存牛皮股！ft.孫慶龍(股票-下班經濟學#41)</title>
-    <url>/posts/3613151692/</url>
-    <content><![CDATA[<p>如果不清楚什麼是KD值可以參考 <a href="/posts/3701503514/#KD%E5%80%BC">名詞解釋：KD值</a></p>
-<img src="/posts/3613151692/%E6%9C%88KD%E9%80%B2%E5%87%BA%E7%AD%96%E7%95%A5.png" class title="月KD進出策略">
-<h1 id="月KD進出策略"><a href="#月KD進出策略" class="headerlink" title="月KD進出策略"></a>月KD進出策略</h1><p>透過此策略可以幫你<code>趨吉避凶</code></p>
-<h2 id="買進時機"><a href="#買進時機" class="headerlink" title="買進時機"></a>買進時機</h2><ul>
-<li>月KD&lt;20<br>通常代表一檔股票已經跌很久了</li>
-<li>月K&gt;月D（黃金交叉）<br>跌的過程中，已經開始企圖想要翻轉</li>
-<li>月底看一次盤，必須搭配產業面判斷是否能進場</li>
-</ul>
-<img src="/posts/3613151692/3704%E8%B5%B0%E5%8B%A2%E5%9C%96.png" class title="3704走勢圖">
-<h2 id="賣出時機"><a href="#賣出時機" class="headerlink" title="賣出時機"></a>賣出時機</h2><ul>
-<li>月KD&gt;80</li>
-<li>月K&lt;月D（死亡交叉）<img src="/posts/3613151692/2317%E6%AD%BB%E4%BA%A1%E4%BA%A4%E5%8F%89.png" class title="2317死亡交叉">
+    <title>[教學]-NexT使用-繁簡自動切換</title>
+    <url>/posts/2480083141/</url>
+    <content><![CDATA[<h1 id="下載對應表"><a href="#下載對應表" class="headerlink" title="下載對應表"></a>下載對應表</h1><p>首先，我們可以在<span class="exturl" data-url="aHR0cHM6Ly90ZGluZy50b3AvanMvdHdfY24uanM=">這裏<i class="fa fa-external-link-alt"></i></span>右鍵另存下載簡繁字體切換所需的 <code>tw_cn.js</code> 文件，我們把這個文件放到 <code>~/themes/next/source/js</code> 文件夾下。</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 修改以下內容</span></span><br><span class="line"><span class="keyword">var</span> defaultEncoding = <span class="number">1</span>; <span class="comment">//網站編寫字體是否繁體，1-繁體，2-簡體</span></span><br></pre></td></tr></table></figure>
 
-</li>
-</ul>
-<h1 id="設立停損點"><a href="#設立停損點" class="headerlink" title="設立停損點"></a>設立停損點</h1><p>因為黃金交叉並非100%上漲，當<code>跌破20週均線</code>需要止損。</p>
+<h1 id="修改模板"><a href="#修改模板" class="headerlink" title="修改模板"></a>修改模板</h1><p>在我們想要顯示簡繁轉換按鈕的地方添加如下代碼。<br>例如，我在 NexT 主題的布局文件 <code>~/themes/next/layout/_partials/footer.swig</code> 裏添加了如下代碼：</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"translate-style"</span>&gt;</span><br><span class="line">繁/簡：&lt;a id=<span class="string">"translateLink"</span> href=<span class="string">"javascript:translatePage();"</span>&gt;繁體</span><br><span class="line">&lt;<span class="regexp">/a&gt;</span></span><br><span class="line"><span class="regexp">&lt;/</span>div&gt;</span><br><span class="line">&lt;script type=<span class="string">"text/javascript"</span> src=<span class="string">"/js/tw_cn.js"</span>&gt;&lt;<span class="regexp">/script&gt;</span></span><br><span class="line"><span class="regexp">&lt;script type="text/</span>javascript<span class="string">"&gt;</span></span><br><span class="line"><span class="string">var defaultEncoding = 1; //網站編寫字體是否繁體，1-繁體，2-簡體</span></span><br><span class="line"><span class="string">var translateDelay = 0; //延遲時間,若不在前, 要設定延遲翻譯時間, 如100表示100ms,默認為0</span></span><br><span class="line"><span class="string">var cookieDomain = "</span>https:<span class="comment">//tding.top/"; //Cookie地址, 一定要設定, 通常為你的網址</span></span><br><span class="line"><span class="keyword">var</span> msgToTraditionalChinese = <span class="string">"繁體"</span>; <span class="comment">//此處可以更改為你想要顯示的文字</span></span><br><span class="line"><span class="keyword">var</span> msgToSimplifiedChinese = <span class="string">"簡體"</span>; <span class="comment">//同上，但兩處均不建議更改</span></span><br><span class="line"><span class="keyword">var</span> translateButtonId = <span class="string">"translateLink"</span>; <span class="comment">//默認互換id</span></span><br><span class="line">translateInitilization();</span><br><span class="line">&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure>
 <a id="more"></a>
 ]]></content>
       <categories>
+        <category>教學</category>
+        <category>NexT</category>
+      </categories>
+      <tags>
+        <tag>教學</tag>
+        <tag>NexT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>[教學]-NexT使用-第三方服務</title>
+    <url>/posts/1612943303/</url>
+    <content><![CDATA[<p>靜態網站的某些功能受到限制，因此我們需要第三方服務來擴展我們的網站。<br>在任何時候，您都可以使用NexT支持的第三方服務來擴展所需的功能。</p>
+<h1 id="數學方程式"><a href="#數學方程式" class="headerlink" title="數學方程式"></a>數學方程式</h1><ul>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL21hdGgtZXF1YXRpb25zLmh0bWw=">數學方程式<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+<h1 id="評論系統"><a href="#評論系統" class="headerlink" title="評論系統"></a>評論系統</h1><ul>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjRGlzcXVz">Disqus<i class="fa fa-external-link-alt"></i></span></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjRGlzcXVzSlM=">DisqusJS<i class="fa fa-external-link-alt"></i></span></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjTGl2ZVJl">LiveRe<i class="fa fa-external-link-alt"></i></span></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjR2l0YWxr">Gitalk<i class="fa fa-external-link-alt"></i></span></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjVmFsaW5l">Valine (China)<i class="fa fa-external-link-alt"></i></span></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWwjQ2hhbmd5YW4=">Changyan (China)<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+<a id="more"></a>
+
+<h1 id="如何在頁面上禁用評論"><a href="#如何在頁面上禁用評論" class="headerlink" title="如何在頁面上禁用評論"></a>如何在頁面上禁用評論</h1><p>當您啟用類似Disqus的評論服務時，所有新頁面將自動具有評論服務。<br>如果要在一頁中禁用它，只需將<code>comments</code>鍵添加到Front-matter並將其值設置為<code>false</code>。 如下所示：</p>
+<blockquote>
+<p>your-post.md<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">All</span> <span class="string">tags</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">"tags"</span></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h1 id="統計與分析"><a href="#統計與分析" class="headerlink" title="統計與分析"></a>統計與分析</h1><h2 id="分析工具"><a href="#分析工具" class="headerlink" title="分析工具"></a>分析工具</h2><ul>
+<li>Google Analytics</li>
+<li>Baidu Analytics (China)</li>
+<li>Growingio Analytics</li>
+<li>CNZZ Analytics (China)</li>
+</ul>
+<h2 id="統計"><a href="#統計" class="headerlink" title="統計"></a>統計</h2><ul>
+<li>LeanCloud (China)</li>
+<li>Firebase</li>
+<li>Busuanzi Counting</li>
+</ul>
+<h2 id="貼文小工具"><a href="#貼文小工具" class="headerlink" title="貼文小工具"></a>貼文小工具</h2><ul>
+<li>Widgetpack Rating</li>
+<li>AddThis</li>
+</ul>
+<h2 id="搜索服務"><a href="#搜索服務" class="headerlink" title="搜索服務"></a>搜索服務</h2><ul>
+<li>Algolia Search</li>
+<li>Local Search</li>
+<li>Swiftype</li>
+</ul>
+<h2 id="聊天服務"><a href="#聊天服務" class="headerlink" title="聊天服務"></a>聊天服務</h2><ul>
+<li>Chatra</li>
+<li>Tidio</li>
+</ul>
+<h2 id="外部庫"><a href="#外部庫" class="headerlink" title="外部庫"></a>外部庫</h2><ul>
+<li><a href="/2020/06/18/教學-Hexo使用-NexT整合設定/#pjax-安裝">PJAX</a><br>頁面跳轉的時候人眼需要對整個頁面作重新識別， 刷新部分頁面的時候， 只需要重新識別其中一塊區域</li>
+<li>Fancybox<br>jQuery線上相簿展示器</li>
+<li>MediumZoom</li>
+<li>Lazyload<br>當網站圖片較多時，會造成網站開啟速度變慢，這時候前端工程師就會使用一種優化技術－延遲加載</li>
+<li>Pangu Autospace<br>中文、英文、數字、符號之間插入空格以提升文章質量</li>
+<li>Quicklink</li>
+<li>Motion</li>
+<li>Progress bar</li>
+<li>Backgroud JS</li>
+</ul>
+]]></content>
+      <categories>
+        <category>教學</category>
+        <category>NexT</category>
+      </categories>
+      <tags>
+        <tag>教學</tag>
+        <tag>NexT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>理財達人秀-型態神一波(1)</title>
+    <url>/posts/452443508/</url>
+    <content><![CDATA[<p>型態學第一課！<br>破底翻抓到飆100%好股？兩加碼點進場勝率70%｜李兆華、蔡森《理財達人秀》2020.02.25</p>
+<h1 id="什麼是型態學"><a href="#什麼是型態學" class="headerlink" title="什麼是型態學"></a>什麼是型態學</h1><h2 id="技術面分析重量價配合"><a href="#技術面分析重量價配合" class="headerlink" title="技術面分析重量價配合"></a>技術面分析重量價配合</h2><p><code>技術面</code>重視<code>量價配合</code>，股價圖長相鑑往知來</p>
+<h2 id="主力走過必留下痕跡，量價反應技術面型態"><a href="#主力走過必留下痕跡，量價反應技術面型態" class="headerlink" title="主力走過必留下痕跡，量價反應技術面型態"></a>主力走過必留下痕跡，量價反應技術面型態</h2><p>股票交易經過一個月兩個月之後就慢慢成為一個型，接著畫出<code>趨勢線</code>，找到<code>支撐線</code>與<code>壓力線</code>，</p>
+<blockquote>
+<p>多頭：底部突破壓力<br>空頭：頭部跌破支撐 </p>
+</blockquote>
+<img src="/posts/452443508/%E4%BB%80%E9%BA%BC%E6%98%AF%E5%9E%8B%E6%85%8B%E5%AD%B8.png" class title="什麼是型態學">
+
+<h1 id="三步驟畫頸線"><a href="#三步驟畫頸線" class="headerlink" title="三步驟畫頸線"></a>三步驟畫頸線</h1><h2 id="1-時間區間約半個月以上"><a href="#1-時間區間約半個月以上" class="headerlink" title="1. 時間區間約半個月以上"></a>1. 時間區間約半個月以上</h2><h2 id="2-２個以上的點連成一條線"><a href="#2-２個以上的點連成一條線" class="headerlink" title="2. ２個以上的點連成一條線"></a>2. ２個以上的點連成一條線</h2><p>越多點連線參考越準，上下影線高低點取捨</p>
+<h2 id="3-以頸線作為壓力或支撐價位"><a href="#3-以頸線作為壓力或支撐價位" class="headerlink" title="3. 以頸線作為壓力或支撐價位"></a>3. 以頸線作為壓力或支撐價位</h2><img src="/posts/452443508/%E9%A0%B8%E7%B7%9A.png" class title="頸線">
+
+<h1 id="哪種型態最好用"><a href="#哪種型態最好用" class="headerlink" title="哪種型態最好用"></a>哪種型態最好用</h1><img src="/posts/452443508/%E5%93%AA%E7%A8%AE%E5%9E%8B%E6%85%8B%E6%9C%80%E5%A5%BD%E7%94%A8.png" class title="哪種型態最好用">
+<a id="more"></a>
+<h1 id="破底翻洩漏主力計謀"><a href="#破底翻洩漏主力計謀" class="headerlink" title="破底翻洩漏主力計謀"></a>破底翻洩漏主力計謀</h1><p>例如主力20塊去接，20拉到22就放手，因為要慢慢吸貨，<br>所以跌到20就買，當籌碼收了一段時間之後價格就會彈升，<br>當漲到22主力就會放手（因為主力不想買太貴），<br>可能目前買了２０００張，等買到２萬張的時候，發動攻勢，<br>這是需要時間去買，所以股價會在此區間來回震盪，</p>
+<p>有一天大盤跌，外加新冠肺炎等等不利因素，導致股價破底，<br>如果沒有利空，主力便要用自己的籌碼去把股價灌破，<br>接著主力可能在盤中大量賣出（５００張），讓投資人恐慌，<br><code>股價破底</code>之後就可以把<code>股東洗掉</code>，</p>
+<p>當跌到18或19元之後，主力又會逢低買進，把股票再買回來，<br>用５００張殺，再補回３０００張，要多了一些籌碼，</p>
+<p>當破了２０元便立刻漲回來（尤其是比<code>大盤</code>還要快漲回來），<br>表示這個股票有人在做，</p>
+<h2 id="空手時要怎麼挑選股票"><a href="#空手時要怎麼挑選股票" class="headerlink" title="空手時要怎麼挑選股票"></a>空手時要怎麼挑選股票</h2><p>那就是等破底的時候翻上來，<br>破底之後不會再次破底，若是<code>再次破底</code>表示判斷錯誤（沒主力支撐）</p>
+<img src="/posts/452443508/%E7%A0%B4%E5%BA%95%E7%BF%BB.png" class title="破底翻">
+<blockquote>
+<p>老師是在<code>加碼點</code>買進，設定７％停損</p>
+</blockquote>
+<img src="/posts/452443508/%E7%A0%B4%E5%BA%95%E8%A6%81%E5%A4%9A%E4%B9%85%E7%AB%99%E5%9B%9E%E4%BE%86.png" class title="破底要多久站回來">
+<img src="/posts/452443508/%E6%87%B6%E9%A9%A2%E6%89%93%E6%BB%BE%E7%9A%84%E5%A8%81%E5%8A%9B.png" class title="懶驢打滾的威力">
+<img src="/posts/452443508/%E6%87%B6%E9%A9%A2%E6%89%93%E6%BB%BE%E7%9A%84%E5%A8%81%E5%8A%9B2.png" class title="懶驢打滾的威力2">
+
+<p>參考網頁：<br><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1NZ0xjOTVuQmVORSZsaXN0PVBMVnUwcEl4UTdGLXp3UHpWODVnTkdvZGlRNWF5S1lPdzcmaW5kZXg9MQ==">理財達人秀-型態神一波(1)<i class="fa fa-external-link-alt"></i></span></p>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/MgLc95nBeNE" frameborder="0" loading="lazy" allowfullscreen></iframe></div>]]></content>
+      <categories>
         <category>1⃣ 股票</category>
         <category>2⃣ 筆記</category>
+        <category>技術面分析</category>
         <category>股票</category>
-        <category>飆股</category>
+        <category>理財達人秀</category>
+        <category>型態神一波</category>
       </categories>
       <tags>
         <tag>筆記</tag>
         <tag>股票</tag>
-        <tag>飆股</tag>
-        <tag>下班經濟學</tag>
-        <tag>不看盤投資術</tag>
+        <tag>型態學</tag>
+        <tag>技術面分析</tag>
       </tags>
   </entry>
   <entry>
@@ -795,6 +761,41 @@
       </tags>
   </entry>
   <entry>
+    <title>三招挖飆股勝率超過六成 別再傻傻存牛皮股！ft.孫慶龍(股票-下班經濟學#41)</title>
+    <url>/posts/3613151692/</url>
+    <content><![CDATA[<p>如果不清楚什麼是KD值可以參考 <a href="/posts/3701503514/#KD%E5%80%BC">名詞解釋：KD值</a></p>
+<img src="/posts/3613151692/%E6%9C%88KD%E9%80%B2%E5%87%BA%E7%AD%96%E7%95%A5.png" class title="月KD進出策略">
+<h1 id="月KD進出策略"><a href="#月KD進出策略" class="headerlink" title="月KD進出策略"></a>月KD進出策略</h1><p>透過此策略可以幫你<code>趨吉避凶</code></p>
+<h2 id="買進時機"><a href="#買進時機" class="headerlink" title="買進時機"></a>買進時機</h2><ul>
+<li>月KD&lt;20<br>通常代表一檔股票已經跌很久了</li>
+<li>月K&gt;月D（黃金交叉）<br>跌的過程中，已經開始企圖想要翻轉</li>
+<li>月底看一次盤，必須搭配產業面判斷是否能進場</li>
+</ul>
+<img src="/posts/3613151692/3704%E8%B5%B0%E5%8B%A2%E5%9C%96.png" class title="3704走勢圖">
+<h2 id="賣出時機"><a href="#賣出時機" class="headerlink" title="賣出時機"></a>賣出時機</h2><ul>
+<li>月KD&gt;80</li>
+<li>月K&lt;月D（死亡交叉）<img src="/posts/3613151692/2317%E6%AD%BB%E4%BA%A1%E4%BA%A4%E5%8F%89.png" class title="2317死亡交叉">
+
+</li>
+</ul>
+<h1 id="設立停損點"><a href="#設立停損點" class="headerlink" title="設立停損點"></a>設立停損點</h1><p>因為黃金交叉並非100%上漲，當<code>跌破20週均線</code>需要止損。</p>
+<a id="more"></a>
+]]></content>
+      <categories>
+        <category>1⃣ 股票</category>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+        <category>飆股</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>下班經濟學</tag>
+        <tag>不看盤投資術</tag>
+        <tag>飆股</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>股票-布林通道 實戰必勝術</title>
     <url>/posts/2691061525/</url>
     <content><![CDATA[<h1 id="布林通道的組成"><a href="#布林通道的組成" class="headerlink" title="布林通道的組成"></a>布林通道的組成</h1><h2 id="上線：壓力線（＋２個標準差）"><a href="#上線：壓力線（＋２個標準差）" class="headerlink" title="上線：壓力線（＋２個標準差）"></a>上線：壓力線（＋２個標準差）</h2><h2 id="中線：２０日移動平均線"><a href="#中線：２０日移動平均線" class="headerlink" title="中線：２０日移動平均線"></a>中線：２０日移動平均線</h2><h2 id="下線：支撐線（－２個標準差）"><a href="#下線：支撐線（－２個標準差）" class="headerlink" title="下線：支撐線（－２個標準差）"></a>下線：支撐線（－２個標準差）</h2><img src="/posts/2691061525/%E5%B8%83%E6%9E%97%E9%80%9A%E9%81%93%E7%9A%84%E7%B5%84%E6%88%90.png" class title="布林通道的組成">
@@ -847,6 +848,57 @@
       </tags>
   </entry>
   <entry>
+    <title>理財達人秀-型態神一波(2)</title>
+    <url>/posts/836431543/</url>
+    <content><![CDATA[<p>【型態神一波】第2集！<br>拆穿假突破抓轉折！2條線掌握空方起跌點！順勢放空賺55%快錢<br>主力製造假突破誘多 突破追進結局不如人意<br>(15:12)歐美股已形成假突破？  複習畫頸線一看就懂<br>(24:10)判斷假突破神龍擺尾 空軍不心軟狠賺一波<br>(35:16)假突破真賺錢隨堂考 蔡森菁英班心法教戰</p>
+<h1 id="假突破"><a href="#假突破" class="headerlink" title="假突破"></a>假突破</h1><p><code>假突破</code>做空最好賺，看穿假突破賺快賺多</p>
+<p>就這型態看起來是突破，判定可以買</p>
+<img src="/posts/836431543/%E7%AA%81%E7%A0%B4.png" class title="突破">
+
+<h2 id="判斷錯誤應立即停損"><a href="#判斷錯誤應立即停損" class="headerlink" title="判斷錯誤應立即停損"></a>判斷錯誤應立即停損</h2><p>什麼是<code>假突破</code>：突破之後又跌下來就是假突破<br>若是判斷錯誤，應立即停損</p>
+<img src="/posts/836431543/%E5%88%A4%E6%96%B7%E9%8C%AF%E8%AA%A4%E6%87%89%E7%AB%8B%E5%8D%B3%E5%81%9C%E6%90%8D.png" class title="判斷錯誤應立即停損">
+
+<h2 id="判斷假突破"><a href="#判斷假突破" class="headerlink" title="判斷假突破"></a>判斷假突破</h2><p>主力會透過突破誘騙散戶於高點，把貨倒給散戶。</p>
+<img src="/posts/836431543/%E5%88%A4%E6%96%B7%E5%81%87%E7%AA%81%E7%A0%B4.png" class title="判斷假突破">
+<a id="more"></a>
+<h2 id="主力的假動作"><a href="#主力的假動作" class="headerlink" title="主力的假動作"></a>主力的假動作</h2><p>突破整理區先停看聽，5點確立主力假動作</p>
+<h3 id="1-突破整理區間後，又跌回整理區"><a href="#1-突破整理區間後，又跌回整理區" class="headerlink" title="1.突破整理區間後，又跌回整理區"></a>1.突破整理區間後，又跌回整理區</h3><h3 id="2-假突破確立後，是空方進場點"><a href="#2-假突破確立後，是空方進場點" class="headerlink" title="2.假突破確立後，是空方進場點"></a>2.假突破確立後，是空方進場點</h3><h3 id="3-跌破區間下緣，是空方加碼點"><a href="#3-跌破區間下緣，是空方加碼點" class="headerlink" title="3.跌破區間下緣，是空方加碼點"></a>3.跌破區間下緣，是空方加碼點</h3><h3 id="4-停損設在頸線上方"><a href="#4-停損設在頸線上方" class="headerlink" title="4.停損設在頸線上方"></a>4.停損設在頸線上方</h3><h3 id="5-假突破往往伴隨價量不尋常"><a href="#5-假突破往往伴隨價量不尋常" class="headerlink" title="5.假突破往往伴隨價量不尋常"></a>5.假突破往往伴隨<code>價量不尋常</code></h3><h2 id="假突破例子"><a href="#假突破例子" class="headerlink" title="假突破例子"></a>假突破例子</h2><img src="/posts/836431543/M%E9%A0%AD.png" class title="M頭">
+
+<h2 id="假突破常伴隨異常量"><a href="#假突破常伴隨異常量" class="headerlink" title="假突破常伴隨異常量"></a>假突破常伴隨異常量</h2><p>爆大量</p>
+<img src="/posts/836431543/%E5%81%87%E7%AA%81%E7%A0%B4%E4%BC%B4%E9%9A%A8%E7%95%B0%E5%B8%B8%E9%87%8F.png" class title="假突破伴隨異常量">
+<p>量增假突破</p>
+<img src="/posts/836431543/%E9%87%8F%E5%A2%9E%E5%81%87%E7%AA%81%E7%A0%B4.png" class title="量增假突破">
+]]></content>
+      <categories>
+        <category>1⃣ 股票</category>
+        <category>2⃣ 筆記</category>
+        <category>技術面分析</category>
+        <category>股票</category>
+        <category>理財達人秀</category>
+        <category>型態神一波</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>型態學</tag>
+        <tag>技術面分析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>股票-殖利率</title>
+    <url>/posts/4199638572/</url>
+    <content><![CDATA[<a id="more"></a>
+]]></content>
+      <categories>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>站務-發文</title>
     <url>/posts/2778056449/</url>
     <content><![CDATA[<h1 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h1><p>不要加上「」，會導致類似縮排效果</p>
@@ -877,9 +929,25 @@
       </tags>
   </entry>
   <entry>
-    <title>股票-殖利率</title>
-    <url>/posts/4199638572/</url>
-    <content><![CDATA[<a id="more"></a>
+    <title>股票-股利</title>
+    <url>/posts/3702625446/</url>
+    <content><![CDATA[<p>看完這篇將學到：</p>
+<blockquote>
+<p>什麼是<code>「現金股利」</code>、<code>「股票股利」</code>？<br>  是公司將賺的錢分配給股東的形式，簡稱為「分紅」，</p>
+</blockquote>
+<ul>
+<li><strong>「現金股利」：發放現金股利給股東。</strong></li>
+<li><strong>「股票股利」：發放股票股利(把錢用來增加公司的股本)，將股本的所有權轉移給股東。</strong></li>
+</ul>
+<p>當我們買進某公司的股票時，便成為該公司的股東。<br>若該公司有賺錢時，我們（股東）就能夠依據持有股票的比例，分配獲得所賺的利潤，這就是所謂的「股利」，<br>反之，若該公司不賺錢，當然也有可能領不到股利 😖</p>
+<h1 id="股利"><a href="#股利" class="headerlink" title="股利"></a>股利</h1><p>股利，是指股份公司從<code>留存收益</code>中派發給股東的那一部分。<br>就上市公司的情況中，股利只會派發給在<code>除息日之前一日持有股票</code>至除息日當日的人士，<br>在除息日當日或以後才買入股票的人則不能獲派股利。<br>與此同時，證券交易所會在除息日開市前自動把股票的前一交易日收盤價扣減股利後的價值，<br>定為該股票的開盤交易日的開盤價，因此股價會在除息日開盤時「自動下跌」。</p>
+<p>股利一般有兩種支付方式：<code>「現金股利」</code>（<code>股息</code>，英語：Cash Dividends）和<code>「股票股利」</code>（<code>股利</code>，英語：Stock Dividends）。 </p>
+<h2 id="現金股利"><a href="#現金股利" class="headerlink" title="現金股利"></a>現金股利</h2><p><code>「現金股利」</code>是指股份公司向股東<code>支付現金</code>，又稱<code>「股息」</code>或<code>「配息」</code>。<br><code>現金股利</code>給予股東即時的資本回報。</p>
+<h2 id="股票股利"><a href="#股票股利" class="headerlink" title="股票股利"></a>股票股利</h2><p><code>「股票股利」</code>或<code>「以股代息」</code>是指股份公司向股東以<code>贈送新的股份</code>方式代替支付現金股利，又稱<code>「股利」</code>或<code>「配股」</code>。</p>
+<p>對於優質股，股票股利給予股東長遠獲取更大回報的機會，股東期望股份價值上升及繼續以股代息，利用複息效應把錢愈滾愈大。</p>
+<p>但對於經營不佳的公司，股票股利只是「零成本」印股票派息，因為公司沒有「多餘的」現金可用作派息。 </p>
+<h2 id="配息配股的比較"><a href="#配息配股的比較" class="headerlink" title="配息配股的比較"></a>配息配股的比較</h2><p>整理中．．．</p>
+<a id="more"></a>
 ]]></content>
       <categories>
         <category>2⃣ 筆記</category>
@@ -888,6 +956,96 @@
       <tags>
         <tag>筆記</tag>
         <tag>股票</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>股票-股票的故事二</title>
+    <url>/posts/3159720911/</url>
+    <content><![CDATA[<blockquote>
+<p>聽完以下的故事之後可以了解：<br>股票的價格，牽涉到大家的<code>「預期心理」</code>，<br>不同<code>面向</code>將導致不同的<code>買賣決策</code></p>
+</blockquote>
+<h1 id="故事開始嚕"><a href="#故事開始嚕" class="headerlink" title="故事開始嚕"></a>故事開始嚕</h1><p><code>「股票」</code>就是公司所有權的憑證</p>
+<p>但是，為何有時公司做得很差，股票就還會「漲」呢？</p>
+<p>就是因為，股票的價格，還牽涉到大家的<code>「預期心理」</code>，</p>
+<p>現在就讓我們來看看，大家對餐廳股價的預期，是怎麼來的吧</p>
+<h2 id="基本面分析"><a href="#基本面分析" class="headerlink" title="基本面分析"></a>基本面分析</h2><p>小雞認為：</p>
+<p>餐廳現在做的差，股票自然沒價值，不如就看看每季的<code>營利</code>跟<code>市場表現</code>如何，</p>
+<p>如果做得越來越好，那股價自然會上升，</p>
+<blockquote>
+<p>小雞，是根據公司的<code>「營運狀況」</code>來調整<code>「預期」</code>，這就是上一集所說的<code>「基本面分析」</code></p>
+</blockquote>
+<a id="more"></a>
+
+<h2 id="消息面分析"><a href="#消息面分析" class="headerlink" title="消息面分析"></a>消息面分析</h2><p>孔雀則覺得，雖然現在餐廳很難吃，</p>
+<p>他們已經宣布，要換成森林裡最會做菜的<code>黑熊</code>來當主廚，</p>
+<p>因此，生意應該會越來越好，所以股價會上升，</p>
+<blockquote>
+<p>孔雀，是根據公司的<code>「最新消息」</code>來調整<code>「預期」</code>，這叫做<code>「消息面分析」</code></p>
+</blockquote>
+<h2 id="籌碼面分析"><a href="#籌碼面分析" class="headerlink" title="籌碼面分析"></a>籌碼面分析</h2><p>狐狸則想著，雖然餐廳現在很差，</p>
+<p>但是那些有錢的人，比如銀行或基金等，</p>
+<p>應該有比我們「更精準」的眼光</p>
+<p>如果他們持有很多張餐廳的股票，或許未來股價就會上升，</p>
+<p>狐狸，是觀察那些<code>「擁有大量資金的人怎麼做」</code>，來調整<code>「預期」</code>，這就是<code>「籌碼面分析」</code></p>
+<h2 id="技術面分析"><a href="#技術面分析" class="headerlink" title="技術面分析"></a>技術面分析</h2><p>最後來看看兔子吧，他覺得，股票的價格本來就跟經驗面不完全相關，</p>
+<p>只要購買的人比賣出的人多，價格就會上升，因此我們可以觀察股票市場的價格線圖</p>
+<p>當有一個明顯的<code>「時機」</code>，會讓<code>「買股票的人變多」</code>時，股票就會上漲，</p>
+<p>兔子，是觀察<code>「線圖上的信號」</code>來調整<code>「預期」</code>，這就是<code>「技術面分析」</code></p>
+<p>不同的分析角度，會導致每個人對「股價的預期」不同，</p>
+<p>於是覺得股價會跌的人，就會想要賣出股票，</p>
+<p>如果都沒人願意買，那股東只好慢慢降價，直到有人願意買為止，</p>
+<p>而這個交易的價格，就會是現在的「市場價格」，</p>
+<p>因此，市場價格會隨著「時間」以及「新的成交價格」，不斷的變動，</p>
+<p>這也就是所謂的「上漲」和「下跌」，</p>
+<p>以上內容轉錄於以下<span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj04NUo4U05PNTFlSQ==">影片<i class="fa fa-external-link-alt"></i></span>，圖文並茂更清楚唷，歡迎有興趣朋友移駕觀看</p>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/85J8SNO51eI" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
+]]></content>
+      <categories>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+        <category>新手村</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>技術面分析</tag>
+        <tag>基本面分析</tag>
+        <tag>名詞解釋</tag>
+        <tag>消息面分析</tag>
+        <tag>籌碼面分析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>股票-財報</title>
+    <url>/posts/866196188/</url>
+    <content><![CDATA[<h1 id="什麼是損益表"><a href="#什麼是損益表" class="headerlink" title="什麼是損益表"></a>什麼是損益表</h1><p>看了損益表，就能知道公司賺不賺錢</p>
+<img src="/posts/866196188/%E6%90%8D%E7%9B%8A%E8%A1%A8.png" class title="損益表">
+<img src="/posts/866196188/%E6%90%8D%E7%9B%8A%E8%A1%A8.jpg" class title="損益表">
+<p>來源：CMoney投資網誌</p>
+<a id="more"></a>
+
+<h1 id="股東權益報酬率（ROE）"><a href="#股東權益報酬率（ROE）" class="headerlink" title="股東權益報酬率（ROE）"></a>股東權益報酬率（ROE）</h1><p>公司用股東出的錢來賺取獲利的能力</p>
+<img src="/posts/866196188/ROE.png" class title="股東權益報酬率（ROE）">
+<p>公司資產＝股東出的錢（股東權益）+ 借錢（負債）<br>所以，ROE 越高越好，因為高 ROE 代表公司可以用同樣的股東權益賺到更多的錢。<br>但是有一個迷思，兩家規模一樣大，也一樣會賺錢的公司，負債越多的公司 ROE 反而越高。</p>
+<h1 id="資產報酬率（ROA）"><a href="#資產報酬率（ROA）" class="headerlink" title="資產報酬率（ROA）"></a>資產報酬率（ROA）</h1><p>公司用所有資產賺錢的能力</p>
+<img src="/posts/866196188/ROA.png" class title="資產報酬率（ROA）">
+
+<h1 id="快速篩選出財報成長績優股"><a href="#快速篩選出財報成長績優股" class="headerlink" title="快速篩選出財報成長績優股"></a>快速篩選出財報成長績優股</h1><p>透過<a href="https://gavinh0731.github.io/stockmoney/">財穀資訊網-選股神器</a><br>進入頁面後，點選<code>選股心法</code>，接著點選<code>基本面_近四季財報成長</code>，即可快速找出財報成長績優股</p>
+<img src="/posts/866196188/%E8%B2%A1%E5%A0%B1%E6%88%90%E9%95%B7%E7%B8%BE%E5%84%AA%E8%82%A1.png" class title="財報成長績優股">
+
+<p>參考網頁：<br><span class="exturl" data-url="aHR0cHM6Ly93d3cuY21vbmV5LnR3L25vdGVzL25vdGUtZGV0YWlsLmFzcHg/bmlkPTE1NDgz">一分鐘看懂損益表<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>1⃣ 股票</category>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+        <category>基本面分析</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>基本面分析</tag>
+        <tag>財報</tag>
       </tags>
   </entry>
   <entry>
@@ -946,126 +1104,6 @@
         <tag>筆記</tag>
         <tag>股票</tag>
         <tag>名詞解釋</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>股票-股利</title>
-    <url>/posts/3702625446/</url>
-    <content><![CDATA[<p>看完這篇將學到：</p>
-<blockquote>
-<p>什麼是<code>「現金股利」</code>、<code>「股票股利」</code>？<br>  是公司將賺的錢分配給股東的形式，簡稱為「分紅」，</p>
-</blockquote>
-<ul>
-<li><strong>「現金股利」：發放現金股利給股東。</strong></li>
-<li><strong>「股票股利」：發放股票股利(把錢用來增加公司的股本)，將股本的所有權轉移給股東。</strong></li>
-</ul>
-<p>當我們買進某公司的股票時，便成為該公司的股東。<br>若該公司有賺錢時，我們（股東）就能夠依據持有股票的比例，分配獲得所賺的利潤，這就是所謂的「股利」，<br>反之，若該公司不賺錢，當然也有可能領不到股利 😖</p>
-<h1 id="股利"><a href="#股利" class="headerlink" title="股利"></a>股利</h1><p>股利，是指股份公司從<code>留存收益</code>中派發給股東的那一部分。<br>就上市公司的情況中，股利只會派發給在<code>除息日之前一日持有股票</code>至除息日當日的人士，<br>在除息日當日或以後才買入股票的人則不能獲派股利。<br>與此同時，證券交易所會在除息日開市前自動把股票的前一交易日收盤價扣減股利後的價值，<br>定為該股票的開盤交易日的開盤價，因此股價會在除息日開盤時「自動下跌」。</p>
-<p>股利一般有兩種支付方式：<code>「現金股利」</code>（<code>股息</code>，英語：Cash Dividends）和<code>「股票股利」</code>（<code>股利</code>，英語：Stock Dividends）。 </p>
-<h2 id="現金股利"><a href="#現金股利" class="headerlink" title="現金股利"></a>現金股利</h2><p><code>「現金股利」</code>是指股份公司向股東<code>支付現金</code>，又稱<code>「股息」</code>或<code>「配息」</code>。<br><code>現金股利</code>給予股東即時的資本回報。</p>
-<h2 id="股票股利"><a href="#股票股利" class="headerlink" title="股票股利"></a>股票股利</h2><p><code>「股票股利」</code>或<code>「以股代息」</code>是指股份公司向股東以<code>贈送新的股份</code>方式代替支付現金股利，又稱<code>「股利」</code>或<code>「配股」</code>。</p>
-<p>對於優質股，股票股利給予股東長遠獲取更大回報的機會，股東期望股份價值上升及繼續以股代息，利用複息效應把錢愈滾愈大。</p>
-<p>但對於經營不佳的公司，股票股利只是「零成本」印股票派息，因為公司沒有「多餘的」現金可用作派息。 </p>
-<h2 id="配息配股的比較"><a href="#配息配股的比較" class="headerlink" title="配息配股的比較"></a>配息配股的比較</h2><p>整理中．．．</p>
-<a id="more"></a>
-]]></content>
-      <categories>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>股票-財報</title>
-    <url>/posts/866196188/</url>
-    <content><![CDATA[<h1 id="什麼是損益表"><a href="#什麼是損益表" class="headerlink" title="什麼是損益表"></a>什麼是損益表</h1><p>看了損益表，就能知道公司賺不賺錢</p>
-<img src="/posts/866196188/%E6%90%8D%E7%9B%8A%E8%A1%A8.png" class title="損益表">
-<img src="/posts/866196188/%E6%90%8D%E7%9B%8A%E8%A1%A8.jpg" class title="損益表">
-<p>來源：CMoney投資網誌</p>
-<a id="more"></a>
-
-<h1 id="股東權益報酬率（ROE）"><a href="#股東權益報酬率（ROE）" class="headerlink" title="股東權益報酬率（ROE）"></a>股東權益報酬率（ROE）</h1><p>公司用股東出的錢來賺取獲利的能力</p>
-<img src="/posts/866196188/ROE.png" class title="股東權益報酬率（ROE）">
-<p>公司資產＝股東出的錢（股東權益）+ 借錢（負債）<br>所以，ROE 越高越好，因為高 ROE 代表公司可以用同樣的股東權益賺到更多的錢。<br>但是有一個迷思，兩家規模一樣大，也一樣會賺錢的公司，負債越多的公司 ROE 反而越高。</p>
-<h1 id="資產報酬率（ROA）"><a href="#資產報酬率（ROA）" class="headerlink" title="資產報酬率（ROA）"></a>資產報酬率（ROA）</h1><p>公司用所有資產賺錢的能力</p>
-<img src="/posts/866196188/ROA.png" class title="資產報酬率（ROA）">
-
-<h1 id="快速篩選出財報成長績優股"><a href="#快速篩選出財報成長績優股" class="headerlink" title="快速篩選出財報成長績優股"></a>快速篩選出財報成長績優股</h1><p>透過<a href="https://gavinh0731.github.io/stockmoney/">財穀資訊網-選股神器</a><br>進入頁面後，點選<code>選股心法</code>，接著點選<code>基本面_近四季財報成長</code>，即可快速找出財報成長績優股</p>
-<img src="/posts/866196188/%E8%B2%A1%E5%A0%B1%E6%88%90%E9%95%B7%E7%B8%BE%E5%84%AA%E8%82%A1.png" class title="財報成長績優股">
-
-<p>參考網頁：<br><span class="exturl" data-url="aHR0cHM6Ly93d3cuY21vbmV5LnR3L25vdGVzL25vdGUtZGV0YWlsLmFzcHg/bmlkPTE1NDgz">一分鐘看懂損益表<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>1⃣ 股票</category>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-        <category>基本面分析</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>基本面分析</tag>
-        <tag>財報</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>股票-股票的故事二</title>
-    <url>/posts/3159720911/</url>
-    <content><![CDATA[<blockquote>
-<p>聽完以下的故事之後可以了解：<br>股票的價格，牽涉到大家的<code>「預期心理」</code>，<br>不同<code>面向</code>將導致不同的<code>買賣決策</code></p>
-</blockquote>
-<h1 id="故事開始嚕"><a href="#故事開始嚕" class="headerlink" title="故事開始嚕"></a>故事開始嚕</h1><p><code>「股票」</code>就是公司所有權的憑證</p>
-<p>但是，為何有時公司做得很差，股票就還會「漲」呢？</p>
-<p>就是因為，股票的價格，還牽涉到大家的<code>「預期心理」</code>，</p>
-<p>現在就讓我們來看看，大家對餐廳股價的預期，是怎麼來的吧</p>
-<h2 id="基本面分析"><a href="#基本面分析" class="headerlink" title="基本面分析"></a>基本面分析</h2><p>小雞認為：</p>
-<p>餐廳現在做的差，股票自然沒價值，不如就看看每季的<code>營利</code>跟<code>市場表現</code>如何，</p>
-<p>如果做得越來越好，那股價自然會上升，</p>
-<blockquote>
-<p>小雞，是根據公司的<code>「營運狀況」</code>來調整<code>「預期」</code>，這就是上一集所說的<code>「基本面分析」</code></p>
-</blockquote>
-<a id="more"></a>
-
-<h2 id="消息面分析"><a href="#消息面分析" class="headerlink" title="消息面分析"></a>消息面分析</h2><p>孔雀則覺得，雖然現在餐廳很難吃，</p>
-<p>他們已經宣布，要換成森林裡最會做菜的<code>黑熊</code>來當主廚，</p>
-<p>因此，生意應該會越來越好，所以股價會上升，</p>
-<blockquote>
-<p>孔雀，是根據公司的<code>「最新消息」</code>來調整<code>「預期」</code>，這叫做<code>「消息面分析」</code></p>
-</blockquote>
-<h2 id="籌碼面分析"><a href="#籌碼面分析" class="headerlink" title="籌碼面分析"></a>籌碼面分析</h2><p>狐狸則想著，雖然餐廳現在很差，</p>
-<p>但是那些有錢的人，比如銀行或基金等，</p>
-<p>應該有比我們「更精準」的眼光</p>
-<p>如果他們持有很多張餐廳的股票，或許未來股價就會上升，</p>
-<p>狐狸，是觀察那些<code>「擁有大量資金的人怎麼做」</code>，來調整<code>「預期」</code>，這就是<code>「籌碼面分析」</code></p>
-<h2 id="技術面分析"><a href="#技術面分析" class="headerlink" title="技術面分析"></a>技術面分析</h2><p>最後來看看兔子吧，他覺得，股票的價格本來就跟經驗面不完全相關，</p>
-<p>只要購買的人比賣出的人多，價格就會上升，因此我們可以觀察股票市場的價格線圖</p>
-<p>當有一個明顯的<code>「時機」</code>，會讓<code>「買股票的人變多」</code>時，股票就會上漲，</p>
-<p>兔子，是觀察<code>「線圖上的信號」</code>來調整<code>「預期」</code>，這就是<code>「技術面分析」</code></p>
-<p>不同的分析角度，會導致每個人對「股價的預期」不同，</p>
-<p>於是覺得股價會跌的人，就會想要賣出股票，</p>
-<p>如果都沒人願意買，那股東只好慢慢降價，直到有人願意買為止，</p>
-<p>而這個交易的價格，就會是現在的「市場價格」，</p>
-<p>因此，市場價格會隨著「時間」以及「新的成交價格」，不斷的變動，</p>
-<p>這也就是所謂的「上漲」和「下跌」，</p>
-<p>以上內容轉錄於以下<span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj04NUo4U05PNTFlSQ==">影片<i class="fa fa-external-link-alt"></i></span>，圖文並茂更清楚唷，歡迎有興趣朋友移駕觀看</p>
-<div class="video-container"><iframe src="https://www.youtube.com/embed/85J8SNO51eI" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
-]]></content>
-      <categories>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-        <category>新手村</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>技術面分析</tag>
-        <tag>基本面分析</tag>
-        <tag>名詞解釋</tag>
-        <tag>消息面分析</tag>
-        <tag>籌碼面分析</tag>
       </tags>
   </entry>
   <entry>
@@ -1129,69 +1167,6 @@
       </tags>
   </entry>
   <entry>
-    <title>股票研究所總綱</title>
-    <url>/posts/3701503514/</url>
-    <content><![CDATA[<h1 id="財穀資訊選股網🔖"><a href="#財穀資訊選股網🔖" class="headerlink" title="財穀資訊選股網🔖"></a>財穀資訊選股網<a href="/stockmoney/">🔖</a></h1><p><a href="/stockmoney/">選股神器</a></p>
-<img src="/posts/3701503514/%E8%B2%A1%E7%A9%80%E8%B3%87%E8%A8%8A%E9%81%B8%E8%82%A1%E7%B6%B2.png" class title="財穀資訊選股網">
-
-<a id="more"></a>
-
-<h1 id="新手村"><a href="#新手村" class="headerlink" title="新手村"></a>新手村</h1><h2 id="股票的基本概念🔖"><a href="#股票的基本概念🔖" class="headerlink" title="股票的基本概念🔖"></a>股票的基本概念<a href="/posts/2278927718/">🔖</a></h2><p>   到底，「股票」是什麼呢？<br>   為什麼「股票」會漲漲跌跌呢？<br>   股票的價格，牽涉到大家的<code>「預期心理」</code>，<br>   不同<code>面向</code>將導致不同的<code>買賣決策</code></p>
-<h2 id="股票怎麼買🔖"><a href="#股票怎麼買🔖" class="headerlink" title="股票怎麼買🔖"></a>股票怎麼買<a href="/posts/3259796151/">🔖</a></h2><p>   帶你了解「如何開戶」、「股票交易流程」、「交易時間」、「交易單位」、「交易價格」</p>
-<h2 id="獲利方式"><a href="#獲利方式" class="headerlink" title="獲利方式"></a>獲利方式</h2><h3 id="價差"><a href="#價差" class="headerlink" title="價差:"></a>價差:</h3><p>  要獲利就是「買低賣高」。<br>  若不小心「買高賣低」了，就下次投資時，再謹慎選擇股票與進出場的時間點。<br>  <div style="font-size: 30px;background-color:#FFC019;">$價差 = 賣出價格 - 買進價格$</div></p>
-<h3 id="股利-amp-股息🔖"><a href="#股利-amp-股息🔖" class="headerlink" title="股利&amp;股息🔖"></a>股利&amp;股息<a href="/posts/3702625446/">🔖</a></h3><p>  公司分配盈餘的<code>股利</code>和<code>股息</code><br>  <code>「現金股利」</code>，也就是我們常稱的<code>「股息」</code>；<br>  <code>「股票股利」</code>，也就是我們常稱的<code>「股利」</code>。</p>
-<h1 id="下班經濟學教你股票心法"><a href="#下班經濟學教你股票心法" class="headerlink" title="下班經濟學教你股票心法"></a>下班經濟學教你股票心法</h1><ul>
-<li><a href="/posts/3492910549/">40歲靠存股提早退休 5招心法教你不看盤投資術 ft.股魚(股票-下班經濟學#45)</a></li>
-<li><a href="/posts/3613151692/">三招挖飆股勝率超過六成 別再傻傻存牛皮股！ft.孫慶龍(股票-下班經濟學#41)</a></li>
-</ul>
-<h1 id="5G"><a href="#5G" class="headerlink" title="5G"></a>5G</h1><p>台積電、聯發科</p>
-<h1 id="AI人工智慧"><a href="#AI人工智慧" class="headerlink" title="AI人工智慧"></a>AI人工智慧</h1><p>晶圓代工：台積電 2330<br>客製化AI設計：創意3443、智原3035<br>自有產品AI設計：聯發科2454<br>高速傳輸IC：譜瑞-KY 4966<br>電聲元件：美律2439</p>
-<h1 id="散熱概念"><a href="#散熱概念" class="headerlink" title="散熱概念"></a>散熱概念</h1><p>伺服器：建準2421<br>基地台＆石墨散熱：奇鋐3017<br>電動車IGBT散熱：健策3653<br>5G手機銅導管：超眾6230、泰碩3338</p>
-<h1 id="名詞解釋"><a href="#名詞解釋" class="headerlink" title="名詞解釋"></a>名詞解釋</h1><h2 id="股票🔖"><a href="#股票🔖" class="headerlink" title="股票🔖"></a>股票<a href="/posts/2278927718/">🔖</a></h2><p>我國公司法對股票的定義是：「<code>股票</code>是為了<code>籌集資本</code>所發行的<code>一定數量</code>和<code>一定面額</code>或<code>股份</code>的證書，交由出資人收執，作為對公司投資的憑證」。聽不懂嗎，<a href="/posts/2278927718/#「股票」">點此進一步了解🔖</a>。</p>
-<h1 id="名詞解釋-基本面分析🔖"><a href="#名詞解釋-基本面分析🔖" class="headerlink" title="名詞解釋_基本面分析🔖"></a>名詞解釋_基本面分析<a href="/posts/3159720911/#基本面分析">🔖</a></h1><p>根據公司的<code>「營運狀況」</code>來調整<code>「預期」</code>，就是<code>「基本面分析」</code></p>
-<h2 id="現金股利🔖"><a href="#現金股利🔖" class="headerlink" title="現金股利🔖"></a>現金股利<a href="/posts/3702625446/#現金股利">🔖</a></h2><p><code>「現金股利」</code>是指股份公司向股東<code>支付現金</code>，又稱<code>「股息」</code>或<code>「配息」</code>。<br><code>現金股利</code>給予股東即時的資本回報。</p>
-<h2 id="股票股利🔖"><a href="#股票股利🔖" class="headerlink" title="股票股利🔖"></a>股票股利<a href="/posts/3702625446/#股票股利">🔖</a></h2><p><code>「股票股利」</code>或<code>「以股代息」</code>是指股份公司向股東以<code>贈送新的股份</code>方式代替支付現金股利，又稱<code>「股利」</code>或<code>「配股」</code>。</p>
-<h2 id="除權🔖"><a href="#除權🔖" class="headerlink" title="除權🔖"></a>除權<a href="/posts/648110682/#除權">🔖</a></h2><p>「除權」就是配發「股票股利」，股價會隨之降低，總市值不變，<br>如果<strong>股本膨脹1倍，股價就減少1倍</strong></p>
-<h2 id="除息🔖"><a href="#除息🔖" class="headerlink" title="除息🔖"></a>除息<a href="/posts/648110682/#除息">🔖</a></h2><p>「除息」就是配發「現金股利」，股價市值會隨之扣除，<br>換句話說，<strong>配發1元的現金股利，股價就減少1元，</strong></p>
-<h2 id="除息後股價🔖"><a href="#除息後股價🔖" class="headerlink" title="除息後股價🔖"></a>除息後股價<a href="/posts/648110682/#除息後股價">🔖</a></h2><p>$「除息後股價」=「除息前一日收盤價」-「現金股利」$</p>
-<h2 id="填息🔖"><a href="#填息🔖" class="headerlink" title="填息🔖"></a>填息<a href="/posts/648110682/#填息">🔖</a></h2><p>除息後，<code>除息前一日的收盤價</code>與<code>除息後的價位</code>之間有個<code>除息價差</code>缺口，如果股價能<code>回升</code>並<code>超過</code>除息前一天的收盤價，稱之為<code>「填息」</code>。</p>
-<h2 id="貼息🔖"><a href="#貼息🔖" class="headerlink" title="貼息🔖"></a>貼息<a href="/posts/648110682/#貼息">🔖</a></h2><p>如果股價除息後，沒有回補除息差價缺口，<code>反而下跌</code>，使參與除息的投資人蒙受損失，則稱為<code>「貼息」</code>。</p>
-<h2 id="ROE"><a href="#ROE" class="headerlink" title="ROE"></a>ROE</h2><p>用途：<code>看公司錢滾錢的能力</code></p>
-<div style="font-size: 30px;background-color:#FFC019;">$ 股東權益報酬率ROE= \frac{稅後淨利}{股東權益} $ </div>
-<div style="font-size: 30px;background-color:#FFC019;">$ 股東權益(又稱淨資產)=資產總額-負債總額 $</div>
-
-<h2 id="營業利益率"><a href="#營業利益率" class="headerlink" title="營業利益率"></a>營業利益率</h2><p>營業利益率與毛利率的差別在於毛利率只考慮直接因為生產產品所需要的成本，而營業利益則是考慮了在取得收入的過程中所耗用的一切成本。<br>用途：營業利益率為反映一家公司本業獲利能力的指標。</p>
-<div style="font-size: 30px;background-color:#FFC019;">$ 營業利益率＝ \frac{營業收入－ 銷貨成本－ 營業費用}{營業收入} $ </div>
-
-<h1 id="名詞解釋-技術面分析🔖"><a href="#名詞解釋-技術面分析🔖" class="headerlink" title="名詞解釋_技術面分析🔖"></a>名詞解釋_技術面分析<a href="/posts/3159720911/#技術面分析">🔖</a></h1><p>觀察<code>「線圖上的信號」</code>來調整<code>「預期」</code>，這就是<code>「技術面分析」</code></p>
-<h2 id="KD值"><a href="#KD值" class="headerlink" title="KD值"></a>KD值</h2><h3 id="RSV指標"><a href="#RSV指標" class="headerlink" title="RSV指標"></a>RSV指標</h3><p>主要用來分析市場是處於<code>超買</code>還是<code>超賣</code>狀態：<br>RSV高於80%時候市場即為超買狀況，行情即將見頂，應當考慮出倉；<br>RSV低於20%時候，市場為超賣狀況，行情即將見底，此時可以考慮進倉。</p>
-<h3 id="KD值計算"><a href="#KD值計算" class="headerlink" title="KD值計算"></a>KD值計算</h3><blockquote>
-<p>RSV =(收盤價 – n日內最低價)/(n日內最高價 – n日內最低價)×100<br>  K = rsv 的 m 天移動平均值<br>  D = K的m1 天的移動平均值<br>  J = 3K - 2D</p>
-</blockquote>
-<h3 id="KD值的應用"><a href="#KD值的應用" class="headerlink" title="KD值的應用"></a>KD值的應用</h3><blockquote>
-<ol>
-<li>D%&gt;80，市場超買；D%&lt;20，市場超賣。</li>
-<li>J%&gt;100，市場超買；J%&lt;10，市場超賣。</li>
-<li>KD金叉：K%上穿D%，為買進信號。</li>
-<li>KD死叉：K%下破D%，為賣出信號。　</li>
-</ol>
-</blockquote>
-<h2 id="布林通道"><a href="#布林通道" class="headerlink" title="布林通道"></a>布林通道</h2><h1 id="名詞解釋-消息面分析🔖"><a href="#名詞解釋-消息面分析🔖" class="headerlink" title="名詞解釋_消息面分析🔖"></a>名詞解釋_消息面分析<a href="/posts/3159720911/#消息面分析">🔖</a></h1><p>根據公司的<code>「最新消息」</code>來調整<code>「預期」</code>，這叫做<code>「消息面分析」</code></p>
-<h1 id="名詞解釋-籌碼面分析🔖"><a href="#名詞解釋-籌碼面分析🔖" class="headerlink" title="名詞解釋_籌碼面分析🔖"></a>名詞解釋_籌碼面分析<a href="/posts/3159720911/#籌碼面分析">🔖</a></h1><p>觀察那些<code>「擁有大量資金的人怎麼做」</code>，來調整<code>「預期」</code>，這就是<code>「籌碼面分析」</code></p>
-<h1 id="查詢股票資訊"><a href="#查詢股票資訊" class="headerlink" title="查詢股票資訊"></a>查詢股票資訊</h1><h2 id="查詢除權除息日"><a href="#查詢除權除息日" class="headerlink" title="查詢除權除息日"></a>查詢除權除息日</h2><p>除權、除息日大多集中在6月～8月，少部分會延到9月才召開，可以透過以下網站查到即將除權息的股票：<br><span class="exturl" data-url="aHR0cHM6Ly9nb29kaW5mby50dy9TdG9ja0luZm8vU3RvY2tEaXZpZGVuZFNjaGVkdWxlTGlzdC5hc3A/TUFSS0VUX0NBVD0lRTUlODUlQTglRTklODMlQTgmWUVBUj0lRTUlOEQlQjMlRTUlQjAlODclRTklOTklQTQlRTYlQUMlOEElRTYlODElQUYmSU5EVVNUUllfQ0FUPSVFNSU4NSVBOCVFOSU4MyVBOA==">台灣股市資訊網 – 即將除權息股票日程<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>查詢</tag>
-        <tag>選股神器</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>選股神器-快速找到飆股</title>
     <url>/posts/1491145536/</url>
     <content><![CDATA[<h1 id="如何快速找到理想中的股票"><a href="#如何快速找到理想中的股票" class="headerlink" title="如何快速找到理想中的股票"></a>如何快速找到理想中的股票</h1><p>點進來 <a href="/stockmoney/">選股神器</a></p>
@@ -1252,6 +1227,73 @@
       <tags>
         <tag>筆記</tag>
         <tag>股票</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>股票研究所總綱</title>
+    <url>/posts/3701503514/</url>
+    <content><![CDATA[<h1 id="財穀資訊選股網🔖"><a href="#財穀資訊選股網🔖" class="headerlink" title="財穀資訊選股網🔖"></a>財穀資訊選股網<a href="/stockmoney/">🔖</a></h1><p><a href="/stockmoney/">選股神器</a></p>
+<img src="/posts/3701503514/%E8%B2%A1%E7%A9%80%E8%B3%87%E8%A8%8A%E9%81%B8%E8%82%A1%E7%B6%B2.png" class title="財穀資訊選股網">
+
+<a id="more"></a>
+
+<h1 id="新手村"><a href="#新手村" class="headerlink" title="新手村"></a>新手村</h1><h2 id="股票的基本概念🔖"><a href="#股票的基本概念🔖" class="headerlink" title="股票的基本概念🔖"></a>股票的基本概念<a href="/posts/2278927718/">🔖</a></h2><p>   到底，「股票」是什麼呢？<br>   為什麼「股票」會漲漲跌跌呢？<br>   股票的價格，牽涉到大家的<code>「預期心理」</code>，<br>   不同<code>面向</code>將導致不同的<code>買賣決策</code></p>
+<h2 id="股票怎麼買🔖"><a href="#股票怎麼買🔖" class="headerlink" title="股票怎麼買🔖"></a>股票怎麼買<a href="/posts/3259796151/">🔖</a></h2><p>   帶你了解「如何開戶」、「股票交易流程」、「交易時間」、「交易單位」、「交易價格」</p>
+<h2 id="獲利方式"><a href="#獲利方式" class="headerlink" title="獲利方式"></a>獲利方式</h2><h3 id="價差"><a href="#價差" class="headerlink" title="價差:"></a>價差:</h3><p>  要獲利就是「買低賣高」。<br>  若不小心「買高賣低」了，就下次投資時，再謹慎選擇股票與進出場的時間點。<br>  <div style="font-size: 30px;background-color:#FFC019;">$價差 = 賣出價格 - 買進價格$</div></p>
+<h3 id="股利-amp-股息🔖"><a href="#股利-amp-股息🔖" class="headerlink" title="股利&amp;股息🔖"></a>股利&amp;股息<a href="/posts/3702625446/">🔖</a></h3><p>  公司分配盈餘的<code>股利</code>和<code>股息</code><br>  <code>「現金股利」</code>，也就是我們常稱的<code>「股息」</code>；<br>  <code>「股票股利」</code>，也就是我們常稱的<code>「股利」</code>。</p>
+<h1 id="理財達人秀-型態神一波"><a href="#理財達人秀-型態神一波" class="headerlink" title="理財達人秀-型態神一波"></a>理財達人秀-型態神一波</h1><ul>
+<li><a href="/posts/452443508/">【型態神一波】第1集！｜破底翻抓到飆100%好股？兩加碼點進場勝率70%</a></li>
+<li><a href="/posts/452443508/">【型態神一波】第2集！｜拆穿假突破抓轉折！2條線掌握空方起跌點！順勢放空賺55%快錢</a></li>
+</ul>
+<h1 id="下班經濟學教你股票心法"><a href="#下班經濟學教你股票心法" class="headerlink" title="下班經濟學教你股票心法"></a>下班經濟學教你股票心法</h1><ul>
+<li><a href="/posts/3492910549/">40歲靠存股提早退休 5招心法教你不看盤投資術 ft.股魚(股票-下班經濟學#45)</a></li>
+<li><a href="/posts/3613151692/">三招挖飆股勝率超過六成 別再傻傻存牛皮股！ft.孫慶龍(股票-下班經濟學#41)</a></li>
+</ul>
+<h1 id="5G"><a href="#5G" class="headerlink" title="5G"></a>5G</h1><p>台積電、聯發科</p>
+<h1 id="AI人工智慧"><a href="#AI人工智慧" class="headerlink" title="AI人工智慧"></a>AI人工智慧</h1><p>晶圓代工：台積電 2330<br>客製化AI設計：創意3443、智原3035<br>自有產品AI設計：聯發科2454<br>高速傳輸IC：譜瑞-KY 4966<br>電聲元件：美律2439</p>
+<h1 id="散熱概念"><a href="#散熱概念" class="headerlink" title="散熱概念"></a>散熱概念</h1><p>伺服器：建準2421<br>基地台＆石墨散熱：奇鋐3017<br>電動車IGBT散熱：健策3653<br>5G手機銅導管：超眾6230、泰碩3338</p>
+<h1 id="名詞解釋"><a href="#名詞解釋" class="headerlink" title="名詞解釋"></a>名詞解釋</h1><h2 id="股票🔖"><a href="#股票🔖" class="headerlink" title="股票🔖"></a>股票<a href="/posts/2278927718/">🔖</a></h2><p>我國公司法對股票的定義是：「<code>股票</code>是為了<code>籌集資本</code>所發行的<code>一定數量</code>和<code>一定面額</code>或<code>股份</code>的證書，交由出資人收執，作為對公司投資的憑證」。聽不懂嗎，<a href="/posts/2278927718/#「股票」">點此進一步了解🔖</a>。</p>
+<h1 id="名詞解釋-基本面分析🔖"><a href="#名詞解釋-基本面分析🔖" class="headerlink" title="名詞解釋_基本面分析🔖"></a>名詞解釋_基本面分析<a href="/posts/3159720911/#基本面分析">🔖</a></h1><p>根據公司的<code>「營運狀況」</code>來調整<code>「預期」</code>，就是<code>「基本面分析」</code></p>
+<h2 id="現金股利🔖"><a href="#現金股利🔖" class="headerlink" title="現金股利🔖"></a>現金股利<a href="/posts/3702625446/#現金股利">🔖</a></h2><p><code>「現金股利」</code>是指股份公司向股東<code>支付現金</code>，又稱<code>「股息」</code>或<code>「配息」</code>。<br><code>現金股利</code>給予股東即時的資本回報。</p>
+<h2 id="股票股利🔖"><a href="#股票股利🔖" class="headerlink" title="股票股利🔖"></a>股票股利<a href="/posts/3702625446/#股票股利">🔖</a></h2><p><code>「股票股利」</code>或<code>「以股代息」</code>是指股份公司向股東以<code>贈送新的股份</code>方式代替支付現金股利，又稱<code>「股利」</code>或<code>「配股」</code>。</p>
+<h2 id="除權🔖"><a href="#除權🔖" class="headerlink" title="除權🔖"></a>除權<a href="/posts/648110682/#除權">🔖</a></h2><p>「除權」就是配發「股票股利」，股價會隨之降低，總市值不變，<br>如果<strong>股本膨脹1倍，股價就減少1倍</strong></p>
+<h2 id="除息🔖"><a href="#除息🔖" class="headerlink" title="除息🔖"></a>除息<a href="/posts/648110682/#除息">🔖</a></h2><p>「除息」就是配發「現金股利」，股價市值會隨之扣除，<br>換句話說，<strong>配發1元的現金股利，股價就減少1元，</strong></p>
+<h2 id="除息後股價🔖"><a href="#除息後股價🔖" class="headerlink" title="除息後股價🔖"></a>除息後股價<a href="/posts/648110682/#除息後股價">🔖</a></h2><p>$「除息後股價」=「除息前一日收盤價」-「現金股利」$</p>
+<h2 id="填息🔖"><a href="#填息🔖" class="headerlink" title="填息🔖"></a>填息<a href="/posts/648110682/#填息">🔖</a></h2><p>除息後，<code>除息前一日的收盤價</code>與<code>除息後的價位</code>之間有個<code>除息價差</code>缺口，如果股價能<code>回升</code>並<code>超過</code>除息前一天的收盤價，稱之為<code>「填息」</code>。</p>
+<h2 id="貼息🔖"><a href="#貼息🔖" class="headerlink" title="貼息🔖"></a>貼息<a href="/posts/648110682/#貼息">🔖</a></h2><p>如果股價除息後，沒有回補除息差價缺口，<code>反而下跌</code>，使參與除息的投資人蒙受損失，則稱為<code>「貼息」</code>。</p>
+<h2 id="ROE"><a href="#ROE" class="headerlink" title="ROE"></a>ROE</h2><p>用途：<code>看公司錢滾錢的能力</code></p>
+<div style="font-size: 30px;background-color:#FFC019;">$ 股東權益報酬率ROE= \frac{稅後淨利}{股東權益} $ </div>
+<div style="font-size: 30px;background-color:#FFC019;">$ 股東權益(又稱淨資產)=資產總額-負債總額 $</div>
+
+<h2 id="營業利益率"><a href="#營業利益率" class="headerlink" title="營業利益率"></a>營業利益率</h2><p>營業利益率與毛利率的差別在於毛利率只考慮直接因為生產產品所需要的成本，而營業利益則是考慮了在取得收入的過程中所耗用的一切成本。<br>用途：營業利益率為反映一家公司本業獲利能力的指標。</p>
+<div style="font-size: 30px;background-color:#FFC019;">$ 營業利益率＝ \frac{營業收入－ 銷貨成本－ 營業費用}{營業收入} $ </div>
+
+<h1 id="名詞解釋-技術面分析🔖"><a href="#名詞解釋-技術面分析🔖" class="headerlink" title="名詞解釋_技術面分析🔖"></a>名詞解釋_技術面分析<a href="/posts/3159720911/#技術面分析">🔖</a></h1><p>觀察<code>「線圖上的信號」</code>來調整<code>「預期」</code>，這就是<code>「技術面分析」</code></p>
+<h2 id="KD值"><a href="#KD值" class="headerlink" title="KD值"></a>KD值</h2><h3 id="RSV指標"><a href="#RSV指標" class="headerlink" title="RSV指標"></a>RSV指標</h3><p>主要用來分析市場是處於<code>超買</code>還是<code>超賣</code>狀態：<br>RSV高於80%時候市場即為超買狀況，行情即將見頂，應當考慮出倉；<br>RSV低於20%時候，市場為超賣狀況，行情即將見底，此時可以考慮進倉。</p>
+<h3 id="KD值計算"><a href="#KD值計算" class="headerlink" title="KD值計算"></a>KD值計算</h3><blockquote>
+<p>RSV =(收盤價 – n日內最低價)/(n日內最高價 – n日內最低價)×100<br>  K = rsv 的 m 天移動平均值<br>  D = K的m1 天的移動平均值<br>  J = 3K - 2D</p>
+</blockquote>
+<h3 id="KD值的應用"><a href="#KD值的應用" class="headerlink" title="KD值的應用"></a>KD值的應用</h3><blockquote>
+<ol>
+<li>D%&gt;80，市場超買；D%&lt;20，市場超賣。</li>
+<li>J%&gt;100，市場超買；J%&lt;10，市場超賣。</li>
+<li>KD金叉：K%上穿D%，為買進信號。</li>
+<li>KD死叉：K%下破D%，為賣出信號。　</li>
+</ol>
+</blockquote>
+<h2 id="布林通道"><a href="#布林通道" class="headerlink" title="布林通道"></a>布林通道</h2><h1 id="名詞解釋-消息面分析🔖"><a href="#名詞解釋-消息面分析🔖" class="headerlink" title="名詞解釋_消息面分析🔖"></a>名詞解釋_消息面分析<a href="/posts/3159720911/#消息面分析">🔖</a></h1><p>根據公司的<code>「最新消息」</code>來調整<code>「預期」</code>，這叫做<code>「消息面分析」</code></p>
+<h1 id="名詞解釋-籌碼面分析🔖"><a href="#名詞解釋-籌碼面分析🔖" class="headerlink" title="名詞解釋_籌碼面分析🔖"></a>名詞解釋_籌碼面分析<a href="/posts/3159720911/#籌碼面分析">🔖</a></h1><p>觀察那些<code>「擁有大量資金的人怎麼做」</code>，來調整<code>「預期」</code>，這就是<code>「籌碼面分析」</code></p>
+<h1 id="查詢股票資訊"><a href="#查詢股票資訊" class="headerlink" title="查詢股票資訊"></a>查詢股票資訊</h1><h2 id="查詢除權除息日"><a href="#查詢除權除息日" class="headerlink" title="查詢除權除息日"></a>查詢除權除息日</h2><p>除權、除息日大多集中在6月～8月，少部分會延到9月才召開，可以透過以下網站查到即將除權息的股票：<br><span class="exturl" data-url="aHR0cHM6Ly9nb29kaW5mby50dy9TdG9ja0luZm8vU3RvY2tEaXZpZGVuZFNjaGVkdWxlTGlzdC5hc3A/TUFSS0VUX0NBVD0lRTUlODUlQTglRTklODMlQTgmWUVBUj0lRTUlOEQlQjMlRTUlQjAlODclRTklOTklQTQlRTYlQUMlOEElRTYlODElQUYmSU5EVVNUUllfQ0FUPSVFNSU4NSVBOCVFOSU4MyVBOA==">台灣股市資訊網 – 即將除權息股票日程<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>查詢</tag>
+        <tag>選股神器</tag>
       </tags>
   </entry>
   <entry>
