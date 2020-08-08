@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "671aa2828276b771fa4bb12f4c6f2b3f",
+    "revision": "193c16ea28255e30d2b6adb5915ed390",
     "url": "/stockmoney/index.html"
   },
   {
@@ -224,8 +224,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/robots.txt"
   },
   {
-    "revision": "6ff7a3e7fba6ef1e1a99",
-    "url": "/stockmoney/static/css/app.1e3094e2.css"
+    "revision": "fe0a530fcf091281054d",
+    "url": "/stockmoney/static/css/app.66f04c21.css"
   },
   {
     "revision": "f4fa3c0d80c9ea8e2340",
@@ -240,8 +240,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/static/js/about.3644c617.js"
   },
   {
-    "revision": "6ff7a3e7fba6ef1e1a99",
-    "url": "/stockmoney/static/js/app.286be625.js"
+    "revision": "fe0a530fcf091281054d",
+    "url": "/stockmoney/static/js/app.e1e9f1d0.js"
   },
   {
     "revision": "f4fa3c0d80c9ea8e2340",
