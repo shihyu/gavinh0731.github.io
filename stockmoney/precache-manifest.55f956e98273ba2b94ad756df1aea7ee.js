@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0f610d4c910d21d60b196be8f400838",
+    "revision": "671aa2828276b771fa4bb12f4c6f2b3f",
     "url": "/stockmoney/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/json/basic_4season.json"
   },
   {
-    "revision": "f293442e733508f720e676c669904c4c",
+    "revision": "7b192e5d553d5006842b3df332653ab4",
     "url": "/stockmoney/json/basic_4season_cols.json"
   },
   {
@@ -152,11 +152,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/json/export_stockfish_cols.json"
   },
   {
-    "revision": "8adaabbedc27e2e8d0e1440d9476b8d4",
+    "revision": "72da0ed0524fd2491875616c98459617",
     "url": "/stockmoney/json/export_triplerate.json"
   },
   {
-    "revision": "29adf3b4966ba1812b8c321b485f7dad",
+    "revision": "68e8a2c7d7023111dbfaa2845e1d520d",
     "url": "/stockmoney/json/export_triplerate_cols.json"
   },
   {
@@ -224,8 +224,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/robots.txt"
   },
   {
-    "revision": "c61dbec10fbcc2a435d5",
-    "url": "/stockmoney/static/css/app.dcc28023.css"
+    "revision": "6ff7a3e7fba6ef1e1a99",
+    "url": "/stockmoney/static/css/app.1e3094e2.css"
   },
   {
     "revision": "f4fa3c0d80c9ea8e2340",
@@ -240,8 +240,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/static/js/about.3644c617.js"
   },
   {
-    "revision": "c61dbec10fbcc2a435d5",
-    "url": "/stockmoney/static/js/app.74ca3800.js"
+    "revision": "6ff7a3e7fba6ef1e1a99",
+    "url": "/stockmoney/static/js/app.286be625.js"
   },
   {
     "revision": "f4fa3c0d80c9ea8e2340",
