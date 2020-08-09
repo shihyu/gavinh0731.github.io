@@ -25,6 +25,7 @@
     {"label": "淨利連漲", "name": "e_tpr.netCount", "sort": true},
     {"label": "財報評分", "name": "b_4season.score", "sort": true},
     {"label": "成長欄位數", "name": "b_4season.good", "sort": true},
+    {"label":"便宜度","name":"e_fish.cheap","sort":true},
     {
       "label": "成交",
       "name": "b_info.price",

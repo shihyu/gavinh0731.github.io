@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "193c16ea28255e30d2b6adb5915ed390",
+    "revision": "cd9d72bdd793c419746494651dff7d50",
     "url": "/stockmoney/index.html"
   },
   {
@@ -144,11 +144,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/json/dividend_yield_cols.json"
   },
   {
-    "revision": "926b7af97757e1bd7a543f094b0ef825",
+    "revision": "7b3c837a3b706551d68bd7b56cce6349",
     "url": "/stockmoney/json/export_stockfish.json"
   },
   {
-    "revision": "32d2f00543f9b8e77d2b42c3d7515244",
+    "revision": "9eea6075f0a86eff3efcec4900aeba29",
     "url": "/stockmoney/json/export_stockfish_cols.json"
   },
   {
@@ -156,7 +156,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/json/export_triplerate.json"
   },
   {
-    "revision": "68e8a2c7d7023111dbfaa2845e1d520d",
+    "revision": "39b8f7ff968f53648f9f82c6d04b4e1f",
     "url": "/stockmoney/json/export_triplerate_cols.json"
   },
   {
@@ -224,8 +224,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/robots.txt"
   },
   {
-    "revision": "fe0a530fcf091281054d",
-    "url": "/stockmoney/static/css/app.66f04c21.css"
+    "revision": "7b961f7c84c55d107106",
+    "url": "/stockmoney/static/css/app.0de511ff.css"
   },
   {
     "revision": "f4fa3c0d80c9ea8e2340",
@@ -240,8 +240,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/static/js/about.3644c617.js"
   },
   {
-    "revision": "fe0a530fcf091281054d",
-    "url": "/stockmoney/static/js/app.e1e9f1d0.js"
+    "revision": "7b961f7c84c55d107106",
+    "url": "/stockmoney/static/js/app.210139cf.js"
   },
   {
     "revision": "f4fa3c0d80c9ea8e2340",
