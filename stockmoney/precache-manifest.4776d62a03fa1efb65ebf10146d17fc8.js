@@ -356,7 +356,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/json_otc/dividend_yield_cols.json"
   },
   {
-    "revision": "d417b79c22643e950726b8ab75edb3c7",
+    "revision": "4e459d4aabe9048efc5541dff911cb16",
     "url": "/stockmoney/json_otc/export_stockfish.json"
   },
   {
@@ -364,7 +364,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/json_otc/export_stockfish_cols.json"
   },
   {
-    "revision": "722b7293c8c13712a681d87be35589d5",
+    "revision": "896ce9ac3e7cb2172d7a23b2f1796f79",
     "url": "/stockmoney/json_otc/export_triplerate.json"
   },
   {
@@ -372,7 +372,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/json_otc/export_triplerate_cols.json"
   },
   {
-    "revision": "b6d64812a62c59251030246dc2e08b31",
+    "revision": "f1e40a5440d24b86201e1fd92854a861",
     "url": "/stockmoney/json_otc/export_water.json"
   },
   {
