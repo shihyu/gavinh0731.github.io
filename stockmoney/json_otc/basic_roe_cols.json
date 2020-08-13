@@ -1,0 +1,102 @@
+[
+    {
+      "label": "代號",
+      "name": "b_info.code",
+      "filter": {
+        "type": "select",
+        "mode": "multi",
+        "closeDropdownOnSelection": false,
+        "placeholder": "輸入",
+        "options": [],
+        "init": {
+          "value": []
+        }
+      },
+      "sort": true
+    },
+    {
+      "label": "名稱",
+      "name": "b_info.name",
+      "sort": true
+    },
+    {
+      "label": "成交",
+      "name": "b_info.price",
+      "sort": true
+    },
+    {
+      "label": "漲跌價",
+      "name": "b_info.change",
+      "sort": true
+    },
+    {
+      "label": "漲跌幅",
+      "name": "b_info.percentage",
+      "sort": true
+    },
+    {
+      "label": "平均ROE(%)",
+      "name": "b_roe.roe",
+      "sort": true
+    },
+    {
+      "label": "17Q2ROE(%)",
+      "name": "b_roe.roe1",
+      "sort": true
+    },
+    {
+      "label": "17Q3ROE(%)",
+      "name": "b_roe.roe2",
+      "sort": true
+    },
+    {
+      "label": "17Q4ROE(%)",
+      "name": "b_roe.roe3",
+      "sort": true
+    },
+    {
+      "label": "18Q1ROE(%)",
+      "name": "b_roe.roe4",
+      "sort": true
+    },
+    {
+      "label": "18Q2ROE(%)",
+      "name": "b_roe.roe5",
+      "sort": true
+    },
+    {
+      "label": "18Q3ROE(%)",
+      "name": "b_roe.roe6",
+      "sort": true
+    },
+    {
+      "label": "18Q4ROE(%)",
+      "name": "b_roe.roe7",
+      "sort": true
+    },
+    {
+      "label": "19Q1ROE(%)",
+      "name": "b_roe.roe8",
+      "sort": true
+    },
+    {
+      "label": "19Q2ROE(%)",
+      "name": "b_roe.roe9",
+      "sort": true
+    },
+    {
+      "label": "19Q3ROE(%)",
+      "name": "b_roe.roe10",
+      "sort": true
+    },
+    {
+      "label": "19Q4ROE(%)",
+      "name": "b_roe.roe11",
+      "sort": true
+    },
+    {
+      "label": "20Q1ROE(%)",
+      "name": "b_roe.roe12",
+      "sort": true
+    }
+  ]

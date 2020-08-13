@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/stockmoney/precache-manifest.acf65bb45d77e3a9620b1d7906c7f4e0.js"
+  "/stockmoney/precache-manifest.3a090258a7fa065a499f6782115a9b51.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "stockmoney_vue"});

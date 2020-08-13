@@ -1,0 +1,102 @@
+[
+    {
+      "label": "代號",
+      "name": "b_info.code",
+      "filter": {
+        "type": "select",
+        "mode": "multi",
+        "closeDropdownOnSelection": false,
+        "placeholder": "輸入",
+        "options": [],
+        "init": {
+          "value": []
+        }
+      },
+      "sort": true
+    },
+    {
+      "label": "名稱",
+      "name": "b_info.name",
+      "sort": true
+    },
+    {
+      "label": "成交",
+      "name": "b_info.price",
+      "sort": true
+    },
+    {
+      "label": "漲跌價",
+      "name": "b_info.change",
+      "sort": true
+    },
+    {
+      "label": "漲跌幅",
+      "name": "b_info.percentage",
+      "sort": true
+    },
+    {
+      "label": "平均營益(%)",
+      "name": "b_opm.opm",
+      "sort": true
+    },
+    {
+      "label": "17Q2營益(%)",
+      "name": "b_opm.opm1",
+      "sort": true
+    },
+    {
+      "label": "17Q3營益(%)",
+      "name": "b_opm.opm2",
+      "sort": true
+    },
+    {
+      "label": "17Q4營益(%)",
+      "name": "b_opm.opm3",
+      "sort": true
+    },
+    {
+      "label": "18Q1營益(%)",
+      "name": "b_opm.opm4",
+      "sort": true
+    },
+    {
+      "label": "18Q2營益(%)",
+      "name": "b_opm.opm5",
+      "sort": true
+    },
+    {
+      "label": "18Q3營益(%)",
+      "name": "b_opm.opm6",
+      "sort": true
+    },
+    {
+      "label": "18Q4營益(%)",
+      "name": "b_opm.opm7",
+      "sort": true
+    },
+    {
+      "label": "19Q1營益(%)",
+      "name": "b_opm.opm8",
+      "sort": true
+    },
+    {
+      "label": "19Q2營益(%)",
+      "name": "b_opm.opm9",
+      "sort": true
+    },
+    {
+      "label": "19Q3營益(%)",
+      "name": "b_opm.opm10",
+      "sort": true
+    },
+    {
+      "label": "19Q4營益(%)",
+      "name": "b_opm.opm11",
+      "sort": true
+    },
+    {
+      "label": "20Q1營益(%)",
+      "name": "b_opm.opm12",
+      "sort": true
+    }
+  ]

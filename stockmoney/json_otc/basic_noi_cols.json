@@ -1,0 +1,102 @@
+[
+    {
+      "label": "代號",
+      "name": "b_info.code",
+      "filter": {
+        "type": "select",
+        "mode": "multi",
+        "closeDropdownOnSelection": false,
+        "placeholder": "輸入",
+        "options": [],
+        "init": {
+          "value": []
+        }
+      },
+      "sort": true
+    },
+    {
+      "label": "名稱",
+      "name": "b_info.name",
+      "sort": true
+    },
+    {
+      "label": "成交",
+      "name": "b_info.price",
+      "sort": true
+    },
+    {
+      "label": "漲跌價",
+      "name": "b_info.change",
+      "sort": true
+    },
+    {
+      "label": "漲跌幅",
+      "name": "b_info.percentage",
+      "sort": true
+    },
+    {
+      "label": "平均業外損益(億)",
+      "name": "b_noi.noi",
+      "sort": true
+    },
+    {
+      "label": "17Q2業外損益(億)",
+      "name": "b_noi.noi1",
+      "sort": true
+    },
+    {
+      "label": "17Q3業外損益(億)",
+      "name": "b_noi.noi2",
+      "sort": true
+    },
+    {
+      "label": "17Q4業外損益(億)",
+      "name": "b_noi.noi3",
+      "sort": true
+    },
+    {
+      "label": "18Q1業外損益(億)",
+      "name": "b_noi.noi4",
+      "sort": true
+    },
+    {
+      "label": "18Q2業外損益(億)",
+      "name": "b_noi.noi5",
+      "sort": true
+    },
+    {
+      "label": "18Q3業外損益(億)",
+      "name": "b_noi.noi6",
+      "sort": true
+    },
+    {
+      "label": "18Q4業外損益(億)",
+      "name": "b_noi.noi7",
+      "sort": true
+    },
+    {
+      "label": "19Q1業外損益(億)",
+      "name": "b_noi.noi8",
+      "sort": true
+    },
+    {
+      "label": "19Q2業外損益(億)",
+      "name": "b_noi.noi9",
+      "sort": true
+    },
+    {
+      "label": "19Q3業外損益(億)",
+      "name": "b_noi.noi10",
+      "sort": true
+    },
+    {
+      "label": "19Q4業外損益(億)",
+      "name": "b_noi.noi11",
+      "sort": true
+    },
+    {
+      "label": "20Q1業外損益(億)",
+      "name": "b_noi.noi12",
+      "sort": true
+    }
+  ]
