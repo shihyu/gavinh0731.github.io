@@ -147,7 +147,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>時間軸<span class="badge">33</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>時間軸<span class="badge">34</span></a>
 
   </li>
         <li class="menu-item menu-item-sitemap">
@@ -206,6 +206,118 @@
 
           <div class="content index posts-expand">
             
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://gavinh0731.github.io/posts/1015261791/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+      <meta itemprop="name" content="Gavin">
+      <meta itemprop="description" content="然不能取者,<br>城高池深,兵器備具,<br>財穀多積,豪士一謀者也。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="財穀資訊網">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/posts/1015261791/" class="post-title-link" itemprop="url">[教學]-NexT使用-入門</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2020-06-19 20:10:27" itemprop="dateCreated datePublished" datetime="2020-06-19T20:10:27+08:00">2020-06-19</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-06-23 22:24:33" itemprop="dateModified" datetime="2020-06-23T22:24:33+08:00">2020-06-23</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/teach/" itemprop="url" rel="index"><span itemprop="name">教學</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/teach/next/" itemprop="url" rel="index"><span itemprop="name">NexT</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="文章字數">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">文章字數：</span>
+              <span>5.3k</span>
+            </span>
+            <span class="post-meta-item" title="所需閱讀時間">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">所需閱讀時間 &asymp;</span>
+              <span>10 分鐘</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><a href="https://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a>是一個快速而強大的靜態博客生成框架，它基於<a href="https://nodejs.org/" target="_blank" rel="external nofollow noopener noreferrer">Node.js</a>。 通過使用Hexo，您可以使用Markdown輕鬆編寫文章，除了Markdown的語法外，您還可以使用Hexo提供的<a href="https://hexo.io/docs/tag-plugins" target="_blank" rel="external nofollow noopener noreferrer">標籤插件</a>來簡單插入特殊格式的內容。 在此頁面中，我們假設您已經安裝了Hexo並使用它創建了一個站點。</p>
+<blockquote>
+<p>您可以訪問<a href="https://hexo.io/docs/" target="_blank" rel="external nofollow noopener noreferrer">Hexo Docs</a>以了解如何安裝Hexo。 確保環境中的Node.js和Hexo版本高於NexT主題的<a href="https://github.com/next-theme/hexo-theme-next#readme" target="_blank" rel="external nofollow noopener noreferrer">最低要求</a>，然後繼續以下步驟。</p>
+</blockquote>
+<h1 id="檔案變數"><a href="#檔案變數" class="headerlink" title="檔案變數"></a>檔案變數</h1><h2 id="config-yml"><a href="#config-yml" class="headerlink" title="_config.yml"></a><code>_config.yml</code></h2><p>Hexo使用了兩個主要的配置文件，它們都稱為<code>_config.yml</code>：</p>
+<ul>
+<li><code>站點配置文件</code>位於<code>站點根目錄</code>下，其中包含Hexo的配置。</li>
+<li><code>主題配置文件</code>位於<code>主題根目錄</code>下，該目錄由NexT提供，並包含主題的配置。</li>
+</ul>
+<h2 id="可用的設置"><a href="#可用的設置" class="headerlink" title="可用的設置"></a>可用的設置</h2><p>所有可用的設置都將在代碼塊內部（帶有單個反引號或<code>&lt;code&gt;</code>標記）。</p>
+<h2 id="默認設置"><a href="#默認設置" class="headerlink" title="默認設置"></a>默認設置</h2><p>並且所有默認設置在代碼塊內都將以粗體顯示（帶有單個反引號或<code>&lt;code&gt;</code>和<code>**</code>或<code>&lt;strong&gt;</code>標記）。</p>
+<h1 id="NexT安裝"><a href="#NexT安裝" class="headerlink" title="NexT安裝"></a>NexT安裝</h1><p>安裝Hexo主題很容易：您可以下載NexT主題，將主題文件夾複製到站點根目錄下的themes目錄中，然後在站點配置文件中指定主題根目錄。 具體步驟如下：</p>
+<h1 id="下載NexT"><a href="#下載NexT" class="headerlink" title="下載NexT"></a>下載NexT</h1><p>如果您了解Git，則可以克隆整個存儲庫並隨時使用git pull命令對其進行更新，而無需手動下載存檔。<br>打開終端，切換到Hexo網站根目錄，並克隆NexT主題的最新主分支：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> hexo</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/next-theme/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/posts/1015261791/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
       
   
   
@@ -618,7 +730,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">33</span>
+          <span class="site-state-item-count">34</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
@@ -700,12 +812,12 @@ translateInitilization();
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="總字數">36k</span>
+    <span title="總字數">37k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="所需總閱讀時間">1:05</span>
+    <span title="所需總閱讀時間">1:06</span>
 </div>
   <div class="powered-by">由 <span class="exturl theme-link" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <span class="exturl theme-link" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZw==">NexT.Gemini</span> 強力驅動
   </div>

@@ -38,7 +38,7 @@
     },
     {
       "label": "漲跌幅",
-      "name": "b_info.percentage",
+      "name": "b_info.pct",
       "sort": true
     },
     {"label":"成交張數","name":"b_info.volume","sort":true},
