@@ -40,57 +40,57 @@
       "sort": true
     },
     {
-      "label": "當日買賣超張數",
+      "label": "當日買賣超金額",
       "name": "c_stat.today",
       "sort": true
     },
     {
-      "label": "2日買賣超張數",
+      "label": "2日買賣超金額",
       "name": "c_stat.day2",
       "sort": true
     },
     {
-      "label": "3日買賣超張數",
+      "label": "3日買賣超金額",
       "name": "c_stat.day3",
       "sort": true
     },
     {
-      "label": "5日買賣超張數",
+      "label": "5日買賣超金額",
       "name": "c_stat.day5",
       "sort": true
     },
     {
-      "label": "10日買賣超張數",
+      "label": "10日買賣超金額",
       "name": "c_stat.day10",
       "sort": true
     },
     {
-      "label": "一個月買賣超張數",
+      "label": "一個月買賣超金額",
       "name": "c_stat.day30",
       "sort": true
     },
     {
-      "label": "三個月買賣超張數",
+      "label": "三個月買賣超金額",
       "name": "c_stat.day90",
       "sort": true
     },
     {
-      "label": "半年買賣超張數",
+      "label": "半年買賣超金額",
       "name": "c_stat.day180",
       "sort": true
     },
     {
-      "label": "今年買賣超張數",
+      "label": "今年買賣超金額",
       "name": "c_stat.year",
       "sort": true
     },
     {
-      "label": "一年買賣超張數",
+      "label": "一年買賣超金額",
       "name": "c_stat.year1",
       "sort": true
     },
     {
-      "label": "三年買賣超張數",
+      "label": "三年買賣超金額",
       "name": "c_stat.year3",
       "sort": true
     }
