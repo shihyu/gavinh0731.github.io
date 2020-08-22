@@ -20,6 +20,9 @@
   {"label":"殖利率估價","name":"e_fish.yiep","sort":true},
   {"label":"K值估價","name":"e_fish.kp","sort":true},
   {"label":"便宜度","name":"e_fish.cheap","sort":true},
+  {"label": "平均EPS(元)", "name": "e_fish.eps", "sort": true },
+  {"label": "EPS成長(%)", "name": "e_fish.epsr", "sort": true },
+  {"label": "本益比", "name": "e_fish.per", "sort": true },
   {
     "label": "成交",
     "name": "b_info.price",
@@ -65,16 +68,6 @@
   {
     "label": "營益率(>0%)",
     "name": "e_fish.opm",
-    "sort": true
-  },
-  {
-    "label": "平均EPS(元)",
-    "name": "e_fish.eps",
-    "sort": true
-  },
-  {
-    "label": "本益比",
-    "name": "e_fish.per",
     "sort": true
   },
   {
