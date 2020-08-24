@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c1b0a111899c0d3730eb8cd0872dab11",
+    "revision": "a5a9532be2a1f1dcd01cbec997ff7a3a",
     "url": "/stockmoney/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/json/.dummy"
   },
   {
-    "revision": "666316e99febf84f8d5bb1e97123502c",
+    "revision": "9e41fb7933219cd9f18664d32a2aeb39",
     "url": "/stockmoney/json/basic_4season.json"
   },
   {
@@ -200,7 +200,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/json/export_director_cols.json"
   },
   {
-    "revision": "6d755d20a716bff65602fd57e9c55ac6",
+    "revision": "5b8cb9342629a3fdd7d41d7d3d9b3094",
+    "url": "/stockmoney/json/export_incomerate.json"
+  },
+  {
+    "revision": "773c56702ff15f04c8703d99f9fa0e79",
+    "url": "/stockmoney/json/export_incomerate_cols.json"
+  },
+  {
+    "revision": "73fc7fefa29b694e937bb38773a000ba",
     "url": "/stockmoney/json/export_stockfish.json"
   },
   {
@@ -208,7 +216,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/json/export_stockfish_cols.json"
   },
   {
-    "revision": "09d73d6773d21d075a53f9e172a9cff8",
+    "revision": "769ed146f11c68f69b88a08af9da3e3d",
     "url": "/stockmoney/json/export_triplerate.json"
   },
   {
@@ -468,7 +476,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/json_otc/export_director_cols.json"
   },
   {
-    "revision": "92cdfcb803fb488bb621b994474658d6",
+    "revision": "f026e8c729e6888cb77dc72d270a3088",
     "url": "/stockmoney/json_otc/export_stockfish.json"
   },
   {
@@ -544,8 +552,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/robots.txt"
   },
   {
-    "revision": "0115cb867a3b5a8e20d6",
-    "url": "/stockmoney/static/css/app.c6243a7a.css"
+    "revision": "53bd0bb0ee128af34d5f",
+    "url": "/stockmoney/static/css/app.e6dde661.css"
   },
   {
     "revision": "00a14ddebf3604813825",
@@ -560,8 +568,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/static/js/about.3644c617.js"
   },
   {
-    "revision": "0115cb867a3b5a8e20d6",
-    "url": "/stockmoney/static/js/app.942a85fb.js"
+    "revision": "53bd0bb0ee128af34d5f",
+    "url": "/stockmoney/static/js/app.2b0d462a.js"
   },
   {
     "revision": "00a14ddebf3604813825",
