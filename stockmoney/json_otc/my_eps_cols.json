@@ -19,53 +19,53 @@
     {
       "sort": true,
       "label": "2015EPS(元)",
-      "name": "y_eps.yeps8"
+      "name": "m_eps.yeps8"
     },
     {
       "sort": true,
       "label": "2016EPS(元)",
-      "name": "y_eps.yeps9"
+      "name": "m_eps.yeps9"
     },
     {
       "sort": true,
       "label": "2017EPS(元)",
-      "name": "y_eps.yeps10"
+      "name": "m_eps.yeps10"
     },
     {
       "sort": true,
       "label": "2018EPS(元)",
-      "name": "y_eps.yeps11"
+      "name": "m_eps.yeps11"
     },
     {
       "sort": true,
       "label": "2019EPS(元)",
-      "name": "y_eps.yeps12"
+      "name": "m_eps.yeps12"
     },
-    {"label": "20Q2EPS(\u5143)", "name": "b_eps.eps12", "sort": true},
+    {"label": "20Q2EPS(\u5143)", "name": "m_eps.yeps13", "sort": true},
     {
       "sort": true,
       "label": "2015ROE(%)",
-      "name": "y_roe.yroe8"
+      "name": "m_eps.yroe8"
     },
     {
       "sort": true,
       "label": "2016ROE(%)",
-      "name": "y_roe.yroe9"
+      "name": "m_eps.yroe9"
     },
     {
       "sort": true,
       "label": "2017ROE(%)",
-      "name": "y_roe.yroe10"
+      "name": "m_eps.yroe10"
     },
     {
       "sort": true,
       "label": "2018ROE(%)",
-      "name": "y_roe.yroe11"
+      "name": "m_eps.yroe11"
     },
     {
       "sort": true,
       "label": "2019ROE(%)",
-      "name": "y_roe.yroe12"
+      "name": "m_eps.yroe12"
     },
-    {"sort": true, "name": "b_roe.roe12", "label": "20Q2ROE(%)"}
+    {"sort": true, "name": "m_eps.yroe13", "label": "20Q2ROE(%)"}
   ]
