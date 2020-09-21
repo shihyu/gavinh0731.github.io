@@ -67,5 +67,6 @@
       "label": "2019ROE(%)",
       "name": "m_eps.yroe12"
     },
-    {"sort": true, "name": "m_eps.yroe13", "label": "20Q2ROE(%)"}
+    {"sort": true, "name": "m_eps.yroe13", "label": "20Q2ROE(%)"},
+    {"label":"成交","name":"b_info.price","sort":true}
   ]
