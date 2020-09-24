@@ -19,21 +19,12 @@
       "name": "b_info.name",
       "sort": true
     },
-    {
-      "label": "成交",
-      "name": "b_info.price",
-      "sort": true
-    },
-    {
-      "label": "漲跌價",
-      "name": "b_info.change",
-      "sort": true
-    },
-    {
-      "label": "漲跌幅",
-      "name": "b_info.pct",
-      "sort": true
-    },
+    {"label": "股本(億)", "name": "b_info.capital", "sort": true},
+    {"label": "成交", "name": "b_info.price", "sort": true},
+    {"label": "漲跌幅", "name": "b_info.pct", "sort": true},
+    {"label":"成交張數","name":"b_info.volume","sort":true},
+    {"label":"成交金額(萬)","name":"e_fish.amount","sort":true},
+    {"label": "週轉率(%)", "name": "e_fish.turnover", "sort": true },
     {
       "label": "法人買賣日期",
       "name": "c_trust.date",
@@ -44,11 +35,8 @@
       "name": "m_chip.phigh6",
       "sort": true
     },
-    {
-      "label": "當日投本比",
-      "name": "m_chip.ttoday",
-      "sort": true
-    },
+    {"label": "當日投本比","name": "m_chip.ttoday","sort": true},
+    {"label": "10日融資增減佔發行量％","name": "m_chip.lday10","sort": true},
     {
       "label": "股價創半年新高",
       "name": "m_chip.phigh240",
@@ -74,7 +62,32 @@
       "sort": true
     },
     {
-      "label": "當天投本比大於1%",
+      "label": "半年內投本紅",
+      "name": "m_chip.tbuy180",
+      "filter": {
+        "type": "select",
+        "mode": "multi",
+        "closeDropdownOnSelection": false,
+        "placeholder": "輸入",
+        "options": [
+          {"name": "0","value": "0"},
+          {"name": "1","value": "1"},
+          {"name": "2","value": "2"},
+          {"name": "3","value": "3"},
+          {"name": "4","value": "4"},
+          {"name": "5","value": "5"},
+          {"name": "6","value": "6"},
+          {"name": "7","value": "7"},
+          {"name": "8","value": "8"}
+        ],
+        "init": {
+          "value": []
+        }
+      },
+      "sort": true
+    },
+    {
+      "label": "當天投本比大於0.X%",
       "name": "m_chip.tod1",
       "filter": {
         "type": "select",
@@ -82,13 +95,39 @@
         "closeDropdownOnSelection": false,
         "placeholder": "輸入",
         "options": [
-          {
-            "name": "0",
-            "value": "0"
-          },
+          {"name": "1","value": "1"},
+          {"name": "2","value": "2"},
+          {"name": "3","value": "3"},
+          {"name": "4","value": "4"},
+          {"name": "5","value": "5"},
+          {"name": "6","value": "6"},
+          {"name": "7","value": "7"},
+          {"name": "8","value": "8"},
+          {"name": "9","value": "9"},
+          {"name": "10","value": "10"}
+        ],
+        "init": {
+          "value": []
+        }
+      },
+      "sort": true
+    },
+    {
+      "label": "10日融資減",
+      "name": "m_chip.loan10",
+      "filter": {
+        "type": "select",
+        "mode": "multi",
+        "closeDropdownOnSelection": false,
+        "placeholder": "輸入",
+        "options": [
           {
               "name": "1",
               "value": "1"
+          },
+          {
+            "name": "0",
+            "value": "0"
           }
         ],
         "init": {
@@ -96,5 +135,5 @@
         }
       },
       "sort": true
-    }
+    }   
   ]
