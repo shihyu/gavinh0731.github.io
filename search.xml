@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/posts/1243066710/</url>
+    <content><![CDATA[<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation<i class="fa fa-external-link-alt"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting<i class="fa fa-external-link-alt"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>.</p>
+<p><img src="/uploads/custom-logo.png" alt="logo"></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+  </entry>
+  <entry>
     <title>[教學]Hexo使用-NexT整合設定</title>
     <url>/posts/3614064843/</url>
     <content><![CDATA[<h1 id="Next-客製功能及樣板編輯筆記"><a href="#Next-客製功能及樣板編輯筆記" class="headerlink" title="Next 客製功能及樣板編輯筆記"></a>Next 客製功能及樣板編輯筆記</h1><h2 id="pjax-安裝"><a href="#pjax-安裝" class="headerlink" title="pjax 安裝"></a>pjax 安裝</h2><p>究竟什麼是 pjax 呢？簡單來說，pjax 實現了 URL 改變但不重新整理整個頁面，也就是只有局部的頁面會更新，不會讓整個頁面重新閃動（重新整理）。那這個功能有什麼特色呢？最重要的就是原本左下角的音樂播放器遇到切換頁面，就會停掉然後重新載入；但使用 pjax 後就能解決這個問題。</p>
@@ -44,25 +63,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/posts/1243066710/</url>
-    <content><![CDATA[<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation<i class="fa fa-external-link-alt"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting<i class="fa fa-external-link-alt"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>.</p>
-<p><img src="/uploads/custom-logo.png" alt="logo"></p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-  </entry>
-  <entry>
     <title>[教學]Hexo使用-寫作說明</title>
     <url>/posts/1389384140/</url>
     <content><![CDATA[<h1 id="寫作"><a href="#寫作" class="headerlink" title="寫作"></a>寫作</h1><p>我們要在網誌中建立第一篇新文章，您可以直接從現有的範例文章「Hello World」改寫，但我們更建議您學習 new 指令。</p>
@@ -100,6 +100,73 @@
       <tags>
         <tag>教學</tag>
         <tag>Hexo</tag>
+        <tag>帖子</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>[教學]-NexT使用-主題設定-帖子</title>
+    <url>/posts/3030220437/</url>
+    <content><![CDATA[<h1 id="帖子設置"><a href="#帖子設置" class="headerlink" title="帖子設置"></a>帖子設置</h1><h2 id="序言文字"><a href="#序言文字" class="headerlink" title="序言文字"></a>序言文字</h2><p>通常需要在主頁上顯示文章的某些部分，然後提供指向完整文章的鏈接。<br>NexT提供了兩種方法來控製文章在首頁中的顯示方式。<br>換句話說，您可以使用以下方式來顯示文章摘要和<code>閱讀全文</code>按鈕。</p>
+<ol>
+<li><p>閱讀全文<br>Hexo建議在文章中使用<code>&lt;!-- more --&gt;</code>手動中斷文章。</p>
+</li>
+<li><p>摘錄說明<br>如果您已在<code>Front-matter</code>中添加了說明並將其值設置為文章摘要，則默認情況下，NexT會將說明摘錄為首頁中的前導文本。 如果沒有描述，則全部內容將為首頁中的前導文本。<br>您可以通過在<code>主題配置文件</code>中將<code>excerpt_description</code>的值設置為false來禁用它。</p>
+<blockquote>
+<p>next/_config.yml</p>
+</blockquote>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">excerpt_description:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+
+</li>
+</ol>
+<h2 id="發布元顯示"><a href="#發布元顯示" class="headerlink" title="發布元顯示"></a>發布元顯示</h2><p>NexT支持帖子創建時間,修改時間,分類顯示。</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post_meta:</span></span><br><span class="line">  <span class="attr">item_text:</span> <span class="literal">false</span>  <span class="comment"># 設為true 可以一行顯示 文章的所有屬性</span></span><br><span class="line">  <span class="attr">created_at:</span> <span class="literal">true</span>  <span class="comment">#顯示創建時間</span></span><br><span class="line">  <span class="attr">updated_at:</span></span><br><span class="line">    <span class="attr">enabled:</span> <span class="literal">true</span>   <span class="comment">#顯示修改的時間</span></span><br><span class="line">    <span class="attr">another_day:</span> <span class="literal">true</span> <span class="comment">#設true時 如果創建時間和修改時間一樣則顯示一個時間</span></span><br><span class="line">  <span class="attr">categories:</span> <span class="literal">true</span>  <span class="comment">#顯示分類信息</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h2 id="hexo中的next增加頁面閱讀統計-字數統計-閱讀時長"><a href="#hexo中的next增加頁面閱讀統計-字數統計-閱讀時長" class="headerlink" title="hexo中的next增加頁面閱讀統計,字數統計,閱讀時長"></a>hexo中的next增加頁面閱讀統計,字數統計,閱讀時長</h2><blockquote>
+<p>下方會顯示 總閱讀人數 閱讀總次數<br>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">busuanzi_count:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span>  <span class="comment">#設true 開啟</span></span><br><span class="line">  <span class="attr">total_visitors:</span> <span class="literal">true</span>  <span class="comment">#總閱讀人數 uv數</span></span><br><span class="line">  <span class="attr">total_visitors_icon:</span> <span class="string">user</span>  <span class="comment">#閱讀總人數的圖標</span></span><br><span class="line">  <span class="attr">total_views:</span> <span class="literal">true</span>  <span class="comment">#總閱讀次數 pv數</span></span><br><span class="line">  <span class="attr">total_views_icon:</span> <span class="string">eye</span>  <span class="comment">#閱讀總次數的圖標</span></span><br><span class="line">  <span class="attr">post_views:</span> <span class="literal">true</span> <span class="comment">#開啟內容閱讀次數</span></span><br><span class="line">  <span class="attr">post_views_icon:</span> <span class="string">eye</span> <span class="comment">#內容頁閱讀數的圖標</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<p>新增字數統計,閱讀時長,先安裝插件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-word-counter --save</span><br></pre></td></tr></table></figure>
+
+<p><code>主題配置</code>信息如下:</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 字數統計及閱讀時長</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">separated_meta:</span> <span class="literal">true</span>  <span class="comment"># 是否"換行顯示"字數統計及閱讀時長</span></span><br><span class="line">  <span class="attr">item_text_post:</span> <span class="literal">true</span>  <span class="comment"># 字數統計和閱讀時長是要使用小圖示(true)還是文字表示(false)</span></span><br><span class="line">  <span class="attr">item_text_total:</span> <span class="literal">false</span>  <span class="comment"># 文章底部的字數統計和閱讀時長是要使用小圖示(true)還是文字表示(false)</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<p><code>站點配置文件</code>:</p>
+<blockquote>
+<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 字數統計及閱讀時長</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">symbols:</span> <span class="literal">true</span> <span class="comment"># 文章是否顯示字數統計</span></span><br><span class="line">  <span class="attr">time:</span> <span class="literal">true</span> <span class="comment"># 文章是否顯示閱讀時間</span></span><br><span class="line">  <span class="attr">total_symbols:</span> <span class="literal">true</span> <span class="comment"># 網頁底部是否顯示字數統計</span></span><br><span class="line">  <span class="attr">total_time:</span> <span class="literal">true</span> <span class="comment"># 網頁底部是否顯示閱讀時間</span></span><br><span class="line">  <span class="attr">exclude_codeblock:</span> <span class="literal">false</span> <span class="comment"># 排除程式碼字數統計</span></span><br><span class="line">  <span class="attr">awl:</span> <span class="number">2</span>  <span class="comment">#平均文字長度，中文為 2, 英文為 5, 預設為 4</span></span><br><span class="line">  <span class="attr">wpm:</span> <span class="number">275</span>  <span class="comment">#一分鐘閱讀字數，預設為 275</span></span><br><span class="line">  <span class="attr">suffix:</span> <span class="string">"分鐘"</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h2 id="標籤圖標"><a href="#標籤圖標" class="headerlink" title="標籤圖標"></a>標籤圖標</h2><p>默認情況下，帖子底部的標籤在左側的左側帶有符號＃。<br>如果您更喜歡圖標而不是符號，請按如下所示編輯主題配置文件：</p>
+<blockquote>
+<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">tag_icon:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h2 id="增加打賞功能"><a href="#增加打賞功能" class="headerlink" title="增加打賞功能"></a>增加打賞功能</h2><p>這個也是next具備了。先把需要的收款碼放到<code>/themes/next/source/images</code>裡面。</p>
+<p>搜索reward_settings修改：</p>
+<blockquote>
+<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">reward_settings:</span></span><br><span class="line">  <span class="comment"># If true, reward will be displayed in every article by default.</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">animation:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#comment: Donate comment here.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">reward:</span></span><br><span class="line">  <span class="attr">wechatpay:</span> <span class="string">/images/wechatpay.png</span></span><br><span class="line">  <span class="attr">alipay:</span> <span class="string">/images/alipay.png</span></span><br><span class="line">  <span class="comment">#bitcoin: /images/bitcoin.png</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h2 id="Follow-me"><a href="#Follow-me" class="headerlink" title="Follow me"></a>Follow me</h2><blockquote>
+<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Subscribe through Telegram Channel, Twitter, etc.</span></span><br><span class="line"><span class="comment"># Usage: `Key: permalink || icon` (Font Awesome)</span></span><br><span class="line"><span class="attr">follow_me:</span></span><br><span class="line">  <span class="comment">#Twitter: https://twitter.com/username || fab fa-twitter</span></span><br><span class="line">  <span class="comment">#Telegram: https://t.me/channel_name || fab fa-telegram</span></span><br><span class="line">  <span class="comment">#WeChat: /images/wechat_channel.jpg || fab fa-weixin</span></span><br><span class="line">  <span class="comment">#RSS: /atom.xml || fa fa-rss</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h2 id="相關文章推薦"><a href="#相關文章推薦" class="headerlink" title="相關文章推薦"></a>相關文章推薦</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
+<p>主題配置信息如下:</p>
+<blockquote>
+<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">title:</span> <span class="string">相關文章推薦</span> <span class="comment"># 屬性的命名</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">false</span> <span class="comment">#false代表首頁不顯示</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span> <span class="comment">#最多5條</span></span><br><span class="line">    <span class="comment">#PPMixingRate: 0.0 #可以看github上 這個相關度介紹</span></span><br><span class="line">    <span class="comment">#isDate: true #是否顯示 日期</span></span><br><span class="line">    <span class="comment">#isImage: false #是否顯示配圖</span></span><br><span class="line">    <span class="attr">isExcerpt:</span> <span class="literal">false</span> <span class="comment">#是否顯示摘要</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h1 id="帖子導航"><a href="#帖子導航" class="headerlink" title="帖子導航"></a>帖子導航</h1><p>如果存在，則在頁腳中顯示上一個帖子和下一個帖子。</p>
+<blockquote>
+<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post_navigation:</span> <span class="string">left</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h1 id="404頁面"><a href="#404頁面" class="headerlink" title="404頁面"></a>404頁面</h1><p>於<code>themes/next/source</code>放置<code>404.html</code>檔案</p>
+]]></content>
+      <categories>
+        <category>教學</category>
+        <category>NexT</category>
+      </categories>
+      <tags>
+        <tag>教學</tag>
+        <tag>NexT</tag>
         <tag>帖子</tag>
       </tags>
   </entry>
@@ -588,6 +655,98 @@
       </tags>
   </entry>
   <entry>
+    <title>理財達人秀-哥有籌必爆(1) 懂3根K棒就夠</title>
+    <url>/posts/3611513837/</url>
+    <content><![CDATA[<p>【哥有籌必爆】第1集！｜懂3根K棒就夠！抓到主力股 小哥教確認起漲點 狂賺175%</p>
+<h1 id="K棒-籌碼的入門磚"><a href="#K棒-籌碼的入門磚" class="headerlink" title="K棒:籌碼的入門磚"></a>K棒:籌碼的入門磚</h1><img src="/posts/3611513837/K%E6%A3%92.png" class title="K棒">
+<blockquote>
+<p>陽線(紅K)=<code>收盤價</code>&gt;開盤價<br>陰線(黑K)=<code>收盤價</code>&lt;開盤價<br>紅K取決於誰積極，積極的通常是主力，<br>所以大多時間出現<code>紅K</code>，表示<code>主力在買</code>，<br>但是，還是有例外，會看到紅K但是<code>主力在倒貨</code>，表示散戶被誘導，最後套牢。</p>
+</blockquote>
+<a id="more"></a>
+<h2 id="K棒的畫法"><a href="#K棒的畫法" class="headerlink" title="K棒的畫法"></a>K棒的畫法</h2><p>由江波圖而來</p>
+<img src="/posts/3611513837/%E6%B1%9F%E6%B3%A2%E5%9C%96.png" class title="江波圖">
+<h2 id="黑K棒不一定下跌"><a href="#黑K棒不一定下跌" class="headerlink" title="黑K棒不一定下跌"></a>黑K棒不一定下跌</h2><img src="/posts/3611513837/%E9%BB%91K%E6%A3%92%E4%B8%8D%E4%B8%80%E5%AE%9A%E4%B8%8B%E8%B7%8C.png" class title="黑K棒不一定下跌">
+<h2 id="紅K棒不一定上漲"><a href="#紅K棒不一定上漲" class="headerlink" title="紅K棒不一定上漲"></a>紅K棒不一定上漲</h2><p>但是今天至少是紅K，表示攻方仍有力道</p>
+<img src="/posts/3611513837/%E7%B4%85K%E6%A3%92%E4%B8%8D%E4%B8%80%E5%AE%9A%E4%B8%8A%E6%BC%B2.png" class title="紅K棒不一定上漲">
+
+<h1 id="最實用的單根K棒"><a href="#最實用的單根K棒" class="headerlink" title="最實用的單根K棒"></a>最實用的單根K棒</h1><img src="/posts/3611513837/%E6%9C%80%E5%AF%A6%E7%94%A8%E7%9A%84%E5%96%AE%E6%A0%B9K%E6%A3%92.png" class title="最實用的單根K棒">
+<h2 id="1-光頭大紅棒-5-以上-—發車訊號"><a href="#1-光頭大紅棒-5-以上-—發車訊號" class="headerlink" title="1.光頭大紅棒(5%以上)—發車訊號"></a>1.光頭大紅棒(5%以上)—發車訊號</h2><p>光頭大紅棒：<code>光頭</code>表示<code>沒上影線</code>、<code>大紅棒</code>表示<code>漲5％以上</code><br>盤整很久的第一跟紅K棒可以跟著追高，表示突破，但是要設定停損點</p>
+<img src="/posts/3611513837/%E6%A9%AB%E7%9B%A4%E7%88%86%E9%87%8F%E5%A4%A7%E7%B4%85K.png" class title="橫盤爆量大紅K">
+<p>很多散戶看到紅K就賣，往往會很可惜沒追到後續的大漲</p>
+<img src="/posts/3611513837/%E6%A9%AB%E7%9B%A4%E7%88%86%E9%87%8F%E5%A4%A7%E7%B4%85K2.png" class title="橫盤爆量大紅K2">
+
+<h2 id="2-跳空一字線—超級強勢"><a href="#2-跳空一字線—超級強勢" class="headerlink" title="2.跳空一字線—超級強勢"></a>2.跳空一字線—超級強勢</h2><img src="/posts/3611513837/%E6%94%B6%E8%B3%BC%E8%B7%B3%E7%A9%BA%E4%B8%80%E5%AD%97%E7%B7%9A.png" class title="收購跳空一字線">
+<p>九點前掛委託買進，開盤之後是<code>亂數</code>取號碼牌，拼人品，<br>很多新聞都會讓股票漲停，何時一定要去搶漲停：</p>
+<h3 id="1-收購新聞（唯一-一個可以去搶漲停的時機）"><a href="#1-收購新聞（唯一-一個可以去搶漲停的時機）" class="headerlink" title="1. 收購新聞（唯一 一個可以去搶漲停的時機）"></a>1. 收購新聞（唯一 一個可以去搶漲停的時機）</h3><p>收購利多才能搶進，3天賺30％狂勝存股，短線。</p>
+<img src="/posts/3611513837/%E6%94%B6%E8%B3%BC%E6%96%B0%E8%81%9E.png" class title="收購新聞">
+<p>如果全買到，則表示有人在倒貨，慘！</p>
+<h2 id="3-高檔吊首線—轉折最好用"><a href="#3-高檔吊首線—轉折最好用" class="headerlink" title="3.高檔吊首線—轉折最好用"></a>3.高檔吊首線—轉折最好用</h2><p>高檔吊首線：表示變盤訊號</p>
+<img src="/posts/3611513837/%E9%AB%98%E6%AA%94%E5%90%8A%E9%A6%96%E7%B7%9A.png" class title="高檔吊首線">
+
+
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1Ta281ejBGejZxYyZsaXN0PVBMVnUwcEl4UTdGLXdLdi1oWGRUdnd5ZE9HUV9SWk91MWMmaW5kZXg9MTgmdD0xNDI3cw==">理財達人秀-哥有籌必爆(1)<i class="fa fa-external-link-alt"></i></span></p>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/Sko5z0Fz6qc" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
+]]></content>
+      <categories>
+        <category>1⃣ 股票</category>
+        <category>技術面分析</category>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+        <category>3⃣ 理財達人秀</category>
+        <category>哥有籌必爆</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>籌碼面</tag>
+        <tag>技術面分析</tag>
+        <tag>權證小哥</tag>
+        <tag>K線</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>理財達人秀-哥有籌必爆(2) 1招100啪預測均線方向</title>
+    <url>/posts/4235067438/</url>
+    <content><![CDATA[<p>【哥有籌必爆】第2集！｜3天跌千點能早知道？1招100%預測均線方向！抓到噴出點賺130% 多空都能作</p>
+<h1 id="扣抵值預言趨勢未來"><a href="#扣抵值預言趨勢未來" class="headerlink" title="扣抵值預言趨勢未來"></a>扣抵值預言趨勢未來</h1><p>搭配主力籌碼乘風破浪</p>
+<img src="/posts/4235067438/%E9%A0%90%E6%B8%AC%E5%9D%87%E7%B7%9A.png" class title="預測均線">
+
+<a id="more"></a>
+<h2 id="扣抵值概念一次搞懂"><a href="#扣抵值概念一次搞懂" class="headerlink" title="扣抵值概念一次搞懂"></a>扣抵值概念一次搞懂</h2><p>壞學生走好學生進來，均線就會漲，勝率提高10％<br>第20天後股價沒過前高，月線就會下彎</p>
+<img src="/posts/4235067438/%E5%9D%87%E7%B7%9A%E8%88%87%E6%89%A3%E6%8A%B5.png" class title="均線與扣抵">
+<img src="/posts/4235067438/%E5%9D%87%E7%B7%9A%E8%88%87%E6%89%A3%E6%8A%B52.png" class title="均線與扣抵2">
+
+<h1 id="主力買賣超"><a href="#主力買賣超" class="headerlink" title="主力買賣超"></a>主力買賣超</h1><img src="/posts/4235067438/%E4%B8%BB%E5%8A%9B%E8%B2%B7%E8%B3%A3%E8%B6%85.png" class title="主力買賣超">
+<img src="/posts/4235067438/%E8%BF%BD%E8%B9%A4%E4%B8%BB%E5%8A%9B%E8%B2%B7%E8%B3%A3%E8%B6%85.png" class title="追蹤主力買賣超">
+<p>最好是主力買，股價還沒漲，跟主力買在同價位</p>
+<img src="/posts/4235067438/%E5%90%83%E9%A3%BD%E5%BE%8C%E4%B8%8A%E6%BC%B2.png" class title="吃飽後上漲">
+
+<h2 id="主力大賣後股價上漲，之後月線下彎，股價崩盤"><a href="#主力大賣後股價上漲，之後月線下彎，股價崩盤" class="headerlink" title="主力大賣後股價上漲，之後月線下彎，股價崩盤"></a>主力大賣後股價上漲，之後月線下彎，股價崩盤</h2><p>高點之後，20天內是給你跑的，因為20天後月線就開始下彎</p>
+<img src="/posts/4235067438/%E8%82%A1%E5%83%B9%E5%B4%A9%E7%9B%A4.png" class title="股價崩盤">
+
+<h2 id="低檔主力大賣，賣不下去，之後主力轉買，股價上漲"><a href="#低檔主力大賣，賣不下去，之後主力轉買，股價上漲" class="headerlink" title="低檔主力大賣，賣不下去，之後主力轉買，股價上漲"></a>低檔主力大賣，賣不下去，之後主力轉買，股價上漲</h2><img src="/posts/4235067438/%E4%B8%BB%E5%8A%9B%E8%BD%89%E8%B2%B7.png" class title="主力轉買">
+
+
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1hSXF6b3IxTTNWZyZsaXN0PVBMVnUwcEl4UTdGLXdLdi1oWGRUdnd5ZE9HUV9SWk91MWMmaW5kZXg9MTU=">理財達人秀-哥有籌必爆(2)<i class="fa fa-external-link-alt"></i></span></p>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/aIqzor1M3Vg" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
+]]></content>
+      <categories>
+        <category>1⃣ 股票</category>
+        <category>技術面分析</category>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+        <category>3⃣ 理財達人秀</category>
+        <category>哥有籌必爆</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>籌碼面</tag>
+        <tag>技術面分析</tag>
+        <tag>權證小哥</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>理財達人秀-哥有籌必爆(3) 布林通道一翹就賺</title>
     <url>/posts/3849662831/</url>
     <content><![CDATA[<p>【哥有籌必爆】第3集！｜選股 = 夾娃娃 布林通道一翹就賺！3爪夠力+低擋板！夾出800%飆股</p>
@@ -649,115 +808,6 @@
       </tags>
   </entry>
   <entry>
-    <title>理財達人秀-哥有籌必爆(2) 1招100啪預測均線方向</title>
-    <url>/posts/4235067438/</url>
-    <content><![CDATA[<p>【哥有籌必爆】第2集！｜3天跌千點能早知道？1招100%預測均線方向！抓到噴出點賺130% 多空都能作</p>
-<h1 id="扣抵值預言趨勢未來"><a href="#扣抵值預言趨勢未來" class="headerlink" title="扣抵值預言趨勢未來"></a>扣抵值預言趨勢未來</h1><p>搭配主力籌碼乘風破浪</p>
-<img src="/posts/4235067438/%E9%A0%90%E6%B8%AC%E5%9D%87%E7%B7%9A.png" class title="預測均線">
-
-<a id="more"></a>
-<h2 id="扣抵值概念一次搞懂"><a href="#扣抵值概念一次搞懂" class="headerlink" title="扣抵值概念一次搞懂"></a>扣抵值概念一次搞懂</h2><p>壞學生走好學生進來，均線就會漲，勝率提高10％<br>第20天後股價沒過前高，月線就會下彎</p>
-<img src="/posts/4235067438/%E5%9D%87%E7%B7%9A%E8%88%87%E6%89%A3%E6%8A%B5.png" class title="均線與扣抵">
-<img src="/posts/4235067438/%E5%9D%87%E7%B7%9A%E8%88%87%E6%89%A3%E6%8A%B52.png" class title="均線與扣抵2">
-
-<h1 id="主力買賣超"><a href="#主力買賣超" class="headerlink" title="主力買賣超"></a>主力買賣超</h1><img src="/posts/4235067438/%E4%B8%BB%E5%8A%9B%E8%B2%B7%E8%B3%A3%E8%B6%85.png" class title="主力買賣超">
-<img src="/posts/4235067438/%E8%BF%BD%E8%B9%A4%E4%B8%BB%E5%8A%9B%E8%B2%B7%E8%B3%A3%E8%B6%85.png" class title="追蹤主力買賣超">
-<p>最好是主力買，股價還沒漲，跟主力買在同價位</p>
-<img src="/posts/4235067438/%E5%90%83%E9%A3%BD%E5%BE%8C%E4%B8%8A%E6%BC%B2.png" class title="吃飽後上漲">
-
-<h2 id="主力大賣後股價上漲，之後月線下彎，股價崩盤"><a href="#主力大賣後股價上漲，之後月線下彎，股價崩盤" class="headerlink" title="主力大賣後股價上漲，之後月線下彎，股價崩盤"></a>主力大賣後股價上漲，之後月線下彎，股價崩盤</h2><p>高點之後，20天內是給你跑的，因為20天後月線就開始下彎</p>
-<img src="/posts/4235067438/%E8%82%A1%E5%83%B9%E5%B4%A9%E7%9B%A4.png" class title="股價崩盤">
-
-<h2 id="低檔主力大賣，賣不下去，之後主力轉買，股價上漲"><a href="#低檔主力大賣，賣不下去，之後主力轉買，股價上漲" class="headerlink" title="低檔主力大賣，賣不下去，之後主力轉買，股價上漲"></a>低檔主力大賣，賣不下去，之後主力轉買，股價上漲</h2><img src="/posts/4235067438/%E4%B8%BB%E5%8A%9B%E8%BD%89%E8%B2%B7.png" class title="主力轉買">
-
-
-<p><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1hSXF6b3IxTTNWZyZsaXN0PVBMVnUwcEl4UTdGLXdLdi1oWGRUdnd5ZE9HUV9SWk91MWMmaW5kZXg9MTU=">理財達人秀-哥有籌必爆(2)<i class="fa fa-external-link-alt"></i></span></p>
-<div class="video-container"><iframe src="https://www.youtube.com/embed/aIqzor1M3Vg" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
-]]></content>
-      <categories>
-        <category>1⃣ 股票</category>
-        <category>技術面分析</category>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-        <category>3⃣ 理財達人秀</category>
-        <category>哥有籌必爆</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>籌碼面</tag>
-        <tag>技術面分析</tag>
-        <tag>權證小哥</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>[教學]-NexT使用-主題設定-帖子</title>
-    <url>/posts/3030220437/</url>
-    <content><![CDATA[<h1 id="帖子設置"><a href="#帖子設置" class="headerlink" title="帖子設置"></a>帖子設置</h1><h2 id="序言文字"><a href="#序言文字" class="headerlink" title="序言文字"></a>序言文字</h2><p>通常需要在主頁上顯示文章的某些部分，然後提供指向完整文章的鏈接。<br>NexT提供了兩種方法來控製文章在首頁中的顯示方式。<br>換句話說，您可以使用以下方式來顯示文章摘要和<code>閱讀全文</code>按鈕。</p>
-<ol>
-<li><p>閱讀全文<br>Hexo建議在文章中使用<code>&lt;!-- more --&gt;</code>手動中斷文章。</p>
-</li>
-<li><p>摘錄說明<br>如果您已在<code>Front-matter</code>中添加了說明並將其值設置為文章摘要，則默認情況下，NexT會將說明摘錄為首頁中的前導文本。 如果沒有描述，則全部內容將為首頁中的前導文本。<br>您可以通過在<code>主題配置文件</code>中將<code>excerpt_description</code>的值設置為false來禁用它。</p>
-<blockquote>
-<p>next/_config.yml</p>
-</blockquote>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">excerpt_description:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-<a id="more"></a>
-
-</li>
-</ol>
-<h2 id="發布元顯示"><a href="#發布元顯示" class="headerlink" title="發布元顯示"></a>發布元顯示</h2><p>NexT支持帖子創建時間,修改時間,分類顯示。</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post_meta:</span></span><br><span class="line">  <span class="attr">item_text:</span> <span class="literal">false</span>  <span class="comment"># 設為true 可以一行顯示 文章的所有屬性</span></span><br><span class="line">  <span class="attr">created_at:</span> <span class="literal">true</span>  <span class="comment">#顯示創建時間</span></span><br><span class="line">  <span class="attr">updated_at:</span></span><br><span class="line">    <span class="attr">enabled:</span> <span class="literal">true</span>   <span class="comment">#顯示修改的時間</span></span><br><span class="line">    <span class="attr">another_day:</span> <span class="literal">true</span> <span class="comment">#設true時 如果創建時間和修改時間一樣則顯示一個時間</span></span><br><span class="line">  <span class="attr">categories:</span> <span class="literal">true</span>  <span class="comment">#顯示分類信息</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h2 id="hexo中的next增加頁面閱讀統計-字數統計-閱讀時長"><a href="#hexo中的next增加頁面閱讀統計-字數統計-閱讀時長" class="headerlink" title="hexo中的next增加頁面閱讀統計,字數統計,閱讀時長"></a>hexo中的next增加頁面閱讀統計,字數統計,閱讀時長</h2><blockquote>
-<p>下方會顯示 總閱讀人數 閱讀總次數<br>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">busuanzi_count:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span>  <span class="comment">#設true 開啟</span></span><br><span class="line">  <span class="attr">total_visitors:</span> <span class="literal">true</span>  <span class="comment">#總閱讀人數 uv數</span></span><br><span class="line">  <span class="attr">total_visitors_icon:</span> <span class="string">user</span>  <span class="comment">#閱讀總人數的圖標</span></span><br><span class="line">  <span class="attr">total_views:</span> <span class="literal">true</span>  <span class="comment">#總閱讀次數 pv數</span></span><br><span class="line">  <span class="attr">total_views_icon:</span> <span class="string">eye</span>  <span class="comment">#閱讀總次數的圖標</span></span><br><span class="line">  <span class="attr">post_views:</span> <span class="literal">true</span> <span class="comment">#開啟內容閱讀次數</span></span><br><span class="line">  <span class="attr">post_views_icon:</span> <span class="string">eye</span> <span class="comment">#內容頁閱讀數的圖標</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<p>新增字數統計,閱讀時長,先安裝插件</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-word-counter --save</span><br></pre></td></tr></table></figure>
-
-<p><code>主題配置</code>信息如下:</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 字數統計及閱讀時長</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">separated_meta:</span> <span class="literal">true</span>  <span class="comment"># 是否"換行顯示"字數統計及閱讀時長</span></span><br><span class="line">  <span class="attr">item_text_post:</span> <span class="literal">true</span>  <span class="comment"># 字數統計和閱讀時長是要使用小圖示(true)還是文字表示(false)</span></span><br><span class="line">  <span class="attr">item_text_total:</span> <span class="literal">false</span>  <span class="comment"># 文章底部的字數統計和閱讀時長是要使用小圖示(true)還是文字表示(false)</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<p><code>站點配置文件</code>:</p>
-<blockquote>
-<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 字數統計及閱讀時長</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">symbols:</span> <span class="literal">true</span> <span class="comment"># 文章是否顯示字數統計</span></span><br><span class="line">  <span class="attr">time:</span> <span class="literal">true</span> <span class="comment"># 文章是否顯示閱讀時間</span></span><br><span class="line">  <span class="attr">total_symbols:</span> <span class="literal">true</span> <span class="comment"># 網頁底部是否顯示字數統計</span></span><br><span class="line">  <span class="attr">total_time:</span> <span class="literal">true</span> <span class="comment"># 網頁底部是否顯示閱讀時間</span></span><br><span class="line">  <span class="attr">exclude_codeblock:</span> <span class="literal">false</span> <span class="comment"># 排除程式碼字數統計</span></span><br><span class="line">  <span class="attr">awl:</span> <span class="number">2</span>  <span class="comment">#平均文字長度，中文為 2, 英文為 5, 預設為 4</span></span><br><span class="line">  <span class="attr">wpm:</span> <span class="number">275</span>  <span class="comment">#一分鐘閱讀字數，預設為 275</span></span><br><span class="line">  <span class="attr">suffix:</span> <span class="string">"分鐘"</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h2 id="標籤圖標"><a href="#標籤圖標" class="headerlink" title="標籤圖標"></a>標籤圖標</h2><p>默認情況下，帖子底部的標籤在左側的左側帶有符號＃。<br>如果您更喜歡圖標而不是符號，請按如下所示編輯主題配置文件：</p>
-<blockquote>
-<p>next/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">tag_icon:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h2 id="增加打賞功能"><a href="#增加打賞功能" class="headerlink" title="增加打賞功能"></a>增加打賞功能</h2><p>這個也是next具備了。先把需要的收款碼放到<code>/themes/next/source/images</code>裡面。</p>
-<p>搜索reward_settings修改：</p>
-<blockquote>
-<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">reward_settings:</span></span><br><span class="line">  <span class="comment"># If true, reward will be displayed in every article by default.</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">animation:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment">#comment: Donate comment here.</span></span><br><span class="line"></span><br><span class="line"><span class="attr">reward:</span></span><br><span class="line">  <span class="attr">wechatpay:</span> <span class="string">/images/wechatpay.png</span></span><br><span class="line">  <span class="attr">alipay:</span> <span class="string">/images/alipay.png</span></span><br><span class="line">  <span class="comment">#bitcoin: /images/bitcoin.png</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h2 id="Follow-me"><a href="#Follow-me" class="headerlink" title="Follow me"></a>Follow me</h2><blockquote>
-<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Subscribe through Telegram Channel, Twitter, etc.</span></span><br><span class="line"><span class="comment"># Usage: `Key: permalink || icon` (Font Awesome)</span></span><br><span class="line"><span class="attr">follow_me:</span></span><br><span class="line">  <span class="comment">#Twitter: https://twitter.com/username || fab fa-twitter</span></span><br><span class="line">  <span class="comment">#Telegram: https://t.me/channel_name || fab fa-telegram</span></span><br><span class="line">  <span class="comment">#WeChat: /images/wechat_channel.jpg || fab fa-weixin</span></span><br><span class="line">  <span class="comment">#RSS: /atom.xml || fa fa-rss</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h2 id="相關文章推薦"><a href="#相關文章推薦" class="headerlink" title="相關文章推薦"></a>相關文章推薦</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
-<p>主題配置信息如下:</p>
-<blockquote>
-<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">title:</span> <span class="string">相關文章推薦</span> <span class="comment"># 屬性的命名</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">false</span> <span class="comment">#false代表首頁不顯示</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span> <span class="comment">#最多5條</span></span><br><span class="line">    <span class="comment">#PPMixingRate: 0.0 #可以看github上 這個相關度介紹</span></span><br><span class="line">    <span class="comment">#isDate: true #是否顯示 日期</span></span><br><span class="line">    <span class="comment">#isImage: false #是否顯示配圖</span></span><br><span class="line">    <span class="attr">isExcerpt:</span> <span class="literal">false</span> <span class="comment">#是否顯示摘要</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h1 id="帖子導航"><a href="#帖子導航" class="headerlink" title="帖子導航"></a>帖子導航</h1><p>如果存在，則在頁腳中顯示上一個帖子和下一個帖子。</p>
-<blockquote>
-<p>hexo/_config.yml<br>  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post_navigation:</span> <span class="string">left</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h1 id="404頁面"><a href="#404頁面" class="headerlink" title="404頁面"></a>404頁面</h1><p>於<code>themes/next/source</code>放置<code>404.html</code>檔案</p>
-]]></content>
-      <categories>
-        <category>教學</category>
-        <category>NexT</category>
-      </categories>
-      <tags>
-        <tag>教學</tag>
-        <tag>NexT</tag>
-        <tag>帖子</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>理財達人秀-哥有籌必爆(4) 權證6天飆5倍</title>
     <url>/posts/2855577512/</url>
     <content><![CDATA[<p>【哥有籌必爆】第4集！｜權證6天飆5倍！小哥最強3招權證壓箱寶！一夜狂賺400萬？</p>
@@ -779,6 +829,56 @@
 <a id="more"></a>
 <p><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj0wMHRZZGwzM2ExTSZsaXN0PVBMVnUwcEl4UTdGLXdLdi1oWGRUdnd5ZE9HUV9SWk91MWMmaW5kZXg9MTM=">理財達人秀-哥有籌必爆(4)<i class="fa fa-external-link-alt"></i></span></p>
 <div class="video-container"><iframe src="https://www.youtube.com/embed/00tYdl33a1M" frameborder="0" loading="lazy" allowfullscreen></iframe></div>]]></content>
+      <categories>
+        <category>1⃣ 股票</category>
+        <category>技術面分析</category>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+        <category>3⃣ 理財達人秀</category>
+        <category>哥有籌必爆</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>籌碼面</tag>
+        <tag>技術面分析</tag>
+        <tag>權證小哥</tag>
+        <tag>權證</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>理財達人秀-哥有籌必爆(5) 法說會隔天就飆60啪的權證</title>
+    <url>/posts/3006240489/</url>
+    <content><![CDATA[<p>【哥有籌必爆】第5集！｜這些時間點太好賺了！法說會隔天就飆60%的權證？小哥專愛大波股</p>
+<h1 id="權證隨堂考"><a href="#權證隨堂考" class="headerlink" title="權證隨堂考"></a>權證隨堂考</h1><img src="/posts/3006240489/%E6%AC%8A%E8%AD%89%E5%91%BD%E5%90%8D.png" class title="權證命名">
+
+<h1 id="Theta值-持有權證的時間成本"><a href="#Theta值-持有權證的時間成本" class="headerlink" title="Theta值:持有權證的時間成本"></a>Theta值:持有權證的時間成本</h1><p>是權證的很大傷害，擺太久就會跌很深<br>所以Theta值越小越好，但是Theta值小往往槓桿值也會小，<br>最好是<code>今天買明天賣</code>，所以要<code>挑時間</code>來做權證<br>短進短出的就可以忽略Theta值，<br>可能需要放一段時間的就需要考慮Theta值</p>
+<img src="/posts/3006240489/Theta%E5%80%BC.png" class title="Theta值">
+<img src="/posts/3006240489/Theta%E5%80%BC2.png" class title="Theta值2">
+
+<h1 id="高風險拼高獲利"><a href="#高風險拼高獲利" class="headerlink" title="高風險拼高獲利"></a>高風險拼高獲利</h1><p>權證有一個特性就是<code>漲多跌少</code>（全跌），這個是很好的優點，<br>假如你知道這家公司明天不是漲停就是跌停，<br>例如：公布財報、法說會，<br>就可以同時買認購與認售，壓對了賺翻了，壓錯的另一邊只會陪一點點，</p>
+<img src="/posts/3006240489/%E6%BC%B2%E5%A4%9A%E8%B7%8C%E5%B0%91.png" class title="漲多跌少">
+<a id="more"></a>
+<h1 id="遠離不賺錢的權證標的"><a href="#遠離不賺錢的權證標的" class="headerlink" title="遠離不賺錢的權證標的"></a>遠離不賺錢的權證標的</h1><ol>
+<li>權證最愛的是<code>波動</code></li>
+<li>遠離低波動的股票<img src="/posts/3006240489/%E6%B2%92%E6%B3%A2%E5%8B%95.png" class title="沒波動">
+
+</li>
+</ol>
+<h1 id="4個時機買點（超賺）"><a href="#4個時機買點（超賺）" class="headerlink" title="4個時機買點（超賺）"></a>4個時機買點（超賺）</h1><ol>
+<li>法說會前：<br>法說王：<img src="/posts/3006240489/%E7%BE%8E%E5%BE%8B.png" class title="美律"></li>
+<li>除權息前</li>
+<li>搶反彈</li>
+<li>現股布林軌道開+主力買<img src="/posts/3006240489/%E6%99%82%E6%A9%9F%E8%B2%B7%E9%BB%9E.png" class title="時機買點">
+
+</li>
+</ol>
+<h1 id="權證隨堂考-1"><a href="#權證隨堂考-1" class="headerlink" title="權證隨堂考"></a>權證隨堂考</h1><h2 id="除息後股價會因為配股或配息而修正，那買認售權證不就穩賺？"><a href="#除息後股價會因為配股或配息而修正，那買認售權證不就穩賺？" class="headerlink" title="除息後股價會因為配股或配息而修正，那買認售權證不就穩賺？"></a>除息後股價會因為配股或配息而修正，那買認售權證不就穩賺？</h2><p>發行商會調整行使比例、履約價</p>
+<h2 id="權證可否當沖？"><a href="#權證可否當沖？" class="headerlink" title="權證可否當沖？"></a>權證可否當沖？</h2><p>不行，一定要庫存，才能當天買賣</p>
+<h2 id="權證成交量重不重要？"><a href="#權證成交量重不重要？" class="headerlink" title="權證成交量重不重要？"></a>權證成交量重不重要？</h2><p>成交量一點都不重要<br>發行商會造市<br>除權息時，巴不得只有我在玩：除權息當天有人會跳空買高。</p>
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj0yRG1zZW1IeFRDMCZsaXN0PVBMVnUwcEl4UTdGLXdLdi1oWGRUdnd5ZE9HUV9SWk91MWMmaW5kZXg9MTI=">理財達人秀-哥有籌必爆(5)<i class="fa fa-external-link-alt"></i></span></p>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/2DmsemHxTC0" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
+]]></content>
       <categories>
         <category>1⃣ 股票</category>
         <category>技術面分析</category>
@@ -820,106 +920,6 @@
 <h1 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h1><h2 id="權證買得早不如買得巧"><a href="#權證買得早不如買得巧" class="headerlink" title="權證買得早不如買得巧"></a>權證買得早不如買得巧</h2><h2 id="近期波動大增，權證值得好好研究"><a href="#近期波動大增，權證值得好好研究" class="headerlink" title="近期波動大增，權證值得好好研究"></a>近期波動大增，權證值得好好研究</h2><h2 id="認售權證要找差槓比-lt-0-5-，不知道行情何時發動就挑偏價內"><a href="#認售權證要找差槓比-lt-0-5-，不知道行情何時發動就挑偏價內" class="headerlink" title="認售權證要找差槓比&lt;0.5%，不知道行情何時發動就挑偏價內"></a>認售權證要找差槓比&lt;0.5%，不知道行情何時發動就挑偏價內</h2><h2 id="行情發動時找槓桿大的"><a href="#行情發動時找槓桿大的" class="headerlink" title="行情發動時找槓桿大的"></a>行情發動時找槓桿大的</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1xYlRoSmJaVGNrYyZsaXN0PVBMVnUwcEl4UTdGLXdLdi1oWGRUdnd5ZE9HUV9SWk91MWMmaW5kZXg9MTE=">理財達人秀-哥有籌必爆(6)<i class="fa fa-external-link-alt"></i></span></p>
 <div class="video-container"><iframe src="https://www.youtube.com/embed/qbThJbZTckc" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
 
-]]></content>
-      <categories>
-        <category>1⃣ 股票</category>
-        <category>技術面分析</category>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-        <category>3⃣ 理財達人秀</category>
-        <category>哥有籌必爆</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>籌碼面</tag>
-        <tag>技術面分析</tag>
-        <tag>權證小哥</tag>
-        <tag>權證</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>理財達人秀-哥有籌必爆(1) 懂3根K棒就夠</title>
-    <url>/posts/3611513837/</url>
-    <content><![CDATA[<p>【哥有籌必爆】第1集！｜懂3根K棒就夠！抓到主力股 小哥教確認起漲點 狂賺175%</p>
-<h1 id="K棒-籌碼的入門磚"><a href="#K棒-籌碼的入門磚" class="headerlink" title="K棒:籌碼的入門磚"></a>K棒:籌碼的入門磚</h1><img src="/posts/3611513837/K%E6%A3%92.png" class title="K棒">
-<blockquote>
-<p>陽線(紅K)=<code>收盤價</code>&gt;開盤價<br>陰線(黑K)=<code>收盤價</code>&lt;開盤價<br>紅K取決於誰積極，積極的通常是主力，<br>所以大多時間出現<code>紅K</code>，表示<code>主力在買</code>，<br>但是，還是有例外，會看到紅K但是<code>主力在倒貨</code>，表示散戶被誘導，最後套牢。</p>
-</blockquote>
-<a id="more"></a>
-<h2 id="K棒的畫法"><a href="#K棒的畫法" class="headerlink" title="K棒的畫法"></a>K棒的畫法</h2><p>由江波圖而來</p>
-<img src="/posts/3611513837/%E6%B1%9F%E6%B3%A2%E5%9C%96.png" class title="江波圖">
-<h2 id="黑K棒不一定下跌"><a href="#黑K棒不一定下跌" class="headerlink" title="黑K棒不一定下跌"></a>黑K棒不一定下跌</h2><img src="/posts/3611513837/%E9%BB%91K%E6%A3%92%E4%B8%8D%E4%B8%80%E5%AE%9A%E4%B8%8B%E8%B7%8C.png" class title="黑K棒不一定下跌">
-<h2 id="紅K棒不一定上漲"><a href="#紅K棒不一定上漲" class="headerlink" title="紅K棒不一定上漲"></a>紅K棒不一定上漲</h2><p>但是今天至少是紅K，表示攻方仍有力道</p>
-<img src="/posts/3611513837/%E7%B4%85K%E6%A3%92%E4%B8%8D%E4%B8%80%E5%AE%9A%E4%B8%8A%E6%BC%B2.png" class title="紅K棒不一定上漲">
-
-<h1 id="最實用的單根K棒"><a href="#最實用的單根K棒" class="headerlink" title="最實用的單根K棒"></a>最實用的單根K棒</h1><img src="/posts/3611513837/%E6%9C%80%E5%AF%A6%E7%94%A8%E7%9A%84%E5%96%AE%E6%A0%B9K%E6%A3%92.png" class title="最實用的單根K棒">
-<h2 id="1-光頭大紅棒-5-以上-—發車訊號"><a href="#1-光頭大紅棒-5-以上-—發車訊號" class="headerlink" title="1.光頭大紅棒(5%以上)—發車訊號"></a>1.光頭大紅棒(5%以上)—發車訊號</h2><p>光頭大紅棒：<code>光頭</code>表示<code>沒上影線</code>、<code>大紅棒</code>表示<code>漲5％以上</code><br>盤整很久的第一跟紅K棒可以跟著追高，表示突破，但是要設定停損點</p>
-<img src="/posts/3611513837/%E6%A9%AB%E7%9B%A4%E7%88%86%E9%87%8F%E5%A4%A7%E7%B4%85K.png" class title="橫盤爆量大紅K">
-<p>很多散戶看到紅K就賣，往往會很可惜沒追到後續的大漲</p>
-<img src="/posts/3611513837/%E6%A9%AB%E7%9B%A4%E7%88%86%E9%87%8F%E5%A4%A7%E7%B4%85K2.png" class title="橫盤爆量大紅K2">
-
-<h2 id="2-跳空一字線—超級強勢"><a href="#2-跳空一字線—超級強勢" class="headerlink" title="2.跳空一字線—超級強勢"></a>2.跳空一字線—超級強勢</h2><img src="/posts/3611513837/%E6%94%B6%E8%B3%BC%E8%B7%B3%E7%A9%BA%E4%B8%80%E5%AD%97%E7%B7%9A.png" class title="收購跳空一字線">
-<p>九點前掛委託買進，開盤之後是<code>亂數</code>取號碼牌，拼人品，<br>很多新聞都會讓股票漲停，何時一定要去搶漲停：</p>
-<h3 id="1-收購新聞（唯一-一個可以去搶漲停的時機）"><a href="#1-收購新聞（唯一-一個可以去搶漲停的時機）" class="headerlink" title="1. 收購新聞（唯一 一個可以去搶漲停的時機）"></a>1. 收購新聞（唯一 一個可以去搶漲停的時機）</h3><p>收購利多才能搶進，3天賺30％狂勝存股，短線。</p>
-<img src="/posts/3611513837/%E6%94%B6%E8%B3%BC%E6%96%B0%E8%81%9E.png" class title="收購新聞">
-<p>如果全買到，則表示有人在倒貨，慘！</p>
-<h2 id="3-高檔吊首線—轉折最好用"><a href="#3-高檔吊首線—轉折最好用" class="headerlink" title="3.高檔吊首線—轉折最好用"></a>3.高檔吊首線—轉折最好用</h2><p>高檔吊首線：表示變盤訊號</p>
-<img src="/posts/3611513837/%E9%AB%98%E6%AA%94%E5%90%8A%E9%A6%96%E7%B7%9A.png" class title="高檔吊首線">
-
-
-<p><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1Ta281ejBGejZxYyZsaXN0PVBMVnUwcEl4UTdGLXdLdi1oWGRUdnd5ZE9HUV9SWk91MWMmaW5kZXg9MTgmdD0xNDI3cw==">理財達人秀-哥有籌必爆(1)<i class="fa fa-external-link-alt"></i></span></p>
-<div class="video-container"><iframe src="https://www.youtube.com/embed/Sko5z0Fz6qc" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
-]]></content>
-      <categories>
-        <category>1⃣ 股票</category>
-        <category>技術面分析</category>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-        <category>3⃣ 理財達人秀</category>
-        <category>哥有籌必爆</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>籌碼面</tag>
-        <tag>技術面分析</tag>
-        <tag>權證小哥</tag>
-        <tag>K線</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>理財達人秀-哥有籌必爆(5) 法說會隔天就飆60啪的權證</title>
-    <url>/posts/3006240489/</url>
-    <content><![CDATA[<p>【哥有籌必爆】第5集！｜這些時間點太好賺了！法說會隔天就飆60%的權證？小哥專愛大波股</p>
-<h1 id="權證隨堂考"><a href="#權證隨堂考" class="headerlink" title="權證隨堂考"></a>權證隨堂考</h1><img src="/posts/3006240489/%E6%AC%8A%E8%AD%89%E5%91%BD%E5%90%8D.png" class title="權證命名">
-
-<h1 id="Theta值-持有權證的時間成本"><a href="#Theta值-持有權證的時間成本" class="headerlink" title="Theta值:持有權證的時間成本"></a>Theta值:持有權證的時間成本</h1><p>是權證的很大傷害，擺太久就會跌很深<br>所以Theta值越小越好，但是Theta值小往往槓桿值也會小，<br>最好是<code>今天買明天賣</code>，所以要<code>挑時間</code>來做權證<br>短進短出的就可以忽略Theta值，<br>可能需要放一段時間的就需要考慮Theta值</p>
-<img src="/posts/3006240489/Theta%E5%80%BC.png" class title="Theta值">
-<img src="/posts/3006240489/Theta%E5%80%BC2.png" class title="Theta值2">
-
-<h1 id="高風險拼高獲利"><a href="#高風險拼高獲利" class="headerlink" title="高風險拼高獲利"></a>高風險拼高獲利</h1><p>權證有一個特性就是<code>漲多跌少</code>（全跌），這個是很好的優點，<br>假如你知道這家公司明天不是漲停就是跌停，<br>例如：公布財報、法說會，<br>就可以同時買認購與認售，壓對了賺翻了，壓錯的另一邊只會陪一點點，</p>
-<img src="/posts/3006240489/%E6%BC%B2%E5%A4%9A%E8%B7%8C%E5%B0%91.png" class title="漲多跌少">
-<a id="more"></a>
-<h1 id="遠離不賺錢的權證標的"><a href="#遠離不賺錢的權證標的" class="headerlink" title="遠離不賺錢的權證標的"></a>遠離不賺錢的權證標的</h1><ol>
-<li>權證最愛的是<code>波動</code></li>
-<li>遠離低波動的股票<img src="/posts/3006240489/%E6%B2%92%E6%B3%A2%E5%8B%95.png" class title="沒波動">
-
-</li>
-</ol>
-<h1 id="4個時機買點（超賺）"><a href="#4個時機買點（超賺）" class="headerlink" title="4個時機買點（超賺）"></a>4個時機買點（超賺）</h1><ol>
-<li>法說會前：<br>法說王：<img src="/posts/3006240489/%E7%BE%8E%E5%BE%8B.png" class title="美律"></li>
-<li>除權息前</li>
-<li>搶反彈</li>
-<li>現股布林軌道開+主力買<img src="/posts/3006240489/%E6%99%82%E6%A9%9F%E8%B2%B7%E9%BB%9E.png" class title="時機買點">
-
-</li>
-</ol>
-<h1 id="權證隨堂考-1"><a href="#權證隨堂考-1" class="headerlink" title="權證隨堂考"></a>權證隨堂考</h1><h2 id="除息後股價會因為配股或配息而修正，那買認售權證不就穩賺？"><a href="#除息後股價會因為配股或配息而修正，那買認售權證不就穩賺？" class="headerlink" title="除息後股價會因為配股或配息而修正，那買認售權證不就穩賺？"></a>除息後股價會因為配股或配息而修正，那買認售權證不就穩賺？</h2><p>發行商會調整行使比例、履約價</p>
-<h2 id="權證可否當沖？"><a href="#權證可否當沖？" class="headerlink" title="權證可否當沖？"></a>權證可否當沖？</h2><p>不行，一定要庫存，才能當天買賣</p>
-<h2 id="權證成交量重不重要？"><a href="#權證成交量重不重要？" class="headerlink" title="權證成交量重不重要？"></a>權證成交量重不重要？</h2><p>成交量一點都不重要<br>發行商會造市<br>除權息時，巴不得只有我在玩：除權息當天有人會跳空買高。</p>
-<p><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj0yRG1zZW1IeFRDMCZsaXN0PVBMVnUwcEl4UTdGLXdLdi1oWGRUdnd5ZE9HUV9SWk91MWMmaW5kZXg9MTI=">理財達人秀-哥有籌必爆(5)<i class="fa fa-external-link-alt"></i></span></p>
-<div class="video-container"><iframe src="https://www.youtube.com/embed/2DmsemHxTC0" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
 ]]></content>
       <categories>
         <category>1⃣ 股票</category>
@@ -1054,49 +1054,6 @@
       </tags>
   </entry>
   <entry>
-    <title>理財達人秀-型態神一波(4)</title>
-    <url>/posts/1736460593/</url>
-    <content><![CDATA[<p>【型態神一波】第4集！｜原油觸底黃金上看2千美元？2型態完成大行情來了？石油ETF.塑化股詳解</p>
-<h1 id="頭肩頂（M頭）"><a href="#頭肩頂（M頭）" class="headerlink" title="頭肩頂（Ｍ頭）"></a>頭肩頂（Ｍ頭）</h1><p>有三個高點：<br>頭肩頂：頭部最高<br>三尊頭：頭部並非最高</p>
-<img src="/posts/1736460593/%E9%A0%AD%E8%82%A9%E9%A0%82.png" class title="頭肩頂">
-
-<h1 id="收斂三角"><a href="#收斂三角" class="headerlink" title="收斂三角"></a>收斂三角</h1><p>三角形需在1/2至3/4處突破才算有效突破</p>
-<img src="/posts/1736460593/%E6%94%B6%E6%96%82%E4%B8%89%E8%A7%92.png" class title="收斂三角">
-
-<h1 id="頭肩底（W底）"><a href="#頭肩底（W底）" class="headerlink" title="頭肩底（Ｗ底）"></a>頭肩底（Ｗ底）</h1><img src="/posts/1736460593/%E9%A0%AD%E8%82%A9%E5%BA%95.png" class title="頭肩底">
-
-<a id="more"></a>
-<h1 id="原油型態學"><a href="#原油型態學" class="headerlink" title="原油型態學"></a>原油型態學</h1><img src="/posts/1736460593/%E5%8E%9F%E6%B2%B9%E5%9E%8B%E6%85%8B.png" class title="原油型態">
-
-
-<img src="/posts/1736460593/%E5%8E%9F%E6%B2%B9%E6%97%A5%E7%B7%9A.png" class title="原油日線">
-
-<h2 id="原油投資方式"><a href="#原油投資方式" class="headerlink" title="原油投資方式"></a>原油投資方式</h2><img src="/posts/1736460593/%E5%8E%9F%E6%B2%B9%E6%8A%95%E8%B3%87%E6%96%B9%E5%BC%8F.png" class title="原油投資方式">
-
-<h2 id="台塑四寶型態學"><a href="#台塑四寶型態學" class="headerlink" title="台塑四寶型態學"></a>台塑四寶型態學</h2><img src="/posts/1736460593/%E5%8F%B0%E5%A1%91.png" class title="台塑">
-<img src="/posts/1736460593/%E5%8F%B0%E5%A1%91%E5%8C%96.png" class title="台塑化">
-
-<h1 id="黃金型態學"><a href="#黃金型態學" class="headerlink" title="黃金型態學"></a>黃金型態學</h1><img src="/posts/1736460593/%E9%BB%83%E9%87%91.png" class title="黃金">
-<p>Ｍ頭三角收斂之後，有兩種可以發生的機率<br>1.直接下殺兩次<br>2.下殺一次之後進入盤整（時間換空間）</p>
-<p><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj10VklvZTJiYXNfYyZsaXN0PVBMVnUwcEl4UTdGLXp3UHpWODVnTkdvZGlRNWF5S1lPdzcmaW5kZXg9Mw==">理財達人秀-型態神一波(4)<i class="fa fa-external-link-alt"></i></span></p>
-<div class="video-container"><iframe src="https://www.youtube.com/embed/tVIoe2bas_c" frameborder="0" loading="lazy" allowfullscreen></iframe></div>]]></content>
-      <categories>
-        <category>1⃣ 股票</category>
-        <category>技術面分析</category>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-        <category>3⃣ 理財達人秀</category>
-        <category>型態神一波</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>技術面分析</tag>
-        <tag>型態學</tag>
-        <tag>蔡森</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>理財達人秀-型態神一波(2)</title>
     <url>/posts/836431543/</url>
     <content><![CDATA[<p>【型態神一波】第2集！<br>拆穿假突破抓轉折！2條線掌握空方起跌點！順勢放空賺55%快錢</p>
@@ -1169,6 +1126,49 @@
       </tags>
   </entry>
   <entry>
+    <title>理財達人秀-型態神一波(4)</title>
+    <url>/posts/1736460593/</url>
+    <content><![CDATA[<p>【型態神一波】第4集！｜原油觸底黃金上看2千美元？2型態完成大行情來了？石油ETF.塑化股詳解</p>
+<h1 id="頭肩頂（M頭）"><a href="#頭肩頂（M頭）" class="headerlink" title="頭肩頂（Ｍ頭）"></a>頭肩頂（Ｍ頭）</h1><p>有三個高點：<br>頭肩頂：頭部最高<br>三尊頭：頭部並非最高</p>
+<img src="/posts/1736460593/%E9%A0%AD%E8%82%A9%E9%A0%82.png" class title="頭肩頂">
+
+<h1 id="收斂三角"><a href="#收斂三角" class="headerlink" title="收斂三角"></a>收斂三角</h1><p>三角形需在1/2至3/4處突破才算有效突破</p>
+<img src="/posts/1736460593/%E6%94%B6%E6%96%82%E4%B8%89%E8%A7%92.png" class title="收斂三角">
+
+<h1 id="頭肩底（W底）"><a href="#頭肩底（W底）" class="headerlink" title="頭肩底（Ｗ底）"></a>頭肩底（Ｗ底）</h1><img src="/posts/1736460593/%E9%A0%AD%E8%82%A9%E5%BA%95.png" class title="頭肩底">
+
+<a id="more"></a>
+<h1 id="原油型態學"><a href="#原油型態學" class="headerlink" title="原油型態學"></a>原油型態學</h1><img src="/posts/1736460593/%E5%8E%9F%E6%B2%B9%E5%9E%8B%E6%85%8B.png" class title="原油型態">
+
+
+<img src="/posts/1736460593/%E5%8E%9F%E6%B2%B9%E6%97%A5%E7%B7%9A.png" class title="原油日線">
+
+<h2 id="原油投資方式"><a href="#原油投資方式" class="headerlink" title="原油投資方式"></a>原油投資方式</h2><img src="/posts/1736460593/%E5%8E%9F%E6%B2%B9%E6%8A%95%E8%B3%87%E6%96%B9%E5%BC%8F.png" class title="原油投資方式">
+
+<h2 id="台塑四寶型態學"><a href="#台塑四寶型態學" class="headerlink" title="台塑四寶型態學"></a>台塑四寶型態學</h2><img src="/posts/1736460593/%E5%8F%B0%E5%A1%91.png" class title="台塑">
+<img src="/posts/1736460593/%E5%8F%B0%E5%A1%91%E5%8C%96.png" class title="台塑化">
+
+<h1 id="黃金型態學"><a href="#黃金型態學" class="headerlink" title="黃金型態學"></a>黃金型態學</h1><img src="/posts/1736460593/%E9%BB%83%E9%87%91.png" class title="黃金">
+<p>Ｍ頭三角收斂之後，有兩種可以發生的機率<br>1.直接下殺兩次<br>2.下殺一次之後進入盤整（時間換空間）</p>
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj10VklvZTJiYXNfYyZsaXN0PVBMVnUwcEl4UTdGLXp3UHpWODVnTkdvZGlRNWF5S1lPdzcmaW5kZXg9Mw==">理財達人秀-型態神一波(4)<i class="fa fa-external-link-alt"></i></span></p>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/tVIoe2bas_c" frameborder="0" loading="lazy" allowfullscreen></iframe></div>]]></content>
+      <categories>
+        <category>1⃣ 股票</category>
+        <category>技術面分析</category>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+        <category>3⃣ 理財達人秀</category>
+        <category>型態神一波</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>技術面分析</tag>
+        <tag>型態學</tag>
+        <tag>蔡森</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>理財達人秀-型態神一波(5)</title>
     <url>/posts/2124118128/</url>
     <content><![CDATA[<p>【型態神一波】第5集！｜1招型態賣股在高檔? 大師實戰紀錄公開! 2波操作狂賺250%?</p>
@@ -1210,49 +1210,6 @@
       </tags>
   </entry>
   <entry>
-    <title>理財達人秀-存股敵8個(11) ETF4終極玩法全公開</title>
-    <url>/posts/764499297/</url>
-    <content><![CDATA[<p>【存股敵8個】第11集！｜ETF大玩家闖4關！一年就玩這2檔爽賺30%！4終極玩法全公開</p>
-<h1 id="ETF-大玩家"><a href="#ETF-大玩家" class="headerlink" title="ETF 大玩家"></a>ETF 大玩家</h1><p><code>各種操作 ETF 的方式:</code></p>
-<img src="/posts/764499297/0050vs0056.png" class title="0050vs0056">
-<h2 id="ETF-0050"><a href="#ETF-0050" class="headerlink" title="ETF 0050"></a>ETF 0050</h2><ol>
-<li>0050 <code>長抱</code> - 不賣 5年，80%   <img src="/posts/764499297/F0050.png" class title="ETF0050"></li>
-<li>0050 <code>做價差</code> - 1年，12%<br>KD &lt; 20 黃金交叉:<code>進場</code>；<br>KD &gt; 80 死亡交叉:<code>出場</code><blockquote>
-<p>KD用來判斷強弱趨勢<br>KD用來判斷轉折點<br>不是所有股票看KD都準：當市值太小時，會被主力控制，所以KD只適用於牛皮股</p>
-</blockquote>
-<img src="/posts/764499297/ETF0050KD.png" class title="ETF0050KD">
-
-</li>
-</ol>
-<h2 id="ETF-0056"><a href="#ETF-0056" class="headerlink" title="ETF 0056"></a>ETF 0056</h2><img src="/posts/764499297/ETF0056.png" class title="ETF0056">
-<ol>
-<li>0056 <code>長抱</code> - 100% 配息，<code>平均5%</code>，<code>100%填息</code></li>
-<li>0056 <code>做價差</code> - 通常會在 21~26.5 箱型整理，<img src="/posts/764499297/ETF0056%E9%99%A4%E6%81%AF%E7%88%86%E9%87%8F.png" class title="ETF0056除息爆量">
-除息後通常會下跌 -&gt; 下跌爆量(&gt;年均量*2) 就買</li>
-</ol>
-<h1 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h1><img src="/posts/764499297/ETF%E6%8A%B1%E5%A5%BD%E6%8A%B1%E6%BB%BF.png" class title="ETF抱好抱滿">
-<img src="/posts/764499297/ETF%E7%8E%A9%E6%B3%95.png" class title="ETF玩法">
-
-<a id="more"></a>
-<p><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1JWUpCZE5rMDEyZyZsaXN0PVBMc05KTzBubF9JaFJpQU1LS1NYTW9EYXhzcUFzN0ZpamUmaW5kZXg9MTE=">理財達人秀-存股敵8個(11))<i class="fa fa-external-link-alt"></i></span></p>
-<div class="video-container"><iframe src="https://www.youtube.com/embed/IYJBdNk012g" frameborder="0" loading="lazy" allowfullscreen></iframe></div>]]></content>
-      <categories>
-        <category>1⃣ 股票</category>
-        <category>基本面分析</category>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-        <category>3⃣ 理財達人秀</category>
-        <category>存股敵8個</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>基本面分析</tag>
-        <tag>股魚</tag>
-        <tag>填息</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>理財達人秀-型態神一波(6)</title>
     <url>/posts/1438002099/</url>
     <content><![CDATA[<p>【型態神一波】第6集！｜股價突破神秘三角！告別迷航大賺2波 50萬滾千萬獲利</p>
@@ -1289,47 +1246,6 @@
         <tag>技術面分析</tag>
         <tag>型態學</tag>
         <tag>蔡森</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>理財達人秀-存股敵8個(12)</title>
-    <url>/posts/112985762/</url>
-    <content><![CDATA[<p>【存股敵8個】第12集！｜4線索提前90天財報Get！股魚變身股市福爾摩斯！破解財報之謎輕鬆賺7%</p>
-<h1 id="4線索預先推估獲利秘密"><a href="#4線索預先推估獲利秘密" class="headerlink" title="4線索預先推估獲利秘密"></a>4線索預先推估獲利秘密</h1><p>財報三個月統計一次，但不是馬上公布，<br>在財報公布前提早預判結果</p>
-<pre><code>季報公布日 (Q4、Q1、Q2、Q3)
-一般產業: 5/15、8/14、11/14、3/31
-金控產業: 5/30、8/31、11/29、3/31
-銀行/票券/保險/證券業: 5/15、8/31、11/14、3/31
-時間差: 1.5M、3M、3M、4.5M
-年報公布日 — 3/31
-月報公布日 — 每個月 10 號</code></pre><img src="/posts/112985762/%E8%B2%A1%E5%A0%B1%E5%85%AC%E5%91%8A%E6%97%A5.png" class title="財報公告日">
-<img src="/posts/112985762/%E8%B2%A1%E5%A0%B1%E5%85%AC%E5%91%8A%E6%97%A52.png" class title="財報公告日">
-<img src="/posts/112985762/%E8%B2%A1%E5%A0%B1%E6%8E%A8%E4%BC%B0.png" class title="財報推估">
-<img src="/posts/112985762/%E6%8E%A8%E4%BC%B0EPS.png" class title="推估EPS">
-
-<h1 id="哪種公司可以推估"><a href="#哪種公司可以推估" class="headerlink" title="哪種公司可以推估"></a>哪種公司可以推估</h1><img src="/posts/112985762/%E5%8F%AF%E6%8E%A8%E4%BC%B0%E7%9A%84%E5%85%AC%E5%8F%B8.png" class title="可推估的公司">
-<ol>
-<li>高本業比是關鍵<br>高本業比 &gt; 80% ，公式為 “營業利益/(營業利益+業務收入)”<br>“營業利益/(營業利益+業外損益合計) = 營業利益/稅前淨利”</li>
-<li>穩定毛利率: 毛利/營業收入</li>
-<li>穩定營益率: 營業利益/營業收入</li>
-<li>穩定淨利率: 稅後淨利/營業收入 (最重要，用來算 EPS)</li>
-</ol>
-<a id="more"></a>
-<p><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1yMUxBenhyQm5DayZsaXN0PVBMc05KTzBubF9JaFJpQU1LS1NYTW9EYXhzcUFzN0ZpamUmaW5kZXg9MTI=">理財達人秀-存股敵8個(12))<i class="fa fa-external-link-alt"></i></span></p>
-<div class="video-container"><iframe src="https://www.youtube.com/embed/r1LAzxrBnCk" frameborder="0" loading="lazy" allowfullscreen></iframe></div>]]></content>
-      <categories>
-        <category>1⃣ 股票</category>
-        <category>基本面分析</category>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-        <category>3⃣ 理財達人秀</category>
-        <category>存股敵8個</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>基本面分析</tag>
-        <tag>股魚</tag>
       </tags>
   </entry>
   <entry>
@@ -1389,6 +1305,90 @@
 
 <p><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj15M1d1MGJkTTBCNCZsaXN0PVBMVnUwcEl4UTdGLXppaGJpSlhVeTZUOFVaWEVocGt0VWgmaW5kZXg9NTE=">理財達人秀-存股敵8個(1))<i class="fa fa-external-link-alt"></i></span></p>
 <div class="video-container"><iframe src="https://www.youtube.com/embed/y3Wu0bdM0B4" frameborder="0" loading="lazy" allowfullscreen></iframe></div>]]></content>
+      <categories>
+        <category>1⃣ 股票</category>
+        <category>基本面分析</category>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+        <category>3⃣ 理財達人秀</category>
+        <category>存股敵8個</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>基本面分析</tag>
+        <tag>股魚</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>理財達人秀-存股敵8個(11) ETF4終極玩法全公開</title>
+    <url>/posts/764499297/</url>
+    <content><![CDATA[<p>【存股敵8個】第11集！｜ETF大玩家闖4關！一年就玩這2檔爽賺30%！4終極玩法全公開</p>
+<h1 id="ETF-大玩家"><a href="#ETF-大玩家" class="headerlink" title="ETF 大玩家"></a>ETF 大玩家</h1><p><code>各種操作 ETF 的方式:</code></p>
+<img src="/posts/764499297/0050vs0056.png" class title="0050vs0056">
+<h2 id="ETF-0050"><a href="#ETF-0050" class="headerlink" title="ETF 0050"></a>ETF 0050</h2><ol>
+<li>0050 <code>長抱</code> - 不賣 5年，80%   <img src="/posts/764499297/F0050.png" class title="ETF0050"></li>
+<li>0050 <code>做價差</code> - 1年，12%<br>KD &lt; 20 黃金交叉:<code>進場</code>；<br>KD &gt; 80 死亡交叉:<code>出場</code><blockquote>
+<p>KD用來判斷強弱趨勢<br>KD用來判斷轉折點<br>不是所有股票看KD都準：當市值太小時，會被主力控制，所以KD只適用於牛皮股</p>
+</blockquote>
+<img src="/posts/764499297/ETF0050KD.png" class title="ETF0050KD">
+
+</li>
+</ol>
+<h2 id="ETF-0056"><a href="#ETF-0056" class="headerlink" title="ETF 0056"></a>ETF 0056</h2><img src="/posts/764499297/ETF0056.png" class title="ETF0056">
+<ol>
+<li>0056 <code>長抱</code> - 100% 配息，<code>平均5%</code>，<code>100%填息</code></li>
+<li>0056 <code>做價差</code> - 通常會在 21~26.5 箱型整理，<img src="/posts/764499297/ETF0056%E9%99%A4%E6%81%AF%E7%88%86%E9%87%8F.png" class title="ETF0056除息爆量">
+除息後通常會下跌 -&gt; 下跌爆量(&gt;年均量*2) 就買</li>
+</ol>
+<h1 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h1><img src="/posts/764499297/ETF%E6%8A%B1%E5%A5%BD%E6%8A%B1%E6%BB%BF.png" class title="ETF抱好抱滿">
+<img src="/posts/764499297/ETF%E7%8E%A9%E6%B3%95.png" class title="ETF玩法">
+
+<a id="more"></a>
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1JWUpCZE5rMDEyZyZsaXN0PVBMc05KTzBubF9JaFJpQU1LS1NYTW9EYXhzcUFzN0ZpamUmaW5kZXg9MTE=">理財達人秀-存股敵8個(11))<i class="fa fa-external-link-alt"></i></span></p>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/IYJBdNk012g" frameborder="0" loading="lazy" allowfullscreen></iframe></div>]]></content>
+      <categories>
+        <category>1⃣ 股票</category>
+        <category>基本面分析</category>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+        <category>3⃣ 理財達人秀</category>
+        <category>存股敵8個</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>基本面分析</tag>
+        <tag>股魚</tag>
+        <tag>填息</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>理財達人秀-存股敵8個(12)</title>
+    <url>/posts/112985762/</url>
+    <content><![CDATA[<p>【存股敵8個】第12集！｜4線索提前90天財報Get！股魚變身股市福爾摩斯！破解財報之謎輕鬆賺7%</p>
+<h1 id="4線索預先推估獲利秘密"><a href="#4線索預先推估獲利秘密" class="headerlink" title="4線索預先推估獲利秘密"></a>4線索預先推估獲利秘密</h1><p>財報三個月統計一次，但不是馬上公布，<br>在財報公布前提早預判結果</p>
+<pre><code>季報公布日 (Q4、Q1、Q2、Q3)
+一般產業: 5/15、8/14、11/14、3/31
+金控產業: 5/30、8/31、11/29、3/31
+銀行/票券/保險/證券業: 5/15、8/31、11/14、3/31
+時間差: 1.5M、3M、3M、4.5M
+年報公布日 — 3/31
+月報公布日 — 每個月 10 號</code></pre><img src="/posts/112985762/%E8%B2%A1%E5%A0%B1%E5%85%AC%E5%91%8A%E6%97%A5.png" class title="財報公告日">
+<img src="/posts/112985762/%E8%B2%A1%E5%A0%B1%E5%85%AC%E5%91%8A%E6%97%A52.png" class title="財報公告日">
+<img src="/posts/112985762/%E8%B2%A1%E5%A0%B1%E6%8E%A8%E4%BC%B0.png" class title="財報推估">
+<img src="/posts/112985762/%E6%8E%A8%E4%BC%B0EPS.png" class title="推估EPS">
+
+<h1 id="哪種公司可以推估"><a href="#哪種公司可以推估" class="headerlink" title="哪種公司可以推估"></a>哪種公司可以推估</h1><img src="/posts/112985762/%E5%8F%AF%E6%8E%A8%E4%BC%B0%E7%9A%84%E5%85%AC%E5%8F%B8.png" class title="可推估的公司">
+<ol>
+<li>高本業比是關鍵<br>高本業比 &gt; 80% ，公式為 “營業利益/(營業利益+業務收入)”<br>“營業利益/(營業利益+業外損益合計) = 營業利益/稅前淨利”</li>
+<li>穩定毛利率: 毛利/營業收入</li>
+<li>穩定營益率: 營業利益/營業收入</li>
+<li>穩定淨利率: 稅後淨利/營業收入 (最重要，用來算 EPS)</li>
+</ol>
+<a id="more"></a>
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1yMUxBenhyQm5DayZsaXN0PVBMc05KTzBubF9JaFJpQU1LS1NYTW9EYXhzcUFzN0ZpamUmaW5kZXg9MTI=">理財達人秀-存股敵8個(12))<i class="fa fa-external-link-alt"></i></span></p>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/r1LAzxrBnCk" frameborder="0" loading="lazy" allowfullscreen></iframe></div>]]></content>
       <categories>
         <category>1⃣ 股票</category>
         <category>基本面分析</category>
@@ -1519,6 +1519,40 @@
       </tags>
   </entry>
   <entry>
+    <title>理財達人秀-存股敵8個(3) 3線索複製飆股成功之路</title>
+    <url>/posts/3179963940/</url>
+    <content><![CDATA[<p>【存股敵8個】第3集！50元銅板黑馬定存股？3線索複製飆股成功之路！殖利率、價差雙頭賺</p>
+<h1 id="股價便宜＋股利＋價差"><a href="#股價便宜＋股利＋價差" class="headerlink" title="股價便宜＋股利＋價差"></a>股價便宜＋股利＋價差</h1><p>成功之路有跡可循～提早卡位優質小金雞，</p>
+<img src="/posts/3179963940/%E8%81%9A%E9%99%BD1.png" class title="聚陽前期">
+<img src="/posts/3179963940/%E8%81%9A%E9%99%BD2.png" class title="聚陽後期">
+
+<h1 id="複製玉山金的成功模式"><a href="#複製玉山金的成功模式" class="headerlink" title="複製玉山金的成功模式"></a>複製玉山金的成功模式</h1><p>有配股＋配息，股價維持穩定，表示他<code>完全填權息</code></p>
+<img src="/posts/3179963940/%E7%8E%89%E5%B1%B1%E9%87%91.png" class title="玉山金">
+
+<h2 id="台中銀、台企銀"><a href="#台中銀、台企銀" class="headerlink" title="台中銀、台企銀"></a>台中銀、台企銀</h2><img src="/posts/3179963940/%E5%8F%B0%E4%B8%AD%E9%8A%80.png" class title="台中銀">
+<img src="/posts/3179963940/%E5%8F%B0%E4%BC%81%E9%8A%80.png" class title="台企銀">
+<a id="more"></a>
+<h2 id="花仙子"><a href="#花仙子" class="headerlink" title="花仙子"></a>花仙子</h2><img src="/posts/3179963940/%E8%8A%B1%E4%BB%99%E5%AD%90.png" class title="花仙子">
+
+
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1qaUZsdnI5SHUwZyZsaXN0PVBMc05KTzBubF9JaFJpQU1LS1NYTW9EYXhzcUFzN0ZpamUmaW5kZXg9Mw==">理財達人秀-存股敵8個(3))<i class="fa fa-external-link-alt"></i></span></p>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/jiFlvr9Hu0g" frameborder="0" loading="lazy" allowfullscreen></iframe></div>]]></content>
+      <categories>
+        <category>1⃣ 股票</category>
+        <category>基本面分析</category>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+        <category>3⃣ 理財達人秀</category>
+        <category>存股敵8個</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>基本面分析</tag>
+        <tag>股魚</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>理財達人秀-存股敵8個(4) 股魚1招預測填息機率</title>
     <url>/posts/4073451747/</url>
     <content><![CDATA[<p>【存股敵8個】第4集！｜股魚1招預測填息機率99%！如何判斷股票填不填息？別讓高殖利率看得到吃不到</p>
@@ -1559,6 +1593,38 @@
         <tag>基本面分析</tag>
         <tag>股魚</tag>
         <tag>填息</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>理財達人秀-存股敵8個(5) 3密技推算股票合理價</title>
+    <url>/posts/3956326818/</url>
+    <content><![CDATA[<p>【存股敵8個】第5集！｜3密技推算股票合理價！萬點存股竟能再賺200%？金融黑馬股仍低估？</p>
+<h1 id="好股票-好股價＝賺大錢"><a href="#好股票-好股價＝賺大錢" class="headerlink" title="好股票+好股價＝賺大錢"></a>好股票+好股價＝賺大錢</h1><h1 id="股票合理價自己算"><a href="#股票合理價自己算" class="headerlink" title="股票合理價自己算"></a>股票合理價自己算</h1><h2 id="高登零成長模型"><a href="#高登零成長模型" class="headerlink" title="高登零成長模型"></a>高登零成長模型</h2><img src="/posts/3956326818/%E9%AB%98%E7%99%BB%E9%9B%B6%E6%88%90%E9%95%B7.png" class title="高登零成長">
+<p><code>股票股利穩定配發</code><br>預期公司營運(股利)穩定，不太會變動發放比率<br>合理價 = 股利/目標報酬率(可以抓8%左右)<br>eg. 8049晶采: 2018 現金股利為 2、股票股利為 0，且要求報酬率為 8%，<br>則合理價 = (2+0)/0.08 = 25</p>
+<h2 id="本益比法"><a href="#本益比法" class="headerlink" title="本益比法"></a>本益比法</h2><img src="/posts/3956326818/%E6%9C%AC%E7%9B%8A%E6%AF%94%E6%B3%95.png" class title="本益比法">
+<img src="/posts/3956326818/%E6%9C%AC%E7%9B%8A%E6%AF%94%E6%B3%952.png" class title="本益比法預估">
+<p><code>成長股</code>，股利發放也增加<br>合理價 = 預期本益比 * 預期 EPS<br>eg. 8049 晶采: 以歷史本益比中位數為 9 倍做參考；並用今年前幾期之 EPS 成長幅度來推算全年。</p>
+<a id="more"></a>
+
+<h2 id="殖利率法"><a href="#殖利率法" class="headerlink" title="殖利率法"></a>殖利率法</h2><img src="/posts/3956326818/%E6%AE%96%E5%88%A9%E7%8E%87%E6%B3%95.png" class title="殖利率法">
+<p><code>只發現金股利之大牛股</code><br>合理價 = 現金股利/期待殖利率<br>eg. 8049晶采: 2018 現金股利為 2、股票股利為 0，且期待殖利率為 6%，<br>則合理價 = 2/0.06 = 33.33</p>
+<h1 id="試算金融股"><a href="#試算金融股" class="headerlink" title="試算金融股"></a>試算金融股</h1><img src="/posts/3956326818/%E8%A9%A6%E7%AE%97%E9%87%91%E8%9E%8D%E8%82%A1.png" class title="試算金融股">
+
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj0tVFR6UV9EdkFIUSZsaXN0PVBMc05KTzBubF9JaFJpQU1LS1NYTW9EYXhzcUFzN0ZpamUmaW5kZXg9NQ==">理財達人秀-存股敵8個(5))<i class="fa fa-external-link-alt"></i></span></p>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/TTzQ_DvAHQ" frameborder="0" loading="lazy" allowfullscreen></iframe></div>]]></content>
+      <categories>
+        <category>1⃣ 股票</category>
+        <category>基本面分析</category>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+        <category>3⃣ 理財達人秀</category>
+        <category>存股敵8個</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>基本面分析</tag>
+        <tag>股魚</tag>
       </tags>
   </entry>
   <entry>
@@ -1624,72 +1690,6 @@
 <p><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1LNzZraGZYUDBXOCZsaXN0PVBMc05KTzBubF9JaFJpQU1LS1NYTW9EYXhzcUFzN0ZpamUmaW5kZXg9Ng==">理財達人秀-存股敵8個(6))<i class="fa fa-external-link-alt"></i></span></p>
 <div class="video-container"><iframe src="https://www.youtube.com/embed/K76khfXP0W8" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
 ]]></content>
-      <categories>
-        <category>1⃣ 股票</category>
-        <category>基本面分析</category>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-        <category>3⃣ 理財達人秀</category>
-        <category>存股敵8個</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>基本面分析</tag>
-        <tag>股魚</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>理財達人秀-存股敵8個(3) 3線索複製飆股成功之路</title>
-    <url>/posts/3179963940/</url>
-    <content><![CDATA[<p>【存股敵8個】第3集！50元銅板黑馬定存股？3線索複製飆股成功之路！殖利率、價差雙頭賺</p>
-<h1 id="股價便宜＋股利＋價差"><a href="#股價便宜＋股利＋價差" class="headerlink" title="股價便宜＋股利＋價差"></a>股價便宜＋股利＋價差</h1><p>成功之路有跡可循～提早卡位優質小金雞，</p>
-<img src="/posts/3179963940/%E8%81%9A%E9%99%BD1.png" class title="聚陽前期">
-<img src="/posts/3179963940/%E8%81%9A%E9%99%BD2.png" class title="聚陽後期">
-
-<h1 id="複製玉山金的成功模式"><a href="#複製玉山金的成功模式" class="headerlink" title="複製玉山金的成功模式"></a>複製玉山金的成功模式</h1><p>有配股＋配息，股價維持穩定，表示他<code>完全填權息</code></p>
-<img src="/posts/3179963940/%E7%8E%89%E5%B1%B1%E9%87%91.png" class title="玉山金">
-
-<h2 id="台中銀、台企銀"><a href="#台中銀、台企銀" class="headerlink" title="台中銀、台企銀"></a>台中銀、台企銀</h2><img src="/posts/3179963940/%E5%8F%B0%E4%B8%AD%E9%8A%80.png" class title="台中銀">
-<img src="/posts/3179963940/%E5%8F%B0%E4%BC%81%E9%8A%80.png" class title="台企銀">
-<a id="more"></a>
-<h2 id="花仙子"><a href="#花仙子" class="headerlink" title="花仙子"></a>花仙子</h2><img src="/posts/3179963940/%E8%8A%B1%E4%BB%99%E5%AD%90.png" class title="花仙子">
-
-
-<p><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1qaUZsdnI5SHUwZyZsaXN0PVBMc05KTzBubF9JaFJpQU1LS1NYTW9EYXhzcUFzN0ZpamUmaW5kZXg9Mw==">理財達人秀-存股敵8個(3))<i class="fa fa-external-link-alt"></i></span></p>
-<div class="video-container"><iframe src="https://www.youtube.com/embed/jiFlvr9Hu0g" frameborder="0" loading="lazy" allowfullscreen></iframe></div>]]></content>
-      <categories>
-        <category>1⃣ 股票</category>
-        <category>基本面分析</category>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-        <category>3⃣ 理財達人秀</category>
-        <category>存股敵8個</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>基本面分析</tag>
-        <tag>股魚</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>理財達人秀-存股敵8個(5) 3密技推算股票合理價</title>
-    <url>/posts/3956326818/</url>
-    <content><![CDATA[<p>【存股敵8個】第5集！｜3密技推算股票合理價！萬點存股竟能再賺200%？金融黑馬股仍低估？</p>
-<h1 id="好股票-好股價＝賺大錢"><a href="#好股票-好股價＝賺大錢" class="headerlink" title="好股票+好股價＝賺大錢"></a>好股票+好股價＝賺大錢</h1><h1 id="股票合理價自己算"><a href="#股票合理價自己算" class="headerlink" title="股票合理價自己算"></a>股票合理價自己算</h1><h2 id="高登零成長模型"><a href="#高登零成長模型" class="headerlink" title="高登零成長模型"></a>高登零成長模型</h2><img src="/posts/3956326818/%E9%AB%98%E7%99%BB%E9%9B%B6%E6%88%90%E9%95%B7.png" class title="高登零成長">
-<p><code>股票股利穩定配發</code><br>預期公司營運(股利)穩定，不太會變動發放比率<br>合理價 = 股利/目標報酬率(可以抓8%左右)<br>eg. 8049晶采: 2018 現金股利為 2、股票股利為 0，且要求報酬率為 8%，<br>則合理價 = (2+0)/0.08 = 25</p>
-<h2 id="本益比法"><a href="#本益比法" class="headerlink" title="本益比法"></a>本益比法</h2><img src="/posts/3956326818/%E6%9C%AC%E7%9B%8A%E6%AF%94%E6%B3%95.png" class title="本益比法">
-<img src="/posts/3956326818/%E6%9C%AC%E7%9B%8A%E6%AF%94%E6%B3%952.png" class title="本益比法預估">
-<p><code>成長股</code>，股利發放也增加<br>合理價 = 預期本益比 * 預期 EPS<br>eg. 8049 晶采: 以歷史本益比中位數為 9 倍做參考；並用今年前幾期之 EPS 成長幅度來推算全年。</p>
-<a id="more"></a>
-
-<h2 id="殖利率法"><a href="#殖利率法" class="headerlink" title="殖利率法"></a>殖利率法</h2><img src="/posts/3956326818/%E6%AE%96%E5%88%A9%E7%8E%87%E6%B3%95.png" class title="殖利率法">
-<p><code>只發現金股利之大牛股</code><br>合理價 = 現金股利/期待殖利率<br>eg. 8049晶采: 2018 現金股利為 2、股票股利為 0，且期待殖利率為 6%，<br>則合理價 = 2/0.06 = 33.33</p>
-<h1 id="試算金融股"><a href="#試算金融股" class="headerlink" title="試算金融股"></a>試算金融股</h1><img src="/posts/3956326818/%E8%A9%A6%E7%AE%97%E9%87%91%E8%9E%8D%E8%82%A1.png" class title="試算金融股">
-
-<p><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj0tVFR6UV9EdkFIUSZsaXN0PVBMc05KTzBubF9JaFJpQU1LS1NYTW9EYXhzcUFzN0ZpamUmaW5kZXg9NQ==">理財達人秀-存股敵8個(5))<i class="fa fa-external-link-alt"></i></span></p>
-<div class="video-container"><iframe src="https://www.youtube.com/embed/TTzQ_DvAHQ" frameborder="0" loading="lazy" allowfullscreen></iframe></div>]]></content>
       <categories>
         <category>1⃣ 股票</category>
         <category>基本面分析</category>
@@ -2051,31 +2051,38 @@ MSCI 外資所建立的台灣指數
       </tags>
   </entry>
   <entry>
-    <title>理財達人秀-存股敵8個3(7)</title>
-    <url>/posts/4012161670/</url>
-    <content><![CDATA[<h1 id="【存股敵8個3】第7集！｜存股超前部署！年報熱出爐10檔錯殺股現身？體質2低1高最優？"><a href="#【存股敵8個3】第7集！｜存股超前部署！年報熱出爐10檔錯殺股現身？體質2低1高最優？" class="headerlink" title="【存股敵8個3】第7集！｜存股超前部署！年報熱出爐10檔錯殺股現身？體質2低1高最優？"></a>【存股敵8個3】第7集！｜存股超前部署！年報熱出爐10檔錯殺股現身？體質2低1高最優？</h1><h2 id="財報出爐要看什麼："><a href="#財報出爐要看什麼：" class="headerlink" title="財報出爐要看什麼："></a>財報出爐要看什麼：</h2><ol>
-<li>EPS有無成長：正成長</li>
-<li>本益比有無被低估：低於大盤（15）、也低於自己的歷史值<img src="/posts/4012161670/%E5%A4%A7%E7%9B%A4%E6%9C%AC%E7%9B%8A%E6%AF%94.png" class title="大盤本益比">
-<img src="/posts/4012161670/%E6%9C%AC%E7%9B%8A%E6%AF%94%E5%81%8F%E4%BD%8E%E8%82%A1.png" class title="本益比偏低股">
+    <title>理財達人秀-存股敵8個3(1) ETF、月月領、華倫成長股</title>
+    <url>/posts/3112049920/</url>
+    <content><![CDATA[<h1 id="【存股敵8個3】第1集！｜ETF教父股魚-強勢回歸！秒懂折溢價-買對2天賺8-？"><a href="#【存股敵8個3】第1集！｜ETF教父股魚-強勢回歸！秒懂折溢價-買對2天賺8-？" class="headerlink" title="【存股敵8個3】第1集！｜ETF教父股魚 強勢回歸！秒懂折溢價 買對2天賺8%？"></a>【存股敵8個3】第1集！｜ETF教父股魚 強勢回歸！秒懂折溢價 買對2天賺8%？</h1><p>股票的本體是<code>市價</code>，如果是ETF本體是<code>淨值</code></p>
+<img src="/posts/3112049920/ETF%E6%B7%A8%E5%80%BC.png" class title="ETF淨值">
+<img src="/posts/3112049920/ETF%E5%B8%82%E5%83%B9%E6%B7%A8%E5%80%BC%E9%97%9C%E4%BF%82.png" class title="ETF市價淨值關係">
+<img src="/posts/3112049920/%E6%8A%98%E6%BA%A2%E5%83%B9%E4%BF%AE%E4%B8%8D%E5%9B%9E%E4%BE%86.png" class title="折溢價修不回來">
+<p><span class="exturl" data-url="aHR0cDovL3d3dy55dWFudGFldGZzLmNvbS8jL1J0TmF2L0luZGV4">元大ETF<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly93d3cuY2F0aGF5c2l0ZS5jb20udHcvZnVuZHMvZXRmL2VzdGltYXRlLmFzcHg/dD0mZmM9">國泰ETF<i class="fa fa-external-link-alt"></i></span></p>
 <a id="more"></a>
-<img src="/posts/4012161670/%E5%B9%B4%E5%A0%B12%E4%BD%8E1%E9%AB%98%E9%8C%AF%E6%AE%BA%E8%82%A1.png" class title="年報2低1高錯殺股">
 
+<h1 id="【存股敵8個3】第2集！｜新！鼠年12次月配息組合曝光！月月領更多-ETF股民曆1招放大"><a href="#【存股敵8個3】第2集！｜新！鼠年12次月配息組合曝光！月月領更多-ETF股民曆1招放大" class="headerlink" title="【存股敵8個3】第2集！｜新！鼠年12次月配息組合曝光！月月領更多 ETF股民曆1招放大"></a>【存股敵8個3】第2集！｜新！鼠年12次月配息組合曝光！月月領更多 ETF股民曆1招放大</h1><p>月月配的重點是<code>殖利率</code>，股價崩盤殖利率上升</p>
+<img src="/posts/3112049920/%E8%82%A1%E5%83%B9%E5%B4%A9%E7%9B%A4%E6%AE%96%E5%88%A9%E7%8E%87%E4%B8%8A%E5%8D%87.png" class title="股價崩盤殖利率上升">
+<p>疫情不死，債券多頭不止</p>
+<img src="/posts/3112049920/%E8%82%A1%E5%82%B5%E9%85%8D%E7%BD%AE.png" class title="股債配置">
+<img src="/posts/3112049920/%E8%82%A1%E5%82%B5%E9%85%8D%E7%BD%AE%E6%AF%94%E4%BE%8B.png" class title="股債配置比例">
+<h2 id="利息滾入本金"><a href="#利息滾入本金" class="headerlink" title="利息滾入本金"></a>利息滾入本金</h2><p>什麼都不做，年配與月配領的一樣多，<br>拿到配息後滾入1%定存內生利息，月配較年配多出17元報酬，<br>拿到配息後再投入原本投組內約5%報酬：會多出88員報酬，</p>
+<img src="/posts/3112049920/%E5%88%A9%E6%81%AF%E6%BB%BE%E5%85%A5%E6%9C%AC%E9%87%91.png" class title="利息滾入本金">
+<p>指數型商品、債券，可以採定期定額（股價下去之後會回來）</p>
+<img src="/posts/3112049920/%E6%9C%88%E9%85%8D%E6%81%AF.png" class title="月配息">
+
+<h1 id="【存股敵8個3】第3集！｜定期定額存股賺太慢？華倫哥代班股魚過3關！成長股清單曝光？"><a href="#【存股敵8個3】第3集！｜定期定額存股賺太慢？華倫哥代班股魚過3關！成長股清單曝光？" class="headerlink" title="【存股敵8個3】第3集！｜定期定額存股賺太慢？華倫哥代班股魚過3關！成長股清單曝光？"></a>【存股敵8個3】第3集！｜定期定額存股賺太慢？華倫哥代班股魚過3關！成長股清單曝光？</h1><img src="/posts/3112049920/%E8%8F%AF%E5%80%AB%E8%80%81%E5%B8%AB.png" class title="華倫老師">
+<img src="/posts/3112049920/%E8%8F%AF%E5%80%AB%E6%8C%81%E8%82%A1.png" class title="華倫持股">
+<p>加速獲利：</p>
+<ol>
+<li>配股配息在滾回去</li>
+<li>年輕人定存股比例不用太高、多買些成長股（殖利率低）<img src="/posts/3112049920/%E8%8F%AF%E5%80%AB%E6%8A%95%E5%A0%B1%E7%8E%87.png" class title="華倫投報率">
+<h2 id="ETF或是有護城河的股票可以採定期定額"><a href="#ETF或是有護城河的股票可以採定期定額" class="headerlink" title="ETF或是有護城河的股票可以採定期定額"></a>ETF或是有護城河的股票可以採定期定額</h2></li>
+<li>產品或服務壟斷或寡占特性（該產業排前2名）</li>
+<li>產品或服務簡單易懂、長久不變、具持久性</li>
+<li>自由定價能力高、受景氣影響小、重複消費</li>
+<li>獲利穩定成長（先穩定後成長）<img src="/posts/3112049920/%E8%8F%AF%E5%80%AB%E9%81%B8%E8%82%A1%E6%A2%9D%E4%BB%B6.png" class title="華倫選股條件">
 </li>
 </ol>
-<h1 id="【存股敵8個3】第8集！｜台股也有多人運動？1指標存股-籌碼長短都賺！3檔逆風股等待蝴蝶破繭而出？"><a href="#【存股敵8個3】第8集！｜台股也有多人運動？1指標存股-籌碼長短都賺！3檔逆風股等待蝴蝶破繭而出？" class="headerlink" title="【存股敵8個3】第8集！｜台股也有多人運動？1指標存股+籌碼長短都賺！3檔逆風股等待蝴蝶破繭而出？"></a>【存股敵8個3】第8集！｜台股也有多人運動？1指標存股+籌碼長短都賺！3檔逆風股等待蝴蝶破繭而出？</h1><h2 id="景氣寒冬不會倒，景氣復甦賺更多"><a href="#景氣寒冬不會倒，景氣復甦賺更多" class="headerlink" title="景氣寒冬不會倒，景氣復甦賺更多"></a>景氣寒冬不會倒，景氣復甦賺更多</h2><p>其必有過人之處： <a href="/posts/3288983877/#%E9%80%86%E9%A2%A8%E9%81%B8%E8%82%A1">也可參考逆風選股</a></p>
-<img src="/posts/4012161670/%E4%BD%8E%E8%B2%A0%E5%82%B5%E9%AB%98%E6%B5%81%E5%8B%95.png" class title="低負債高流動">
-<img src="/posts/4012161670/%E7%A0%B4%E7%B9%AD%E8%82%A1.png" class title="破繭股">
-
-<h2 id="忠實戶＝主力-三大法人"><a href="#忠實戶＝主力-三大法人" class="headerlink" title="忠實戶＝主力-三大法人"></a>忠實戶＝主力-三大法人</h2><img src="/posts/4012161670/%E8%BF%BD%E4%B8%8D%E8%BF%BD.png" class title="追不追">
-<img src="/posts/4012161670/%E8%B7%91%E4%B8%8D%E8%B7%91.png" class title="跑不跑">
-<img src="/posts/4012161670/%E5%80%92%E4%B8%8D%E5%80%92.png" class title="倒不倒">
-<img src="/posts/4012161670/%E6%90%B6%E4%B8%8D%E6%90%B6.png" class title="搶不搶">
-
-<h1 id="【存股敵8個3】第10集！｜雙雄認證！-400億振興券有效-7檔現金湧泉-長短線搶卡位"><a href="#【存股敵8個3】第10集！｜雙雄認證！-400億振興券有效-7檔現金湧泉-長短線搶卡位" class="headerlink" title="【存股敵8個3】第10集！｜雙雄認證！ 400億振興券有效 7檔現金湧泉 長短線搶卡位"></a>【存股敵8個3】第10集！｜雙雄認證！ 400億振興券有效 7檔現金湧泉 長短線搶卡位</h1><img src="/posts/4012161670/%E6%97%85%E9%81%8A%E8%82%A1.png" class title="旅遊股">
-<img src="/posts/4012161670/%E9%80%9A%E9%81%8B%E8%82%A1.png" class title="通運股">
-<h2 id="看有沒有現金流流入"><a href="#看有沒有現金流流入" class="headerlink" title="看有沒有現金流流入"></a>看有沒有現金流流入</h2><img src="/posts/4012161670/%E7%A9%A9%E5%AE%9A%E7%8F%BE%E9%87%91%E6%B5%81.png" class title="穩定現金流">
-<img src="/posts/4012161670/%E7%8F%BE%E9%87%91%E6%AE%96%E5%88%A9%E7%8E%87%E6%8C%87%E6%A8%99.png" class title="現金殖利率指標">
-
 ]]></content>
       <categories>
         <category>1⃣ 股票</category>
@@ -2090,60 +2097,8 @@ MSCI 外資所建立的台灣指數
         <tag>股票</tag>
         <tag>基本面分析</tag>
         <tag>股魚</tag>
-        <tag>財報出爐</tag>
-        <tag>錯殺股</tag>
-        <tag>破繭股</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>理財達人秀-存股敵8個3(13)</title>
-    <url>/posts/539292455/</url>
-    <content><![CDATA[<h1 id="【存股敵8個3】第13集！｜0056不傳之秘！被踢出反飆40-不敗3君子連莊51季-爽賺100-更勝0056"><a href="#【存股敵8個3】第13集！｜0056不傳之秘！被踢出反飆40-不敗3君子連莊51季-爽賺100-更勝0056" class="headerlink" title="【存股敵8個3】第13集！｜0056不傳之秘！被踢出反飆40% 不敗3君子連莊51季 爽賺100%更勝0056"></a>【存股敵8個3】第13集！｜0056不傳之秘！被踢出反飆40% 不敗3君子連莊51季 爽賺100%更勝0056</h1><p>ETF0056進行５進５出的換股，每半年進行一次更新股票，</p>
-<img src="/posts/539292455/ETF%E6%AF%8F%E5%8D%8A%E5%B9%B4%E8%AA%BF%E6%95%B4.png" class title="ETF每半年調整">
-<p>Ｑ：被常青樹ETF選到的應該就是好貨？<br>籌碼之神獨家揭秘！遭0056剔除的是買點？<br>Ａ：剛公告時納入後投信買，但是月底外資就開始倒貨，</p>
-<img src="/posts/539292455/%E7%B4%8D%E5%85%A5%E5%BE%8C%E6%8A%95%E4%BF%A1%E8%B2%B7%E5%A4%96%E8%B3%87%E8%B3%A3.png" class title="納入後投信買外資賣">
-<a id="more"></a>
-<p>相反的被剔除的剛好相反：投信賣，外資買<br>納入的要早點佈局，等投信真的買反而不要碰他<br>但是，如果是剔除的股票，等投信賣出大跌的時候把他撿回來，</p>
-<img src="/posts/539292455/%E5%89%94%E9%99%A4%E8%82%A1%E8%A2%AB%E5%A4%96%E8%B3%87%E8%B2%B7%E6%BC%B2.png" class title="剔除股被外資買漲">
-<img src="/posts/539292455/%E7%B4%8D%E5%85%A5%E5%89%94%E9%99%A4%E9%83%BD%E8%B7%8C.png" class title="納入剔除都跌">
-<img src="/posts/539292455/ETF0056%E9%81%B8%E8%82%A1%E6%A9%9F%E5%88%B6.png" class title="ETF0056選股機制">
-<p>被納入：殖利率高，可能是股價下跌<br>被剔除：殖利率低，可能是股價漲太多</p>
-<img src="/posts/539292455/%E5%89%94%E9%99%A4%E5%8F%8D%E8%80%8C%E6%9C%83%E6%BC%B2.png" class title="剔除反而會漲">
-<img src="/posts/539292455/%E5%89%94%E9%99%A4%E5%8F%8D%E8%80%8C%E6%9C%83%E6%BC%B22.png" class title="剔除反而會漲2">
-<img src="/posts/539292455/ETF0056%E4%B8%8D%E6%AD%BB%E9%B3%A5.png" class title="ETF0056不死鳥">
-
-<h1 id="【存股敵8個3】第14集！｜萬二存股會被笑？1張圖揭密不敗戰績！這檔ETF內含飆股-年賺8"><a href="#【存股敵8個3】第14集！｜萬二存股會被笑？1張圖揭密不敗戰績！這檔ETF內含飆股-年賺8" class="headerlink" title="【存股敵8個3】第14集！｜萬二存股會被笑？1張圖揭密不敗戰績！這檔ETF內含飆股 年賺8%"></a>【存股敵8個3】第14集！｜萬二存股會被笑？1張圖揭密不敗戰績！這檔ETF內含飆股 年賺8%</h1><p>存股的核心就是不知道手上的標的是便宜還是貴</p>
-<img src="/posts/539292455/%E5%AD%98%E8%82%A1%E7%9A%84%E7%89%B9%E6%80%A7.png" class title="存股的特性">
-<img src="/posts/539292455/%E5%A4%A7%E7%9B%A4%E6%9C%AC%E7%9B%8A%E6%AF%94%E5%81%8F%E9%AB%98%E5%A6%82%E4%BD%95%E6%89%BE%E9%A3%86%E8%82%A1.png" class title="大盤本益比偏高如何找飆股">
-<h2 id="飆股可以從0051成分股找"><a href="#飆股可以從0051成分股找" class="headerlink" title="飆股可以從0051成分股找"></a>飆股可以從0051成分股找</h2><p>ETF0051中型100就是飆股的集合體（年輕貌美很會搖）</p>
-<img src="/posts/539292455/ETF0051%E4%B8%AD%E5%9E%8B100%E5%B0%B1%E6%98%AF%E9%A3%86%E8%82%A1%E7%9A%84%E9%9B%86%E5%90%88%E9%AB%94.png" class title="ETF0051中型100就是飆股的集合體">
-<img src="/posts/539292455/ETF0051%E4%B8%AD%E5%9E%8B100%E5%B0%B1%E6%98%AF%E9%A3%86%E8%82%A1%E7%9A%84%E9%9B%86%E5%90%88%E9%AB%942.png" class title="ETF0051中型100就是飆股的集合體2">
-
-<h1 id="【存股敵8個3】第15集！｜Q2財報出爐！毛利率選黑馬股-賺翻！點名14檔強勢股狂漲66"><a href="#【存股敵8個3】第15集！｜Q2財報出爐！毛利率選黑馬股-賺翻！點名14檔強勢股狂漲66" class="headerlink" title="【存股敵8個3】第15集！｜Q2財報出爐！毛利率選黑馬股 賺翻！點名14檔強勢股狂漲66%"></a>【存股敵8個3】第15集！｜Q2財報出爐！毛利率選黑馬股 賺翻！點名14檔強勢股狂漲66%</h1><p>財報就是消息面的<code>照妖鏡</code>，必須三率一起看才不會被騙，如果是正派的公司，毛利率是有意義的</p>
-<h2 id="你真的懂毛利率嗎"><a href="#你真的懂毛利率嗎" class="headerlink" title="你真的懂毛利率嗎"></a>你真的懂毛利率嗎</h2><img src="/posts/539292455/%E6%AF%9B%E5%88%A9%E7%8E%87%E5%89%B5%E6%96%B0%E9%AB%98.png" class title="毛利率創新高">
-<img src="/posts/539292455/%E9%AB%98%E6%AF%9B%E7%8E%87%E7%AD%89%E6%96%BC%E8%AD%B7%E5%9F%8E%E6%B2%B3.png" class title="高毛率等於護城河">
-<img src="/posts/539292455/%E6%AF%9B%E5%88%A9%E7%8E%87%E8%88%87%E8%82%A1%E5%83%B9.png" class title="毛利率與股價">
-<p>少部份的公司會有例外，因為他的毛利率是用特殊的手法做出來的</p>
-<img src="/posts/539292455/%E6%AF%9B%E5%88%A9%E7%8E%87%E8%88%87%E8%82%A1%E5%83%B9%E8%83%8C%E9%9B%A2.png" class title="毛利率與股價背離">
-<h2 id="毛利率注意事項"><a href="#毛利率注意事項" class="headerlink" title="毛利率注意事項"></a>毛利率注意事項</h2><img src="/posts/539292455/%E6%AF%9B%E5%88%A9%E7%8E%87%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85.png" class title="毛利率注意事項">
-<img src="/posts/539292455/%E6%AF%9B%E5%88%A9%E7%8E%87%E8%A9%95%E4%BC%B0.png" class title="毛利率評估">
-]]></content>
-      <categories>
-        <category>1⃣ 股票</category>
-        <category>基本面分析</category>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-        <category>3⃣ 理財達人秀</category>
-        <category>存股敵8個</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>基本面分析</tag>
-        <tag>股魚</tag>
-        <tag>ETF0056不傳之秘</tag>
-        <tag>飆股</tag>
-        <tag>毛利率黑馬股</tag>
+        <tag>ETF</tag>
+        <tag>華倫成長股</tag>
       </tags>
   </entry>
   <entry>
@@ -2202,6 +2157,184 @@ MSCI 外資所建立的台灣指數
         <tag>股魚</tag>
         <tag>填息</tag>
         <tag>債券ETF</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>理財達人秀-存股敵8個3(13)</title>
+    <url>/posts/539292455/</url>
+    <content><![CDATA[<h1 id="【存股敵8個3】第13集！｜0056不傳之秘！被踢出反飆40-不敗3君子連莊51季-爽賺100-更勝0056"><a href="#【存股敵8個3】第13集！｜0056不傳之秘！被踢出反飆40-不敗3君子連莊51季-爽賺100-更勝0056" class="headerlink" title="【存股敵8個3】第13集！｜0056不傳之秘！被踢出反飆40% 不敗3君子連莊51季 爽賺100%更勝0056"></a>【存股敵8個3】第13集！｜0056不傳之秘！被踢出反飆40% 不敗3君子連莊51季 爽賺100%更勝0056</h1><p>ETF0056進行５進５出的換股，每半年進行一次更新股票，</p>
+<img src="/posts/539292455/ETF%E6%AF%8F%E5%8D%8A%E5%B9%B4%E8%AA%BF%E6%95%B4.png" class title="ETF每半年調整">
+<p>Ｑ：被常青樹ETF選到的應該就是好貨？<br>籌碼之神獨家揭秘！遭0056剔除的是買點？<br>Ａ：剛公告時納入後投信買，但是月底外資就開始倒貨，</p>
+<img src="/posts/539292455/%E7%B4%8D%E5%85%A5%E5%BE%8C%E6%8A%95%E4%BF%A1%E8%B2%B7%E5%A4%96%E8%B3%87%E8%B3%A3.png" class title="納入後投信買外資賣">
+<a id="more"></a>
+<p>相反的被剔除的剛好相反：投信賣，外資買<br>納入的要早點佈局，等投信真的買反而不要碰他<br>但是，如果是剔除的股票，等投信賣出大跌的時候把他撿回來，</p>
+<img src="/posts/539292455/%E5%89%94%E9%99%A4%E8%82%A1%E8%A2%AB%E5%A4%96%E8%B3%87%E8%B2%B7%E6%BC%B2.png" class title="剔除股被外資買漲">
+<img src="/posts/539292455/%E7%B4%8D%E5%85%A5%E5%89%94%E9%99%A4%E9%83%BD%E8%B7%8C.png" class title="納入剔除都跌">
+<img src="/posts/539292455/ETF0056%E9%81%B8%E8%82%A1%E6%A9%9F%E5%88%B6.png" class title="ETF0056選股機制">
+<p>被納入：殖利率高，可能是股價下跌<br>被剔除：殖利率低，可能是股價漲太多</p>
+<img src="/posts/539292455/%E5%89%94%E9%99%A4%E5%8F%8D%E8%80%8C%E6%9C%83%E6%BC%B2.png" class title="剔除反而會漲">
+<img src="/posts/539292455/%E5%89%94%E9%99%A4%E5%8F%8D%E8%80%8C%E6%9C%83%E6%BC%B22.png" class title="剔除反而會漲2">
+<img src="/posts/539292455/ETF0056%E4%B8%8D%E6%AD%BB%E9%B3%A5.png" class title="ETF0056不死鳥">
+
+<h1 id="【存股敵8個3】第14集！｜萬二存股會被笑？1張圖揭密不敗戰績！這檔ETF內含飆股-年賺8"><a href="#【存股敵8個3】第14集！｜萬二存股會被笑？1張圖揭密不敗戰績！這檔ETF內含飆股-年賺8" class="headerlink" title="【存股敵8個3】第14集！｜萬二存股會被笑？1張圖揭密不敗戰績！這檔ETF內含飆股 年賺8%"></a>【存股敵8個3】第14集！｜萬二存股會被笑？1張圖揭密不敗戰績！這檔ETF內含飆股 年賺8%</h1><p>存股的核心就是不知道手上的標的是便宜還是貴</p>
+<img src="/posts/539292455/%E5%AD%98%E8%82%A1%E7%9A%84%E7%89%B9%E6%80%A7.png" class title="存股的特性">
+<img src="/posts/539292455/%E5%A4%A7%E7%9B%A4%E6%9C%AC%E7%9B%8A%E6%AF%94%E5%81%8F%E9%AB%98%E5%A6%82%E4%BD%95%E6%89%BE%E9%A3%86%E8%82%A1.png" class title="大盤本益比偏高如何找飆股">
+<h2 id="飆股可以從0051成分股找"><a href="#飆股可以從0051成分股找" class="headerlink" title="飆股可以從0051成分股找"></a>飆股可以從0051成分股找</h2><p>ETF0051中型100就是飆股的集合體（年輕貌美很會搖）</p>
+<img src="/posts/539292455/ETF0051%E4%B8%AD%E5%9E%8B100%E5%B0%B1%E6%98%AF%E9%A3%86%E8%82%A1%E7%9A%84%E9%9B%86%E5%90%88%E9%AB%94.png" class title="ETF0051中型100就是飆股的集合體">
+<img src="/posts/539292455/ETF0051%E4%B8%AD%E5%9E%8B100%E5%B0%B1%E6%98%AF%E9%A3%86%E8%82%A1%E7%9A%84%E9%9B%86%E5%90%88%E9%AB%942.png" class title="ETF0051中型100就是飆股的集合體2">
+
+<h1 id="【存股敵8個3】第15集！｜Q2財報出爐！毛利率選黑馬股-賺翻！點名14檔強勢股狂漲66"><a href="#【存股敵8個3】第15集！｜Q2財報出爐！毛利率選黑馬股-賺翻！點名14檔強勢股狂漲66" class="headerlink" title="【存股敵8個3】第15集！｜Q2財報出爐！毛利率選黑馬股 賺翻！點名14檔強勢股狂漲66%"></a>【存股敵8個3】第15集！｜Q2財報出爐！毛利率選黑馬股 賺翻！點名14檔強勢股狂漲66%</h1><p>財報就是消息面的<code>照妖鏡</code>，必須三率一起看才不會被騙，如果是正派的公司，毛利率是有意義的</p>
+<h2 id="你真的懂毛利率嗎"><a href="#你真的懂毛利率嗎" class="headerlink" title="你真的懂毛利率嗎"></a>你真的懂毛利率嗎</h2><img src="/posts/539292455/%E6%AF%9B%E5%88%A9%E7%8E%87%E5%89%B5%E6%96%B0%E9%AB%98.png" class title="毛利率創新高">
+<img src="/posts/539292455/%E9%AB%98%E6%AF%9B%E7%8E%87%E7%AD%89%E6%96%BC%E8%AD%B7%E5%9F%8E%E6%B2%B3.png" class title="高毛率等於護城河">
+<img src="/posts/539292455/%E6%AF%9B%E5%88%A9%E7%8E%87%E8%88%87%E8%82%A1%E5%83%B9.png" class title="毛利率與股價">
+<p>少部份的公司會有例外，因為他的毛利率是用特殊的手法做出來的</p>
+<img src="/posts/539292455/%E6%AF%9B%E5%88%A9%E7%8E%87%E8%88%87%E8%82%A1%E5%83%B9%E8%83%8C%E9%9B%A2.png" class title="毛利率與股價背離">
+<h2 id="毛利率注意事項"><a href="#毛利率注意事項" class="headerlink" title="毛利率注意事項"></a>毛利率注意事項</h2><img src="/posts/539292455/%E6%AF%9B%E5%88%A9%E7%8E%87%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85.png" class title="毛利率注意事項">
+<img src="/posts/539292455/%E6%AF%9B%E5%88%A9%E7%8E%87%E8%A9%95%E4%BC%B0.png" class title="毛利率評估">
+]]></content>
+      <categories>
+        <category>1⃣ 股票</category>
+        <category>基本面分析</category>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+        <category>3⃣ 理財達人秀</category>
+        <category>存股敵8個</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>基本面分析</tag>
+        <tag>股魚</tag>
+        <tag>ETF0056不傳之秘</tag>
+        <tag>飆股</tag>
+        <tag>毛利率黑馬股</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>理財達人秀-存股敵8個3(4)</title>
+    <url>/posts/3288983877/</url>
+    <content><![CDATA[<h1 id="【存股敵8個3】第4集！｜存金融股-寄生上流？2020年金融股攻略-6檔厚本股踩雷反而是買點？"><a href="#【存股敵8個3】第4集！｜存金融股-寄生上流？2020年金融股攻略-6檔厚本股踩雷反而是買點？" class="headerlink" title="【存股敵8個3】第4集！｜存金融股=寄生上流？2020年金融股攻略 6檔厚本股踩雷反而是買點？"></a>【存股敵8個3】第4集！｜存金融股=寄生上流？2020年金融股攻略 6檔厚本股踩雷反而是買點？</h1><h2 id="台灣50指數金融股數量佔32％（權重、數量越來越高）"><a href="#台灣50指數金融股數量佔32％（權重、數量越來越高）" class="headerlink" title="台灣50指數金融股數量佔32％（權重、數量越來越高）"></a>台灣50指數金融股數量佔32％（權重、數量越來越高）</h2><p>存金融股＝寄生上流？2020年金融股全攻略<br>當金融股強大的時候，我們寄生上去，他吃肉我們喝湯</p>
+<img src="/posts/3288983877/%E9%87%91%E8%9E%8D%E8%82%A1.png" class title="金融股">
+
+<p>投資金融股一定會遇到的兩個關鍵字：<code>呆帳</code><br>金融股看呆帳覆蓋率、健康指標看體質強壯，<br>金融股有呆帳是很正常的，<code>放款</code>愈多一定會有<code>呆帳</code>，</p>
+<img src="/posts/3288983877/%E4%B8%8D%E6%80%95%E5%91%86%E5%B8%B3%E6%9E%9C%E7%84%B6%E5%A4%A7%E8%B3%BA.png" class title="不怕呆帳果然大賺">
+<a id="more"></a>
+<h2 id="金融股評價模式"><a href="#金融股評價模式" class="headerlink" title="金融股評價模式"></a>金融股評價模式</h2><p>金融股投資必須瞭解2指標+3比率</p>
+<ul>
+<li>2指標：ROE &amp; ROA</li>
+<li>3比率：資本適足率、逾放比率與呆帳覆蓋率<img src="/posts/3288983877/%E9%87%91%E8%9E%8D%E8%82%A1%E8%A9%95%E5%83%B9%E6%A8%A1%E5%BC%8F.png" class title="金融股評價模式">
+
+</li>
+</ul>
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYmFua2luZy5nb3YudHcv">查詢網站：銀行局<i class="fa fa-external-link-alt"></i></span><br>[資本適足率]<br>金融資訊 ==&gt; 金融統計 ==&gt; 往下拉找到<code>金融服務業一般經營概況及效益指標</code> ==&gt; <code>五、本國銀行之資本適足率</code><br>[逾放比率與呆帳覆蓋率]<br>金融資訊 ==&gt; 銀行業務資訊揭露 ==&gt; 往下拉找到<code>本國銀行逾放等財務資料揭露</code></p>
+<p>股價只有地板、沒有天花板</p>
+<h1 id="【存股敵8個3】第5集！｜底部在哪？就等這5訊號浮現！跟著國安基金勝率超高？4指數ETF操作攻略"><a href="#【存股敵8個3】第5集！｜底部在哪？就等這5訊號浮現！跟著國安基金勝率超高？4指數ETF操作攻略" class="headerlink" title="【存股敵8個3】第5集！｜底部在哪？就等這5訊號浮現！跟著國安基金勝率超高？4指數ETF操作攻略"></a>【存股敵8個3】第5集！｜底部在哪？就等這5訊號浮現！跟著國安基金勝率超高？4指數ETF操作攻略</h1><h2 id="下跌五式："><a href="#下跌五式：" class="headerlink" title="下跌五式："></a>下跌五式：</h2><h3 id="第一式：指崩量縮"><a href="#第一式：指崩量縮" class="headerlink" title="第一式：指崩量縮"></a>第一式：指崩量縮</h3><p>股災來臨前：</p>
+<ul>
+<li>初期：指數下滑、成交量正常</li>
+<li>中期：指數下滑、成交量縮</li>
+<li>後期：指數小跌、成交量窒息<img src="/posts/3288983877/%E6%8C%87%E5%B4%A9%E9%87%8F%E7%B8%AE.png" class title="指崩量縮">
+<h3 id="第二式：融斷狂潮"><a href="#第二式：融斷狂潮" class="headerlink" title="第二式：融斷狂潮"></a>第二式：融斷狂潮</h3><img src="/posts/3288983877/%E8%9E%8D%E6%96%B7%E7%8B%82%E6%BD%AE.png" class title="融斷狂潮">
+下跌過程中、非自用資金族群（融資）開始受傷<br>維持率低於120％會強制處分，同一時間大量被強制處分稱為「斷頭潮」</li>
+</ul>
+<p>融券維持率 ＝ （融券擔保品 + 融券保證金） / 股票現值</p>
+<p>整戶維持率則是<br>（融資股票總市值 + 融券擔保品 + 融券保證金） / （融資金額 + 融券股票總市值）* 100％</p>
+<h3 id="第三式：嘴砲庫藏"><a href="#第三式：嘴砲庫藏" class="headerlink" title="第三式：嘴砲庫藏"></a>第三式：嘴砲庫藏</h3><img src="/posts/3288983877/%E5%98%B4%E7%A0%B2%E5%BA%AB%E8%97%8F.png" class title="嘴砲庫藏">
+<p>公家單位：信心喊話<br>民營機構：虛假庫藏</p>
+<h3 id="第四式：四大金剛"><a href="#第四式：四大金剛" class="headerlink" title="第四式：四大金剛"></a>第四式：四大金剛</h3><p>四大基金救市場</p>
+<img src="/posts/3288983877/%E5%9B%9B%E5%A4%A7%E9%87%91%E5%89%9B.png" class title="四大金剛">
+<h3 id="第五式：國安加持"><a href="#第五式：國安加持" class="headerlink" title="第五式：國安加持"></a>第五式：國安加持</h3><p>國家金融安定基金進場護盤<br>開會==&gt;看市場有沒有拉尾盤（台積電、台塑四寶）</p>
+<img src="/posts/3288983877/%E5%9B%9B%E5%A4%A7%E9%87%91%E5%89%9B.png" class title="四大金剛">
+
+<h2 id="不猜底的投資方法"><a href="#不猜底的投資方法" class="headerlink" title="不猜底的投資方法"></a>不猜底的投資方法</h2><p>國安基金是買指數型股票</p>
+<img src="/posts/3288983877/%E4%B8%8D%E7%8C%9C%E5%BA%95%E7%9A%84%E6%8A%95%E8%B3%87%E6%96%B9%E6%B3%95.png" class title="不猜底的投資方法">
+<img src="/posts/3288983877/%E6%8C%87%E6%95%B8%E5%9E%8B%E5%95%86%E5%93%81.png" class title="指數型商品">
+
+<h2 id="高度連動大盤的股票"><a href="#高度連動大盤的股票" class="headerlink" title="高度連動大盤的股票"></a>高度連動大盤的股票</h2><p>自認有本事抓底部的，挑高波動率且獲利良好的個股（Beta大於1.2以上）<br><code>在底部買低波動股票，基本上反彈也不會動</code><br>2330台積電、3217優群、4953緯軟、2207和泰車、<br>5871中租-KY、8299群聯、3105穩懋、2383台光電</p>
+<h1 id="【存股敵8個3】第6集！｜這種股票領先反彈？股魚非常肯定！大盤止穩後-法人買股購物清單"><a href="#【存股敵8個3】第6集！｜這種股票領先反彈？股魚非常肯定！大盤止穩後-法人買股購物清單" class="headerlink" title="【存股敵8個3】第6集！｜這種股票領先反彈？股魚非常肯定！大盤止穩後 法人買股購物清單"></a>【存股敵8個3】第6集！｜這種股票領先反彈？股魚非常肯定！大盤止穩後 法人買股購物清單</h1><h2 id="大盤落底哪種股票先漲？權值龍頭股領先反彈"><a href="#大盤落底哪種股票先漲？權值龍頭股領先反彈" class="headerlink" title="大盤落底哪種股票先漲？權值龍頭股領先反彈"></a>大盤落底哪種股票先漲？權值龍頭股領先反彈</h2><img src="/posts/3288983877/%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91.png" class title="國安基金">
+<p>國安基金的清單是從市值裡面找，權重大的才會拉升指數：</p>
+<img src="/posts/3288983877/%E8%B3%BC%E7%89%A9%E6%B8%85%E5%96%AE.png" class title="購物清單">
+<p>國安基金受到法律的管理：</p>
+<ol>
+<li>單一個股上限不得超過基金規模的10％</li>
+<li>不得超過該公司發行股數總額的10％<img src="/posts/3288983877/%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E5%8F%AA%E8%B2%B7%E6%AC%8A%E5%80%BC%E8%82%A1.png" class title="國安基金只買權值股">
+<h2 id="權值股，跌時一起跌，漲時領先上漲"><a href="#權值股，跌時一起跌，漲時領先上漲" class="headerlink" title="權值股，跌時一起跌，漲時領先上漲"></a>權值股，跌時一起跌，漲時領先上漲</h2><img src="/posts/3288983877/%E6%AC%8A%E5%80%BC%E8%82%A1%E9%A0%98%E5%85%88%E4%B8%8A%E6%BC%B2.png" class title="權值股領先上漲">
+
+</li>
+</ol>
+<h2 id="龍頭股定義"><a href="#龍頭股定義" class="headerlink" title="龍頭股定義"></a>龍頭股定義</h2><p><code>龍頭股</code>的定義：</p>
+<ol>
+<li>產業中技術與規模最領先公司</li>
+<li>同產業中認同度最高，股價也最高的公司<br>如半導體雙雄：<br>2330 台積電：龍頭股 + 權值股<br>2303 聯 電：權值股<img src="/posts/3288983877/%E4%BB%80%E9%BA%BC%E5%8F%AB%E9%BE%8D%E9%A0%AD%E8%82%A1.png" class title="什麼叫龍頭股">
+
+</li>
+</ol>
+<h2 id="逆風選股"><a href="#逆風選股" class="headerlink" title="逆風選股"></a>逆風選股</h2><ol>
+<li>負債比（整體債務）&lt; 60%</li>
+<li>流動比（短期債務）&gt; 100%<img src="/posts/3288983877/%E9%80%86%E9%A2%A8%E9%81%B8%E8%82%A1.png" class title="逆風選股">
+<img src="/posts/3288983877/%E8%82%A1%E9%AD%9A%E9%80%86%E9%A2%A8%E9%81%B8%E8%82%A1.png" class title="股魚逆風選股">
+
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>1⃣ 股票</category>
+        <category>基本面分析</category>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+        <category>3⃣ 理財達人秀</category>
+        <category>存股敵8個</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>基本面分析</tag>
+        <tag>股魚</tag>
+        <tag>金融股</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>理財達人秀-存股敵8個3(7)</title>
+    <url>/posts/4012161670/</url>
+    <content><![CDATA[<h1 id="【存股敵8個3】第7集！｜存股超前部署！年報熱出爐10檔錯殺股現身？體質2低1高最優？"><a href="#【存股敵8個3】第7集！｜存股超前部署！年報熱出爐10檔錯殺股現身？體質2低1高最優？" class="headerlink" title="【存股敵8個3】第7集！｜存股超前部署！年報熱出爐10檔錯殺股現身？體質2低1高最優？"></a>【存股敵8個3】第7集！｜存股超前部署！年報熱出爐10檔錯殺股現身？體質2低1高最優？</h1><h2 id="財報出爐要看什麼："><a href="#財報出爐要看什麼：" class="headerlink" title="財報出爐要看什麼："></a>財報出爐要看什麼：</h2><ol>
+<li>EPS有無成長：正成長</li>
+<li>本益比有無被低估：低於大盤（15）、也低於自己的歷史值<img src="/posts/4012161670/%E5%A4%A7%E7%9B%A4%E6%9C%AC%E7%9B%8A%E6%AF%94.png" class title="大盤本益比">
+<img src="/posts/4012161670/%E6%9C%AC%E7%9B%8A%E6%AF%94%E5%81%8F%E4%BD%8E%E8%82%A1.png" class title="本益比偏低股">
+<a id="more"></a>
+<img src="/posts/4012161670/%E5%B9%B4%E5%A0%B12%E4%BD%8E1%E9%AB%98%E9%8C%AF%E6%AE%BA%E8%82%A1.png" class title="年報2低1高錯殺股">
+
+</li>
+</ol>
+<h1 id="【存股敵8個3】第8集！｜台股也有多人運動？1指標存股-籌碼長短都賺！3檔逆風股等待蝴蝶破繭而出？"><a href="#【存股敵8個3】第8集！｜台股也有多人運動？1指標存股-籌碼長短都賺！3檔逆風股等待蝴蝶破繭而出？" class="headerlink" title="【存股敵8個3】第8集！｜台股也有多人運動？1指標存股+籌碼長短都賺！3檔逆風股等待蝴蝶破繭而出？"></a>【存股敵8個3】第8集！｜台股也有多人運動？1指標存股+籌碼長短都賺！3檔逆風股等待蝴蝶破繭而出？</h1><h2 id="景氣寒冬不會倒，景氣復甦賺更多"><a href="#景氣寒冬不會倒，景氣復甦賺更多" class="headerlink" title="景氣寒冬不會倒，景氣復甦賺更多"></a>景氣寒冬不會倒，景氣復甦賺更多</h2><p>其必有過人之處： <a href="/posts/3288983877/#%E9%80%86%E9%A2%A8%E9%81%B8%E8%82%A1">也可參考逆風選股</a></p>
+<img src="/posts/4012161670/%E4%BD%8E%E8%B2%A0%E5%82%B5%E9%AB%98%E6%B5%81%E5%8B%95.png" class title="低負債高流動">
+<img src="/posts/4012161670/%E7%A0%B4%E7%B9%AD%E8%82%A1.png" class title="破繭股">
+
+<h2 id="忠實戶＝主力-三大法人"><a href="#忠實戶＝主力-三大法人" class="headerlink" title="忠實戶＝主力-三大法人"></a>忠實戶＝主力-三大法人</h2><img src="/posts/4012161670/%E8%BF%BD%E4%B8%8D%E8%BF%BD.png" class title="追不追">
+<img src="/posts/4012161670/%E8%B7%91%E4%B8%8D%E8%B7%91.png" class title="跑不跑">
+<img src="/posts/4012161670/%E5%80%92%E4%B8%8D%E5%80%92.png" class title="倒不倒">
+<img src="/posts/4012161670/%E6%90%B6%E4%B8%8D%E6%90%B6.png" class title="搶不搶">
+
+<h1 id="【存股敵8個3】第10集！｜雙雄認證！-400億振興券有效-7檔現金湧泉-長短線搶卡位"><a href="#【存股敵8個3】第10集！｜雙雄認證！-400億振興券有效-7檔現金湧泉-長短線搶卡位" class="headerlink" title="【存股敵8個3】第10集！｜雙雄認證！ 400億振興券有效 7檔現金湧泉 長短線搶卡位"></a>【存股敵8個3】第10集！｜雙雄認證！ 400億振興券有效 7檔現金湧泉 長短線搶卡位</h1><img src="/posts/4012161670/%E6%97%85%E9%81%8A%E8%82%A1.png" class title="旅遊股">
+<img src="/posts/4012161670/%E9%80%9A%E9%81%8B%E8%82%A1.png" class title="通運股">
+<h2 id="看有沒有現金流流入"><a href="#看有沒有現金流流入" class="headerlink" title="看有沒有現金流流入"></a>看有沒有現金流流入</h2><img src="/posts/4012161670/%E7%A9%A9%E5%AE%9A%E7%8F%BE%E9%87%91%E6%B5%81.png" class title="穩定現金流">
+<img src="/posts/4012161670/%E7%8F%BE%E9%87%91%E6%AE%96%E5%88%A9%E7%8E%87%E6%8C%87%E6%A8%99.png" class title="現金殖利率指標">
+
+]]></content>
+      <categories>
+        <category>1⃣ 股票</category>
+        <category>基本面分析</category>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+        <category>3⃣ 理財達人秀</category>
+        <category>存股敵8個</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>基本面分析</tag>
+        <tag>股魚</tag>
+        <tag>財報出爐</tag>
+        <tag>錯殺股</tag>
+        <tag>破繭股</tag>
       </tags>
   </entry>
   <entry>
@@ -2442,218 +2575,6 @@ MSCI 外資所建立的台灣指數
       </tags>
   </entry>
   <entry>
-    <title>理財達人秀-存股敵8個3(4)</title>
-    <url>/posts/3288983877/</url>
-    <content><![CDATA[<h1 id="【存股敵8個3】第4集！｜存金融股-寄生上流？2020年金融股攻略-6檔厚本股踩雷反而是買點？"><a href="#【存股敵8個3】第4集！｜存金融股-寄生上流？2020年金融股攻略-6檔厚本股踩雷反而是買點？" class="headerlink" title="【存股敵8個3】第4集！｜存金融股=寄生上流？2020年金融股攻略 6檔厚本股踩雷反而是買點？"></a>【存股敵8個3】第4集！｜存金融股=寄生上流？2020年金融股攻略 6檔厚本股踩雷反而是買點？</h1><h2 id="台灣50指數金融股數量佔32％（權重、數量越來越高）"><a href="#台灣50指數金融股數量佔32％（權重、數量越來越高）" class="headerlink" title="台灣50指數金融股數量佔32％（權重、數量越來越高）"></a>台灣50指數金融股數量佔32％（權重、數量越來越高）</h2><p>存金融股＝寄生上流？2020年金融股全攻略<br>當金融股強大的時候，我們寄生上去，他吃肉我們喝湯</p>
-<img src="/posts/3288983877/%E9%87%91%E8%9E%8D%E8%82%A1.png" class title="金融股">
-
-<p>投資金融股一定會遇到的兩個關鍵字：<code>呆帳</code><br>金融股看呆帳覆蓋率、健康指標看體質強壯，<br>金融股有呆帳是很正常的，<code>放款</code>愈多一定會有<code>呆帳</code>，</p>
-<img src="/posts/3288983877/%E4%B8%8D%E6%80%95%E5%91%86%E5%B8%B3%E6%9E%9C%E7%84%B6%E5%A4%A7%E8%B3%BA.png" class title="不怕呆帳果然大賺">
-<a id="more"></a>
-<h2 id="金融股評價模式"><a href="#金融股評價模式" class="headerlink" title="金融股評價模式"></a>金融股評價模式</h2><p>金融股投資必須瞭解2指標+3比率</p>
-<ul>
-<li>2指標：ROE &amp; ROA</li>
-<li>3比率：資本適足率、逾放比率與呆帳覆蓋率<img src="/posts/3288983877/%E9%87%91%E8%9E%8D%E8%82%A1%E8%A9%95%E5%83%B9%E6%A8%A1%E5%BC%8F.png" class title="金融股評價模式">
-
-</li>
-</ul>
-<p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYmFua2luZy5nb3YudHcv">查詢網站：銀行局<i class="fa fa-external-link-alt"></i></span><br>[資本適足率]<br>金融資訊 ==&gt; 金融統計 ==&gt; 往下拉找到<code>金融服務業一般經營概況及效益指標</code> ==&gt; <code>五、本國銀行之資本適足率</code><br>[逾放比率與呆帳覆蓋率]<br>金融資訊 ==&gt; 銀行業務資訊揭露 ==&gt; 往下拉找到<code>本國銀行逾放等財務資料揭露</code></p>
-<p>股價只有地板、沒有天花板</p>
-<h1 id="【存股敵8個3】第5集！｜底部在哪？就等這5訊號浮現！跟著國安基金勝率超高？4指數ETF操作攻略"><a href="#【存股敵8個3】第5集！｜底部在哪？就等這5訊號浮現！跟著國安基金勝率超高？4指數ETF操作攻略" class="headerlink" title="【存股敵8個3】第5集！｜底部在哪？就等這5訊號浮現！跟著國安基金勝率超高？4指數ETF操作攻略"></a>【存股敵8個3】第5集！｜底部在哪？就等這5訊號浮現！跟著國安基金勝率超高？4指數ETF操作攻略</h1><h2 id="下跌五式："><a href="#下跌五式：" class="headerlink" title="下跌五式："></a>下跌五式：</h2><h3 id="第一式：指崩量縮"><a href="#第一式：指崩量縮" class="headerlink" title="第一式：指崩量縮"></a>第一式：指崩量縮</h3><p>股災來臨前：</p>
-<ul>
-<li>初期：指數下滑、成交量正常</li>
-<li>中期：指數下滑、成交量縮</li>
-<li>後期：指數小跌、成交量窒息<img src="/posts/3288983877/%E6%8C%87%E5%B4%A9%E9%87%8F%E7%B8%AE.png" class title="指崩量縮">
-<h3 id="第二式：融斷狂潮"><a href="#第二式：融斷狂潮" class="headerlink" title="第二式：融斷狂潮"></a>第二式：融斷狂潮</h3><img src="/posts/3288983877/%E8%9E%8D%E6%96%B7%E7%8B%82%E6%BD%AE.png" class title="融斷狂潮">
-下跌過程中、非自用資金族群（融資）開始受傷<br>維持率低於120％會強制處分，同一時間大量被強制處分稱為「斷頭潮」</li>
-</ul>
-<p>融券維持率 ＝ （融券擔保品 + 融券保證金） / 股票現值</p>
-<p>整戶維持率則是<br>（融資股票總市值 + 融券擔保品 + 融券保證金） / （融資金額 + 融券股票總市值）* 100％</p>
-<h3 id="第三式：嘴砲庫藏"><a href="#第三式：嘴砲庫藏" class="headerlink" title="第三式：嘴砲庫藏"></a>第三式：嘴砲庫藏</h3><img src="/posts/3288983877/%E5%98%B4%E7%A0%B2%E5%BA%AB%E8%97%8F.png" class title="嘴砲庫藏">
-<p>公家單位：信心喊話<br>民營機構：虛假庫藏</p>
-<h3 id="第四式：四大金剛"><a href="#第四式：四大金剛" class="headerlink" title="第四式：四大金剛"></a>第四式：四大金剛</h3><p>四大基金救市場</p>
-<img src="/posts/3288983877/%E5%9B%9B%E5%A4%A7%E9%87%91%E5%89%9B.png" class title="四大金剛">
-<h3 id="第五式：國安加持"><a href="#第五式：國安加持" class="headerlink" title="第五式：國安加持"></a>第五式：國安加持</h3><p>國家金融安定基金進場護盤<br>開會==&gt;看市場有沒有拉尾盤（台積電、台塑四寶）</p>
-<img src="/posts/3288983877/%E5%9B%9B%E5%A4%A7%E9%87%91%E5%89%9B.png" class title="四大金剛">
-
-<h2 id="不猜底的投資方法"><a href="#不猜底的投資方法" class="headerlink" title="不猜底的投資方法"></a>不猜底的投資方法</h2><p>國安基金是買指數型股票</p>
-<img src="/posts/3288983877/%E4%B8%8D%E7%8C%9C%E5%BA%95%E7%9A%84%E6%8A%95%E8%B3%87%E6%96%B9%E6%B3%95.png" class title="不猜底的投資方法">
-<img src="/posts/3288983877/%E6%8C%87%E6%95%B8%E5%9E%8B%E5%95%86%E5%93%81.png" class title="指數型商品">
-
-<h2 id="高度連動大盤的股票"><a href="#高度連動大盤的股票" class="headerlink" title="高度連動大盤的股票"></a>高度連動大盤的股票</h2><p>自認有本事抓底部的，挑高波動率且獲利良好的個股（Beta大於1.2以上）<br><code>在底部買低波動股票，基本上反彈也不會動</code><br>2330台積電、3217優群、4953緯軟、2207和泰車、<br>5871中租-KY、8299群聯、3105穩懋、2383台光電</p>
-<h1 id="【存股敵8個3】第6集！｜這種股票領先反彈？股魚非常肯定！大盤止穩後-法人買股購物清單"><a href="#【存股敵8個3】第6集！｜這種股票領先反彈？股魚非常肯定！大盤止穩後-法人買股購物清單" class="headerlink" title="【存股敵8個3】第6集！｜這種股票領先反彈？股魚非常肯定！大盤止穩後 法人買股購物清單"></a>【存股敵8個3】第6集！｜這種股票領先反彈？股魚非常肯定！大盤止穩後 法人買股購物清單</h1><h2 id="大盤落底哪種股票先漲？權值龍頭股領先反彈"><a href="#大盤落底哪種股票先漲？權值龍頭股領先反彈" class="headerlink" title="大盤落底哪種股票先漲？權值龍頭股領先反彈"></a>大盤落底哪種股票先漲？權值龍頭股領先反彈</h2><img src="/posts/3288983877/%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91.png" class title="國安基金">
-<p>國安基金的清單是從市值裡面找，權重大的才會拉升指數：</p>
-<img src="/posts/3288983877/%E8%B3%BC%E7%89%A9%E6%B8%85%E5%96%AE.png" class title="購物清單">
-<p>國安基金受到法律的管理：</p>
-<ol>
-<li>單一個股上限不得超過基金規模的10％</li>
-<li>不得超過該公司發行股數總額的10％<img src="/posts/3288983877/%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E5%8F%AA%E8%B2%B7%E6%AC%8A%E5%80%BC%E8%82%A1.png" class title="國安基金只買權值股">
-<h2 id="權值股，跌時一起跌，漲時領先上漲"><a href="#權值股，跌時一起跌，漲時領先上漲" class="headerlink" title="權值股，跌時一起跌，漲時領先上漲"></a>權值股，跌時一起跌，漲時領先上漲</h2><img src="/posts/3288983877/%E6%AC%8A%E5%80%BC%E8%82%A1%E9%A0%98%E5%85%88%E4%B8%8A%E6%BC%B2.png" class title="權值股領先上漲">
-
-</li>
-</ol>
-<h2 id="龍頭股定義"><a href="#龍頭股定義" class="headerlink" title="龍頭股定義"></a>龍頭股定義</h2><p><code>龍頭股</code>的定義：</p>
-<ol>
-<li>產業中技術與規模最領先公司</li>
-<li>同產業中認同度最高，股價也最高的公司<br>如半導體雙雄：<br>2330 台積電：龍頭股 + 權值股<br>2303 聯 電：權值股<img src="/posts/3288983877/%E4%BB%80%E9%BA%BC%E5%8F%AB%E9%BE%8D%E9%A0%AD%E8%82%A1.png" class title="什麼叫龍頭股">
-
-</li>
-</ol>
-<h2 id="逆風選股"><a href="#逆風選股" class="headerlink" title="逆風選股"></a>逆風選股</h2><ol>
-<li>負債比（整體債務）&lt; 60%</li>
-<li>流動比（短期債務）&gt; 100%<img src="/posts/3288983877/%E9%80%86%E9%A2%A8%E9%81%B8%E8%82%A1.png" class title="逆風選股">
-<img src="/posts/3288983877/%E8%82%A1%E9%AD%9A%E9%80%86%E9%A2%A8%E9%81%B8%E8%82%A1.png" class title="股魚逆風選股">
-
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>1⃣ 股票</category>
-        <category>基本面分析</category>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-        <category>3⃣ 理財達人秀</category>
-        <category>存股敵8個</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>基本面分析</tag>
-        <tag>股魚</tag>
-        <tag>金融股</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>理財達人秀-籌碼精算師總複習</title>
-    <url>/posts/2093285934/</url>
-    <content><![CDATA[<h1 id="投信選股三法："><a href="#投信選股三法：" class="headerlink" title="投信選股三法："></a>投信選股三法：</h1><ol>
-<li>買超創新高：<br>半年內，<code>投本比</code>皆為<code>紅色</code>，每個投信都一直買，沒人下車，<br>心臟很大顆，投信已經買了半年，繼續追漲</li>
-<li>當天忽然大買：<br>當天<code>投本比</code>大於<code>1%</code></li>
-<li>投信佈局連續小買<br>法人一直買：法人買賣狀況統計，法人連買連賣統計（日）<a id="more"></a>
-
-</li>
-</ol>
-<h1 id="投信跟單"><a href="#投信跟單" class="headerlink" title="投信跟單"></a>投信跟單</h1><ol>
-<li>月線以上靠近月線才買</li>
-<li>跌破月線果斷出場換股</li>
-<li>獲利20％停利一半</li>
-</ol>
-<h1 id="融資分三種："><a href="#融資分三種：" class="headerlink" title="融資分三種："></a>融資分三種：</h1><ol>
-<li>低檔大買，前菜就吃 （股價沒漲出現大幅融資）</li>
-<li>沿路加碼，專吃主菜 （賺錢融資加碼）</li>
-<li>下跌低接，準備洗碗 （賠錢融資加碼）</li>
-</ol>
-<h1 id="你丟我撿股"><a href="#你丟我撿股" class="headerlink" title="你丟我撿股"></a>你丟我撿股</h1><p>融資（散戶）一直減少＋法人一直增加＋站上月線<br>融資逆跟單三大招：</p>
-<ol>
-<li><span class="exturl" data-url="aHR0cDovL2pzanVzdHdlYi5qaWhzdW4uY29tLnR3L3ovemcvemdfRUFfMF8xMC5kamh0bQ==">10日融資減少中選股<i class="fa fa-external-link-alt"></i></span></li>
-<li>股價在月線以上</li>
-<li>回檔低接，破月線就賣</li>
-</ol>
-<h1 id="散戶明燈三大招"><a href="#散戶明燈三大招" class="headerlink" title="散戶明燈三大招"></a>散戶明燈三大招</h1><ol>
-<li>股價創240日新高：<br>GoodInfo智慧選股=&gt;交易狀況=&gt;股價創多日高點</li>
-<li>100張以下散戶持股創新低，散戶人數大減就是方向<br>集保股權分散表，<span class="exturl" data-url="aHR0cHM6Ly9ub3J3YXkudHdzdGhyLmluZm8vU3RvY2tIb2xkZXJzLmFzcHg=">神祕金字塔<i class="fa fa-external-link-alt"></i></span></li>
-<li>回檔低接，破月線就賣</li>
-</ol>
-<h2 id="雙劍合璧：散戶賣＋投信買"><a href="#雙劍合璧：散戶賣＋投信買" class="headerlink" title="雙劍合璧：散戶賣＋投信買"></a>雙劍合璧：散戶賣＋投信買</h2><p>阿哥五心法加速衝刺：</p>
-<ol>
-<li>找出投信大買股</li>
-<li>確認股東人數持續少</li>
-<li>股本要小於一百億</li>
-<li>靠近10線佈局</li>
-<li>跌破月線一定要轉利（停損）</li>
-</ol>
-<h1 id="當沖選股三大招"><a href="#當沖選股三大招" class="headerlink" title="當沖選股三大招"></a>當沖選股三大招</h1><ol>
-<li>找出月當沖好賺股<br>GoodInfo成交張數=&gt;現股當沖總獲利=&gt;當月</li>
-<li>法人買+股東人數減少</li>
-<li>回檔低階，破月線就賣</li>
-</ol>
-<h1 id="融券三大守則"><a href="#融券三大守則" class="headerlink" title="融券三大守則"></a>融券三大守則</h1><ol>
-<li>融券輸錢 - 軋空行情 （作多）</li>
-<li>融券獲利 - 空頭結束</li>
-<li>月線以下才能放空</li>
-</ol>
-<h1 id="借券三大守則"><a href="#借券三大守則" class="headerlink" title="借券三大守則"></a>借券三大守則</h1><ol>
-<li>借券大增+外資買超＝盤整</li>
-<li>借券大增+外資賣超＝空頭</li>
-<li>借券屬於<code>中期</code>方向指標</li>
-</ol>
-<h1 id="權證三大守則"><a href="#權證三大守則" class="headerlink" title="權證三大守則"></a>權證三大守則</h1><ol>
-<li>到期日挑選120天以上</li>
-<li>履約價在0～-10％之間</li>
-<li>資金比重小於5％（不要投太多錢）</li>
-</ol>
-<h1 id="權證交易三大守則"><a href="#權證交易三大守則" class="headerlink" title="權證交易三大守則"></a>權證交易三大守則</h1><ol>
-<li>股票要跌兩天才能買 （權證要等他回檔再買，不然風險太大）</li>
-<li>獲利一倍！出場一半！</li>
-<li>10天內沒賺錢就出場 （10天內沒飆權證就要出場）</li>
-</ol>
-<h1 id="投信作帳怎麼挑"><a href="#投信作帳怎麼挑" class="headerlink" title="投信作帳怎麼挑"></a>投信作帳怎麼挑</h1><blockquote>
-<ol>
-<li>投信持股比率在３～５％</li>
-<li>最近十天明顯買超</li>
-<li>外資也跟著買超更好</li>
-</ol>
-</blockquote>
-<h1 id="投信作帳股怎麼操作"><a href="#投信作帳股怎麼操作" class="headerlink" title="投信作帳股怎麼操作"></a>投信作帳股怎麼操作</h1><blockquote>
-<ol>
-<li>每檔股票最多10%持股</li>
-<li>回檔10日均線風險才低</li>
-<li>投信一旦賣出就出場（跌破月線也要出場）</li>
-</ol>
-</blockquote>
-<h1 id="篩選結果"><a href="#篩選結果" class="headerlink" title="篩選結果"></a>篩選結果</h1><p>投信買＋外資也買＋散戶反指標（融資減少＋融券增加）</p>
-]]></content>
-      <categories>
-        <category>1⃣ 股票</category>
-        <category>籌碼面分析</category>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-        <category>3⃣ 理財達人秀</category>
-        <category>籌碼精算師</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>籌碼面分析</tag>
-        <tag>阿斯匹靈</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>三招挖飆股勝率超過六成 別再傻傻存牛皮股！ft.孫慶龍(股票-下班經濟學#41)</title>
-    <url>/posts/3613151692/</url>
-    <content><![CDATA[<p>如果不清楚什麼是KD值可以參考 <a href="/posts/3701503514/#KD%E5%80%BC">名詞解釋：KD值</a></p>
-<img src="/posts/3613151692/%E6%9C%88KD%E9%80%B2%E5%87%BA%E7%AD%96%E7%95%A5.png" class title="月KD進出策略">
-<h1 id="月KD進出策略"><a href="#月KD進出策略" class="headerlink" title="月KD進出策略"></a>月KD進出策略</h1><p>透過此策略可以幫你<code>趨吉避凶</code></p>
-<h2 id="買進時機"><a href="#買進時機" class="headerlink" title="買進時機"></a>買進時機</h2><ul>
-<li>月KD&lt;20<br>通常代表一檔股票已經跌很久了</li>
-<li>月K&gt;月D（黃金交叉）<br>跌的過程中，已經開始企圖想要翻轉</li>
-<li>月底看一次盤，必須搭配產業面判斷是否能進場</li>
-</ul>
-<img src="/posts/3613151692/3704%E8%B5%B0%E5%8B%A2%E5%9C%96.png" class title="3704走勢圖">
-<h2 id="賣出時機"><a href="#賣出時機" class="headerlink" title="賣出時機"></a>賣出時機</h2><ul>
-<li>月KD&gt;80</li>
-<li>月K&lt;月D（死亡交叉）<img src="/posts/3613151692/2317%E6%AD%BB%E4%BA%A1%E4%BA%A4%E5%8F%89.png" class title="2317死亡交叉">
-
-</li>
-</ul>
-<h1 id="設立停損點"><a href="#設立停損點" class="headerlink" title="設立停損點"></a>設立停損點</h1><p>因為黃金交叉並非100%上漲，當<code>跌破20週均線</code>需要止損。</p>
-<a id="more"></a>
-]]></content>
-      <categories>
-        <category>1⃣ 股票</category>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-        <category>飆股</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>飆股</tag>
-        <tag>下班經濟學</tag>
-        <tag>不看盤投資術</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>理財達人秀-籌碼精算師(7)</title>
     <url>/posts/1376064040/</url>
     <content><![CDATA[<h1 id="【籌碼精算師】第7集！｜告別當沖手工業！苦賺92元不如阿哥籌碼賺1萬！搭便車3絕招-波段落袋40-！"><a href="#【籌碼精算師】第7集！｜告別當沖手工業！苦賺92元不如阿哥籌碼賺1萬！搭便車3絕招-波段落袋40-！" class="headerlink" title="【籌碼精算師】第7集！｜告別當沖手工業！苦賺92元不如阿哥籌碼賺1萬！搭便車3絕招　波段落袋40%！"></a>【籌碼精算師】第7集！｜告別當沖手工業！苦賺92元不如阿哥籌碼賺1萬！搭便車3絕招　波段落袋40%！</h1><p>透過有<code>當沖客</code>找出<code>好股票</code>，<br>怎樣利用當沖客幫我們賺錢，他們賺小錢，我們賺大錢</p>
@@ -2799,6 +2720,136 @@ MSCI 外資所建立的台灣指數
       </tags>
   </entry>
   <entry>
+    <title>理財達人秀-籌碼精算師總複習</title>
+    <url>/posts/2093285934/</url>
+    <content><![CDATA[<h1 id="投信選股三法："><a href="#投信選股三法：" class="headerlink" title="投信選股三法："></a>投信選股三法：</h1><ol>
+<li>買超創新高：<br>半年內，<code>投本比</code>皆為<code>紅色</code>，每個投信都一直買，沒人下車，<br>心臟很大顆，投信已經買了半年，繼續追漲</li>
+<li>當天忽然大買：<br>當天<code>投本比</code>大於<code>1%</code></li>
+<li>投信佈局連續小買<br>法人一直買：法人買賣狀況統計，法人連買連賣統計（日）<a id="more"></a>
+
+</li>
+</ol>
+<h1 id="投信跟單"><a href="#投信跟單" class="headerlink" title="投信跟單"></a>投信跟單</h1><ol>
+<li>月線以上靠近月線才買</li>
+<li>跌破月線果斷出場換股</li>
+<li>獲利20％停利一半</li>
+</ol>
+<h1 id="融資分三種："><a href="#融資分三種：" class="headerlink" title="融資分三種："></a>融資分三種：</h1><ol>
+<li>低檔大買，前菜就吃 （股價沒漲出現大幅融資）</li>
+<li>沿路加碼，專吃主菜 （賺錢融資加碼）</li>
+<li>下跌低接，準備洗碗 （賠錢融資加碼）</li>
+</ol>
+<h1 id="你丟我撿股"><a href="#你丟我撿股" class="headerlink" title="你丟我撿股"></a>你丟我撿股</h1><p>融資（散戶）一直減少＋法人一直增加＋站上月線<br>融資逆跟單三大招：</p>
+<ol>
+<li><span class="exturl" data-url="aHR0cDovL2pzanVzdHdlYi5qaWhzdW4uY29tLnR3L3ovemcvemdfRUFfMF8xMC5kamh0bQ==">10日融資減少中選股<i class="fa fa-external-link-alt"></i></span></li>
+<li>股價在月線以上</li>
+<li>回檔低接，破月線就賣</li>
+</ol>
+<h1 id="散戶明燈三大招"><a href="#散戶明燈三大招" class="headerlink" title="散戶明燈三大招"></a>散戶明燈三大招</h1><ol>
+<li>股價創240日新高：<br>GoodInfo智慧選股=&gt;交易狀況=&gt;股價創多日高點</li>
+<li>100張以下散戶持股創新低，散戶人數大減就是方向<br>集保股權分散表，<span class="exturl" data-url="aHR0cHM6Ly9ub3J3YXkudHdzdGhyLmluZm8vU3RvY2tIb2xkZXJzLmFzcHg=">神祕金字塔<i class="fa fa-external-link-alt"></i></span></li>
+<li>回檔低接，破月線就賣</li>
+</ol>
+<h2 id="雙劍合璧：散戶賣＋投信買"><a href="#雙劍合璧：散戶賣＋投信買" class="headerlink" title="雙劍合璧：散戶賣＋投信買"></a>雙劍合璧：散戶賣＋投信買</h2><p>阿哥五心法加速衝刺：</p>
+<ol>
+<li>找出投信大買股</li>
+<li>確認股東人數持續少</li>
+<li>股本要小於一百億</li>
+<li>靠近10線佈局</li>
+<li>跌破月線一定要轉利（停損）</li>
+</ol>
+<h1 id="當沖選股三大招"><a href="#當沖選股三大招" class="headerlink" title="當沖選股三大招"></a>當沖選股三大招</h1><ol>
+<li>找出月當沖好賺股<br>GoodInfo成交張數=&gt;現股當沖總獲利=&gt;當月</li>
+<li>法人買+股東人數減少</li>
+<li>回檔低階，破月線就賣</li>
+</ol>
+<h1 id="融券三大守則"><a href="#融券三大守則" class="headerlink" title="融券三大守則"></a>融券三大守則</h1><ol>
+<li>融券輸錢 - 軋空行情 （作多）</li>
+<li>融券獲利 - 空頭結束</li>
+<li>月線以下才能放空</li>
+</ol>
+<h1 id="借券三大守則"><a href="#借券三大守則" class="headerlink" title="借券三大守則"></a>借券三大守則</h1><ol>
+<li>借券大增+外資買超＝盤整</li>
+<li>借券大增+外資賣超＝空頭</li>
+<li>借券屬於<code>中期</code>方向指標</li>
+</ol>
+<h1 id="權證三大守則"><a href="#權證三大守則" class="headerlink" title="權證三大守則"></a>權證三大守則</h1><ol>
+<li>到期日挑選120天以上</li>
+<li>履約價在0～-10％之間</li>
+<li>資金比重小於5％（不要投太多錢）</li>
+</ol>
+<h1 id="權證交易三大守則"><a href="#權證交易三大守則" class="headerlink" title="權證交易三大守則"></a>權證交易三大守則</h1><ol>
+<li>股票要跌兩天才能買 （權證要等他回檔再買，不然風險太大）</li>
+<li>獲利一倍！出場一半！</li>
+<li>10天內沒賺錢就出場 （10天內沒飆權證就要出場）</li>
+</ol>
+<h1 id="投信作帳怎麼挑"><a href="#投信作帳怎麼挑" class="headerlink" title="投信作帳怎麼挑"></a>投信作帳怎麼挑</h1><blockquote>
+<ol>
+<li>投信持股比率在３～５％</li>
+<li>最近十天明顯買超</li>
+<li>外資也跟著買超更好</li>
+</ol>
+</blockquote>
+<h1 id="投信作帳股怎麼操作"><a href="#投信作帳股怎麼操作" class="headerlink" title="投信作帳股怎麼操作"></a>投信作帳股怎麼操作</h1><blockquote>
+<ol>
+<li>每檔股票最多10%持股</li>
+<li>回檔10日均線風險才低</li>
+<li>投信一旦賣出就出場（跌破月線也要出場）</li>
+</ol>
+</blockquote>
+<h1 id="篩選結果"><a href="#篩選結果" class="headerlink" title="篩選結果"></a>篩選結果</h1><p>投信買＋外資也買＋散戶反指標（融資減少＋融券增加）</p>
+]]></content>
+      <categories>
+        <category>1⃣ 股票</category>
+        <category>籌碼面分析</category>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+        <category>3⃣ 理財達人秀</category>
+        <category>籌碼精算師</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>籌碼面分析</tag>
+        <tag>阿斯匹靈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>三招挖飆股勝率超過六成 別再傻傻存牛皮股！ft.孫慶龍(股票-下班經濟學#41)</title>
+    <url>/posts/3613151692/</url>
+    <content><![CDATA[<p>如果不清楚什麼是KD值可以參考 <a href="/posts/3701503514/#KD%E5%80%BC">名詞解釋：KD值</a></p>
+<img src="/posts/3613151692/%E6%9C%88KD%E9%80%B2%E5%87%BA%E7%AD%96%E7%95%A5.png" class title="月KD進出策略">
+<h1 id="月KD進出策略"><a href="#月KD進出策略" class="headerlink" title="月KD進出策略"></a>月KD進出策略</h1><p>透過此策略可以幫你<code>趨吉避凶</code></p>
+<h2 id="買進時機"><a href="#買進時機" class="headerlink" title="買進時機"></a>買進時機</h2><ul>
+<li>月KD&lt;20<br>通常代表一檔股票已經跌很久了</li>
+<li>月K&gt;月D（黃金交叉）<br>跌的過程中，已經開始企圖想要翻轉</li>
+<li>月底看一次盤，必須搭配產業面判斷是否能進場</li>
+</ul>
+<img src="/posts/3613151692/3704%E8%B5%B0%E5%8B%A2%E5%9C%96.png" class title="3704走勢圖">
+<h2 id="賣出時機"><a href="#賣出時機" class="headerlink" title="賣出時機"></a>賣出時機</h2><ul>
+<li>月KD&gt;80</li>
+<li>月K&lt;月D（死亡交叉）<img src="/posts/3613151692/2317%E6%AD%BB%E4%BA%A1%E4%BA%A4%E5%8F%89.png" class title="2317死亡交叉">
+
+</li>
+</ul>
+<h1 id="設立停損點"><a href="#設立停損點" class="headerlink" title="設立停損點"></a>設立停損點</h1><p>因為黃金交叉並非100%上漲，當<code>跌破20週均線</code>需要止損。</p>
+<a id="more"></a>
+]]></content>
+      <categories>
+        <category>1⃣ 股票</category>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+        <category>飆股</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>飆股</tag>
+        <tag>下班經濟學</tag>
+        <tag>不看盤投資術</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>40歲靠存股提早退休 5招心法教你不看盤投資術 ft.股魚(股票-下班經濟學#45)</title>
     <url>/posts/3492910549/</url>
     <content><![CDATA[<p>以下的內容，選股方式：</p>
@@ -2941,6 +2992,50 @@ MSCI 外資所建立的台灣指數
       </tags>
   </entry>
   <entry>
+    <title>股票-殖利率</title>
+    <url>/posts/4199638572/</url>
+    <content><![CDATA[<a id="more"></a>
+]]></content>
+      <categories>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>股票-股利</title>
+    <url>/posts/3702625446/</url>
+    <content><![CDATA[<p>看完這篇將學到：</p>
+<blockquote>
+<p>什麼是<code>「現金股利」</code>、<code>「股票股利」</code>？<br>  是公司將賺的錢分配給股東的形式，簡稱為「分紅」，</p>
+</blockquote>
+<ul>
+<li><strong>「現金股利」：發放現金股利給股東。</strong></li>
+<li><strong>「股票股利」：發放股票股利(把錢用來增加公司的股本)，將股本的所有權轉移給股東。</strong></li>
+</ul>
+<p>當我們買進某公司的股票時，便成為該公司的股東。<br>若該公司有賺錢時，我們（股東）就能夠依據持有股票的比例，分配獲得所賺的利潤，這就是所謂的「股利」，<br>反之，若該公司不賺錢，當然也有可能領不到股利 😖</p>
+<h1 id="股利"><a href="#股利" class="headerlink" title="股利"></a>股利</h1><p>股利，是指股份公司從<code>留存收益</code>中派發給股東的那一部分。<br>就上市公司的情況中，股利只會派發給在<code>除息日之前一日持有股票</code>至除息日當日的人士，<br>在除息日當日或以後才買入股票的人則不能獲派股利。<br>與此同時，證券交易所會在除息日開市前自動把股票的前一交易日收盤價扣減股利後的價值，<br>定為該股票的開盤交易日的開盤價，因此股價會在除息日開盤時「自動下跌」。</p>
+<p>股利一般有兩種支付方式：<code>「現金股利」</code>（<code>股息</code>，英語：Cash Dividends）和<code>「股票股利」</code>（<code>股利</code>，英語：Stock Dividends）。 </p>
+<h2 id="現金股利"><a href="#現金股利" class="headerlink" title="現金股利"></a>現金股利</h2><p><code>「現金股利」</code>是指股份公司向股東<code>支付現金</code>，又稱<code>「股息」</code>或<code>「配息」</code>。<br><code>現金股利</code>給予股東即時的資本回報。</p>
+<h2 id="股票股利"><a href="#股票股利" class="headerlink" title="股票股利"></a>股票股利</h2><p><code>「股票股利」</code>或<code>「以股代息」</code>是指股份公司向股東以<code>贈送新的股份</code>方式代替支付現金股利，又稱<code>「股利」</code>或<code>「配股」</code>。</p>
+<p>對於優質股，股票股利給予股東長遠獲取更大回報的機會，股東期望股份價值上升及繼續以股代息，利用複息效應把錢愈滾愈大。</p>
+<p>但對於經營不佳的公司，股票股利只是「零成本」印股票派息，因為公司沒有「多餘的」現金可用作派息。 </p>
+<h2 id="配息配股的比較"><a href="#配息配股的比較" class="headerlink" title="配息配股的比較"></a>配息配股的比較</h2><p>整理中．．．</p>
+<a id="more"></a>
+]]></content>
+      <categories>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>股票-股票的故事一</title>
     <url>/posts/2278927718/</url>
     <content><![CDATA[<blockquote>
@@ -2996,194 +3091,6 @@ MSCI 外資所建立的台灣指數
         <tag>筆記</tag>
         <tag>股票</tag>
         <tag>名詞解釋</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>理財達人秀-存股敵8個3(1) ETF、月月領、華倫成長股</title>
-    <url>/posts/3112049920/</url>
-    <content><![CDATA[<h1 id="【存股敵8個3】第1集！｜ETF教父股魚-強勢回歸！秒懂折溢價-買對2天賺8-？"><a href="#【存股敵8個3】第1集！｜ETF教父股魚-強勢回歸！秒懂折溢價-買對2天賺8-？" class="headerlink" title="【存股敵8個3】第1集！｜ETF教父股魚 強勢回歸！秒懂折溢價 買對2天賺8%？"></a>【存股敵8個3】第1集！｜ETF教父股魚 強勢回歸！秒懂折溢價 買對2天賺8%？</h1><p>股票的本體是<code>市價</code>，如果是ETF本體是<code>淨值</code></p>
-<img src="/posts/3112049920/ETF%E6%B7%A8%E5%80%BC.png" class title="ETF淨值">
-<img src="/posts/3112049920/ETF%E5%B8%82%E5%83%B9%E6%B7%A8%E5%80%BC%E9%97%9C%E4%BF%82.png" class title="ETF市價淨值關係">
-<img src="/posts/3112049920/%E6%8A%98%E6%BA%A2%E5%83%B9%E4%BF%AE%E4%B8%8D%E5%9B%9E%E4%BE%86.png" class title="折溢價修不回來">
-<p><span class="exturl" data-url="aHR0cDovL3d3dy55dWFudGFldGZzLmNvbS8jL1J0TmF2L0luZGV4">元大ETF<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly93d3cuY2F0aGF5c2l0ZS5jb20udHcvZnVuZHMvZXRmL2VzdGltYXRlLmFzcHg/dD0mZmM9">國泰ETF<i class="fa fa-external-link-alt"></i></span></p>
-<a id="more"></a>
-
-<h1 id="【存股敵8個3】第2集！｜新！鼠年12次月配息組合曝光！月月領更多-ETF股民曆1招放大"><a href="#【存股敵8個3】第2集！｜新！鼠年12次月配息組合曝光！月月領更多-ETF股民曆1招放大" class="headerlink" title="【存股敵8個3】第2集！｜新！鼠年12次月配息組合曝光！月月領更多 ETF股民曆1招放大"></a>【存股敵8個3】第2集！｜新！鼠年12次月配息組合曝光！月月領更多 ETF股民曆1招放大</h1><p>月月配的重點是<code>殖利率</code>，股價崩盤殖利率上升</p>
-<img src="/posts/3112049920/%E8%82%A1%E5%83%B9%E5%B4%A9%E7%9B%A4%E6%AE%96%E5%88%A9%E7%8E%87%E4%B8%8A%E5%8D%87.png" class title="股價崩盤殖利率上升">
-<p>疫情不死，債券多頭不止</p>
-<img src="/posts/3112049920/%E8%82%A1%E5%82%B5%E9%85%8D%E7%BD%AE.png" class title="股債配置">
-<img src="/posts/3112049920/%E8%82%A1%E5%82%B5%E9%85%8D%E7%BD%AE%E6%AF%94%E4%BE%8B.png" class title="股債配置比例">
-<h2 id="利息滾入本金"><a href="#利息滾入本金" class="headerlink" title="利息滾入本金"></a>利息滾入本金</h2><p>什麼都不做，年配與月配領的一樣多，<br>拿到配息後滾入1%定存內生利息，月配較年配多出17元報酬，<br>拿到配息後再投入原本投組內約5%報酬：會多出88員報酬，</p>
-<img src="/posts/3112049920/%E5%88%A9%E6%81%AF%E6%BB%BE%E5%85%A5%E6%9C%AC%E9%87%91.png" class title="利息滾入本金">
-<p>指數型商品、債券，可以採定期定額（股價下去之後會回來）</p>
-<img src="/posts/3112049920/%E6%9C%88%E9%85%8D%E6%81%AF.png" class title="月配息">
-
-<h1 id="【存股敵8個3】第3集！｜定期定額存股賺太慢？華倫哥代班股魚過3關！成長股清單曝光？"><a href="#【存股敵8個3】第3集！｜定期定額存股賺太慢？華倫哥代班股魚過3關！成長股清單曝光？" class="headerlink" title="【存股敵8個3】第3集！｜定期定額存股賺太慢？華倫哥代班股魚過3關！成長股清單曝光？"></a>【存股敵8個3】第3集！｜定期定額存股賺太慢？華倫哥代班股魚過3關！成長股清單曝光？</h1><img src="/posts/3112049920/%E8%8F%AF%E5%80%AB%E8%80%81%E5%B8%AB.png" class title="華倫老師">
-<img src="/posts/3112049920/%E8%8F%AF%E5%80%AB%E6%8C%81%E8%82%A1.png" class title="華倫持股">
-<p>加速獲利：</p>
-<ol>
-<li>配股配息在滾回去</li>
-<li>年輕人定存股比例不用太高、多買些成長股（殖利率低）<img src="/posts/3112049920/%E8%8F%AF%E5%80%AB%E6%8A%95%E5%A0%B1%E7%8E%87.png" class title="華倫投報率">
-<h2 id="ETF或是有護城河的股票可以採定期定額"><a href="#ETF或是有護城河的股票可以採定期定額" class="headerlink" title="ETF或是有護城河的股票可以採定期定額"></a>ETF或是有護城河的股票可以採定期定額</h2></li>
-<li>產品或服務壟斷或寡占特性（該產業排前2名）</li>
-<li>產品或服務簡單易懂、長久不變、具持久性</li>
-<li>自由定價能力高、受景氣影響小、重複消費</li>
-<li>獲利穩定成長（先穩定後成長）<img src="/posts/3112049920/%E8%8F%AF%E5%80%AB%E9%81%B8%E8%82%A1%E6%A2%9D%E4%BB%B6.png" class title="華倫選股條件">
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>1⃣ 股票</category>
-        <category>基本面分析</category>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-        <category>3⃣ 理財達人秀</category>
-        <category>存股敵8個</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>基本面分析</tag>
-        <tag>股魚</tag>
-        <tag>ETF</tag>
-        <tag>華倫成長股</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>股票-股利</title>
-    <url>/posts/3702625446/</url>
-    <content><![CDATA[<p>看完這篇將學到：</p>
-<blockquote>
-<p>什麼是<code>「現金股利」</code>、<code>「股票股利」</code>？<br>  是公司將賺的錢分配給股東的形式，簡稱為「分紅」，</p>
-</blockquote>
-<ul>
-<li><strong>「現金股利」：發放現金股利給股東。</strong></li>
-<li><strong>「股票股利」：發放股票股利(把錢用來增加公司的股本)，將股本的所有權轉移給股東。</strong></li>
-</ul>
-<p>當我們買進某公司的股票時，便成為該公司的股東。<br>若該公司有賺錢時，我們（股東）就能夠依據持有股票的比例，分配獲得所賺的利潤，這就是所謂的「股利」，<br>反之，若該公司不賺錢，當然也有可能領不到股利 😖</p>
-<h1 id="股利"><a href="#股利" class="headerlink" title="股利"></a>股利</h1><p>股利，是指股份公司從<code>留存收益</code>中派發給股東的那一部分。<br>就上市公司的情況中，股利只會派發給在<code>除息日之前一日持有股票</code>至除息日當日的人士，<br>在除息日當日或以後才買入股票的人則不能獲派股利。<br>與此同時，證券交易所會在除息日開市前自動把股票的前一交易日收盤價扣減股利後的價值，<br>定為該股票的開盤交易日的開盤價，因此股價會在除息日開盤時「自動下跌」。</p>
-<p>股利一般有兩種支付方式：<code>「現金股利」</code>（<code>股息</code>，英語：Cash Dividends）和<code>「股票股利」</code>（<code>股利</code>，英語：Stock Dividends）。 </p>
-<h2 id="現金股利"><a href="#現金股利" class="headerlink" title="現金股利"></a>現金股利</h2><p><code>「現金股利」</code>是指股份公司向股東<code>支付現金</code>，又稱<code>「股息」</code>或<code>「配息」</code>。<br><code>現金股利</code>給予股東即時的資本回報。</p>
-<h2 id="股票股利"><a href="#股票股利" class="headerlink" title="股票股利"></a>股票股利</h2><p><code>「股票股利」</code>或<code>「以股代息」</code>是指股份公司向股東以<code>贈送新的股份</code>方式代替支付現金股利，又稱<code>「股利」</code>或<code>「配股」</code>。</p>
-<p>對於優質股，股票股利給予股東長遠獲取更大回報的機會，股東期望股份價值上升及繼續以股代息，利用複息效應把錢愈滾愈大。</p>
-<p>但對於經營不佳的公司，股票股利只是「零成本」印股票派息，因為公司沒有「多餘的」現金可用作派息。 </p>
-<h2 id="配息配股的比較"><a href="#配息配股的比較" class="headerlink" title="配息配股的比較"></a>配息配股的比較</h2><p>整理中．．．</p>
-<a id="more"></a>
-]]></content>
-      <categories>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>股票-財報</title>
-    <url>/posts/866196188/</url>
-    <content><![CDATA[<h1 id="什麼是損益表"><a href="#什麼是損益表" class="headerlink" title="什麼是損益表"></a>什麼是損益表</h1><p>看了損益表，就能知道公司賺不賺錢</p>
-<img src="/posts/866196188/%E6%90%8D%E7%9B%8A%E8%A1%A8.png" class title="損益表">
-<img src="/posts/866196188/%E6%90%8D%E7%9B%8A%E8%A1%A8.jpg" class title="損益表">
-<p>來源：CMoney投資網誌</p>
-<a id="more"></a>
-
-<h1 id="股東權益報酬率（ROE）"><a href="#股東權益報酬率（ROE）" class="headerlink" title="股東權益報酬率（ROE）"></a>股東權益報酬率（ROE）</h1><p>公司用股東出的錢來賺取獲利的能力</p>
-<img src="/posts/866196188/ROE.png" class title="股東權益報酬率（ROE）">
-<p>公司資產＝股東出的錢（股東權益）+ 借錢（負債）<br>所以，ROE 越高越好，因為高 ROE 代表公司可以用同樣的股東權益賺到更多的錢。<br>但是有一個迷思，兩家規模一樣大，也一樣會賺錢的公司，負債越多的公司 ROE 反而越高。</p>
-<h1 id="資產報酬率（ROA）"><a href="#資產報酬率（ROA）" class="headerlink" title="資產報酬率（ROA）"></a>資產報酬率（ROA）</h1><p>公司用所有資產賺錢的能力</p>
-<img src="/posts/866196188/ROA.png" class title="資產報酬率（ROA）">
-
-<h1 id="快速篩選出財報成長績優股"><a href="#快速篩選出財報成長績優股" class="headerlink" title="快速篩選出財報成長績優股"></a>快速篩選出財報成長績優股</h1><p>透過<a href="https://gavinh0731.github.io/stockmoney/">財穀資訊網-選股神器</a><br>進入頁面後，點選<code>選股心法</code>，接著點選<code>基本面_近四季財報成長</code>，即可快速找出財報成長績優股</p>
-<img src="/posts/866196188/%E8%B2%A1%E5%A0%B1%E6%88%90%E9%95%B7%E7%B8%BE%E5%84%AA%E8%82%A1.png" class title="財報成長績優股">
-
-<p>參考網頁：<br><span class="exturl" data-url="aHR0cHM6Ly93d3cuY21vbmV5LnR3L25vdGVzL25vdGUtZGV0YWlsLmFzcHg/bmlkPTE1NDgz">一分鐘看懂損益表<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>1⃣ 股票</category>
-        <category>基本面分析</category>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-        <tag>基本面分析</tag>
-        <tag>財報</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>股票-殖利率</title>
-    <url>/posts/4199638572/</url>
-    <content><![CDATA[<a id="more"></a>
-]]></content>
-      <categories>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>股票-股票怎麼買、下單</title>
-    <url>/posts/3259796151/</url>
-    <content><![CDATA[<p>俗話說的好：「欲買股票、必先開戶」</p>
-<h1 id="如何開戶："><a href="#如何開戶：" class="headerlink" title="如何開戶："></a>如何開戶：</h1><h2 id="帶什麼？"><a href="#帶什麼？" class="headerlink" title="帶什麼？"></a>帶什麼？</h2><p>開戶要帶的東西，比較重要的是：<br>    1. 雙證件<br>    2. 印章</p>
-<h2 id="去哪裡？"><a href="#去哪裡？" class="headerlink" title="去哪裡？"></a>去哪裡？</h2><p>接著要選擇離家近或是手續費合理的<code>券商</code>，例如元大證券、日盛證券…，</p>
-<blockquote>
-<p>在台灣法令規定，投資人要買股票，一定要透過中間人(也就是券商)才能購買，他們負責保證買賣的利進行。</p>
-</blockquote>
-<h2 id="做什麼？"><a href="#做什麼？" class="headerlink" title="做什麼？"></a>做什麼？</h2><p>進行<code>開戶</code>，也就是看清楚規章與細節並且仔細的<code>填單</code>，同時需要設定一個交割的<code>銀行帳戶</code>。</p>
-<h1 id="股票交易流程"><a href="#股票交易流程" class="headerlink" title="股票交易流程:"></a>股票交易流程:</h1><p>開完戶之後，我們就可以開始買股票，投資人最常用的下單的方式：</p>
-<ul>
-<li>打電話給營業員（人工下單）</li>
-<li>用APP手機下單、看盤軟體下單（電子下單）<blockquote>
-<p>電子下單，不僅方便、快速，手續費還有打折！</p>
-</blockquote>
-</li>
-</ul>
-<p>流程如下：</p>
-<img src="/posts/3259796151/trading_process.png" class title="股票交易流程">
-<a id="more"></a>
-<h2 id="1-委託："><a href="#1-委託：" class="headerlink" title="1. 委託："></a>1. 委託：</h2><p>我們決定好一檔<code>股票</code>和他的<code>價位</code>後，就可以透過手機的APP，委託券商幫我們買進，</p>
-<h2 id="2-撮合："><a href="#2-撮合：" class="headerlink" title="2. 撮合："></a>2. 撮合：</h2><p>但是這樣並不代表我們買到了股票，因為股票成交是<code>一買一賣</code>的結果，這就叫做<code>撮合</code>，買賣雙方配對之後<code>完成交易</code>，接著證券帳戶的庫存就可以看到該股票的交易結果。</p>
-<img src="/posts/3259796151/FORM2.jpg" class title="逐筆交易">
-<center>（圖：翻攝自證交所官網）</center>
-
-<h2 id="3-交割："><a href="#3-交割：" class="headerlink" title="3. 交割："></a>3. 交割：</h2><p>但是這個交易還沒完成，在下單之後最晚必須在<code>交易日</code>的第二天10點前(<code>交割日</code>)，確保交割銀行帳戶有足夠的金額，不然會造成違約交割，常聽到的T+2就是這個意思(Trading Day + 2)。</p>
-<h1 id="交易時間"><a href="#交易時間" class="headerlink" title="交易時間"></a>交易時間</h1><p>市場交易時間為星期一至星期五，撮合成交時間為9:00至13:30，委託時間8:30至13:30。</p>
-<blockquote>
-<p>台股在8:30的時候，就開始有<code>模擬試撮合</code>，如果要了解市場心態，看多看空的趨勢，完全展露在試撮合的30分鐘期間，直至9:00開始正式交易。</p>
-</blockquote>
-<h2 id="看盤-今日走勢圖"><a href="#看盤-今日走勢圖" class="headerlink" title="看盤(今日走勢圖)"></a>看盤(今日走勢圖)</h2><p>走勢圖也叫做<code>分時走勢圖</code>、<code>即時走勢圖</code>，它是股市現場交易的即時資料，<br>坐標的<code>橫軸</code>是開市的<code>時間</code>，<code>縱軸</code>的上半部分是<code>股價</code>或<code>指數</code>，下半部分顯示的是<code>成交量</code>。<br>正常交易時間：由早上9點到下午1點半(共4.5小時)</p>
-<img src="/posts/3259796151/time_sharing_chart.png" class title="看盤(今日走勢圖)">
-<center>（圖：節錄於109/06/24 yahoo股市）</center>
-
-<h2 id="名詞解釋："><a href="#名詞解釋：" class="headerlink" title="名詞解釋："></a>名詞解釋：</h2><p><code>開盤</code>：09：00開始交易<br><code>早盤</code>：09：00～09：30（一開始的半小時）<br><code>午盤</code>：11：30～12：30<br><code>尾盤</code>：13：00～13：30（最後半小時）<br><code>盤中</code>：撮合成交時間為9:00至13:30<br><code>收盤</code>：13：30停止交易</p>
-<h1 id="交易單位"><a href="#交易單位" class="headerlink" title="交易單位"></a>交易單位</h1><p>根據台灣證券交易所的解釋：交易單位為買賣申報之數量，應為1交易單位或其整倍數。<br>啥意思？簡單的說就是以<code>張</code>為當位，<code>1張</code>股票＝<code>1,000股</code>，<br>而不滿一張的股票（1～999股）就稱之為<code>零股</code></p>
-<h1 id="交易價格"><a href="#交易價格" class="headerlink" title="交易價格"></a>交易價格</h1><p>交易價格即分時走勢圖上面所看到的<code>股價</code>，代表的是1股的金額，<br><left><br>$<br>一張台積電的股票市價<br>= 股價 \times 1,000股 \<br>= 317.5 \times 1000 \<br>= 317,500 \<br>= 31.75萬<br>$<br></left></p>
-<h1 id="一買一賣是賺了多少錢？"><a href="#一買一賣是賺了多少錢？" class="headerlink" title="一買一賣是賺了多少錢？"></a>一買一賣是賺了多少錢？</h1><p>除了股價的價差以外，我們還需要繳交<code>手續費</code>和<code>證券交易稅</code>(<code>證交稅</code>)，</p>
-<h2 id="手續費"><a href="#手續費" class="headerlink" title="手續費"></a>手續費</h2><p>只要是<code>買</code>或是<code>賣</code>股票都要繳交<code>手續費</code>（所謂的<code>抽水</code>）<br>$<br>手續費＝成交金額 \times 0.1425%<br>$</p>
-<blockquote>
-<p>大多的證券行透過電子交易都可以打折(6折)，<br>手續費最低20元(未滿20元仍須上繳20元)</p>
-</blockquote>
-<h2 id="證交稅"><a href="#證交稅" class="headerlink" title="證交稅"></a>證交稅</h2><p>$<br>手續費＝成交金額 \times 0.3%<br>$</p>
-<h2 id="算給你看"><a href="#算給你看" class="headerlink" title="算給你看"></a>算給你看</h2><h3 id="若買了一張100元的股票"><a href="#若買了一張100元的股票" class="headerlink" title="若買了一張100元的股票"></a>若買了一張100元的股票</h3><p><code>成交金額</code>:<code>10萬</code>，<br>外加<code>手續費</code>＝<code>142元</code>($100,000 \times 0.1425%$)，<br>所以這次的<code>交割金額</code>就是<code>10萬零142元</code></p>
-<p>過一陣子這張股票漲到120元</p>
-<h3 id="賣掉一張120元的股票"><a href="#賣掉一張120元的股票" class="headerlink" title="賣掉一張120元的股票"></a>賣掉一張120元的股票</h3><p><code>成交金額</code>:<code>12萬</code>，<br>扣除<code>手續費</code>＝<code>171元</code>($120,000 \times 0.1425%$)，<br>再扣除<code>證交稅</code>＝<code>360元</code>($120,000 \times 0.3%$)，<br>所以這次的<code>交割金額</code>就是<code>12萬-171-360</code>元，<br>實際上只拿到<code>11萬9469元</code></p>
-<h3 id="一買一賣，賺多少"><a href="#一買一賣，賺多少" class="headerlink" title="一買一賣，賺多少"></a>一買一賣，賺多少</h3><p><code>11萬9469元</code> - <code>10萬零142元</code> ＝ 賺了<code>19,327元</code></p>
-<p>參考資料：<br><span class="exturl" data-url="aHR0cHM6Ly9hczIyMzQwMC5waXhuZXQubmV0L2Jsb2cvcG9zdC8yMjgwOTc1NzEtJUU3JUFDJUFDJUU0JUI4JTgwJUU2JUFDJUExJUU4JUIyJUI3JUU4JTgyJUExJUU3JUE1JUE4JUU1JUIwJUIxJUU0JUI4JThBJUU2JTg5JThCLSVFOCU4MiVBMSVFNyVBNSVBOCVFOSU5NiU4QiVFNiU4OCVCNiVFOCVBNiU4MSVFNiVCQSU5NiVFNSU4MiU5OSVFNCVCQiU4MCVFOSVCQSVCQyUzRiVFOCVCMiVCNw==">開戶買股教學<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>2⃣ 筆記</category>
-        <category>股票</category>
-        <category>新手村</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>股票</tag>
       </tags>
   </entry>
   <entry>
@@ -3244,62 +3151,92 @@ MSCI 外資所建立的台灣指數
       </tags>
   </entry>
   <entry>
-    <title>選股神器-快速找到飆股</title>
-    <url>/posts/1491145536/</url>
-    <content><![CDATA[<h1 id="如何快速找到理想中的股票"><a href="#如何快速找到理想中的股票" class="headerlink" title="如何快速找到理想中的股票"></a>如何快速找到理想中的股票</h1><p>點進來 <a href="/stockmoney/">選股神器</a></p>
-<img src="/posts/1491145536/%E9%81%B8%E8%82%A1%E7%A5%9E%E5%99%A8.png" class title="選股神器">
-
-<h2 id="快速搜尋個股"><a href="#快速搜尋個股" class="headerlink" title="快速搜尋個股"></a>快速搜尋個股</h2><p>按上面工具列中的<code>搜尋個股</code>，可以在左邊輸入<code>你關注的股票例如：台積電</code></p>
-<img src="/posts/1491145536/%E6%90%9C%E5%B0%8B%E5%80%8B%E8%82%A1.png" class title="搜尋個股">
-
-<h2 id="快速篩選產業別"><a href="#快速篩選產業別" class="headerlink" title="快速篩選產業別"></a>快速篩選產業別</h2><img src="/posts/1491145536/%E7%94%A2%E6%A5%AD%E5%88%A5.png" class title="產業別">
-
-<h2 id="透過選股心法，快速找出績優股"><a href="#透過選股心法，快速找出績優股" class="headerlink" title="透過選股心法，快速找出績優股"></a>透過選股心法，快速找出績優股</h2><img src="/posts/1491145536/%E9%81%B8%E8%82%A1%E5%BF%83%E6%B3%95.png" class title="選股心法">
-<ol>
-<li>基本面—股魚選股心法（類似巴菲特選股法） <a href="/posts/3492910549/">☞教學說明</a><br>ROE&gt;8%, 本業收入率&gt;80%, 負債率&lt;60%, 營業利益率&gt;0, 營運現金流量&gt;0<img src="/posts/1491145536/%E8%82%A1%E9%AD%9A%E9%81%B8%E8%82%A1%E5%BF%83%E6%B3%95.png" class title="股魚選股心法"></li>
-<li>基本面—近四季財報成長<br>財報評分&gt;70, 成長欄位數&gt;7<img src="/posts/1491145536/%E8%BF%91%E5%9B%9B%E5%AD%A3%E8%B2%A1%E5%A0%B1%E6%88%90%E9%95%B7.png" class title="近四季財報成長"></li>
-<li>技術分析-阿水一式<a href="/posts/2691061525/">☞教學說明</a><br>壓縮：股價壓縮至少10個交易日,<br>帶量：成交量出現過去5日均量的2～10倍,<br>突破：當日收盤價突破通道頂且收紅K棒<img src="/posts/1491145536/%E9%98%BF%E6%B0%B4%E4%B8%80%E5%BC%8F.png" class title="阿水一式"></li>
-<li>黃金交叉|死亡交叉—KD指標<a href="/posts/3613151692/">☞教學說明</a><img src="/posts/1491145536/%E9%BB%83%E9%87%91%E4%BA%A4%E5%8F%89.png" class title="黃金交叉">
+    <title>股票-財報</title>
+    <url>/posts/866196188/</url>
+    <content><![CDATA[<h1 id="什麼是損益表"><a href="#什麼是損益表" class="headerlink" title="什麼是損益表"></a>什麼是損益表</h1><p>看了損益表，就能知道公司賺不賺錢</p>
+<img src="/posts/866196188/%E6%90%8D%E7%9B%8A%E8%A1%A8.png" class title="損益表">
+<img src="/posts/866196188/%E6%90%8D%E7%9B%8A%E8%A1%A8.jpg" class title="損益表">
+<p>來源：CMoney投資網誌</p>
 <a id="more"></a>
 
-</li>
-</ol>
-<h1 id="連結到其他股市網站"><a href="#連結到其他股市網站" class="headerlink" title="連結到其他股市網站"></a>連結到其他股市網站</h1><img src="/posts/1491145536/%E9%80%A3%E7%B5%90%E5%88%B0%E5%85%B6%E4%BB%96%E8%82%A1%E5%B8%82%E7%B6%B2%E7%AB%99.png" class title="連結到其他股市網站">
+<h1 id="股東權益報酬率（ROE）"><a href="#股東權益報酬率（ROE）" class="headerlink" title="股東權益報酬率（ROE）"></a>股東權益報酬率（ROE）</h1><p>公司用股東出的錢來賺取獲利的能力</p>
+<img src="/posts/866196188/ROE.png" class title="股東權益報酬率（ROE）">
+<p>公司資產＝股東出的錢（股東權益）+ 借錢（負債）<br>所以，ROE 越高越好，因為高 ROE 代表公司可以用同樣的股東權益賺到更多的錢。<br>但是有一個迷思，兩家規模一樣大，也一樣會賺錢的公司，負債越多的公司 ROE 反而越高。</p>
+<h1 id="資產報酬率（ROA）"><a href="#資產報酬率（ROA）" class="headerlink" title="資產報酬率（ROA）"></a>資產報酬率（ROA）</h1><p>公司用所有資產賺錢的能力</p>
+<img src="/posts/866196188/ROA.png" class title="資產報酬率（ROA）">
 
-<ol>
-<li><p>玩股網：有技術分析、法人動態、資券變化等</p>
-<img src="/posts/1491145536/%E7%8E%A9%E8%82%A1%E7%B6%B2.png" class title="玩股網">
-</li>
-<li><p>鉅亨網TradingView個股走勢</p>
-<img src="/posts/1491145536/Tradingview.png" class title="Tradingview">
-</li>
-<li><p>股市爆料同學會</p>
-<img src="/posts/1491145536/%E8%82%A1%E5%B8%82%E7%88%86%E6%96%99%E5%90%8C%E5%AD%B8%E6%9C%83.png" class title="股市爆料同學會">
+<h1 id="快速篩選出財報成長績優股"><a href="#快速篩選出財報成長績優股" class="headerlink" title="快速篩選出財報成長績優股"></a>快速篩選出財報成長績優股</h1><p>透過<a href="https://gavinh0731.github.io/stockmoney/">財穀資訊網-選股神器</a><br>進入頁面後，點選<code>選股心法</code>，接著點選<code>基本面_近四季財報成長</code>，即可快速找出財報成長績優股</p>
+<img src="/posts/866196188/%E8%B2%A1%E5%A0%B1%E6%88%90%E9%95%B7%E7%B8%BE%E5%84%AA%E8%82%A1.png" class title="財報成長績優股">
 
-
+<p>參考網頁：<br><span class="exturl" data-url="aHR0cHM6Ly93d3cuY21vbmV5LnR3L25vdGVzL25vdGUtZGV0YWlsLmFzcHg/bmlkPTE1NDgz">一分鐘看懂損益表<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>1⃣ 股票</category>
+        <category>基本面分析</category>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
+        <tag>基本面分析</tag>
+        <tag>財報</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>股票-股票怎麼買、下單</title>
+    <url>/posts/3259796151/</url>
+    <content><![CDATA[<p>俗話說的好：「欲買股票、必先開戶」</p>
+<h1 id="如何開戶："><a href="#如何開戶：" class="headerlink" title="如何開戶："></a>如何開戶：</h1><h2 id="帶什麼？"><a href="#帶什麼？" class="headerlink" title="帶什麼？"></a>帶什麼？</h2><p>開戶要帶的東西，比較重要的是：<br>    1. 雙證件<br>    2. 印章</p>
+<h2 id="去哪裡？"><a href="#去哪裡？" class="headerlink" title="去哪裡？"></a>去哪裡？</h2><p>接著要選擇離家近或是手續費合理的<code>券商</code>，例如元大證券、日盛證券…，</p>
+<blockquote>
+<p>在台灣法令規定，投資人要買股票，一定要透過中間人(也就是券商)才能購買，他們負責保證買賣的利進行。</p>
+</blockquote>
+<h2 id="做什麼？"><a href="#做什麼？" class="headerlink" title="做什麼？"></a>做什麼？</h2><p>進行<code>開戶</code>，也就是看清楚規章與細節並且仔細的<code>填單</code>，同時需要設定一個交割的<code>銀行帳戶</code>。</p>
+<h1 id="股票交易流程"><a href="#股票交易流程" class="headerlink" title="股票交易流程:"></a>股票交易流程:</h1><p>開完戶之後，我們就可以開始買股票，投資人最常用的下單的方式：</p>
+<ul>
+<li>打電話給營業員（人工下單）</li>
+<li>用APP手機下單、看盤軟體下單（電子下單）<blockquote>
+<p>電子下單，不僅方便、快速，手續費還有打折！</p>
+</blockquote>
 </li>
-</ol>
-<h1 id="快捷鍵快速切換面面觀"><a href="#快捷鍵快速切換面面觀" class="headerlink" title="快捷鍵快速切換面面觀"></a><code>快捷鍵</code>快速切換面面觀</h1><p>  可以透過滑鼠直接選擇與關注的面向<br>  <img src="/posts/1491145536/%E9%9D%A2%E9%9D%A2%E8%A7%80.png" class title="面面觀"><br>  也可以透過<code>快捷鍵</code>快速切換：<br>  <code>Q</code>: 公司基本資料<br>  <code>A</code>: 基本面—股魚心法<br>  <code>Z</code>: 獲利能力—近四季<br>  <code>W</code>: 技術分析—阿水一式<br>  <code>S</code>: 黃金死亡交叉—KD指標<br>  <code>X</code>: 技術分析—布林指標<br>  <code>空白鍵</code>: 下一頁<br>  <code>O</code>: 上一頁<br>  <code>P</code>: 下一頁<br>  當搜尋個股功能開啟時，快捷鍵功能將會暫時失效</p>
-<h1 id="免入會員加入自選股到雲端"><a href="#免入會員加入自選股到雲端" class="headerlink" title="免入會員加入自選股到雲端"></a>免入會員加入<code>自選股</code>到雲端</h1><h2 id="自選股設定"><a href="#自選股設定" class="headerlink" title="自選股設定"></a>自選股設定</h2><img src="/posts/1491145536/%E8%87%AA%E9%81%B8%E8%82%A1%E8%A8%AD%E5%AE%9A.png" class title="自選股設定">
+</ul>
+<p>流程如下：</p>
+<img src="/posts/3259796151/trading_process.png" class title="股票交易流程">
+<a id="more"></a>
+<h2 id="1-委託："><a href="#1-委託：" class="headerlink" title="1. 委託："></a>1. 委託：</h2><p>我們決定好一檔<code>股票</code>和他的<code>價位</code>後，就可以透過手機的APP，委託券商幫我們買進，</p>
+<h2 id="2-撮合："><a href="#2-撮合：" class="headerlink" title="2. 撮合："></a>2. 撮合：</h2><p>但是這樣並不代表我們買到了股票，因為股票成交是<code>一買一賣</code>的結果，這就叫做<code>撮合</code>，買賣雙方配對之後<code>完成交易</code>，接著證券帳戶的庫存就可以看到該股票的交易結果。</p>
+<img src="/posts/3259796151/FORM2.jpg" class title="逐筆交易">
+<center>（圖：翻攝自證交所官網）</center>
 
-<h2 id="加入自選股"><a href="#加入自選股" class="headerlink" title="加入自選股"></a>加入自選股</h2><p>如圖所示：</p>
-<ol>
-<li>選擇欲加入的股票</li>
-<li>點選加入按鈕</li>
-<li>選擇類別<img src="/posts/1491145536/%E5%8A%A0%E5%85%A5%E8%87%AA%E9%81%B8%E8%82%A1.png" class title="加入自選股">
+<h2 id="3-交割："><a href="#3-交割：" class="headerlink" title="3. 交割："></a>3. 交割：</h2><p>但是這個交易還沒完成，在下單之後最晚必須在<code>交易日</code>的第二天10點前(<code>交割日</code>)，確保交割銀行帳戶有足夠的金額，不然會造成違約交割，常聽到的T+2就是這個意思(Trading Day + 2)。</p>
+<h1 id="交易時間"><a href="#交易時間" class="headerlink" title="交易時間"></a>交易時間</h1><p>市場交易時間為星期一至星期五，撮合成交時間為9:00至13:30，委託時間8:30至13:30。</p>
+<blockquote>
+<p>台股在8:30的時候，就開始有<code>模擬試撮合</code>，如果要了解市場心態，看多看空的趨勢，完全展露在試撮合的30分鐘期間，直至9:00開始正式交易。</p>
+</blockquote>
+<h2 id="看盤-今日走勢圖"><a href="#看盤-今日走勢圖" class="headerlink" title="看盤(今日走勢圖)"></a>看盤(今日走勢圖)</h2><p>走勢圖也叫做<code>分時走勢圖</code>、<code>即時走勢圖</code>，它是股市現場交易的即時資料，<br>坐標的<code>橫軸</code>是開市的<code>時間</code>，<code>縱軸</code>的上半部分是<code>股價</code>或<code>指數</code>，下半部分顯示的是<code>成交量</code>。<br>正常交易時間：由早上9點到下午1點半(共4.5小時)</p>
+<img src="/posts/3259796151/time_sharing_chart.png" class title="看盤(今日走勢圖)">
+<center>（圖：節錄於109/06/24 yahoo股市）</center>
 
-</li>
-</ol>
-<h2 id="同步到雲端"><a href="#同步到雲端" class="headerlink" title="同步到雲端"></a>同步到雲端</h2><ol>
-<li>設定雲端帳戶<img src="/posts/1491145536/%E9%9B%B2%E7%AB%AF%E5%B8%B3%E8%99%9F%E8%A8%AD%E5%AE%9A.png" class title="雲端帳號設定"></li>
-<li>由雲端讀取設定檔（得到雲端的自選股設定）</li>
-<li>存入雲端（將您設定的自選股存入雲端）</li>
-</ol>
+<h2 id="名詞解釋："><a href="#名詞解釋：" class="headerlink" title="名詞解釋："></a>名詞解釋：</h2><p><code>開盤</code>：09：00開始交易<br><code>早盤</code>：09：00～09：30（一開始的半小時）<br><code>午盤</code>：11：30～12：30<br><code>尾盤</code>：13：00～13：30（最後半小時）<br><code>盤中</code>：撮合成交時間為9:00至13:30<br><code>收盤</code>：13：30停止交易</p>
+<h1 id="交易單位"><a href="#交易單位" class="headerlink" title="交易單位"></a>交易單位</h1><p>根據台灣證券交易所的解釋：交易單位為買賣申報之數量，應為1交易單位或其整倍數。<br>啥意思？簡單的說就是以<code>張</code>為當位，<code>1張</code>股票＝<code>1,000股</code>，<br>而不滿一張的股票（1～999股）就稱之為<code>零股</code></p>
+<h1 id="交易價格"><a href="#交易價格" class="headerlink" title="交易價格"></a>交易價格</h1><p>交易價格即分時走勢圖上面所看到的<code>股價</code>，代表的是1股的金額，<br><left><br>$<br>一張台積電的股票市價<br>= 股價 \times 1,000股 \<br>= 317.5 \times 1000 \<br>= 317,500 \<br>= 31.75萬<br>$<br></left></p>
+<h1 id="一買一賣是賺了多少錢？"><a href="#一買一賣是賺了多少錢？" class="headerlink" title="一買一賣是賺了多少錢？"></a>一買一賣是賺了多少錢？</h1><p>除了股價的價差以外，我們還需要繳交<code>手續費</code>和<code>證券交易稅</code>(<code>證交稅</code>)，</p>
+<h2 id="手續費"><a href="#手續費" class="headerlink" title="手續費"></a>手續費</h2><p>只要是<code>買</code>或是<code>賣</code>股票都要繳交<code>手續費</code>（所謂的<code>抽水</code>）<br>$<br>手續費＝成交金額 \times 0.1425%<br>$</p>
+<blockquote>
+<p>大多的證券行透過電子交易都可以打折(6折)，<br>手續費最低20元(未滿20元仍須上繳20元)</p>
+</blockquote>
+<h2 id="證交稅"><a href="#證交稅" class="headerlink" title="證交稅"></a>證交稅</h2><p>$<br>手續費＝成交金額 \times 0.3%<br>$</p>
+<h2 id="算給你看"><a href="#算給你看" class="headerlink" title="算給你看"></a>算給你看</h2><h3 id="若買了一張100元的股票"><a href="#若買了一張100元的股票" class="headerlink" title="若買了一張100元的股票"></a>若買了一張100元的股票</h3><p><code>成交金額</code>:<code>10萬</code>，<br>外加<code>手續費</code>＝<code>142元</code>($100,000 \times 0.1425%$)，<br>所以這次的<code>交割金額</code>就是<code>10萬零142元</code></p>
+<p>過一陣子這張股票漲到120元</p>
+<h3 id="賣掉一張120元的股票"><a href="#賣掉一張120元的股票" class="headerlink" title="賣掉一張120元的股票"></a>賣掉一張120元的股票</h3><p><code>成交金額</code>:<code>12萬</code>，<br>扣除<code>手續費</code>＝<code>171元</code>($120,000 \times 0.1425%$)，<br>再扣除<code>證交稅</code>＝<code>360元</code>($120,000 \times 0.3%$)，<br>所以這次的<code>交割金額</code>就是<code>12萬-171-360</code>元，<br>實際上只拿到<code>11萬9469元</code></p>
+<h3 id="一買一賣，賺多少"><a href="#一買一賣，賺多少" class="headerlink" title="一買一賣，賺多少"></a>一買一賣，賺多少</h3><p><code>11萬9469元</code> - <code>10萬零142元</code> ＝ 賺了<code>19,327元</code></p>
+<p>參考資料：<br><span class="exturl" data-url="aHR0cHM6Ly9hczIyMzQwMC5waXhuZXQubmV0L2Jsb2cvcG9zdC8yMjgwOTc1NzEtJUU3JUFDJUFDJUU0JUI4JTgwJUU2JUFDJUExJUU4JUIyJUI3JUU4JTgyJUExJUU3JUE1JUE4JUU1JUIwJUIxJUU0JUI4JThBJUU2JTg5JThCLSVFOCU4MiVBMSVFNyVBNSVBOCVFOSU5NiU4QiVFNiU4OCVCNiVFOCVBNiU4MSVFNiVCQSU5NiVFNSU4MiU5OSVFNCVCQiU4MCVFOSVCQSVCQyUzRiVFOCVCMiVCNw==">開戶買股教學<i class="fa fa-external-link-alt"></i></span></p>
 ]]></content>
       <categories>
         <category>2⃣ 筆記</category>
         <category>股票</category>
-        <category>1⃣ 選股神器</category>
+        <category>新手村</category>
       </categories>
       <tags>
         <tag>筆記</tag>
@@ -3498,6 +3435,69 @@ $「除息後股價」=「除息前一日收盤價」-「現金股利」$
         <tag>名詞解釋</tag>
         <tag>查詢</tag>
         <tag>選股策略</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>選股神器-快速找到飆股</title>
+    <url>/posts/1491145536/</url>
+    <content><![CDATA[<h1 id="如何快速找到理想中的股票"><a href="#如何快速找到理想中的股票" class="headerlink" title="如何快速找到理想中的股票"></a>如何快速找到理想中的股票</h1><p>點進來 <a href="/stockmoney/">選股神器</a></p>
+<img src="/posts/1491145536/%E9%81%B8%E8%82%A1%E7%A5%9E%E5%99%A8.png" class title="選股神器">
+
+<h2 id="快速搜尋個股"><a href="#快速搜尋個股" class="headerlink" title="快速搜尋個股"></a>快速搜尋個股</h2><p>按上面工具列中的<code>搜尋個股</code>，可以在左邊輸入<code>你關注的股票例如：台積電</code></p>
+<img src="/posts/1491145536/%E6%90%9C%E5%B0%8B%E5%80%8B%E8%82%A1.png" class title="搜尋個股">
+
+<h2 id="快速篩選產業別"><a href="#快速篩選產業別" class="headerlink" title="快速篩選產業別"></a>快速篩選產業別</h2><img src="/posts/1491145536/%E7%94%A2%E6%A5%AD%E5%88%A5.png" class title="產業別">
+
+<h2 id="透過選股心法，快速找出績優股"><a href="#透過選股心法，快速找出績優股" class="headerlink" title="透過選股心法，快速找出績優股"></a>透過選股心法，快速找出績優股</h2><img src="/posts/1491145536/%E9%81%B8%E8%82%A1%E5%BF%83%E6%B3%95.png" class title="選股心法">
+<ol>
+<li>基本面—股魚選股心法（類似巴菲特選股法） <a href="/posts/3492910549/">☞教學說明</a><br>ROE&gt;8%, 本業收入率&gt;80%, 負債率&lt;60%, 營業利益率&gt;0, 營運現金流量&gt;0<img src="/posts/1491145536/%E8%82%A1%E9%AD%9A%E9%81%B8%E8%82%A1%E5%BF%83%E6%B3%95.png" class title="股魚選股心法"></li>
+<li>基本面—近四季財報成長<br>財報評分&gt;70, 成長欄位數&gt;7<img src="/posts/1491145536/%E8%BF%91%E5%9B%9B%E5%AD%A3%E8%B2%A1%E5%A0%B1%E6%88%90%E9%95%B7.png" class title="近四季財報成長"></li>
+<li>技術分析-阿水一式<a href="/posts/2691061525/">☞教學說明</a><br>壓縮：股價壓縮至少10個交易日,<br>帶量：成交量出現過去5日均量的2～10倍,<br>突破：當日收盤價突破通道頂且收紅K棒<img src="/posts/1491145536/%E9%98%BF%E6%B0%B4%E4%B8%80%E5%BC%8F.png" class title="阿水一式"></li>
+<li>黃金交叉|死亡交叉—KD指標<a href="/posts/3613151692/">☞教學說明</a><img src="/posts/1491145536/%E9%BB%83%E9%87%91%E4%BA%A4%E5%8F%89.png" class title="黃金交叉">
+<a id="more"></a>
+
+</li>
+</ol>
+<h1 id="連結到其他股市網站"><a href="#連結到其他股市網站" class="headerlink" title="連結到其他股市網站"></a>連結到其他股市網站</h1><img src="/posts/1491145536/%E9%80%A3%E7%B5%90%E5%88%B0%E5%85%B6%E4%BB%96%E8%82%A1%E5%B8%82%E7%B6%B2%E7%AB%99.png" class title="連結到其他股市網站">
+
+<ol>
+<li><p>玩股網：有技術分析、法人動態、資券變化等</p>
+<img src="/posts/1491145536/%E7%8E%A9%E8%82%A1%E7%B6%B2.png" class title="玩股網">
+</li>
+<li><p>鉅亨網TradingView個股走勢</p>
+<img src="/posts/1491145536/Tradingview.png" class title="Tradingview">
+</li>
+<li><p>股市爆料同學會</p>
+<img src="/posts/1491145536/%E8%82%A1%E5%B8%82%E7%88%86%E6%96%99%E5%90%8C%E5%AD%B8%E6%9C%83.png" class title="股市爆料同學會">
+
+
+</li>
+</ol>
+<h1 id="快捷鍵快速切換面面觀"><a href="#快捷鍵快速切換面面觀" class="headerlink" title="快捷鍵快速切換面面觀"></a><code>快捷鍵</code>快速切換面面觀</h1><p>  可以透過滑鼠直接選擇與關注的面向<br>  <img src="/posts/1491145536/%E9%9D%A2%E9%9D%A2%E8%A7%80.png" class title="面面觀"><br>  也可以透過<code>快捷鍵</code>快速切換：<br>  <code>Q</code>: 公司基本資料<br>  <code>A</code>: 基本面—股魚心法<br>  <code>Z</code>: 獲利能力—近四季<br>  <code>W</code>: 技術分析—阿水一式<br>  <code>S</code>: 黃金死亡交叉—KD指標<br>  <code>X</code>: 技術分析—布林指標<br>  <code>空白鍵</code>: 下一頁<br>  <code>O</code>: 上一頁<br>  <code>P</code>: 下一頁<br>  當搜尋個股功能開啟時，快捷鍵功能將會暫時失效</p>
+<h1 id="免入會員加入自選股到雲端"><a href="#免入會員加入自選股到雲端" class="headerlink" title="免入會員加入自選股到雲端"></a>免入會員加入<code>自選股</code>到雲端</h1><h2 id="自選股設定"><a href="#自選股設定" class="headerlink" title="自選股設定"></a>自選股設定</h2><img src="/posts/1491145536/%E8%87%AA%E9%81%B8%E8%82%A1%E8%A8%AD%E5%AE%9A.png" class title="自選股設定">
+
+<h2 id="加入自選股"><a href="#加入自選股" class="headerlink" title="加入自選股"></a>加入自選股</h2><p>如圖所示：</p>
+<ol>
+<li>選擇欲加入的股票</li>
+<li>點選加入按鈕</li>
+<li>選擇類別<img src="/posts/1491145536/%E5%8A%A0%E5%85%A5%E8%87%AA%E9%81%B8%E8%82%A1.png" class title="加入自選股">
+
+</li>
+</ol>
+<h2 id="同步到雲端"><a href="#同步到雲端" class="headerlink" title="同步到雲端"></a>同步到雲端</h2><ol>
+<li>設定雲端帳戶<img src="/posts/1491145536/%E9%9B%B2%E7%AB%AF%E5%B8%B3%E8%99%9F%E8%A8%AD%E5%AE%9A.png" class title="雲端帳號設定"></li>
+<li>由雲端讀取設定檔（得到雲端的自選股設定）</li>
+<li>存入雲端（將您設定的自選股存入雲端）</li>
+</ol>
+]]></content>
+      <categories>
+        <category>2⃣ 筆記</category>
+        <category>股票</category>
+        <category>1⃣ 選股神器</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>股票</tag>
       </tags>
   </entry>
 </search>

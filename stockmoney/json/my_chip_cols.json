@@ -36,6 +36,7 @@
       "sort": true
     },
     {"label": "當日投本比","name": "m_chip.ttoday","sort": true},
+    {"label": "100張以下散戶增減","name": "m_chip.inc100","sort": true},
     {"label": "10日融資增減佔發行量％","name": "m_chip.lday10","sort": true},
     {
       "label": "股價創半年新高",
@@ -46,14 +47,8 @@
         "closeDropdownOnSelection": false,
         "placeholder": "輸入",
         "options": [
-          {
-              "name": "1",
-              "value": "1"
-          },
-          {
-            "name": "0",
-            "value": "0"
-          }
+          {"name": "1","value": "1"},
+          {"name": "0","value": "0"}
         ],
         "init": {
           "value": []
@@ -62,7 +57,7 @@
       "sort": true
     },
     {
-      "label": "半年內投本紅",
+      "label": "半年內投信買",
       "name": "m_chip.tbuy180",
       "filter": {
         "type": "select",
@@ -113,6 +108,49 @@
       "sort": true
     },
     {
+      "label": "半年內外資買",
+      "name": "m_chip.fbuy180",
+      "filter": {
+        "type": "select",
+        "mode": "multi",
+        "closeDropdownOnSelection": false,
+        "placeholder": "輸入",
+        "options": [
+          {"name": "0","value": "0"},
+          {"name": "1","value": "1"},
+          {"name": "2","value": "2"},
+          {"name": "3","value": "3"},
+          {"name": "4","value": "4"},
+          {"name": "5","value": "5"},
+          {"name": "6","value": "6"},
+          {"name": "7","value": "7"},
+          {"name": "8","value": "8"}
+        ],
+        "init": {
+          "value": []
+        }
+      },
+      "sort": true
+    },
+    {
+      "label": "散戶減少",
+      "name": "m_chip.retail",
+      "filter": {
+        "type": "select",
+        "mode": "multi",
+        "closeDropdownOnSelection": false,
+        "placeholder": "輸入",
+        "options": [
+          {"name": "1","value": "1"},
+          {"name": "0","value": "0"}
+        ],
+        "init": {
+          "value": []
+        }
+      },
+      "sort": true
+    },
+    {
       "label": "10日融資減",
       "name": "m_chip.loan10",
       "filter": {
@@ -121,19 +159,13 @@
         "closeDropdownOnSelection": false,
         "placeholder": "輸入",
         "options": [
-          {
-              "name": "1",
-              "value": "1"
-          },
-          {
-            "name": "0",
-            "value": "0"
-          }
+          {"name": "1","value": "1"},
+          {"name": "0","value": "0"}
         ],
         "init": {
           "value": []
         }
       },
       "sort": true
-    }   
+    }
   ]
