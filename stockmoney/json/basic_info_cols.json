@@ -1,25 +1,26 @@
 [
-    {
-      "label": "代號",
-      "name": "b_info.code",
-      "filter": {
-        "type": "select",
-        "mode": "multi",
-        "closeDropdownOnSelection": true,
-        "placeholder": "輸入",
-        "options": [],
-        "init": {
-          "value": []
-        }
-      },
-      "sort": true
+  {
+    "label": "代號",
+    "name": "b_info.code",
+    "filter": {
+      "type": "select",
+      "mode": "multi",
+      "closeDropdownOnSelection": false,
+      "placeholder": "輸入",
+      "options": [],
+      "init": {
+        "value": []
+      }
     },
-    {
-      "label": "名稱",
-      "name": "b_info.name",
-      "sort": true
-    },
-    {
+    "sort": true
+  },
+  {
+    "label": "名稱",
+    "name": "b_info.name",
+    "sort": true
+  },
+  
+  {
       "label": "產業別",
       "name": "b_info.verticals",
       "filter": {
@@ -219,79 +220,94 @@
       },
       "sort": true
     },
-    {
-      "label": "股票期貨",
-      "name": "b_info.futures",
-      "sort": true
-    },
-    {
-      "label": "選擇權",
-      "name": "b_info.options",
-      "sort": true
-    },
-    {
-      "label": "股價日期",
-      "name": "b_info.date",
-      "sort": true
-    },
-    {
-      "label": "成交",
-      "name": "b_info.price",
-      "sort": true
-    },
-    {
-      "label": "漲跌價",
-      "name": "b_info.change",
-      "sort": true
-    },
-    {
-      "label": "漲跌幅",
-      "name": "b_info.pct",
-      "sort": true
-    },
-    {
-      "label": "成交張數",
-      "name": "b_info.volume",
-      "sort": true
-    },
-    {
-      "label": "面值(元)",
-      "name": "b_info.face",
-      "sort": true
-    },
-    {
-      "label": "股本(億)",
-      "name": "b_info.capital",
-      "sort": true
-    },
-    {
-      "label": "發行量(萬張)",
-      "name": "b_info.count",
-      "sort": true
-    },
-    {
-      "label": "市值(億)",
-      "name": "b_info.market_cap",
-      "sort": true
-    },
-    {
-      "label": "成立年數",
-      "name": "b_info.up_year",
-      "sort": true
-    },
-    {
-      "label": "上市年數",
-      "name": "b_info.market_year",
-      "sort": true
-    },
-    {
-      "label": "董事長",
-      "name": "b_info.chairman",
-      "sort": true
-    },
-    {
-      "label": "總經理",
-      "name": "b_info.manager",
-      "sort": true
-    }
-  ]
+  {
+    "label": "股價日期",
+    "name": "b_info.date",
+    "sort": true
+  },
+  {
+    "label": "成交",
+    "name": "b_info.price",
+    "sort": true
+  },
+  {
+    "label": "漲跌價",
+    "name": "b_info.change",
+    "sort": true
+  },
+  {
+    "label": "漲跌幅",
+    "name": "b_info.pct",
+    "sort": true
+  },
+  {
+    "label": "面值(元)",
+    "name": "b_info.face",
+    "sort": true
+  },
+  {
+    "label": "股本(億)",
+    "name": "b_info.capital",
+    "sort": true
+  },
+  {
+    "label": "發行量(萬張)",
+    "name": "b_info.count",
+    "sort": true
+  },
+  {
+    "label": "市值(億)",
+    "name": "b_info.market_cap",
+    "sort": true
+  },
+  {
+    "label": "成立年數",
+    "name": "b_info.up_year",
+    "sort": true
+  },
+  {
+    "label": "上市年數",
+    "name": "b_info.market_year",
+    "sort": true
+  },
+  {
+    "label": "股票期貨",
+    "name": "b_info.futures",
+    "sort": true
+  },
+  {
+    "label": "選擇權",
+    "name": "b_info.options",
+    "sort": true
+  },
+  {
+    "label": "權證",
+    "name": "b_info.Warrant",
+    "sort": true
+  },
+  {
+    "label": "公司債",
+    "name": "b_info.debt",
+    "sort": true
+  },
+  {
+    "label": "私募股",
+    "name": "b_info.private",
+    "sort": true
+  },
+  {
+    "label": "特別股",
+    "name": "b_info.special",
+    "sort": true
+  },
+  {
+    "label": "董事長",
+    "name": "b_info.chairman",
+    "sort": true
+  },
+  {
+    "label": "總經理",
+    "name": "b_info.manager",
+    "sort": true
+  }
+]

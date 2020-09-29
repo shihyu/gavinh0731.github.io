@@ -41,6 +41,7 @@
     },
     {"label": "5日均量", "name": "e_water.avgVol", "sort": true},
     {"label":"成交張數","name":"e_water.vol","sort":true},
+    {"label":"成交金額(萬)","name":"m_basic.amount","sort":true},
     {"label": "布林%b", "name": "e_water.bchb", "sort": true},
     {
       "label": "布林上軌",

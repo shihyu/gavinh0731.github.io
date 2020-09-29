@@ -41,7 +41,7 @@
     },
     {
       "label": "成交張數",
-      "name": "b_info.volume",
+      "name": "p_dpct.volume",
       "sort": true
     },
     {

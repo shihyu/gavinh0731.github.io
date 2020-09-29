@@ -42,8 +42,8 @@
       "name": "b_info.pct",
       "sort": true
     },
-    {"label":"成交張數","name":"b_info.volume","sort":true},
-    {"label":"成交金額(萬)","name":"e_fish.amount","sort":true},
+    {"label":"成交張數","name":"p_dpct.volume","sort":true},
+    {"label":"成交金額(萬)","name":"m_basic.amount","sort":true},
     {"label": "6年前毛利斜率", "name": "e_tpr.grosss7", "sort": true},
     {"label": "3年前毛利斜率", "name": "e_tpr.grosss4", "sort": true},
     {"label": "1年毛利斜率", "name": "e_tpr.grosss1", "sort": true},
