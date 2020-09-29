@@ -30,7 +30,7 @@
       "name": "c_trust.date",
       "sort": true
     },
-    {"label": "半年最高價","name": "m_chip.ma60","sort": true},
+    {"label": "半年最高價","name": "m_chip.phigh6","sort": true},
     {"label": "當日投本比","name": "m_chip.ttoday","sort": true},
     {"label": "100張以下散戶增減","name": "m_chip.inc100","sort": true},
     {"label": "10日融資增減佔發行量％","name": "m_chip.lday10","sort": true},

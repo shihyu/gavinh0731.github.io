@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8bb41dd16132f1e5fc75e82bfe96b1d3",
+    "revision": "5d145cbc3d883b0ff4dcb22e75244055",
     "url": "/stockmoney/index.html"
   },
   {
@@ -280,7 +280,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/json/dividend_yield_cols.json"
   },
   {
-    "revision": "4953ce6189d71520097670d4810ec955",
+    "revision": "cec74119de41698175b458e4ac2c3870",
     "url": "/stockmoney/json/dk_dies.json"
   },
   {
@@ -344,11 +344,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/json/my_basic_cols.json"
   },
   {
-    "revision": "927ea32d4a7b84367c02e66a441b4c06",
+    "revision": "a7aca980e805e7ad56b8f30ea16ccc60",
     "url": "/stockmoney/json/my_chip.json"
   },
   {
-    "revision": "d7d8c9d66110686693e80e92aadcbdf1",
+    "revision": "4591748299e5053668af84371363907d",
     "url": "/stockmoney/json/my_chip_cols.json"
   },
   {
@@ -360,11 +360,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/json/my_eps_cols.json"
   },
   {
-    "revision": "101a8bf7bf9260be92bb39f7875374dd",
+    "revision": "73460402ee8f8ef463fe35deddf2284b",
     "url": "/stockmoney/json/my_tech.json"
   },
   {
-    "revision": "a5bb3253dc713d9680b919b48959022c",
+    "revision": "51bc4ea4a18e8e610cf341f1e70f1ddb",
     "url": "/stockmoney/json/my_tech_cols.json"
   },
   {
@@ -376,7 +376,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/json/price_dpct_cols.json"
   },
   {
-    "revision": "b0922091bd7af5e149130b5de308481b",
+    "revision": "e42e78d3a5bfb2c3116b907ceae93369",
     "url": "/stockmoney/json/price_high.json"
   },
   {
@@ -424,12 +424,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/json/tech_kd_cols.json"
   },
   {
-    "revision": "be53691d38ab63e836d39e00dff42f7d",
+    "revision": "347eba980bfd424c1c06923edb5bb84d",
     "url": "/stockmoney/json/tech_ma.json"
   },
   {
     "revision": "5c125157702e4475325fc62420500833",
     "url": "/stockmoney/json/tech_ma_cols.json"
+  },
+  {
+    "revision": "ef87b67d24e306e6335234ea4b16ea69",
+    "url": "/stockmoney/json/tech_makink.json"
+  },
+  {
+    "revision": "f95de82f9706f0ab7fbcddef3c0742ee",
+    "url": "/stockmoney/json/tech_makink_cols.json"
   },
   {
     "revision": "8f50ed29273ba1e935770f247129ced8",
@@ -908,8 +916,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/robots.txt"
   },
   {
-    "revision": "b7a6407109414ba50899",
-    "url": "/stockmoney/static/css/app.70e1ff39.css"
+    "revision": "ac7ab10a9328ab0960e9",
+    "url": "/stockmoney/static/css/app.66d3e3cf.css"
   },
   {
     "revision": "a7bd39673262647df6da",
@@ -924,8 +932,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stockmoney/static/js/about.6cc0e21f.js"
   },
   {
-    "revision": "b7a6407109414ba50899",
-    "url": "/stockmoney/static/js/app.7ef236d1.js"
+    "revision": "ac7ab10a9328ab0960e9",
+    "url": "/stockmoney/static/js/app.36febefa.js"
   },
   {
     "revision": "a7bd39673262647df6da",

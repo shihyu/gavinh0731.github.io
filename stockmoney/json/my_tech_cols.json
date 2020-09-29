@@ -25,6 +25,24 @@
     {"label":"成交金額(萬)","name":"m_basic.amount","sort":true},
     {"label":"季均線","name":"m_tech.ma60","sort":true},
     {
+        "label": "均線糾結",
+        "name": "m_tech.makink",
+        "filter": {
+          "type": "select",
+          "mode": "multi",
+          "closeDropdownOnSelection": false,
+          "placeholder": "輸入",
+          "options": [
+            {"name": "0","value": "0"},
+            {"name": "1","value": "1"}
+          ],
+          "init": {
+            "value": []
+          }
+        },
+        "sort": true
+    },
+    {
       "label": "長黑跌破所有均線",
       "name": "m_tech.dies",
       "filter": {
