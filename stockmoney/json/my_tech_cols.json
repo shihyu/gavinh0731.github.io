@@ -40,11 +40,29 @@
             "value": []
           }
         },
-        "sort": true
+        "sort": false
     },
     {
       "label": "長黑跌破所有均線",
       "name": "m_tech.dies",
+      "filter": {
+        "type": "select",
+        "mode": "multi",
+        "closeDropdownOnSelection": false,
+        "placeholder": "輸入",
+        "options": [
+          {"name": "0","value": "0"},
+          {"name": "1","value": "1"}
+        ],
+        "init": {
+          "value": []
+        }
+      },
+      "sort": true
+    },
+    {
+      "label": "均線多頭排列5日/10日/月",
+      "name": "m_tech.mamany",
       "filter": {
         "type": "select",
         "mode": "multi",

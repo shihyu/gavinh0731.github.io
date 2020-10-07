@@ -23,6 +23,7 @@
     {"label":"便宜度","name":"m_basic.cheap","sort":true},
     
     {"label": "本益比", "name": "m_basic.per", "sort": true },
+    {"label": "年複合成長率", "name": "m_basic.netrate5", "sort": true },
     {"label": "PEG", "name": "m_basic.peg", "sort": true },
     {"label": "現金殖利率", "name": "m_basic.cash_y", "sort": true},
     {"label": "平均ROE(>8%)", "name": "m_basic.roe", "sort": true},
