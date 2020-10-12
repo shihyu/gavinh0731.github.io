@@ -38,6 +38,64 @@
     
     {"label":"成交張數","name":"p_dpct.volume","sort":true},
     {"label":"成交金額(萬)","name":"m_basic.amount","sort":true},
-    {"label": "週轉率(%)", "name": "m_basic.turnover", "sort": true }
-    ]
+    {"label": "週轉率(%)", "name": "m_basic.turnover", "sort": true },
+
+    {
+      "label": "便宜度",
+      "name": "m_basic.cheapCnt",
+      "filter": {
+        "type": "select",
+        "mode": "multi",
+        "closeDropdownOnSelection": false,
+        "placeholder": "輸入",
+        "options": [
+          {"name": "0","value": "0"},
+          {"name": "1","value": "1"},
+          {"name": "2","value": "2"},
+          {"name": "3","value": "3"},
+          {"name": "4","value": "4"}
+        ],
+        "init": {
+          "value": []
+        }
+      },
+      "sort": true
+    },
+    {
+      "label": "年複合成長率",
+      "name": "m_basic.growRateCnt",
+      "filter": {
+        "type": "select",
+        "mode": "multi",
+        "closeDropdownOnSelection": false,
+        "placeholder": "輸入",
+        "options": [
+          {"name": "0","value": "0"},
+          {"name": "1","value": "1"}
+        ],
+        "init": {
+          "value": []
+        }
+      },
+      "sort": true
+    },
+    {
+      "label": "週轉率>1",
+      "name": "m_basic.turnoverCnt",
+      "filter": {
+        "type": "select",
+        "mode": "multi",
+        "closeDropdownOnSelection": false,
+        "placeholder": "輸入",
+        "options": [
+          {"name": "0","value": "0"},
+          {"name": "1","value": "1"}
+        ],
+        "init": {
+          "value": []
+        }
+      },
+      "sort": true
+    }
+]
   
