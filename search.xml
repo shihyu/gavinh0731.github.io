@@ -3309,7 +3309,7 @@ MSCI 外資所建立的台灣指數
 <li><a href="/posts/4258590424/">【老王說實話】第7~9集！｜融券、融券回補、融資融券</a></li>
 </ul>
 <h1 id="理財達人秀-飆股在線等"><a href="#理財達人秀-飆股在線等" class="headerlink" title="理財達人秀-飆股在線等"></a>理財達人秀-飆股在線等</h1><ul>
-<li><a href="/posts/1460533008/">【飆股在線等】第1~3集！｜KD、K棒、MACD</a></li>
+<li><a href="/posts/1460533008/">【飆股在線等】第1~3集！｜KD進場訊號、起漲信號、MACD</a></li>
 </ul>
 <h1 id="技術指標系列"><a href="#技術指標系列" class="headerlink" title="技術指標系列"></a>技術指標系列</h1><ul>
 <li><a href="/posts/432204322/">【MACD】｜</a></li>
@@ -3746,10 +3746,10 @@ $「除息後股價」=「除息前一日收盤價」-「現金股利」$
 <img src="/posts/432204322/MACD%E7%AE%97%E6%B3%95.png" class title="MACD算法">
 
 <ul>
-<li>只要EMA12（紅線）大於EMA26（黑線），則DIFF（藍線）會在零軸上方，</li>
-<li>只要EMA12（紅線）小於EMA26（黑線），則DIFF（藍線）會在零軸下方，</li>
+<li>只要EMA12（紅線）大於EMA26（黑線），則DIFF（藍線）會在零軸上方，表示多頭</li>
+<li>只要EMA12（紅線）小於EMA26（黑線），則DIFF（藍線）會在零軸下方，表示空頭<a id="more"></a>
+MACD用來解決什麼問題？<br>用來解決強度與強度的變化，並研究均線的擴散與密集狀態<br>改變趨勢的重要步驟：</li>
 </ul>
-<p>MACD用來解決什麼問題？<br>用來解決強度與強度的變化，並研究均線的擴散與密集狀態<br>改變趨勢的重要步驟：</p>
 <ol>
 <li>破線：股價由EMA下方變到上方</li>
 <li>均線拐頭：移動平均線跟隨股價往上走</li>
@@ -3765,7 +3765,6 @@ $「除息後股價」=「除息前一日收盤價」-「現金股利」$
 <li>多頭排列還是空頭排列(MACD有交代)</li>
 <li>乖離率(MACD有交代)</li>
 </ol>
-<a id="more"></a>
 ]]></content>
       <categories>
         <category>1⃣ 股票</category>
@@ -3782,7 +3781,7 @@ $「除息後股價」=「除息前一日收盤價」-「現金股利」$
   <entry>
     <title>理財達人秀-飆股在線等1~3</title>
     <url>/posts/1460533008/</url>
-    <content><![CDATA[<h1 id="第1集！｜KD黃金交叉買死亡賣"><a href="#第1集！｜KD黃金交叉買死亡賣" class="headerlink" title="第1集！｜KD黃金交叉買死亡賣"></a>第1集！｜KD黃金交叉買死亡賣</h1><p>KD意義：9天內股價的相對高低點（低檔還是高檔）<br>買點1：起漲+KD黃金交叉<br>買點2：等回檔的KD黃金交叉<br>賣點：跌破五日均線</p>
+    <content><![CDATA[<h1 id="第1集！｜進場訊號KD黃金交叉"><a href="#第1集！｜進場訊號KD黃金交叉" class="headerlink" title="第1集！｜進場訊號KD黃金交叉"></a>第1集！｜進場訊號KD黃金交叉</h1><p>KD意義：9天內股價的相對高低點（低檔還是高檔）<br>買點1：起漲+KD黃金交叉<br>買點2：等回檔的KD黃金交叉<br>賣點：跌破五日均線</p>
 <img src="/posts/1460533008/KD%E6%8C%87%E6%A8%99%E7%9C%8B%E8%B6%A8%E5%8B%A2%E9%81%8B%E7%94%A8%E5%8E%9F%E5%89%87.png" class title="KD指標看趨勢運用原則">
 
 <a id="more"></a>
@@ -3826,7 +3825,100 @@ $「除息後股價」=「除息前一日收盤價」-「現金股利」$
 <li>KD指標進場時可做參考，高檔指標會鈍化，因此停利賣出以個人紀律出場</li>
 <li>考慮操作的時程不同，一樣要看<code>短、中、長期的KD指標</code>趨勢</li>
 </ol>
-]]></content>
+<h1 id="第2集！｜起漲信號"><a href="#第2集！｜起漲信號" class="headerlink" title="第2集！｜起漲信號"></a>第2集！｜起漲信號</h1><h2 id="4跡象飆股起漲打暗號"><a href="#4跡象飆股起漲打暗號" class="headerlink" title="4跡象飆股起漲打暗號"></a>4跡象飆股起漲打暗號</h2><p>透過<code>一棒三線</code>找到<code>起漲點</code></p>
+<ol>
+<li>完美底部、長期盤整（2個月以上）</li>
+<li>多頭確認：均線3線或4線、完成多頭排列向上<br>第1步盤整後，才會順勢變成多頭排列</li>
+<li>起漲確認：長紅K棒爆量上漲、KD黃金交叉或多排</li>
+<li>多空確認：頭頭高底底高還有第二波：波浪理論上講正常會有<code>3波上漲</code></li>
+</ol>
+<h3 id="三線-5、10、20-：多頭排列-5在上、10在中、20在下"><a href="#三線-5、10、20-：多頭排列-5在上、10在中、20在下" class="headerlink" title="三線(5、10、20)：多頭排列(5在上、10在中、20在下)"></a>三線(5、10、20)：多頭排列(5在上、10在中、20在下)</h3><h3 id="一棒-紅K棒"><a href="#一棒-紅K棒" class="headerlink" title="一棒(紅K棒)"></a>一棒(紅K棒)</h3><img src="/posts/1460533008/%E4%B8%89%E7%B7%9A%E4%B8%80%E6%A3%92%E8%B5%B7%E6%BC%B2.png" class title="三線一棒起漲">
+<img src="/posts/1460533008/%E9%A3%86%E8%82%A1%E8%B5%B7%E6%BC%B24%E8%B7%A1%E8%B1%A1.png" class title="飆股起漲4跡象">
+<img src="/posts/1460533008/%E9%95%B7%E7%B4%85%E7%88%86%E5%A4%A7%E9%87%8F.png" class title="長紅爆大量">
+<img src="/posts/1460533008/%E9%A0%AD%E8%82%A9%E5%BA%95.png" class title="頭肩底">
+
+<h2 id="六字訣確認多頭"><a href="#六字訣確認多頭" class="headerlink" title="六字訣確認多頭"></a>六字訣確認多頭</h2><p><code>頭頭高底底高</code></p>
+<img src="/posts/1460533008/%E9%A0%AD%E9%A0%AD%E9%AB%98%E5%BA%95%E5%BA%95%E9%AB%98.png" class title="頭頭高底底高">
+
+<h2 id="均線-K棒兩要件"><a href="#均線-K棒兩要件" class="headerlink" title="均線+K棒兩要件"></a>均線+K棒兩要件</h2><ol>
+<li>均線多頭排列向上：<ul>
+<li>短線操作：最少3線多排、方向向上、股價在20MA之上</li>
+<li>中長線操作：最少4線多排、方向向上、股價在20MA、60MA之上</li>
+</ul>
+</li>
+<li>K線趨勢符合<code>頭頭高底底高</code>、多頭向上，</li>
+</ol>
+<h2 id="買點："><a href="#買點：" class="headerlink" title="買點："></a>買點：</h2><ol>
+<li>底部盤整突破、型態突破、均線糾結的突破</li>
+<li>回後買上漲：已經走一波就買第二波的上漲</li>
+</ol>
+<h1 id="假買點：三個追不得的空方訊號"><a href="#假買點：三個追不得的空方訊號" class="headerlink" title="假買點：三個追不得的空方訊號"></a>假買點：三個追不得的空方訊號</h1><ol>
+<li>漲到第三波高檔不要追（波浪理論上講正常會有<code>3波上漲</code>）</li>
+<li>高檔爆大量</li>
+<li>底部60MA均線沒有多排向上<img src="/posts/1460533008/%E5%81%87%E8%B2%B7%E9%BB%9E.png" class title="假買點">
+
+</li>
+</ol>
+<h1 id="第3集！｜MACD買飆股SOP"><a href="#第3集！｜MACD買飆股SOP" class="headerlink" title="第3集！｜MACD買飆股SOP"></a>第3集！｜MACD買飆股SOP</h1><img src="/posts/1460533008/MACD%E5%91%BD%E9%81%8B%E9%9D%92%E7%B4%85%E7%87%88.png" class title="MACD命運青紅燈">
+
+<h2 id="MACD技術指標之王４元素"><a href="#MACD技術指標之王４元素" class="headerlink" title="MACD技術指標之王４元素"></a>MACD技術指標之王４元素</h2><ol>
+<li><p>紅色快線(DIF值)：EMA12-EMA26，表示<code>兩條均線</code>的<code>聚散關係</code></p>
+<blockquote>
+<p>只要EMA12<code>大於</code>EMA26，則DIFF（快線）會在<code>零軸上方</code>，表示<code>多頭</code><br>只要EMA12<code>小於</code>EMA26，則DIFF（快線）會在<code>零軸下方</code>，表示<code>空頭</code></p>
+</blockquote>
+</li>
+<li><p>藍色慢線(MACD值)：計算９日的DIF平均值</p>
+</li>
+<li><p>柱狀體(OSC):DIF(快線)-MACD(慢線)，柱子高低代表動能，越長動能越大，</p>
+<blockquote>
+<p>綠柱收斂，便要找買點<br>綠柱轉紅柱：黃金交叉動能明顯轉強</p>
+</blockquote>
+</li>
+<li><p>零軸：多頭、空頭的分界線</p>
+<img src="/posts/1460533008/MACD%E6%8A%80%E8%A1%93%E6%8C%87%E6%A8%99%E4%B9%8B%E7%8E%8B.png" class title="MACD技術指標之王">
+
+</li>
+</ol>
+<h2 id="KD-MACD所向無敵"><a href="#KD-MACD所向無敵" class="headerlink" title="KD+MACD所向無敵"></a>KD+MACD所向無敵</h2><p>KD是看股價的相對強弱(KD只有高低檔沒辦法抱長)，MACD是看兩條均線的強弱動能(MACD有趨勢可以用來抱長)<br>MACD在零軸之上做多，但是當漲多的時候，依據KD判斷是否股價過高(高檔)，是否要高檔鈍化回檔了，<br>高檔時，短線可以考慮出場，找下個進場點，長線可以續抱<br>MACD最大的好處＝<code>抱長線</code></p>
+<img src="/posts/1460533008/KDMACD%E6%89%80%E5%90%91%E7%84%A1%E6%95%B5.png" class title="KDMACD所向無敵">
+
+<h2 id="學好MACD心法先牢記"><a href="#學好MACD心法先牢記" class="headerlink" title="學好MACD心法先牢記"></a>學好MACD心法先牢記</h2><table>
+<thead>
+<tr>
+<th>趨勢</th>
+<th>多頭</th>
+<th>空頭</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>快、慢線</td>
+<td>兩線在0軸之上，做多不做空</td>
+<td>兩線在0軸之下，做空不做多</td>
+</tr>
+<tr>
+<td>紅、綠柱</td>
+<td>紅柱縮短-&gt;回檔，綠柱縮短-&gt;上漲</td>
+<td>綠柱縮短-&gt;反彈，紅柱縮短-&gt;下跌</td>
+</tr>
+</tbody></table>
+<img src="/posts/1460533008/%E5%AD%B8%E5%A5%BDMACD%E5%BF%83%E6%B3%95%E5%85%88%E7%89%A2%E8%A8%98.png" class title="學好MACD心法先牢記">
+
+<h2 id="MACD兩均線抓起漲點"><a href="#MACD兩均線抓起漲點" class="headerlink" title="MACD兩均線抓起漲點"></a>MACD兩均線抓起漲點</h2><ol>
+<li>日線底部多頭確認：MACD兩線<code>站上0軸</code>型態</li>
+<li>多頭盤整突破：MACD指標黃金交叉向上型態</li>
+<li>多頭回檔後再上漲：MACD指標黃金交叉向上型態</li>
+</ol>
+<img src="/posts/1460533008/MACD%E5%85%A9%E5%9D%87%E7%B7%9A%E6%8A%93%E8%B5%B7%E6%BC%B2%E9%BB%9E.png" class title="MACD兩均線抓起漲點">
+
+<h2 id="MACD找賣點"><a href="#MACD找賣點" class="headerlink" title="MACD找賣點"></a>MACD找賣點</h2><ol>
+<li>日線頭部空頭確認：MACD兩線<code>跌破0軸</code>型態</li>
+<li>空頭盤整跌破：MACD指標死亡交叉向下型態</li>
+<li>空頭反彈後再下跌：MACD指標死亡交叉向下型態</li>
+</ol>
+<img src="/posts/1460533008/MACD%E6%89%BE%E8%B3%A3%E9%BB%9E.png" class title="MACD找賣點">
+
+<h2 id="進場一定要用短線指標"><a href="#進場一定要用短線指標" class="headerlink" title="進場一定要用短線指標"></a>進場一定要用短線指標</h2><p>KD進場，MACD續抱</p>
+<img src="/posts/1460533008/MACD%E5%B0%8F%E5%8F%AE%E5%9A%80.png" class title="MACD小叮嚀">]]></content>
       <categories>
         <category>1⃣ 股票</category>
         <category>2⃣ 筆記</category>
@@ -3840,6 +3932,8 @@ $「除息後股價」=「除息前一日收盤價」-「現金股利」$
         <tag>股票</tag>
         <tag>技術分析</tag>
         <tag>朱家泓</tag>
+        <tag>KD指標</tag>
+        <tag>MACD指標</tag>
       </tags>
   </entry>
 </search>
