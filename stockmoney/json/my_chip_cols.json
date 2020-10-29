@@ -33,6 +33,7 @@
     {"label": "半年最高價","name": "m_chip.phigh6","sort": true},
     {"label": "當日投本比","name": "m_chip.ttoday","sort": true},
     {"label": "100張以下散戶增減","name": "m_chip.inc100","sort": true},
+    {"label": "400張以上大戶增減","name": "m_chip.inc400","sort": true},
     {"label": "10日融資增減佔發行量％","name": "m_chip.lday10","sort": true},
     {
       "label": "股價創半年新高",
@@ -131,6 +132,24 @@
     {
       "label": "散戶減少",
       "name": "m_chip.retail",
+      "filter": {
+        "type": "select",
+        "mode": "multi",
+        "closeDropdownOnSelection": false,
+        "placeholder": "輸入",
+        "options": [
+          {"name": "0","value": "0"},
+          {"name": "1","value": "1"}
+        ],
+        "init": {
+          "value": []
+        }
+      },
+      "sort": true
+    },
+    {
+      "label": "大戶增加",
+      "name": "m_chip.big",
       "filter": {
         "type": "select",
         "mode": "multi",
